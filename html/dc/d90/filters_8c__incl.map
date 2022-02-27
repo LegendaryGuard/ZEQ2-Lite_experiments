@@ -1,0 +1,13 @@
+<map id="Engine/libspeex/filters.c" name="Engine/libspeex/filters.c">
+<area shape="rect" id="node1" title=" " alt="" coords="184,5,361,32"/>
+<area shape="rect" id="node2" href="$dc/ddd/filters_8h.html" title="Various analysis/synthesis filters." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" href="$d2/d2d/arch_8h.html" title="Various architecture definitions Speex." alt="" coords="187,155,249,181"/>
+<area shape="rect" id="node7" href="$d6/d99/stack__alloc_8h.html" title="Temporary memory allocation on stack." alt="" coords="151,80,258,107"/>
+<area shape="rect" id="node8" href="$d9/d28/math__approx_8h.html" title="Various math approximation functions for Speex." alt="" coords="282,80,402,107"/>
+<area shape="rect" id="node9" href="$da/d91/ltp_8h.html" title="Long&#45;Term Prediction functions." alt="" coords="426,80,477,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="501,80,569,107"/>
+<area shape="rect" id="node4" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="139,229,297,256"/>
+<area shape="rect" id="node5" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="143,304,293,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="183,393,253,420"/>
+<area shape="rect" id="node10" href="$d6/d21/speex__bits_8h.html" title="Handles bit packing/unpacking." alt="" coords="378,155,525,181"/>
+</map>

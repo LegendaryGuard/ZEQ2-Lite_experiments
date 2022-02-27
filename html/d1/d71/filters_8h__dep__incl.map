@@ -1,0 +1,12 @@
+<map id="Engine/libspeex/filters.h" name="Engine/libspeex/filters.h">
+<area shape="rect" id="node1" title="Various analysis/synthesis filters." alt="" coords="453,5,632,32"/>
+<area shape="rect" id="node2" href="$d5/dbd/cb__search_8c.html" title=" " alt="" coords="5,80,149,121"/>
+<area shape="rect" id="node3" href="$d6/d44/filters_8c.html" title=" " alt="" coords="174,87,351,114"/>
+<area shape="rect" id="node4" href="$d2/d5a/ltp_8c.html" title=" " alt="" coords="376,87,533,114"/>
+<area shape="rect" id="node5" href="$d1/df9/nb__celp_8h.html" title="Narrowband CELP encoder/decoder." alt="" coords="558,80,703,121"/>
+<area shape="rect" id="node9" href="$d8/d9b/sb__celp_8c.html" title=" " alt="" coords="764,259,908,300"/>
+<area shape="rect" id="node10" href="$d6/dc4/nb__celp_8c.html" title=" " alt="" coords="669,169,814,211"/>
+<area shape="rect" id="node6" href="$d4/d9a/sb__celp_8h.html" title="Sub&#45;band CELP mode used for wideband encoding." alt="" coords="449,169,593,211"/>
+<area shape="rect" id="node7" href="$d2/d21/modes_8c.html" title=" " alt="" coords="540,266,724,293"/>
+<area shape="rect" id="node8" href="$d0/db3/modes__wb_8c.html" title=" " alt="" coords="305,266,516,293"/>
+</map>

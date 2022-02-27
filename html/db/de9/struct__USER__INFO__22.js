@@ -1,0 +1,27 @@
+var struct__USER__INFO__22 =
+[
+    [ "usri22_acct_expires", "db/de9/struct__USER__INFO__22.html#aaf037c0db223ec25dcd28c9cca8dc7d9", null ],
+    [ "usri22_auth_flags", "db/de9/struct__USER__INFO__22.html#a6eee1b26b7538a9faae86d9faecfc4e0", null ],
+    [ "usri22_bad_pw_count", "db/de9/struct__USER__INFO__22.html#a94c24fb2b17bff9c48fd0abb3c1a2976", null ],
+    [ "usri22_code_page", "db/de9/struct__USER__INFO__22.html#ad35c3a976c2818983cacc23e4e1946d1", null ],
+    [ "usri22_comment", "db/de9/struct__USER__INFO__22.html#a8595e0c177fc968089de368292a0ef2d", null ],
+    [ "usri22_country_code", "db/de9/struct__USER__INFO__22.html#a594a290a8dc000941cc390386f3d7fc5", null ],
+    [ "usri22_flags", "db/de9/struct__USER__INFO__22.html#a037cc997ef4afb5a67b545dac297ae62", null ],
+    [ "usri22_full_name", "db/de9/struct__USER__INFO__22.html#ad9427a4c4456694702117c728d0b29b5", null ],
+    [ "usri22_home_dir", "db/de9/struct__USER__INFO__22.html#aa9c3e1c1403295ad5d625903d2d61acc", null ],
+    [ "usri22_last_logoff", "db/de9/struct__USER__INFO__22.html#a5f846a05390a0d4d205f3339459b27e2", null ],
+    [ "usri22_last_logon", "db/de9/struct__USER__INFO__22.html#a85a636ea6f497f99441e8383a5a5c6f2", null ],
+    [ "usri22_logon_hours", "db/de9/struct__USER__INFO__22.html#ae0c64a6fdb7f4e7c252dd87fc0964563", null ],
+    [ "usri22_logon_server", "db/de9/struct__USER__INFO__22.html#a7bba8a5a08673986d50c9ff0d68621fa", null ],
+    [ "usri22_max_storage", "db/de9/struct__USER__INFO__22.html#a109e8c9d584204f38154910fef44d654", null ],
+    [ "usri22_name", "db/de9/struct__USER__INFO__22.html#ab203aa58218fb8798d77862d50a203e4", null ],
+    [ "usri22_num_logons", "db/de9/struct__USER__INFO__22.html#a114fe26881a46328c178610b95526e0e", null ],
+    [ "usri22_parms", "db/de9/struct__USER__INFO__22.html#ac771f98b405c1c2a23c3c06442f60ec8", null ],
+    [ "usri22_password", "db/de9/struct__USER__INFO__22.html#ad1a5b547528bf4abb56e7f6d2656bb2c", null ],
+    [ "usri22_password_age", "db/de9/struct__USER__INFO__22.html#a1a35a477ad2972be6fd669f65f499bba", null ],
+    [ "usri22_priv", "db/de9/struct__USER__INFO__22.html#a6b79f82b43327468610334797c6b830f", null ],
+    [ "usri22_script_path", "db/de9/struct__USER__INFO__22.html#a290fcc3fda84c1d598e48370ee6e7d21", null ],
+    [ "usri22_units_per_week", "db/de9/struct__USER__INFO__22.html#a201ad525b5079e3e458c2282498fac23", null ],
+    [ "usri22_usr_comment", "db/de9/struct__USER__INFO__22.html#a9b30c6d341ce1036c4faecd2d0ebbb3c", null ],
+    [ "usri22_workstations", "db/de9/struct__USER__INFO__22.html#a81f4e94cea674d36111e98ab13d1c71d", null ]
+];

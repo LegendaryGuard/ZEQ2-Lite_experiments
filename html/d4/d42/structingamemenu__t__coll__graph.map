@@ -1,0 +1,12 @@
+<map id="ingamemenu_t" name="ingamemenu_t">
+<area shape="rect" id="node1" title=" " alt="" coords="167,525,287,552"/>
+<area shape="rect" id="node2" href="$d8/da6/structmenubitmap__s.html" title=" " alt="" coords="390,333,509,360"/>
+<area shape="rect" id="node3" href="$d5/d57/structmenucommon__s.html" title=" " alt="" coords="184,228,315,255"/>
+<area shape="rect" id="node10" href="$d0/de7/structmenutext__s.html" title=" " alt="" coords="177,333,276,360"/>
+<area shape="rect" id="node4" title=" " alt="" coords="277,5,328,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="203,5,253,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="601,5,639,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="403,5,485,32"/>
+<area shape="rect" id="node9" href="$d4/dc3/classfloat.html" title=" " alt="" coords="424,228,475,255"/>
+</map>

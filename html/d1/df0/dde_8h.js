@@ -1,0 +1,26 @@
+var dde_8h =
+[
+    [ "DDEACK", "dd/d45/structDDEACK.html", "dd/d45/structDDEACK" ],
+    [ "DDEADVISE", "d7/db3/structDDEADVISE.html", "d7/db3/structDDEADVISE" ],
+    [ "DDEDATA", "d9/d5e/structDDEDATA.html", "d9/d5e/structDDEDATA" ],
+    [ "DDELN", "df/d39/structDDELN.html", "df/d39/structDDELN" ],
+    [ "DDEPOKE", "d5/d09/structDDEPOKE.html", "d5/d09/structDDEPOKE" ],
+    [ "DDEUP", "d3/d6b/structDDEUP.html", "d3/d6b/structDDEUP" ],
+    [ "WM_DDE_ACK", "d1/df0/dde_8h.html#a7b1ee9e15cca2a4c43eb0e430170c121", null ],
+    [ "WM_DDE_ADVISE", "d1/df0/dde_8h.html#a76152144d61e9069e21a7cfbfe1aa10d", null ],
+    [ "WM_DDE_DATA", "d1/df0/dde_8h.html#a238e46e055ecbc7e032370dff838e787", null ],
+    [ "WM_DDE_EXECUTE", "d1/df0/dde_8h.html#a7c36f448f0b8cf6e912f26c10a255383", null ],
+    [ "WM_DDE_FIRST", "d1/df0/dde_8h.html#a3262d2347375071326d6baa0d26ca03b", null ],
+    [ "WM_DDE_INITIATE", "d1/df0/dde_8h.html#a8a47762dd7f821a9365ebcf97f72e761", null ],
+    [ "WM_DDE_LAST", "d1/df0/dde_8h.html#a3e02887765c1f6e5f924e8b74a4293f8", null ],
+    [ "WM_DDE_POKE", "d1/df0/dde_8h.html#a252a3023130faa1862e1d0025013cbc2", null ],
+    [ "WM_DDE_REQUEST", "d1/df0/dde_8h.html#a058d4ff63acbed6f44cff562526efc6a", null ],
+    [ "WM_DDE_TERMINATE", "d1/df0/dde_8h.html#afc7814482aacb1db61107171772c7b1c", null ],
+    [ "WM_DDE_UNADVISE", "d1/df0/dde_8h.html#adb5f4c28157c4d7464eaed8b0ca51446", null ],
+    [ "DdeSetQualityOfService", "d1/df0/dde_8h.html#a47678dcb8d2d3eeba2ce9cc6064c26b6", null ],
+    [ "FreeDDElParam", "d1/df0/dde_8h.html#a7a8506e87040dbcbe3f7ee8ba0eee116", null ],
+    [ "ImpersonateDdeClientWindow", "d1/df0/dde_8h.html#a887a314d8f51ab8af06fbe855baf378a", null ],
+    [ "PackDDElParam", "d1/df0/dde_8h.html#ab7943984b7b024d2792153b7de63ba24", null ],
+    [ "ReuseDDElParam", "d1/df0/dde_8h.html#a0a6f7d367c5ec8d78497b52298663cf3", null ],
+    [ "UnpackDDElParam", "d1/df0/dde_8h.html#a0a8ab8a4c0208946a65601383a24e6e5", null ]
+];

@@ -1,0 +1,25 @@
+var structOggVorbis__File =
+[
+    [ "bittrack", "dc/dee/structOggVorbis__File.html#aa72a11d9f154636d4dc9edac4c9eb843", null ],
+    [ "callbacks", "dc/dee/structOggVorbis__File.html#afb1474e24193f577dd21395a76199415", null ],
+    [ "current_link", "dc/dee/structOggVorbis__File.html#a9b2d64c3739364ac4c08070aac2e0588", null ],
+    [ "current_serialno", "dc/dee/structOggVorbis__File.html#ad7545f86b92a6d66641f3d04a2497763", null ],
+    [ "dataoffsets", "dc/dee/structOggVorbis__File.html#a6f7cb629f3fe9026a0b78951cef13887", null ],
+    [ "datasource", "dc/dee/structOggVorbis__File.html#a9fa8889d13e78c3eab1cb8d32d7c1951", null ],
+    [ "end", "dc/dee/structOggVorbis__File.html#ae56eb8bc78d2fc27c79d145a7c80a681", null ],
+    [ "links", "dc/dee/structOggVorbis__File.html#ad41f80ffaa6b48a14addef0a02639a87", null ],
+    [ "offset", "dc/dee/structOggVorbis__File.html#a36f8f9f012cd2e7ab8cb395b787376cb", null ],
+    [ "offsets", "dc/dee/structOggVorbis__File.html#ad246e2c4a08196b1e210de09307221e8", null ],
+    [ "os", "dc/dee/structOggVorbis__File.html#a8658f17a6f662a74f8763c47d560d712", null ],
+    [ "oy", "dc/dee/structOggVorbis__File.html#ae35fa1e6f99edcb104566301324ecf94", null ],
+    [ "pcm_offset", "dc/dee/structOggVorbis__File.html#a23d5ba7ca52640ceb6f633a46304cdc5", null ],
+    [ "pcmlengths", "dc/dee/structOggVorbis__File.html#a9ee4245da31f4c6e8e82cf04631b15be", null ],
+    [ "ready_state", "dc/dee/structOggVorbis__File.html#ad304fe18bebc075c34f2e5ec7d1f2a99", null ],
+    [ "samptrack", "dc/dee/structOggVorbis__File.html#a3fcbfeaad027ada99496dfcaf94866a9", null ],
+    [ "seekable", "dc/dee/structOggVorbis__File.html#a2a390c4f15c0d1fe0cf9c90fd0bae087", null ],
+    [ "serialnos", "dc/dee/structOggVorbis__File.html#ad2554c748bb4dd5c8809f02abf54b68e", null ],
+    [ "vb", "dc/dee/structOggVorbis__File.html#a3201599977a781b7bf559167cd892638", null ],
+    [ "vc", "dc/dee/structOggVorbis__File.html#a31b32204508fabefcde827ab95a9bfc1", null ],
+    [ "vd", "dc/dee/structOggVorbis__File.html#acb9d38719f54642d1a39f24203b466d6", null ],
+    [ "vi", "dc/dee/structOggVorbis__File.html#a292af7931dc85149a28a29b1c2f96d9b", null ]
+];

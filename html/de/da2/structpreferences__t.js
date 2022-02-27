@@ -1,0 +1,27 @@
+var structpreferences__t =
+[
+    [ "apply", "de/da2/structpreferences__t.html#aaec96797603cbfaf202b1ebbe616a598", null ],
+    [ "back", "de/da2/structpreferences__t.html#a73cf1fb70ed62bf10b0c378018f24a25", null ],
+    [ "beamcontrol", "de/da2/structpreferences__t.html#a10c3ee2022bb370bfabb82a107acc93f", null ],
+    [ "beamdetail", "de/da2/structpreferences__t.html#a2e95adc704b8b8aa12656b38a418fa74", null ],
+    [ "bloomAlpha", "de/da2/structpreferences__t.html#af1634b575ca5aa89f1d05d7c23d8c513", null ],
+    [ "bloomDarken", "de/da2/structpreferences__t.html#a3206a1210d293ffcddca1be5fe2cb2bf", null ],
+    [ "bloomIntensity", "de/da2/structpreferences__t.html#a69fd4dacb42ebc7648dac879151bd678", null ],
+    [ "bloomQuality", "de/da2/structpreferences__t.html#af46e40dc1803a8655885aa0ef9ab7869", null ],
+    [ "camerastyle", "de/da2/structpreferences__t.html#afc267534fb410967356288979539da93", null ],
+    [ "controls", "de/da2/structpreferences__t.html#a7992cc782c6356968184c86ac37cdce5", null ],
+    [ "crosshair", "de/da2/structpreferences__t.html#a3b4f66b7cc0c6c1e2975075b195b1f03", null ],
+    [ "crosshairNames", "de/da2/structpreferences__t.html#a30ee6d0e4a2e0d88fbd9a3d4b06131cf", null ],
+    [ "crosshairShader", "de/da2/structpreferences__t.html#a366fe974783257f43c7ce77f90b8fcc9", null ],
+    [ "crosshairSize", "de/da2/structpreferences__t.html#a471f8e14eb4da3b12afc69ae7699677d", null ],
+    [ "flight", "de/da2/structpreferences__t.html#a5977928b695068609c6341181400f33f", null ],
+    [ "framel", "de/da2/structpreferences__t.html#afe2fd1ca322d865ed07617015bc9f89e", null ],
+    [ "framer", "de/da2/structpreferences__t.html#a20b0e5ef9de9dfa6b89f7408c1e8169a", null ],
+    [ "general", "de/da2/structpreferences__t.html#ac75fbb83041d6fbb1e803bb1a909d904", null ],
+    [ "menu", "de/da2/structpreferences__t.html#ac0a783c10200163c26088bff4a29a21f", null ],
+    [ "outlines", "de/da2/structpreferences__t.html#a4e3578227dc05448a4374684991991e8", null ],
+    [ "particlesOptimise", "de/da2/structpreferences__t.html#a148ba0adbfb823f933a131dcd431ff14", null ],
+    [ "particlesQuality", "de/da2/structpreferences__t.html#aec93876cad4c1a2bd692d15bbb07583e", null ],
+    [ "portals", "de/da2/structpreferences__t.html#a3e40d970154ee739add5b29afc144985", null ],
+    [ "system", "de/da2/structpreferences__t.html#a008eced5c0914a067757c63af3b4e730", null ]
+];

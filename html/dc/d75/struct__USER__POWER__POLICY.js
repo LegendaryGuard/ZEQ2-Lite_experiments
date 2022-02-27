@@ -1,0 +1,25 @@
+var struct__USER__POWER__POLICY =
+[
+    [ "FanThrottleToleranceAc", "dc/d75/struct__USER__POWER__POLICY.html#a51ba550e21840c9697985453b98eb78e", null ],
+    [ "FanThrottleToleranceDc", "dc/d75/struct__USER__POWER__POLICY.html#a3dbcbf0cf7c83560327120831bc1b8f0", null ],
+    [ "ForcedThrottleAc", "dc/d75/struct__USER__POWER__POLICY.html#aa5c8ddd40f392f9042f70e4468a99d96", null ],
+    [ "ForcedThrottleDc", "dc/d75/struct__USER__POWER__POLICY.html#aac27ad1df8262d5eb4b4e62a7f79d37b", null ],
+    [ "IdleAc", "dc/d75/struct__USER__POWER__POLICY.html#a241bf9d7263d83e205c2e4fe0a7b0ad0", null ],
+    [ "IdleDc", "dc/d75/struct__USER__POWER__POLICY.html#ab0c3e62a35ad1c8e36c559d7db105762", null ],
+    [ "IdleSensitivityAc", "dc/d75/struct__USER__POWER__POLICY.html#acec63909cc1dc9d26d4b51e10078a60a", null ],
+    [ "IdleSensitivityDc", "dc/d75/struct__USER__POWER__POLICY.html#a528bafe1307ca713b35a40f1aac77dad", null ],
+    [ "IdleTimeoutAc", "dc/d75/struct__USER__POWER__POLICY.html#a67b0ba0b10f5a5d1b86333ebd275fd78", null ],
+    [ "IdleTimeoutDc", "dc/d75/struct__USER__POWER__POLICY.html#ad3bb53b9c0aa1c792563a17c12deeae0", null ],
+    [ "MaxSleepAc", "dc/d75/struct__USER__POWER__POLICY.html#a05e405ca5639e683f5da59ff094e0917", null ],
+    [ "MaxSleepDc", "dc/d75/struct__USER__POWER__POLICY.html#a18b62a9ce4c698750b225a00bde9ce65", null ],
+    [ "OptimizeForPowerAc", "dc/d75/struct__USER__POWER__POLICY.html#ae6724558e7290058976631a8e9cccb91", null ],
+    [ "OptimizeForPowerDc", "dc/d75/struct__USER__POWER__POLICY.html#a67da6437efdbca967e70e32f8642d975", null ],
+    [ "Reserved", "dc/d75/struct__USER__POWER__POLICY.html#a173679af491198028b5176f635d10f31", null ],
+    [ "Revision", "dc/d75/struct__USER__POWER__POLICY.html#ad1f8aafddcf2f85c61847c99d747c9c8", null ],
+    [ "SpindownTimeoutAc", "dc/d75/struct__USER__POWER__POLICY.html#a5059d5d7398cfa2423ae881c49128567", null ],
+    [ "SpindownTimeoutDc", "dc/d75/struct__USER__POWER__POLICY.html#a5b97550630c92c3578718d534dd1e71c", null ],
+    [ "ThrottlePolicyAc", "dc/d75/struct__USER__POWER__POLICY.html#a436a4d20f1c886f1040f814b9139b3dc", null ],
+    [ "ThrottlePolicyDc", "dc/d75/struct__USER__POWER__POLICY.html#acae254d3eabfff18e9a494130f09adc3", null ],
+    [ "VideoTimeoutAc", "dc/d75/struct__USER__POWER__POLICY.html#af7a0c3bd332e2dcc80931b622efe1095", null ],
+    [ "VideoTimeoutDc", "dc/d75/struct__USER__POWER__POLICY.html#a11ffe69150c4ce706ffde6eeb3edca23", null ]
+];

@@ -1,0 +1,25 @@
+var progmesh_8c =
+[
+    [ "AddFaces", "d7/dd1/progmesh_8c.html#ae9a51f551b9d04a2ec3c50a7e2fcb5d9", null ],
+    [ "AddVertices", "d7/dd1/progmesh_8c.html#ad93dc618c27597f328a483b19ab39806", null ],
+    [ "Collapse", "d7/dd1/progmesh_8c.html#a922d3399c262f85acb4645123004649a", null ],
+    [ "ComputeAllEdgeCollapseCosts", "d7/dd1/progmesh_8c.html#af7d513f826e6e7d6a3a78787e7c2c6f0", null ],
+    [ "ComputeEdgeCollapseCost", "d7/dd1/progmesh_8c.html#a6d748988d92e093f46422ddcf5f3d860", null ],
+    [ "ComputeEdgeCostAtVertex", "d7/dd1/progmesh_8c.html#aeba28f31e4e765b6982572da35d4fda4", null ],
+    [ "ComputeNormal", "d7/dd1/progmesh_8c.html#ad86ba5275808f9ac37f9dbd6b478a4f2", null ],
+    [ "CountTrisOnEdge", "d7/dd1/progmesh_8c.html#add609f27e52b1a3fa206660bd49e15e3", null ],
+    [ "HasSilhouetteEdge", "d7/dd1/progmesh_8c.html#a838cdcdb2c82975694c897669f00be5a", null ],
+    [ "MinimumCostEdge", "d7/dd1/progmesh_8c.html#af80573e95fbc7a6ab6df3ed7b0b4353b", null ],
+    [ "ProgressiveMesh", "d7/dd1/progmesh_8c.html#ac1cac54f639db06cdffaf0a2612d660c", null ],
+    [ "RebuildNeighbors", "d7/dd1/progmesh_8c.html#a6aed8440237ff8101babffc57fc3a597", null ],
+    [ "RemoveTriangle", "d7/dd1/progmesh_8c.html#a2a4c461363df52138643a2083396ed6a", null ],
+    [ "RemoveVertex", "d7/dd1/progmesh_8c.html#a435136557393586d87acb2d9e60e4caa", null ],
+    [ "ReplaceVertex", "d7/dd1/progmesh_8c.html#a7393bd77e6789a5446e012e91ffb6a2b", null ],
+    [ "TriHasSilhouetteEdge", "d7/dd1/progmesh_8c.html#a11757e8b16b932c54934e349b5e89dfc", null ],
+    [ "UpdateNeighbors", "d7/dd1/progmesh_8c.html#ab6cfdc9b4aeb0c051551ca6d85464fba", null ],
+    [ "min_resolution", "d7/dd1/progmesh_8c.html#a52c5cd2fe747ebcaf41560931ff8344b", null ],
+    [ "numProgMeshTris", "d7/dd1/progmesh_8c.html#aef437721840d8aa37a5c6ef908d45771", null ],
+    [ "numProgMeshVerts", "d7/dd1/progmesh_8c.html#aaa39c46ac73c230750e676380dfeaadc", null ],
+    [ "triangles", "d7/dd1/progmesh_8c.html#a29a37e9737eab700f4da304cebd96aa2", null ],
+    [ "vertices", "d7/dd1/progmesh_8c.html#a817501e28d666cd49783c02fae10f896", null ]
+];

@@ -1,0 +1,26 @@
+var structtagEMRMASKBLT =
+[
+    [ "cbBitsMask", "de/d86/structtagEMRMASKBLT.html#abdda0136a0c419815d91470e3018b134", null ],
+    [ "cbBitsSrc", "de/d86/structtagEMRMASKBLT.html#a941efe00fb121508bdf103f530185258", null ],
+    [ "cbBmiMask", "de/d86/structtagEMRMASKBLT.html#a767bba747624e13b7c3497c71bb89e2c", null ],
+    [ "cbBmiSrc", "de/d86/structtagEMRMASKBLT.html#a3ac77839a27e76fb055a42c55e9f4816", null ],
+    [ "crBkColorSrc", "de/d86/structtagEMRMASKBLT.html#a65915f0c0c173572320990b276e9b5d4", null ],
+    [ "cxDest", "de/d86/structtagEMRMASKBLT.html#af8f7bfb3f60bc73cac88e5ab011c5bd1", null ],
+    [ "cyDest", "de/d86/structtagEMRMASKBLT.html#ad26c9bd70dbf1a9ab3ceee9f575bf886", null ],
+    [ "dwRop", "de/d86/structtagEMRMASKBLT.html#a8ec2afe65bd50b878108226094a1d098", null ],
+    [ "emr", "de/d86/structtagEMRMASKBLT.html#a6588cad2f3b9562eb5b3cfdf52d0715f", null ],
+    [ "iUsageMask", "de/d86/structtagEMRMASKBLT.html#a805f5fa4a610ef667df5c25e8d9341a3", null ],
+    [ "iUsageSrc", "de/d86/structtagEMRMASKBLT.html#abd0c8519371ce0e3ec68a373cc116b49", null ],
+    [ "offBitsMask", "de/d86/structtagEMRMASKBLT.html#a10a5f6b6ace108252fa7d37f5a60c2e9", null ],
+    [ "offBitsSrc", "de/d86/structtagEMRMASKBLT.html#a09173ecb712d7de1850678b2aec5bdde", null ],
+    [ "offBmiMask", "de/d86/structtagEMRMASKBLT.html#af10685dbf6138fe0948067ca4935ccfb", null ],
+    [ "offBmiSrc", "de/d86/structtagEMRMASKBLT.html#a4b89d77785458d7b60f94069be78bd1b", null ],
+    [ "rclBounds", "de/d86/structtagEMRMASKBLT.html#a02a8314a4924041c21a374054e2542ce", null ],
+    [ "xDest", "de/d86/structtagEMRMASKBLT.html#ad530973d787834cc9ba193cc14e26396", null ],
+    [ "xformSrc", "de/d86/structtagEMRMASKBLT.html#aead630bbf4005632dfaee7515dd60c99", null ],
+    [ "xMask", "de/d86/structtagEMRMASKBLT.html#a88d5b457bb3285ff8019c57d12ee7c74", null ],
+    [ "xSrc", "de/d86/structtagEMRMASKBLT.html#a2ebdcc2f3b4f5392b176334a6ea8dcff", null ],
+    [ "yDest", "de/d86/structtagEMRMASKBLT.html#a83dbc45c0cb37f39d56ffb778b2f210e", null ],
+    [ "yMask", "de/d86/structtagEMRMASKBLT.html#a4eec59cb43b64d1aa5cbc1c654804b8b", null ],
+    [ "ySrc", "de/d86/structtagEMRMASKBLT.html#ae66130b8de532d445a15136d4ec90eb5", null ]
+];

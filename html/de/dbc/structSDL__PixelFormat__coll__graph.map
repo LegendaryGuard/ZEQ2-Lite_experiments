@@ -1,0 +1,8 @@
+<map id="SDL_PixelFormat" name="SDL_PixelFormat">
+<area shape="rect" id="node1" title="Everything in the pixel format structure is read&#45;only." alt="" coords="72,523,203,549"/>
+<area shape="rect" id="node2" href="$d4/da3/structSDL__Palette.html" title=" " alt="" coords="88,375,187,401"/>
+<area shape="rect" id="node3" href="$d7/d0a/structSDL__Color.html" title=" " alt="" coords="68,139,156,165"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="193,139,231,165"/>
+<area shape="rect" id="node6" href="$d2/d5f/classunsigned_01int.html" title=" " alt="" coords="211,375,314,401"/>
+</map>

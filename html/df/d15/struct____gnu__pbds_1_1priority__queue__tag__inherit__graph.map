@@ -1,0 +1,9 @@
+<map id="__gnu_pbds::priority_queue_tag" name="__gnu_pbds::priority_queue_tag">
+<area shape="rect" id="node1" title="Basic priority&#45;queue." alt="" coords="248,136,401,177"/>
+<area shape="rect" id="node3" href="$d3/d51/struct____gnu__pbds_1_1binary__heap__tag.html" title="Binary&#45;heap (array&#45;based)." alt="" coords="475,5,622,47"/>
+<area shape="rect" id="node4" href="$d1/d65/struct____gnu__pbds_1_1binomial__heap__tag.html" title="Binomial&#45;heap." alt="" coords="467,71,630,112"/>
+<area shape="rect" id="node5" href="$d3/d1b/struct____gnu__pbds_1_1pairing__heap__tag.html" title="Pairing&#45;heap." alt="" coords="473,136,624,177"/>
+<area shape="rect" id="node6" href="$de/db3/struct____gnu__pbds_1_1rc__binomial__heap__tag.html" title="Redundant&#45;counter binomial&#45;heap." alt="" coords="457,201,640,243"/>
+<area shape="rect" id="node7" href="$d3/d4c/struct____gnu__pbds_1_1thin__heap__tag.html" title="Thin heap." alt="" coords="449,267,648,294"/>
+<area shape="rect" id="node2" href="$dc/ddd/struct____gnu__pbds_1_1container__tag.html" title="Base data structure tag." alt="" coords="5,143,200,170"/>
+</map>

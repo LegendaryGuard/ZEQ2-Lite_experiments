@@ -1,0 +1,5 @@
+var struct____gnu__pbds_1_1detail_1_1default__trie__e__access__traits_3_01std_1_1basic__string_3_01Cb7285d120301d3be872de5f44f9191f5 =
+[
+    [ "string_type", "d6/da8/struct____gnu__pbds_1_1detail_1_1default__trie__e__access__traits_3_01std_1_1basic__string_3_01Cb7285d120301d3be872de5f44f9191f5.html#a825d91b6038e9777df97ccb820957134", null ],
+    [ "type", "d6/da8/struct____gnu__pbds_1_1detail_1_1default__trie__e__access__traits_3_01std_1_1basic__string_3_01Cb7285d120301d3be872de5f44f9191f5.html#ad1ce021981bfbbf3d38d1994365f34de", null ]
+];

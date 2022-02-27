@@ -1,0 +1,25 @@
+var structtagOLEUICONVERTA =
+[
+    [ "cbStruct", "d5/d12/structtagOLEUICONVERTA.html#a32fba40ac059871ba4bcc800b1947dd5", null ],
+    [ "cClsidExclude", "d5/d12/structtagOLEUICONVERTA.html#a0c33d36c84379f21cfc504be318f12b9", null ],
+    [ "clsid", "d5/d12/structtagOLEUICONVERTA.html#aadf96820a21d57b66c24d2392296e795", null ],
+    [ "clsidActivateDefault", "d5/d12/structtagOLEUICONVERTA.html#aebe924e1747ba66346d886cc201a7330", null ],
+    [ "clsidConvertDefault", "d5/d12/structtagOLEUICONVERTA.html#ab27b0c6b3886b940a8d7f85f132bfde0", null ],
+    [ "clsidNew", "d5/d12/structtagOLEUICONVERTA.html#abdc2f0386a9d54681f096acee00c6ef2", null ],
+    [ "dvAspect", "d5/d12/structtagOLEUICONVERTA.html#a789739730721a98aacdfcfb222a87ec9", null ],
+    [ "dwFlags", "d5/d12/structtagOLEUICONVERTA.html#a6238f5d8a259994aa391f862236a85ef", null ],
+    [ "fIsLinkedObject", "d5/d12/structtagOLEUICONVERTA.html#ac62afc076b0e7d521c7979ac5697487c", null ],
+    [ "fObjectsIconChanged", "d5/d12/structtagOLEUICONVERTA.html#a13d8940ea9ec68d3fe7873ad8cf49322", null ],
+    [ "hInstance", "d5/d12/structtagOLEUICONVERTA.html#afe437dbcd382ef1f4ab3d46c66f23ef0", null ],
+    [ "hMetaPict", "d5/d12/structtagOLEUICONVERTA.html#a632f0b36c800f8f6ada5a44fe5cec4b6", null ],
+    [ "hResource", "d5/d12/structtagOLEUICONVERTA.html#ac85a3f7b592a8d5b7a0eeb26f563dc63", null ],
+    [ "hWndOwner", "d5/d12/structtagOLEUICONVERTA.html#ae09356714832966daa1e5d3c42f54c95", null ],
+    [ "lCustData", "d5/d12/structtagOLEUICONVERTA.html#a058155956a8501bcbb9e3d9ea33f09a3", null ],
+    [ "lpClsidExclude", "d5/d12/structtagOLEUICONVERTA.html#a4283347784d8c0032970b5e2c86e3dbf", null ],
+    [ "lpfnHook", "d5/d12/structtagOLEUICONVERTA.html#aa6dafe527a74a6b303f94fbcba1c6d56", null ],
+    [ "lpszCaption", "d5/d12/structtagOLEUICONVERTA.html#a8b6b8d7e46ac9623a7854c89fa72e870", null ],
+    [ "lpszDefLabel", "d5/d12/structtagOLEUICONVERTA.html#a42eadfda6ec03e959d2b296155c8b2bc", null ],
+    [ "lpszTemplate", "d5/d12/structtagOLEUICONVERTA.html#a1a8ec7d79f072e8616d269afdfeff83f", null ],
+    [ "lpszUserType", "d5/d12/structtagOLEUICONVERTA.html#a01e030a5594cc4bce8ce630c8d1817da", null ],
+    [ "wFormat", "d5/d12/structtagOLEUICONVERTA.html#a80a96d3e8ce070f1e57a05bde0be0b06", null ]
+];

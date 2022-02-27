@@ -1,0 +1,26 @@
+var struct__CDB_1_1__PLAY__CD =
+[
+    [ "Audio", "dd/d40/struct__CDB_1_1__PLAY__CD.html#aafd7d289acb05321125c4f017772c292", null ],
+    [ "CMSF", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a3bde37d236ccbc7d3553d9629ac8b1df", null ],
+    [ "Composite", "dd/d40/struct__CDB_1_1__PLAY__CD.html#ad46bc87019731f168d27319b50e694f8", null ],
+    [ "Control", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a3954dcc76e86043ec33092ea55548db8", null ],
+    [ "DUMMYUNIONNAME", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a8fd0218024c05a40008c396b5367fda8", null ],
+    [ "EndingF", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a3cfc65910d1213ad7ac4650acdecb522", null ],
+    [ "EndingM", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a8924d79d8e66c83f8e70fc2c843ec7b5", null ],
+    [ "EndingS", "dd/d40/struct__CDB_1_1__PLAY__CD.html#ab85d3aeee26beb71a77c50345fdfe838", null ],
+    [ "ExpectedSectorType", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a663b26796b3895f19bed52ae1e646b3b", null ],
+    [ "LBA", "dd/d40/struct__CDB_1_1__PLAY__CD.html#ab2bdfcb14fff106f6e392c5a7be96dc5", null ],
+    [ "Lun", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a4bb6094a68bf310cab9400e15ad53a5c", null ],
+    [ "MSF", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a6e7335664a545f8e82e1a66ac4cfd1f9", null ],
+    [ "OperationCode", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a805ad37801bf09d4ffe843234bb16602", null ],
+    [ "PlayLength", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a0b39b17dc4501769db7bb14e034ad8ab", null ],
+    [ "Port1", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a05e181687168390010f48f6b4baa5185", null ],
+    [ "Port2", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a91e50c1fbdfe94ff55f7ca17240f8734", null ],
+    [ "Reserved1", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a6387fc3d05862dc5b033cc58077dd031", null ],
+    [ "Reserved2", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a66b2b6fda228857818c952bed7fe7ccf", null ],
+    [ "Speed", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a321162da3769c856cfe7d061ae1a8d1f", null ],
+    [ "StartingBlockAddress", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a2642a74bc784f53d28e98850ad9a260e", null ],
+    [ "StartingF", "dd/d40/struct__CDB_1_1__PLAY__CD.html#ac4f39ecaba91046af29ab9987dc22302", null ],
+    [ "StartingM", "dd/d40/struct__CDB_1_1__PLAY__CD.html#ad123e2963b89bc9c7cf4f4affa34a94a", null ],
+    [ "StartingS", "dd/d40/struct__CDB_1_1__PLAY__CD.html#a6ddf21b2a9328d26cbbfcdcd68af6e90", null ]
+];

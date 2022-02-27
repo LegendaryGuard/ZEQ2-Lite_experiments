@@ -1,0 +1,38 @@
+<map id="Game/CGame/cg_local.h" name="Game/CGame/cg_local.h">
+<area shape="rect" id="node1" title=" " alt="" coords="3557,5,3740,32"/>
+<area shape="rect" id="node2" href="$dd/d15/cg__animationConfig_8c.html" title=" " alt="" coords="5,87,263,114"/>
+<area shape="rect" id="node3" href="$d6/d2c/cg__animations_8c.html" title=" " alt="" coords="287,87,509,114"/>
+<area shape="rect" id="node4" href="$df/d8e/cg__auras_8c.html" title=" " alt="" coords="534,87,721,114"/>
+<area shape="rect" id="node5" href="$d9/d4e/cg__beamtables_8c.html" title=" " alt="" coords="745,87,971,114"/>
+<area shape="rect" id="node6" href="$df/d45/cg__consolecmds_8c.html" title=" " alt="" coords="995,87,1230,114"/>
+<area shape="rect" id="node7" href="$d0/d60/cg__draw_8c.html" title=" " alt="" coords="1254,87,1435,114"/>
+<area shape="rect" id="node8" href="$d6/d99/cg__drawtools_8c.html" title=" " alt="" coords="1460,87,1675,114"/>
+<area shape="rect" id="node9" href="$d8/d1c/cg__effects_8c.html" title=" " alt="" coords="1699,87,1894,114"/>
+<area shape="rect" id="node10" href="$dd/d6f/cg__ents_8c.html" title=" " alt="" coords="1918,87,2097,114"/>
+<area shape="rect" id="node11" href="$da/dd5/cg__event_8c.html" title=" " alt="" coords="2121,87,2307,114"/>
+<area shape="rect" id="node12" href="$d4/d23/cg__frameHist_8c.html" title=" " alt="" coords="2332,87,2547,114"/>
+<area shape="rect" id="node13" href="$d5/de9/cg__info_8c.html" title=" " alt="" coords="2571,87,2745,114"/>
+<area shape="rect" id="node14" href="$df/df1/cg__localents_8c.html" title=" " alt="" coords="2769,87,2979,114"/>
+<area shape="rect" id="node15" href="$d9/d47/cg__main_8c.html" title=" " alt="" coords="3003,87,3185,114"/>
+<area shape="rect" id="node16" href="$d2/d88/cg__marks_8c.html" title=" " alt="" coords="3209,87,3400,114"/>
+<area shape="rect" id="node17" href="$d8/dfb/cg__motionblur_8c.html" title=" " alt="" coords="3424,87,3644,114"/>
+<area shape="rect" id="node18" href="$d4/dd8/cg__music_8c.html" title=" " alt="" coords="3669,87,3858,114"/>
+<area shape="rect" id="node19" href="$d0/d76/cg__particlesystem_8c.html" title=" " alt="" coords="3883,87,4129,114"/>
+<area shape="rect" id="node20" href="$dd/df6/cg__particlesystem__cache_8c.html" title=" " alt="" coords="4153,80,4389,121"/>
+<area shape="rect" id="node21" href="$d4/dbe/cg__players_8c.html" title=" " alt="" coords="4413,87,4612,114"/>
+<area shape="rect" id="node22" href="$d4/d5a/cg__playerstate_8c.html" title=" " alt="" coords="4635,87,4859,114"/>
+<area shape="rect" id="node23" href="$d7/d52/cg__predict_8c.html" title=" " alt="" coords="4883,87,5078,114"/>
+<area shape="rect" id="node24" href="$db/d7b/cg__radar_8c.html" title=" " alt="" coords="5103,87,5285,114"/>
+<area shape="rect" id="node25" href="$d6/d01/cg__servercmds_8c.html" title=" " alt="" coords="5310,87,5537,114"/>
+<area shape="rect" id="node26" href="$d9/d9d/cg__snapshot_8c.html" title=" " alt="" coords="5561,87,5771,114"/>
+<area shape="rect" id="node27" href="$d5/d50/cg__syscalls_8c.html" title=" " alt="" coords="5795,87,5998,114"/>
+<area shape="rect" id="node28" href="$d6/db3/cg__tiers_8c.html" title=" " alt="" coords="6022,87,6201,114"/>
+<area shape="rect" id="node29" href="$d8/d99/cg__trails_8c.html" title=" " alt="" coords="6225,87,6408,114"/>
+<area shape="rect" id="node30" href="$d5/d13/cg__userweapons_8c.html" title=" " alt="" coords="6432,87,6668,114"/>
+<area shape="rect" id="node31" href="$d3/dd6/cg__view_8c.html" title=" " alt="" coords="6692,87,6872,114"/>
+<area shape="rect" id="node32" href="$d5/df0/cg__weapGfxParser_8h.html" title=" " alt="" coords="6897,87,7145,114"/>
+<area shape="rect" id="node36" href="$d3/d88/cg__weapons_8c.html" title=" " alt="" coords="7169,87,7377,114"/>
+<area shape="rect" id="node33" href="$d1/dc9/cg__weapGfxAttributes_8c.html" title=" " alt="" coords="6602,169,6874,196"/>
+<area shape="rect" id="node34" href="$de/d46/cg__weapGfxParser_8c.html" title=" " alt="" coords="6897,169,7144,196"/>
+<area shape="rect" id="node35" href="$d5/d80/cg__weapGfxScanner_8c.html" title=" " alt="" coords="7167,169,7426,196"/>
+</map>

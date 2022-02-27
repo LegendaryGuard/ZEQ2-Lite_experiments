@@ -1,0 +1,35 @@
+var ntddtape_8h =
+[
+    [ "DD_TAPE_DEVICE_NAME", "d0/d08/ntddtape_8h.html#ad7699063048fb7b7f76076f3fca13f2b", null ],
+    [ "DD_TAPE_DEVICE_NAME_U", "d0/d08/ntddtape_8h.html#a043226c2e889ce53cf45c48783bdfdb6", null ],
+    [ "IOCTL_TAPE_BASE", "d0/d08/ntddtape_8h.html#ae3211c381b5ee4dae84968ef60d610e4", null ],
+    [ "IOCTL_TAPE_CHECK_VERIFY", "d0/d08/ntddtape_8h.html#a7cafd83a1f506aeada2c40bc9236bdb5", null ],
+    [ "IOCTL_TAPE_CREATE_PARTITION", "d0/d08/ntddtape_8h.html#a963ed72da342051906c492cc82972e60", null ],
+    [ "IOCTL_TAPE_ERASE", "d0/d08/ntddtape_8h.html#afa94a7bacb577c98ab6b726d788ed40a", null ],
+    [ "IOCTL_TAPE_FIND_NEW_DEVICES", "d0/d08/ntddtape_8h.html#a500cea67a8ab911b6efc620d54070754", null ],
+    [ "IOCTL_TAPE_GET_DRIVE_PARAMS", "d0/d08/ntddtape_8h.html#a9457cd9ea9c48c79791b0d81fbdd33c3", null ],
+    [ "IOCTL_TAPE_GET_MEDIA_PARAMS", "d0/d08/ntddtape_8h.html#a6493de9cf731b2bf7bcf3498380751a6", null ],
+    [ "IOCTL_TAPE_GET_POSITION", "d0/d08/ntddtape_8h.html#a2bf0573cb3a64ebb71e13a0816680059", null ],
+    [ "IOCTL_TAPE_GET_STATUS", "d0/d08/ntddtape_8h.html#a02a859a5f4c8157ff4c2f857a9caf979", null ],
+    [ "IOCTL_TAPE_PREPARE", "d0/d08/ntddtape_8h.html#ab245ff14f70d354aca7ad47b6f0ad595", null ],
+    [ "IOCTL_TAPE_SET_DRIVE_PARAMS", "d0/d08/ntddtape_8h.html#a8a74b13e73d420fafe5d5610aedb2cc3", null ],
+    [ "IOCTL_TAPE_SET_MEDIA_PARAMS", "d0/d08/ntddtape_8h.html#a28b0bd3ea214d8cc2092fdf92e94d459", null ],
+    [ "IOCTL_TAPE_SET_POSITION", "d0/d08/ntddtape_8h.html#a98f3a8bdae15e8730d5b3b8c84286863", null ],
+    [ "IOCTL_TAPE_WRITE_MARKS", "d0/d08/ntddtape_8h.html#a822605760ee884061c83354256b97075", null ],
+    [ "_TAPE_DRIVE_PROBLEM_TYPE", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92e", [
+      [ "TapeDriveProblemNone", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea9eb929a074070268b022c107c1595836", null ],
+      [ "TapeDriveReadWriteWarning", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ead27eb471f21f9db4495452c0d1880624", null ],
+      [ "TapeDriveReadWriteError", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea5cee00541e7d3c4754bd9deb0c75a37a", null ],
+      [ "TapeDriveReadWarning", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea50dc1da470907aebeb9ee1e728ffd73c", null ],
+      [ "TapeDriveWriteWarning", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea9e5310380ceda502d5964a1be663770f", null ],
+      [ "TapeDriveReadError", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92eaf0e3bf743650e488414823ab72d8b2bd", null ],
+      [ "TapeDriveWriteError", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea9f79d0b73c00d0c5168faf75885e36ba", null ],
+      [ "TapeDriveHardwareError", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ead55ab49d28972ce93eeb4e73c640cabf", null ],
+      [ "TapeDriveUnsupportedMedia", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea3a24a0e1028d31a90cf3d4ff16a8fe5d", null ],
+      [ "TapeDriveScsiConnectionError", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea2f3ea54e2f1f02af58b47dd949d0356a", null ],
+      [ "TapeDriveTimetoClean", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92eae2c9f082d3dfddff5d4c1dd541b7d316", null ],
+      [ "TapeDriveCleanDriveNow", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea5dda29a80667772817b17684426b1342", null ],
+      [ "TapeDriveMediaLifeExpired", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea7b45784bd419b9c38949b183091cc7bd", null ],
+      [ "TapeDriveSnappedTape", "d0/d08/ntddtape_8h.html#ae56a60abd4b71e8854987d911580d92ea342f8eb373dae80113e0554a5492305f", null ]
+    ] ]
+];

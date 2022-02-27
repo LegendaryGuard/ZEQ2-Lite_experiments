@@ -1,0 +1,13 @@
+<map id="smdModel_t" name="smdModel_t">
+<area shape="rect" id="node1" title=" " alt="" coords="267,485,369,512"/>
+<area shape="rect" id="node2" title=" " alt="" coords="162,298,213,325"/>
+<area shape="rect" id="node3" href="$de/db3/structsmdSurface__t.html" title=" " alt="" coords="263,396,373,423"/>
+<area shape="rect" id="node11" href="$d7/df1/structsmdBoneName__t.html" title=" " alt="" coords="5,396,140,423"/>
+<area shape="rect" id="node4" title=" " alt="" coords="337,5,376,32"/>
+<area shape="rect" id="node5" href="$d2/dfb/structsmdTriangle__t.html" title=" " alt="" coords="181,215,295,242"/>
+<area shape="rect" id="node6" href="$d0/dc0/structsmdVertex__t.html" title=" " alt="" coords="429,298,533,325"/>
+<area shape="rect" id="node8" href="$d7/dad/structsmdWeight__t.html" title=" " alt="" coords="493,133,599,159"/>
+<area shape="rect" id="node7" href="$d4/dc3/classfloat.html" title=" " alt="" coords="767,5,818,32"/>
+<area shape="rect" id="node9" href="$df/daa/structsmdFrame__t.html" title=" " alt="" coords="857,298,960,325"/>
+<area shape="rect" id="node10" href="$d3/d74/structsmdBoneFrame__t.html" title=" " alt="" coords="889,133,1025,159"/>
+</map>

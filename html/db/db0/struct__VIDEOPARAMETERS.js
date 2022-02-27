@@ -1,0 +1,26 @@
+var struct__VIDEOPARAMETERS =
+[
+    [ "bCP_APSTriggerBits", "db/db0/struct__VIDEOPARAMETERS.html#af947b61a86b8f2e0703c1892c491a248", null ],
+    [ "bOEMCopyProtection", "db/db0/struct__VIDEOPARAMETERS.html#ae174581ca03a4e763548077e76af1ce8", null ],
+    [ "dwAvailableModes", "db/db0/struct__VIDEOPARAMETERS.html#ac7e2f177016e9ea1e864eaf98647b301", null ],
+    [ "dwAvailableTVStandard", "db/db0/struct__VIDEOPARAMETERS.html#a55308b60ef9688694c3815564e8f6bea", null ],
+    [ "dwBrightness", "db/db0/struct__VIDEOPARAMETERS.html#a444df90ea7b23a675eb31b6fec1ead33", null ],
+    [ "dwCommand", "db/db0/struct__VIDEOPARAMETERS.html#a63105c584b8eab07179f29da865d2c1d", null ],
+    [ "dwContrast", "db/db0/struct__VIDEOPARAMETERS.html#aef9e3f9002ee6a55a37e903cef32371d", null ],
+    [ "dwCPCommand", "db/db0/struct__VIDEOPARAMETERS.html#a0ebddc860542a41e0ed6e556ac598a92", null ],
+    [ "dwCPKey", "db/db0/struct__VIDEOPARAMETERS.html#a4dba07f8155d5103e0ae19339d9493e3", null ],
+    [ "dwCPStandard", "db/db0/struct__VIDEOPARAMETERS.html#ad5d0872a8b072ab9651baf9707c4710a", null ],
+    [ "dwCPType", "db/db0/struct__VIDEOPARAMETERS.html#aaf01c37a87f9a2df4d3e7718063ebe27", null ],
+    [ "dwFlags", "db/db0/struct__VIDEOPARAMETERS.html#a6c8ea3f547e03f80bd970f2a8a3c074f", null ],
+    [ "dwFlickerFilter", "db/db0/struct__VIDEOPARAMETERS.html#acd20abf751acf97c10e24e77f99a6455", null ],
+    [ "dwMaxUnscaledX", "db/db0/struct__VIDEOPARAMETERS.html#a0ba32d23f2bf0ffd980c6b46b375019b", null ],
+    [ "dwMaxUnscaledY", "db/db0/struct__VIDEOPARAMETERS.html#a558b61ca0d694ee42a6609a832441450", null ],
+    [ "dwMode", "db/db0/struct__VIDEOPARAMETERS.html#acf3b000d384944688209d383692a68b2", null ],
+    [ "dwOffset", "db/db0/struct__VIDEOPARAMETERS.html#a3611829a1e0149fb9b6854e79917f259", null ],
+    [ "dwOverScanX", "db/db0/struct__VIDEOPARAMETERS.html#a621cccff30bc7a0dccc98c5e8115b178", null ],
+    [ "dwOverScanY", "db/db0/struct__VIDEOPARAMETERS.html#ab31a6be41f4e4bdb22e3ddfba214deaf", null ],
+    [ "dwPositionX", "db/db0/struct__VIDEOPARAMETERS.html#ac8bd8f88dd1b15786257cb0010f169cd", null ],
+    [ "dwPositionY", "db/db0/struct__VIDEOPARAMETERS.html#a9de8591f3342deeb6954e74192981a84", null ],
+    [ "dwTVStandard", "db/db0/struct__VIDEOPARAMETERS.html#a5eb4d5f70764abb9d748c3480c555bb2", null ],
+    [ "Guid", "db/db0/struct__VIDEOPARAMETERS.html#af2ab70e4f132aa160ec92b8b97f53073", null ]
+];

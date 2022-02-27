@@ -1,0 +1,28 @@
+var struct__LINE__CALL__PARAMS =
+[
+    [ "DialParams", "db/d57/struct__LINE__CALL__PARAMS.html#acf0f918e99e8cbe27ab626307b28c39a", null ],
+    [ "ulAddressID", "db/d57/struct__LINE__CALL__PARAMS.html#a2e2084f2fc07d3afff21d3b5d45fc79c", null ],
+    [ "ulAddressMode", "db/d57/struct__LINE__CALL__PARAMS.html#ad25d7fbf68f97885e6989df62839ba2c", null ],
+    [ "ulBearerMode", "db/d57/struct__LINE__CALL__PARAMS.html#af5d5aeee4d71444399eb643a8ee7725b", null ],
+    [ "ulCalledPartyOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a7a1d1b3e0615772c5cf000241a209c22", null ],
+    [ "ulCalledPartySize", "db/d57/struct__LINE__CALL__PARAMS.html#a0ff2e4e6d0b123d1ec6c5d48aeb50048", null ],
+    [ "ulCallParamFlags", "db/d57/struct__LINE__CALL__PARAMS.html#ac2860c0e09a4fa6eeec07452a1a59524", null ],
+    [ "ulCommentOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a3b13ebb56e192380709f26af5d14d278", null ],
+    [ "ulCommentSize", "db/d57/struct__LINE__CALL__PARAMS.html#a4287941a17fa2bd32b5f8a54b292aad0", null ],
+    [ "ulDevSpecificOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a6e5a10baac56191a721439b3fadcf923", null ],
+    [ "ulDevSpecificSize", "db/d57/struct__LINE__CALL__PARAMS.html#a148266f407d73f0414f2e9daa2de8154", null ],
+    [ "ulDisplayableAddressOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a5541af1d957429e68a77a3e501636997", null ],
+    [ "ulDisplayableAddressSize", "db/d57/struct__LINE__CALL__PARAMS.html#af7f568adc9673f9b7c0a5f3f8b984db9", null ],
+    [ "ulHighLevelCompOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a15a5d0c8fdb77078bb1403cb6ed811a1", null ],
+    [ "ulHighLevelCompSize", "db/d57/struct__LINE__CALL__PARAMS.html#a61b906068f6f60c589542c1fbff8a21b", null ],
+    [ "ulLowLevelCompOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a86130e792afb2b9ef14ff1f7b1dc74b6", null ],
+    [ "ulLowLevelCompSize", "db/d57/struct__LINE__CALL__PARAMS.html#ae3465da7d5e80b8d672d2ded7934732b", null ],
+    [ "ulMaxRate", "db/d57/struct__LINE__CALL__PARAMS.html#a1f6ccd9962d8dc776e55c70748e1c41a", null ],
+    [ "ulMediaMode", "db/d57/struct__LINE__CALL__PARAMS.html#a3f00b938ec5a0b587d0ab0f8dec8555c", null ],
+    [ "ulMinRate", "db/d57/struct__LINE__CALL__PARAMS.html#a483b0cdba37b416e73be6d0ca2ab78ac", null ],
+    [ "ulOrigAddressOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a5ca0096847adccbbc64b094d5dfe51d6", null ],
+    [ "ulOrigAddressSize", "db/d57/struct__LINE__CALL__PARAMS.html#a0ae28eedca23b123b7d5dbfb6d8e8341", null ],
+    [ "ulTotalSize", "db/d57/struct__LINE__CALL__PARAMS.html#a4d0c64c54905114595c7704f31e955d1", null ],
+    [ "ulUserUserInfoOffset", "db/d57/struct__LINE__CALL__PARAMS.html#a7bfeda8212fd50c1a00a7ac9cdf66585", null ],
+    [ "ulUserUserInfoSize", "db/d57/struct__LINE__CALL__PARAMS.html#ab780dce933a6253313333b53d34a11ee", null ]
+];

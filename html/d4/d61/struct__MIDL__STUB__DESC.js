@@ -1,0 +1,26 @@
+var struct__MIDL__STUB__DESC =
+[
+    [ "pfnAllocate", "d4/d61/struct__MIDL__STUB__DESC.html#a457c488acd6b3df880b4ed3b712f1c3e", null ],
+    [ "void", "d4/d61/struct__MIDL__STUB__DESC.html#a4f432fb667e944245d1d8ba31b8dc5d5", null ],
+    [ "aGenericBindingRoutinePairs", "d4/d61/struct__MIDL__STUB__DESC.html#ad1b292d31fefec456c1fdd69792d099d", null ],
+    [ "apfnExprEval", "d4/d61/struct__MIDL__STUB__DESC.html#aea6394d8c1ef7d45eb5e61716765a8ae", null ],
+    [ "apfnNdrRundownRoutines", "d4/d61/struct__MIDL__STUB__DESC.html#a27242f1f5dd3db2ea9458b3c15a0f49a", null ],
+    [ "aUserMarshalQuadruple", "d4/d61/struct__MIDL__STUB__DESC.html#ac863deceb785238df4686afc6c460e2c", null ],
+    [ "aXmitQuintuple", "d4/d61/struct__MIDL__STUB__DESC.html#ace867a2b413eeb645accc06f5b53046f", null ],
+    [ "CommFaultOffsets", "d4/d61/struct__MIDL__STUB__DESC.html#ac1cc77ec4eb2ad6bdde51f3bc430ea57", null ],
+    [ "CsRoutineTables", "d4/d61/struct__MIDL__STUB__DESC.html#af153e2ed50dfc1d8a2478ddd698d2741", null ],
+    [ "fCheckBounds", "d4/d61/struct__MIDL__STUB__DESC.html#a23e218ae706955333b744aee63725586", null ],
+    [ "IMPLICIT_HANDLE_INFO", "d4/d61/struct__MIDL__STUB__DESC.html#aece1ae070818b6f4abdf18507e39f1bf", null ],
+    [ "mFlags", "d4/d61/struct__MIDL__STUB__DESC.html#a14bdb18e8690f2c32efa21c8de961394", null ],
+    [ "MIDLVersion", "d4/d61/struct__MIDL__STUB__DESC.html#ab95aa3e657cb1752a05dd3d82f04e151", null ],
+    [ "NotifyRoutineTable", "d4/d61/struct__MIDL__STUB__DESC.html#a6d81b684484e50f5e43df0c1b6b7682a", null ],
+    [ "pAutoHandle", "d4/d61/struct__MIDL__STUB__DESC.html#ab0b473bbf2a106e5a7ec64b001c68d0c", null ],
+    [ "pFormatTypes", "d4/d61/struct__MIDL__STUB__DESC.html#a972c2527beaabfc6f442b2aef0b38b5a", null ],
+    [ "pGenericBindingInfo", "d4/d61/struct__MIDL__STUB__DESC.html#a87ccfc12b35dbc7ceedef0bd60a79b27", null ],
+    [ "pMallocFreeStruct", "d4/d61/struct__MIDL__STUB__DESC.html#a9326fb48d3dab6cb4caecaf6c3728069", null ],
+    [ "pPrimitiveHandle", "d4/d61/struct__MIDL__STUB__DESC.html#a0c98a19fbcb8c637f3f896a05fef7a73", null ],
+    [ "Reserved4", "d4/d61/struct__MIDL__STUB__DESC.html#a5a4dd83fda4b5ef4e3761858ecf31b93", null ],
+    [ "Reserved5", "d4/d61/struct__MIDL__STUB__DESC.html#a339272eedd7b2e50d4be194366c5254e", null ],
+    [ "RpcInterfaceInformation", "d4/d61/struct__MIDL__STUB__DESC.html#a2a27ae2992a8542e3df6a649c585f14e", null ],
+    [ "Version", "d4/d61/struct__MIDL__STUB__DESC.html#a50c3279d53972b41172b0977d310162f", null ]
+];

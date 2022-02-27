@@ -1,0 +1,27 @@
+var structtagNEWTEXTMETRICA =
+[
+    [ "ntmAvgWidth", "d5/d3c/structtagNEWTEXTMETRICA.html#ae53858a55f05d89a9e6ad6eb4d6bd590", null ],
+    [ "ntmCellHeight", "d5/d3c/structtagNEWTEXTMETRICA.html#abd59fca8678db8c60e852f711ffdfc08", null ],
+    [ "ntmFlags", "d5/d3c/structtagNEWTEXTMETRICA.html#a033524f87d79601b0491a722cb03294f", null ],
+    [ "ntmSizeEM", "d5/d3c/structtagNEWTEXTMETRICA.html#a26cc9dbb5de6ac6e6b4edd5fed96c329", null ],
+    [ "tmAscent", "d5/d3c/structtagNEWTEXTMETRICA.html#acbfd3691f6f0bbe83770e84a9b8da6bb", null ],
+    [ "tmAveCharWidth", "d5/d3c/structtagNEWTEXTMETRICA.html#a91e728b04c8757326b7672e25d442f20", null ],
+    [ "tmBreakChar", "d5/d3c/structtagNEWTEXTMETRICA.html#ad2a2d3f2d7d108f53e28157d481c2d7e", null ],
+    [ "tmCharSet", "d5/d3c/structtagNEWTEXTMETRICA.html#a8d3afb9987a85a6056804b4d496f528d", null ],
+    [ "tmDefaultChar", "d5/d3c/structtagNEWTEXTMETRICA.html#aa67fd70ff0732db5e163cdf09a9968d3", null ],
+    [ "tmDescent", "d5/d3c/structtagNEWTEXTMETRICA.html#a2564b0e9097b2087455181b1864be2b0", null ],
+    [ "tmDigitizedAspectX", "d5/d3c/structtagNEWTEXTMETRICA.html#a0c082976897ca86627b5175b1d461c09", null ],
+    [ "tmDigitizedAspectY", "d5/d3c/structtagNEWTEXTMETRICA.html#a7c15318faf113c36df45019c497703a7", null ],
+    [ "tmExternalLeading", "d5/d3c/structtagNEWTEXTMETRICA.html#afc57ce5dfffcc10f5075d4509110cc25", null ],
+    [ "tmFirstChar", "d5/d3c/structtagNEWTEXTMETRICA.html#a429968638fc0659ca97f7ef1484a11b0", null ],
+    [ "tmHeight", "d5/d3c/structtagNEWTEXTMETRICA.html#a3cf83f1dc07d4db908b8076c3704b6c9", null ],
+    [ "tmInternalLeading", "d5/d3c/structtagNEWTEXTMETRICA.html#a17a22458fdb810c56e23987066749184", null ],
+    [ "tmItalic", "d5/d3c/structtagNEWTEXTMETRICA.html#af6ae51fc2b733c72715f78a3d387ceee", null ],
+    [ "tmLastChar", "d5/d3c/structtagNEWTEXTMETRICA.html#a0b9068997bd20eed8829e471c411a892", null ],
+    [ "tmMaxCharWidth", "d5/d3c/structtagNEWTEXTMETRICA.html#ab28e6e2c29c9207f64cf607a4d3680fb", null ],
+    [ "tmOverhang", "d5/d3c/structtagNEWTEXTMETRICA.html#ac726f8978d3b92083cb877eb3ef2dbf6", null ],
+    [ "tmPitchAndFamily", "d5/d3c/structtagNEWTEXTMETRICA.html#ad46a17532d67b5767e838c9a47e4a7b2", null ],
+    [ "tmStruckOut", "d5/d3c/structtagNEWTEXTMETRICA.html#a31637664ea46e4875551e8c60835d4b1", null ],
+    [ "tmUnderlined", "d5/d3c/structtagNEWTEXTMETRICA.html#a948b5dbb6e93286c14bfddcc82ff4e54", null ],
+    [ "tmWeight", "d5/d3c/structtagNEWTEXTMETRICA.html#af7e4f5896e770c3a299f4ded843bb1a6", null ]
+];

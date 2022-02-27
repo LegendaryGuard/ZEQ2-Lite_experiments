@@ -1,0 +1,13 @@
+<map id="cg_weapGfxParser_t" name="cg_weapGfxParser_t">
+<area shape="rect" id="node1" title=" " alt="" coords="668,312,823,339"/>
+<area shape="rect" id="node2" href="$dc/d97/structcg__weapGfxImportRef__t.html" title=" " alt="" coords="343,59,522,85"/>
+<area shape="rect" id="node3" title=" " alt="" coords="73,344,123,371"/>
+<area shape="rect" id="node5" href="$d3/d3e/structcg__weapGfxScanner__t.html" title=" " alt="" coords="349,464,516,491"/>
+<area shape="rect" id="node7" href="$d2/d8f/structcg__weapGfxLinkRef__t.html" title=" " alt="" coords="351,164,514,191"/>
+<area shape="rect" id="node8" href="$d5/d76/structcg__weapGfxDefinitionRef__t.html" title=" " alt="" coords="333,312,532,339"/>
+<area shape="rect" id="node10" href="$d8/db3/structcg__weapGfxToken__t.html" title=" " alt="" coords="357,592,508,619"/>
+<area shape="rect" id="node4" title=" " alt="" coords="57,104,139,131"/>
+<area shape="rect" id="node6" title=" " alt="" coords="79,509,117,536"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,269,191,296"/>
+<area shape="rect" id="node11" href="$d4/dc3/classfloat.html" title=" " alt="" coords="73,675,123,701"/>
+</map>

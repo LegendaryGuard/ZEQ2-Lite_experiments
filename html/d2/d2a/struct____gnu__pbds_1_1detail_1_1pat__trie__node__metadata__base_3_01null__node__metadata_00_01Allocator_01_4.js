@@ -1,0 +1,4 @@
+var struct____gnu__pbds_1_1detail_1_1pat__trie__node__metadata__base_3_01null__node__metadata_00_01Allocator_01_4 =
+[
+    [ "metadata_type", "d2/d2a/struct____gnu__pbds_1_1detail_1_1pat__trie__node__metadata__base_3_01null__node__metadata_00_01Allocator_01_4.html#a8bf0cc4ed6a89f9a2c41eab2e3088fad", null ]
+];

@@ -1,0 +1,16 @@
+<map id="SDL_Surface" name="SDL_Surface">
+<area shape="rect" id="node1" title="This structure should be treated as read&#45;only, except for &#39;pixels&#39;, which, if not NULL,..." alt="" coords="943,332,1045,359"/>
+<area shape="rect" id="node2" href="$d4/dae/structSDL__PixelFormat.html" title="Everything in the pixel format structure is read&#45;only." alt="" coords="638,231,769,257"/>
+<area shape="rect" id="node3" href="$d4/da3/structSDL__Palette.html" title=" " alt="" coords="403,188,502,215"/>
+<area shape="rect" id="node4" href="$d7/d0a/structSDL__Color.html" title=" " alt="" coords="168,223,256,249"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,323,72,349"/>
+<area shape="rect" id="node6" title=" " alt="" coords="193,79,231,105"/>
+<area shape="rect" id="node7" href="$d2/d5f/classunsigned_01int.html" title=" " alt="" coords="401,137,504,164"/>
+<area shape="rect" id="node8" title=" " alt="" coords="616,281,791,308"/>
+<area shape="rect" id="node9" title=" " alt="" coords="678,332,729,359"/>
+<area shape="rect" id="node10" title=" " alt="" coords="393,408,512,435"/>
+<area shape="rect" id="node11" href="$dd/da6/structSDL__Rect.html" title=" " alt="" coords="662,445,745,472"/>
+<area shape="rect" id="node12" title=" " alt="" coords="419,493,486,520"/>
+<area shape="rect" id="node13" title=" " alt="" coords="663,496,744,523"/>
+<area shape="rect" id="node14" title=" " alt="" coords="625,547,781,573"/>
+</map>

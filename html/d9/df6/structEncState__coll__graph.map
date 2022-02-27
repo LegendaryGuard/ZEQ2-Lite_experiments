@@ -1,0 +1,11 @@
+<map id="EncState" name="EncState">
+<area shape="rect" id="node1" title="Structure representing the full state of the narrowband encoder." alt="" coords="556,509,634,536"/>
+<area shape="rect" id="node2" href="$d0/dc5/structVBRState.html" title="VBR state." alt="" coords="274,309,356,335"/>
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title=" " alt="" coords="23,5,74,32"/>
+<area shape="rect" id="node7" href="$da/d07/structSpeexSubmode.html" title="Description of a Speex sub&#45;mode (wither narrowband or wideband." alt="" coords="403,309,526,335"/>
+<area shape="rect" id="node4" title=" " alt="" coords="497,5,536,32"/>
+<area shape="rect" id="node9" href="$da/dcd/structSpeexMode.html" title="Struct defining a Speex mode." alt="" coords="818,309,916,335"/>
+<area shape="rect" id="node5" title=" " alt="" coords="1084,5,1135,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1224,309,1291,335"/>
+<area shape="rect" id="node8" title=" " alt="" coords="843,5,894,32"/>
+</map>

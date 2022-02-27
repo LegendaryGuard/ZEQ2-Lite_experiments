@@ -1,0 +1,27 @@
+var structtagJOYCAPSA =
+[
+    [ "szOEMVxD", "df/d96/structtagJOYCAPSA.html#a2971d2aeb271d3e31ed7f48bf9362d06", null ],
+    [ "szPname", "df/d96/structtagJOYCAPSA.html#a1b2b48d9d9d8fd2af50f0a14b39bc4c0", null ],
+    [ "szRegKey", "df/d96/structtagJOYCAPSA.html#a25bd622df0b009ef60d948208f57096a", null ],
+    [ "wCaps", "df/d96/structtagJOYCAPSA.html#a091d3e2f43a7ff9c46d813330e1e36a0", null ],
+    [ "wMaxAxes", "df/d96/structtagJOYCAPSA.html#a7cd37b877b4440068e2c0280fbddbb31", null ],
+    [ "wMaxButtons", "df/d96/structtagJOYCAPSA.html#abf2ff1f45e6073a10fbc4ed7271c295d", null ],
+    [ "wMid", "df/d96/structtagJOYCAPSA.html#a2b690997c2f62bf40da1e7cef05c265d", null ],
+    [ "wNumAxes", "df/d96/structtagJOYCAPSA.html#a12b6e2d7d99dfd88ec4b5e8560230bcc", null ],
+    [ "wNumButtons", "df/d96/structtagJOYCAPSA.html#a419440deb166aed2526bc95d791f9357", null ],
+    [ "wPeriodMax", "df/d96/structtagJOYCAPSA.html#aa3b19d694a2701518c0a55e54dcdee6a", null ],
+    [ "wPeriodMin", "df/d96/structtagJOYCAPSA.html#a4dd127bed61cc84111475c7519f11b3d", null ],
+    [ "wPid", "df/d96/structtagJOYCAPSA.html#aa6fff4b6995af8cb6b33b344f6a94ddf", null ],
+    [ "wRmax", "df/d96/structtagJOYCAPSA.html#a33c94046230b66ef5b322548c74d9bf1", null ],
+    [ "wRmin", "df/d96/structtagJOYCAPSA.html#a76942837cc5abdb853368df02c06b476", null ],
+    [ "wUmax", "df/d96/structtagJOYCAPSA.html#a49f8ff872909ddb4d636e756cb78afbe", null ],
+    [ "wUmin", "df/d96/structtagJOYCAPSA.html#a3c910e700e370b10e641f6a15ce5e1c3", null ],
+    [ "wVmax", "df/d96/structtagJOYCAPSA.html#aac87496b8d96571a527261af0a176117", null ],
+    [ "wVmin", "df/d96/structtagJOYCAPSA.html#aa6562e7eaafb35763e705618928c9a7b", null ],
+    [ "wXmax", "df/d96/structtagJOYCAPSA.html#aa9d2f52fc80f4980fd52f571d6251f4b", null ],
+    [ "wXmin", "df/d96/structtagJOYCAPSA.html#a45342e9cd18696bb22295bf824a797c0", null ],
+    [ "wYmax", "df/d96/structtagJOYCAPSA.html#a77f91bdeaa5458c35faa0ee86448f260", null ],
+    [ "wYmin", "df/d96/structtagJOYCAPSA.html#a653d08636d229d68a15316b2a90d1da5", null ],
+    [ "wZmax", "df/d96/structtagJOYCAPSA.html#a360ad174d6516ab65d5c6aa35e0779c6", null ],
+    [ "wZmin", "df/d96/structtagJOYCAPSA.html#aea295935ff018585b17bf62e1e31bad0", null ]
+];

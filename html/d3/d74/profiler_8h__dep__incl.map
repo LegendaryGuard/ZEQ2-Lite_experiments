@@ -1,0 +1,13 @@
+<map id="Tools/MinGW/include/c++/4.6.1/profile/impl/profiler.h" name="Tools/MinGW/include/c++/4.6.1/profile/impl/profiler.h">
+<area shape="rect" id="node1" title="Interface of the profiling runtime library." alt="" coords="719,5,889,61"/>
+<area shape="rect" id="node2" href="$d3/d5a/base_8h.html" title="Sequential helper functions. This file is a GNU profile extension to the Standard C++ Library." alt="" coords="38,117,221,158"/>
+<area shape="rect" id="node4" href="$d5/db2/profiler__container__size_8h.html" title="Diagnostics for container sizes." alt="" coords="338,109,523,165"/>
+<area shape="rect" id="node5" href="$d6/d80/profiler__hashtable__size_8h.html" title="Collection of hashtable size traces." alt="" coords="211,213,399,269"/>
+<area shape="rect" id="node6" href="$d4/d44/profiler__vector__size_8h.html" title="Collection of vector size traces." alt="" coords="489,213,658,269"/>
+<area shape="rect" id="node7" href="$d1/de0/profiler__hash__func_8h.html" title="Data structures to represent profiling traces." alt="" coords="623,109,793,165"/>
+<area shape="rect" id="node8" href="$df/d75/profiler__list__to__slist_8h.html" title="Diagnostics for list to slist." alt="" coords="817,109,986,165"/>
+<area shape="rect" id="node9" href="$d7/dab/profiler__list__to__vector_8h.html" title="diagnostics for list to vector." alt="" coords="1011,109,1189,165"/>
+<area shape="rect" id="node10" href="$d7/d82/profiler__map__to__unordered__map_8h.html" title="Diagnostics for map to unordered_map." alt="" coords="1214,109,1463,165"/>
+<area shape="rect" id="node11" href="$d5/d8a/profiler__vector__to__list_8h.html" title="diagnostics for vector to list." alt="" coords="1488,109,1667,165"/>
+<area shape="rect" id="node3" href="$db/d26/profile_2map_8h.html" title=" " alt="" coords="5,221,187,262"/>
+</map>

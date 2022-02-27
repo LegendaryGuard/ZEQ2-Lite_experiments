@@ -1,0 +1,25 @@
+<map id="Tools/MinGW/include/c++/4.6.1/profile/impl/profiler_trace.h" name="Tools/MinGW/include/c++/4.6.1/profile/impl/profiler_trace.h">
+<area shape="rect" id="node1" title="Data structures to represent profiling traces." alt="" coords="928,5,1097,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="1123,199,1185,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="532,117,595,143"/>
+<area shape="rect" id="node4" title=" " alt="" coords="619,117,684,143"/>
+<area shape="rect" id="node5" title=" " alt="" coords="709,117,855,143"/>
+<area shape="rect" id="node6" href="$d6/dd4/concurrence_8h.html" title=" " alt="" coords="369,117,507,143"/>
+<area shape="rect" id="node17" title=" " alt="" coords="931,117,1004,143"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1029,117,1087,143"/>
+<area shape="rect" id="node19" title=" " alt="" coords="1112,117,1172,143"/>
+<area shape="rect" id="node20" title=" " alt="" coords="1355,199,1417,225"/>
+<area shape="rect" id="node21" href="$d0/daf/profiler__algos_8h.html" title="Algorithms used by the profile extension." alt="" coords="1367,109,1514,151"/>
+<area shape="rect" id="node22" href="$d7/d7c/profiler__state_8h.html" title="Global profiler state." alt="" coords="1538,109,1685,151"/>
+<area shape="rect" id="node23" href="$da/d97/profiler__node_8h.html" title="Data structures to represent a single profiling event." alt="" coords="1197,109,1343,151"/>
+<area shape="rect" id="node7" title=" " alt="" coords="579,199,665,225"/>
+<area shape="rect" id="node8" href="$d7/d2b/gthr_8h.html" title=" " alt="" coords="68,199,155,225"/>
+<area shape="rect" id="node10" href="$d8/dda/functexcept_8h.html" title=" " alt="" coords="210,199,349,225"/>
+<area shape="rect" id="node15" href="$da/db4/cpp__type__traits_8h.html" title=" " alt="" coords="467,273,630,300"/>
+<area shape="rect" id="node16" href="$df/d63/type__traits_8h.html" title=" " alt="" coords="373,199,503,225"/>
+<area shape="rect" id="node9" href="$d6/d85/gthr-single_8h.html" title=" " alt="" coords="5,273,137,300"/>
+<area shape="rect" id="node11" href="$d1/db9/c_09_09config_8h.html" title=" " alt="" coords="365,348,495,375"/>
+<area shape="rect" id="node14" href="$de/d22/exception__defines_8h.html" title=" " alt="" coords="161,273,341,300"/>
+<area shape="rect" id="node12" href="$d5/d0b/os__defines_8h.html" title=" " alt="" coords="286,423,417,449"/>
+<area shape="rect" id="node13" href="$d0/d75/cpu__defines_8h.html" title=" " alt="" coords="441,423,579,449"/>
+</map>

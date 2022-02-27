@@ -1,0 +1,26 @@
+var struct__JOB__INFO__2A =
+[
+    [ "JobId", "da/d71/struct__JOB__INFO__2A.html#a23a1027bbf4109b7f37f856c50e9c290", null ],
+    [ "PagesPrinted", "da/d71/struct__JOB__INFO__2A.html#a37cad190602563fc04755e148951ad87", null ],
+    [ "pDatatype", "da/d71/struct__JOB__INFO__2A.html#aa27272ba6f875a8b8fdee7d20d4cc98f", null ],
+    [ "pDevMode", "da/d71/struct__JOB__INFO__2A.html#ad071bba414beed8a451c250771165451", null ],
+    [ "pDocument", "da/d71/struct__JOB__INFO__2A.html#a2ab886e6dfd4ed03593f8ab98acd5a00", null ],
+    [ "pDriverName", "da/d71/struct__JOB__INFO__2A.html#a6a671917d60d02ea7939624d5f75ac51", null ],
+    [ "pMachineName", "da/d71/struct__JOB__INFO__2A.html#af2c14e7997b01bb1aa29501d253caed2", null ],
+    [ "pNotifyName", "da/d71/struct__JOB__INFO__2A.html#a33e9b9a2d0e2a346261077d5f1c5e403", null ],
+    [ "Position", "da/d71/struct__JOB__INFO__2A.html#a5fab38b5d264ac00e2bc858193df8945", null ],
+    [ "pParameters", "da/d71/struct__JOB__INFO__2A.html#a80103ab2fba1f14e4d430d3ccff435bf", null ],
+    [ "pPrinterName", "da/d71/struct__JOB__INFO__2A.html#a31edcd9f8a4f9710b5d1fde44776e25d", null ],
+    [ "pPrintProcessor", "da/d71/struct__JOB__INFO__2A.html#a46502c459cca4392f5646a4590f78a62", null ],
+    [ "Priority", "da/d71/struct__JOB__INFO__2A.html#a42c8e3426116baad1487b20f4f7f6f1c", null ],
+    [ "pSecurityDescriptor", "da/d71/struct__JOB__INFO__2A.html#ace5d27d6a225e6277a99bec2e08b7be2", null ],
+    [ "pStatus", "da/d71/struct__JOB__INFO__2A.html#ae2d89957175efaecfc35e18cdd0aaab4", null ],
+    [ "pUserName", "da/d71/struct__JOB__INFO__2A.html#a94e64996659b141e8322a639d1e3ceb8", null ],
+    [ "Size", "da/d71/struct__JOB__INFO__2A.html#adf32862a22dfada4fd8048b5431fa1aa", null ],
+    [ "StartTime", "da/d71/struct__JOB__INFO__2A.html#a44d574d2d5348a86e45ddd45bce3931f", null ],
+    [ "Status", "da/d71/struct__JOB__INFO__2A.html#a6b578ce6e7ef0f40e05a2cf6611edb63", null ],
+    [ "Submitted", "da/d71/struct__JOB__INFO__2A.html#a5486135265c14f0c7879bc9ab9770592", null ],
+    [ "Time", "da/d71/struct__JOB__INFO__2A.html#ad58d1a5e2679b57a072f0c215d9ecff9", null ],
+    [ "TotalPages", "da/d71/struct__JOB__INFO__2A.html#a9edfca69211af5a2080633979a9b4054", null ],
+    [ "UntilTime", "da/d71/struct__JOB__INFO__2A.html#a752d8d1778b94d4968d544b9423b1cf6", null ]
+];

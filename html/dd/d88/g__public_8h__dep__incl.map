@@ -1,0 +1,40 @@
+<map id="Game/Game/g_public.h" name="Game/Game/g_public.h">
+<area shape="rect" id="node1" title=" " alt="" coords="2337,5,2512,32"/>
+<area shape="rect" id="node2" href="$d8/dc3/server_8h.html" title=" " alt="" coords="840,80,1007,107"/>
+<area shape="rect" id="node11" href="$d3/ddf/g__local_8h.html" title=" " alt="" coords="3844,80,4011,107"/>
+<area shape="rect" id="node3" href="$d6/df0/sv__ccmds_8c.html" title=" " alt="" coords="5,162,196,189"/>
+<area shape="rect" id="node4" href="$db/d01/sv__client_8c.html" title=" " alt="" coords="221,162,405,189"/>
+<area shape="rect" id="node5" href="$d7/d3c/sv__game_8c.html" title=" " alt="" coords="429,162,615,189"/>
+<area shape="rect" id="node6" href="$d5/d49/sv__init_8c.html" title=" " alt="" coords="639,162,808,189"/>
+<area shape="rect" id="node7" href="$da/d74/sv__main_8c.html" title=" " alt="" coords="833,162,1014,189"/>
+<area shape="rect" id="node8" href="$df/d6f/sv__net__chan_8c.html" title=" " alt="" coords="1039,155,1197,196"/>
+<area shape="rect" id="node9" href="$d3/da3/sv__snapshot_8c.html" title=" " alt="" coords="1221,162,1428,189"/>
+<area shape="rect" id="node10" href="$d0/d1b/sv__world_8c.html" title=" " alt="" coords="1453,162,1637,189"/>
+<area shape="rect" id="node12" href="$d8/dfa/g__active_8c.html" title=" " alt="" coords="1661,162,1836,189"/>
+<area shape="rect" id="node13" href="$de/d49/g__arenas_8c.html" title=" " alt="" coords="1861,162,2039,189"/>
+<area shape="rect" id="node14" href="$d4/d38/g__client_8c.html" title=" " alt="" coords="2063,162,2234,189"/>
+<area shape="rect" id="node15" href="$d4/dae/g__cmds_8c.html" title=" " alt="" coords="2259,162,2428,189"/>
+<area shape="rect" id="node16" href="$d5/df5/g__combat_8c.html" title=" " alt="" coords="2452,162,2635,189"/>
+<area shape="rect" id="node17" href="$df/dd3/g__main_8c.html" title=" " alt="" coords="2659,162,2825,189"/>
+<area shape="rect" id="node18" href="$d7/d15/g__mem_8c.html" title=" " alt="" coords="2850,162,3018,189"/>
+<area shape="rect" id="node19" href="$d1/d6b/g__misc_8c.html" title=" " alt="" coords="3042,162,3207,189"/>
+<area shape="rect" id="node20" href="$d7/dd7/g__mover_8c.html" title=" " alt="" coords="3232,162,3407,189"/>
+<area shape="rect" id="node21" href="$df/d32/g__radar_8c.html" title=" " alt="" coords="3431,162,3597,189"/>
+<area shape="rect" id="node22" href="$d7/de7/g__rankings_8c.html" title=" " alt="" coords="3621,162,3812,189"/>
+<area shape="rect" id="node23" href="$da/d36/g__session_8c.html" title=" " alt="" coords="3836,162,4019,189"/>
+<area shape="rect" id="node24" href="$d7/d90/g__spawn_8c.html" title=" " alt="" coords="4043,162,4219,189"/>
+<area shape="rect" id="node25" href="$d1/d4b/g__svcmds_8c.html" title=" " alt="" coords="4243,162,4427,189"/>
+<area shape="rect" id="node26" href="$de/df7/g__syscalls_8c.html" title=" " alt="" coords="4451,162,4638,189"/>
+<area shape="rect" id="node27" href="$d5/d4b/g__target_8c.html" title=" " alt="" coords="4662,162,4835,189"/>
+<area shape="rect" id="node28" href="$d7/daf/g__team_8c.html" title=" " alt="" coords="4859,162,5027,189"/>
+<area shape="rect" id="node29" href="$d1/d96/g__tiers_8c.html" title=" " alt="" coords="5051,162,5214,189"/>
+<area shape="rect" id="node30" href="$de/d4b/g__trigger_8c.html" title=" " alt="" coords="5238,162,5414,189"/>
+<area shape="rect" id="node31" href="$d4/de7/g__usermissile_8c.html" title=" " alt="" coords="5439,162,5648,189"/>
+<area shape="rect" id="node32" href="$d3/d80/g__userweapons_8c.html" title=" " alt="" coords="5672,162,5892,189"/>
+<area shape="rect" id="node33" href="$d2/da2/g__utils_8c.html" title=" " alt="" coords="5917,162,6079,189"/>
+<area shape="rect" id="node34" href="$d6/ddb/g__weapon_8c.html" title=" " alt="" coords="6104,162,6289,189"/>
+<area shape="rect" id="node35" href="$d4/d0d/g__weapPhysParser_8h.html" title=" " alt="" coords="6314,162,6554,189"/>
+<area shape="rect" id="node36" href="$d1/dc1/g__weapPhysAttributes_8c.html" title=" " alt="" coords="6026,244,6290,271"/>
+<area shape="rect" id="node37" href="$d3/d5c/g__weapPhysParser_8c.html" title=" " alt="" coords="6315,244,6553,271"/>
+<area shape="rect" id="node38" href="$d7/d09/g__weapPhysScanner_8c.html" title=" " alt="" coords="6578,244,6829,271"/>
+</map>

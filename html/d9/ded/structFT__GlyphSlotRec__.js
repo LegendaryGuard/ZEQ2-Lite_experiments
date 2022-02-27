@@ -1,0 +1,25 @@
+var structFT__GlyphSlotRec__ =
+[
+    [ "advance", "d9/ded/structFT__GlyphSlotRec__.html#a3b4ea951554b36f107a920bf41087d62", null ],
+    [ "bitmap", "d9/ded/structFT__GlyphSlotRec__.html#a93e259a5e67cffdb0c077053d766f888", null ],
+    [ "bitmap_left", "d9/ded/structFT__GlyphSlotRec__.html#a944aa557905acc85d280ab4182ab41d3", null ],
+    [ "bitmap_top", "d9/ded/structFT__GlyphSlotRec__.html#a3263f644b1bd36dd204cfc1986794778", null ],
+    [ "control_data", "d9/ded/structFT__GlyphSlotRec__.html#ab3637c50260c19d34fc15447543a3c62", null ],
+    [ "control_len", "d9/ded/structFT__GlyphSlotRec__.html#ac2a8d7b071da01a9dec5ccb1a0ea3d8f", null ],
+    [ "face", "d9/ded/structFT__GlyphSlotRec__.html#a0acf7e955cb757b67c3e061e4cbed3dd", null ],
+    [ "format", "d9/ded/structFT__GlyphSlotRec__.html#a95d95bc97a526be2d61afdb92a5863b8", null ],
+    [ "generic", "d9/ded/structFT__GlyphSlotRec__.html#ab86a9626b141e9919e03583bd5c86582", null ],
+    [ "internal", "d9/ded/structFT__GlyphSlotRec__.html#ad54ed2d81372a79c455ac8cf6d13bc3e", null ],
+    [ "library", "d9/ded/structFT__GlyphSlotRec__.html#a8aeeb279133166c5c90edb4bde10211e", null ],
+    [ "linearHoriAdvance", "d9/ded/structFT__GlyphSlotRec__.html#a43cdaad03e814988100b00b8469fe1de", null ],
+    [ "linearVertAdvance", "d9/ded/structFT__GlyphSlotRec__.html#ae5406e064aec3b1c2fcef4286cd1d4e8", null ],
+    [ "lsb_delta", "d9/ded/structFT__GlyphSlotRec__.html#a5f6c328a1f145527ca518341415a7e6a", null ],
+    [ "metrics", "d9/ded/structFT__GlyphSlotRec__.html#aac21b1186c02b8c93d481a19fac1d1da", null ],
+    [ "next", "d9/ded/structFT__GlyphSlotRec__.html#a5f748d0f3649b295505ba585d43947cf", null ],
+    [ "num_subglyphs", "d9/ded/structFT__GlyphSlotRec__.html#ad2711fa944b685febb76f1d34b193e11", null ],
+    [ "other", "d9/ded/structFT__GlyphSlotRec__.html#a905e9d5e20e454b5dd04d2a73f4bca28", null ],
+    [ "outline", "d9/ded/structFT__GlyphSlotRec__.html#a39c6f3338161f969469dcae9515229d2", null ],
+    [ "reserved", "d9/ded/structFT__GlyphSlotRec__.html#a2301432d75e4eda665a9767052bb8bb2", null ],
+    [ "rsb_delta", "d9/ded/structFT__GlyphSlotRec__.html#a526b485416371cd4573e1c151e872c4d", null ],
+    [ "subglyphs", "d9/ded/structFT__GlyphSlotRec__.html#a0820b20fa12d636d2f55733d23af642a", null ]
+];

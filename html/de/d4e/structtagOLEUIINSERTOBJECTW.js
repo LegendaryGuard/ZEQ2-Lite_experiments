@@ -1,0 +1,25 @@
+var structtagOLEUIINSERTOBJECTW =
+[
+    [ "cbStruct", "de/d4e/structtagOLEUIINSERTOBJECTW.html#ada90e577d54869bd21b7b1640edccc59", null ],
+    [ "cchFile", "de/d4e/structtagOLEUIINSERTOBJECTW.html#ab3eba848bd5717f2e02386d885c63c20", null ],
+    [ "cClsidExclude", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a670c360f26a9c1c20b8ef04f2973c441", null ],
+    [ "clsid", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a8c760ad748ca3e31208c5dfbbbf8a29c", null ],
+    [ "dwFlags", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a43b25e9949bb71bbe07604ab6bd82f86", null ],
+    [ "hInstance", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a1ade99e37ac275ef0534d211be5f1774", null ],
+    [ "hMetaPict", "de/d4e/structtagOLEUIINSERTOBJECTW.html#ad9d8911d48ebf1e9651aaacdae43de5e", null ],
+    [ "hResource", "de/d4e/structtagOLEUIINSERTOBJECTW.html#ab8440276b1144d215c33151d2f5654d1", null ],
+    [ "hWndOwner", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a05138beba6501565817693601a1e391a", null ],
+    [ "iid", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a4cf1e3e550615de3de7ae8405bba3934", null ],
+    [ "lCustData", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a23f528bac90319ada64f0ffa7d762508", null ],
+    [ "lpClsidExclude", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a475a083f4a0bf73d89027760704dc067", null ],
+    [ "lpfnHook", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a35c6f52b56c559c2c8ea415185b7e5ae", null ],
+    [ "lpFormatEtc", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a4da37ec4774da9ee520d7df2c872e9c8", null ],
+    [ "lpIOleClientSite", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a3374802dbe86186f83f12b1aa2b9589e", null ],
+    [ "lpIStorage", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a99b0983f345b175ed2252bbee5121632", null ],
+    [ "lpszCaption", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a627d6e8c0c868d174c33b78290685824", null ],
+    [ "lpszFile", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a8a6dfce3d4e88665ccf51f30289d2ab2", null ],
+    [ "lpszTemplate", "de/d4e/structtagOLEUIINSERTOBJECTW.html#aca36ac5a935dfd5886a7074f01134f5b", null ],
+    [ "oleRender", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a1a6613ef7c8af7d473c8e1efa14d3258", null ],
+    [ "ppvObj", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a86a97f326291e9ed8599ea0f4f004b33", null ],
+    [ "sc", "de/d4e/structtagOLEUIINSERTOBJECTW.html#a2b87ad433a9a1933be5fba83cb94d054", null ]
+];
