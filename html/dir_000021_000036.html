@@ -14,8 +14,8 @@
 <script type="text/javascript" src="navtreedata.js"></script>
 <script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<link rel="search" href="search_opensearch.php?v=opensearch.xml" type="application/opensearchdescription+xml" title="ZEQ2-Lite"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -46,11 +46,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
 $(function() {
-  initMenu('',true,true,'search.php','Search');
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(function() {
-    if ($('.searchresults').length > 0) { searchBox.DOMSearchField().focus(); }
-  });
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
@@ -71,6 +68,20 @@ $(document).ready(function(){initNavTree('dir_77355a8928adc639dcd522ba23456c72.h
 /* @license-end */
 </script>
 <div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
 <div class="contents">
 <h3>sdl &rarr; Shared Relation</h3><table class="dirtab"><tr class="dirtab"><th class="dirtab">File in Engine/sdl</th><th class="dirtab">Includes file in Shared</th></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="d7/dbb/sdl__gamma_8c.html">sdl_gamma.c</a></td><td class="dirtab"><a class="el" href="d1/df7/qcommon_8h.html">qcommon.h</a></td></tr><tr class="dirtab"><td class="dirtab"><a class="el" href="d0/d47/sdl__snd_8c.html">sdl_snd.c</a></td><td class="dirtab"><a class="el" href="de/d01/q__shared_8h.html">q_shared.h</a></td></tr></table></div><!-- contents -->
 </div><!-- doc-content -->
@@ -78,7 +89,7 @@ $(document).ready(function(){initNavTree('dir_77355a8928adc639dcd522ba23456c72.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_0b6ee6e7e9547e675db4add2e5de97da.html">Engine</a></li><li class="navelem"><a class="el" href="dir_77355a8928adc639dcd522ba23456c72.html">sdl</a></li>
-    <li class="footer">Generated on Sun Feb 27 2022 19:28:42 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:36:41 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
