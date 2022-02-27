@@ -1,5 +1,0 @@
-var struct____gnu__pbds_1_1detail_1_1entry__pred_3_01Value__Type_00_01Pred_00_01false_00_01Allocator_01_4 =
-[
-    [ "type", "d6/d1f/struct____gnu__pbds_1_1detail_1_1entry__pred_3_01Value__Type_00_01Pred_00_01false_00_01Allocator_01_4_1_1type.html", "d6/d1f/struct____gnu__pbds_1_1detail_1_1entry__pred_3_01Value__Type_00_01Pred_00_01false_00_01Allocator_01_4_1_1type" ],
-    [ "entry", "d5/dd8/struct____gnu__pbds_1_1detail_1_1entry__pred_3_01Value__Type_00_01Pred_00_01false_00_01Allocator_01_4.html#a0a15d1b85b1da24cd196f183ae7c1d90", null ]
-];

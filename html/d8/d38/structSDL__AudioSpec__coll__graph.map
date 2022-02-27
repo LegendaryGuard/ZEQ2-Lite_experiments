@@ -1,9 +1,9 @@
 <map id="SDL_AudioSpec" name="SDL_AudioSpec">
-<area shape="rect" id="node1" title="When filling in the desired audio spec structure,." alt="" coords="225,124,348,151"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="85,5,153,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="177,5,295,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="319,5,358,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="383,5,449,32"/>
-<area shape="rect" id="node7" href="$d2/d5f/classunsigned_01int.html" title=" " alt="" coords="474,5,577,32"/>
+<area shape="rect" id="node1" title="When filling in the desired audio spec structure,." alt="" coords="213,124,336,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="105,5,173,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="197,5,272,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="297,5,335,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="360,5,427,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="451,5,512,32"/>
 </map>

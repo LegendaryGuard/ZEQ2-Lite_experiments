@@ -53,8 +53,8 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/dc3/classfloat.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="0,-213.5 0,-232.5 38,-232.5 38,-213.5 0,-213.5"/>
+<g id="a_node4"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="0,-213.5 0,-232.5 38,-232.5 38,-213.5 0,-213.5"/>
 <text text-anchor="middle" x="19" y="-220.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </a>
 </g>
@@ -321,16 +321,16 @@
 <g id="node16" class="node">
 <title>Node16</title>
 <g id="a_node16"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="399.5,-38.5 399.5,-57.5 457.5,-57.5 457.5,-38.5 399.5,-38.5"/>
-<text text-anchor="middle" x="428.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">cplane_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="395.5,-38.5 395.5,-57.5 461.5,-57.5 461.5,-38.5 395.5,-38.5"/>
+<text text-anchor="middle" x="428.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">cplane_t *</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node1 -->
 <g id="edge23" class="edge">
 <title>Node16&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M467.86,-41.46C498.11,-38.66 539.21,-40.51 564,-65 608.2,-108.66 608.24,-320.08 607.66,-368.23"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="467.2,-38.01 457.65,-42.61 467.98,-44.96 467.2,-38.01"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M471.75,-41.13C501.56,-38.86 540.26,-41.55 564,-65 608.2,-108.66 608.24,-320.08 607.66,-368.23"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="471.23,-37.66 461.62,-42.11 471.91,-44.63 471.23,-37.66"/>
 <text text-anchor="middle" x="529" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00"> planes</text>
 </g>
 </g>

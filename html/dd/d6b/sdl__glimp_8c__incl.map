@@ -1,36 +1,64 @@
 <map id="Engine/sdl/sdl_glimp.c" name="Engine/sdl/sdl_glimp.c">
-<area shape="rect" id="node1" title=" " alt="" coords="219,5,386,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="55,80,113,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,244,80,271"/>
-<area shape="rect" id="node4" title=" " alt="" coords="104,244,171,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="195,244,266,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="290,244,358,271"/>
-<area shape="rect" id="node7" href="$d2/df2/tr__local_8h.html" title=" " alt="" coords="513,80,666,107"/>
-<area shape="rect" id="node26" href="$d8/de1/client_8h.html" title=" " alt="" coords="1119,80,1241,107"/>
-<area shape="rect" id="node33" href="$dd/dd9/sys__local_8h.html" title=" " alt="" coords="690,80,822,107"/>
-<area shape="rect" id="node34" href="$d5/d37/sdl__icon_8h.html" title=" " alt="" coords="1266,80,1353,107"/>
-<area shape="rect" id="node8" href="$de/d01/q__shared_8h.html" title=" " alt="" coords="590,162,757,189"/>
-<area shape="rect" id="node18" href="$db/d01/qfiles_8h.html" title=" " alt="" coords="423,162,566,189"/>
-<area shape="rect" id="node19" href="$d1/df7/qcommon_8h.html" title=" " alt="" coords="859,162,1031,189"/>
-<area shape="rect" id="node21" href="$d3/d69/tr__public_8h.html" title=" " alt="" coords="1056,162,1147,189"/>
-<area shape="rect" id="node23" href="$d9/d11/qgl_8h.html" title=" " alt="" coords="781,162,835,189"/>
-<area shape="rect" id="node25" href="$d8/dcf/iqm_8h.html" title=" " alt="" coords="340,162,399,189"/>
-<area shape="rect" id="node9" href="$dc/da7/assert_8h.html" title=" " alt="" coords="383,244,457,271"/>
-<area shape="rect" id="node11" title=" " alt="" coords="482,244,553,271"/>
-<area shape="rect" id="node12" title=" " alt="" coords="577,244,641,271"/>
-<area shape="rect" id="node13" title=" " alt="" coords="666,244,737,271"/>
-<area shape="rect" id="node14" title=" " alt="" coords="761,244,831,271"/>
-<area shape="rect" id="node15" title=" " alt="" coords="855,244,926,271"/>
-<area shape="rect" id="node16" href="$d7/de2/q__platform_8h.html" title=" " alt="" coords="950,244,1055,271"/>
-<area shape="rect" id="node17" href="$d2/d56/surfaceflags_8h.html" title=" " alt="" coords="1079,244,1193,271"/>
-<area shape="rect" id="node10" href="$da/d3d/__mingw_8h.html" title=" " alt="" coords="378,319,462,345"/>
-<area shape="rect" id="node20" title=" " alt="" coords="1352,244,1525,271"/>
-<area shape="rect" id="node22" href="$d3/d66/tr__types_8h.html" title=" " alt="" coords="1550,244,1637,271"/>
-<area shape="rect" id="node24" title=" " alt="" coords="1217,244,1327,271"/>
-<area shape="rect" id="node27" href="$d0/d18/ui__public_8h.html" title=" " alt="" coords="1171,162,1349,189"/>
-<area shape="rect" id="node28" href="$d2/d01/keys_8h.html" title=" " alt="" coords="1373,162,1437,189"/>
-<area shape="rect" id="node30" href="$d0/d1e/snd__public_8h.html" title=" " alt="" coords="1462,162,1565,189"/>
-<area shape="rect" id="node31" href="$d2/d3d/cg__public_8h.html" title=" " alt="" coords="1589,155,1745,196"/>
-<area shape="rect" id="node32" href="$d6/daa/bg__public_8h.html" title=" " alt="" coords="1769,155,1917,196"/>
-<area shape="rect" id="node29" href="$dc/d0e/keycodes_8h.html" title=" " alt="" coords="1661,244,1755,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3381,5,3547,32"/>
+<area shape="rect" id="node2" href="$d4/db9/SDL_8h.html" title=" " alt="" coords="1335,80,1393,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="2923,767,2997,793"/>
+<area shape="rect" id="node30" title=" " alt="" coords="3133,244,3200,271"/>
+<area shape="rect" id="node31" title=" " alt="" coords="3225,244,3295,271"/>
+<area shape="rect" id="node32" title=" " alt="" coords="3430,244,3498,271"/>
+<area shape="rect" id="node33" href="$d2/df2/tr__local_8h.html" title=" " alt="" coords="3387,80,3541,107"/>
+<area shape="rect" id="node54" href="$d8/de1/client_8h.html" title=" " alt="" coords="3957,80,4080,107"/>
+<area shape="rect" id="node61" href="$dd/dd9/sys__local_8h.html" title=" " alt="" coords="3689,80,3821,107"/>
+<area shape="rect" id="node62" href="$d5/d37/sdl__icon_8h.html" title=" " alt="" coords="4105,80,4191,107"/>
+<area shape="rect" id="node3" href="$df/d54/SDL__main_8h.html" title=" " alt="" coords="1252,319,1351,345"/>
+<area shape="rect" id="node4" href="$d2/d5b/SDL__stdinc_8h.html" title=" " alt="" coords="1505,543,1610,569"/>
+<area shape="rect" id="node9" href="$d1/d90/begin__code_8h.html" title=" " alt="" coords="1645,617,1753,644"/>
+<area shape="rect" id="node10" href="$d0/d2e/close__code_8h.html" title=" " alt="" coords="408,617,515,644"/>
+<area shape="rect" id="node11" href="$dd/da1/SDL__audio_8h.html" title=" " alt="" coords="837,244,939,271"/>
+<area shape="rect" id="node12" href="$da/d16/SDL__error_8h.html" title=" " alt="" coords="1736,468,1832,495"/>
+<area shape="rect" id="node13" href="$d6/de1/SDL__endian_8h.html" title=" " alt="" coords="739,468,850,495"/>
+<area shape="rect" id="node14" href="$df/dd9/SDL__mutex_8h.html" title=" " alt="" coords="691,393,799,420"/>
+<area shape="rect" id="node15" href="$dd/d1d/SDL__thread_8h.html" title=" " alt="" coords="691,319,799,345"/>
+<area shape="rect" id="node16" href="$dd/df5/SDL__rwops_8h.html" title=" " alt="" coords="1027,393,1133,420"/>
+<area shape="rect" id="node17" href="$d5/dcf/SDL__cdrom_8h.html" title=" " alt="" coords="1157,393,1264,420"/>
+<area shape="rect" id="node18" href="$d2/d62/SDL__cpuinfo_8h.html" title=" " alt="" coords="600,468,715,495"/>
+<area shape="rect" id="node19" href="$da/d39/SDL__events_8h.html" title=" " alt="" coords="2174,162,2285,189"/>
+<area shape="rect" id="node24" href="$d3/d91/SDL__video_8h.html" title=" " alt="" coords="1497,319,1599,345"/>
+<area shape="rect" id="node27" href="$d3/d6a/SDL__loadso_8h.html" title=" " alt="" coords="1565,393,1675,420"/>
+<area shape="rect" id="node28" href="$d6/d3c/SDL__timer_8h.html" title=" " alt="" coords="1339,393,1439,420"/>
+<area shape="rect" id="node29" href="$d3/de3/SDL__version_8h.html" title=" " alt="" coords="2504,468,2619,495"/>
+<area shape="rect" id="node5" href="$d3/dfb/SDL__config_8h.html" title=" " alt="" coords="2725,617,2830,644"/>
+<area shape="rect" id="node6" href="$d3/df1/SDL__platform_8h.html" title=" " alt="" coords="2716,767,2839,793"/>
+<area shape="rect" id="node7" href="$da/d7f/SDL__config__minimal_8h.html" title=" " alt="" coords="2755,692,2922,719"/>
+<area shape="rect" id="node20" href="$db/d27/SDL__active_8h.html" title=" " alt="" coords="2117,393,2224,420"/>
+<area shape="rect" id="node21" href="$d6/d9d/SDL__keyboard_8h.html" title=" " alt="" coords="2441,393,2567,420"/>
+<area shape="rect" id="node23" href="$d9/dc7/SDL__mouse_8h.html" title=" " alt="" coords="1979,244,2090,271"/>
+<area shape="rect" id="node25" href="$d6/d85/SDL__joystick_8h.html" title=" " alt="" coords="2299,393,2416,420"/>
+<area shape="rect" id="node26" href="$d9/d17/SDL__quit_8h.html" title=" " alt="" coords="2003,393,2093,420"/>
+<area shape="rect" id="node22" href="$d2/dea/SDL__keysym_8h.html" title=" " alt="" coords="2312,468,2429,495"/>
+<area shape="rect" id="node34" href="$de/d01/q__shared_8h.html" title=" " alt="" coords="3671,162,3838,189"/>
+<area shape="rect" id="node43" href="$db/d01/qfiles_8h.html" title=" " alt="" coords="3338,162,3481,189"/>
+<area shape="rect" id="node44" href="$d1/df7/qcommon_8h.html" title=" " alt="" coords="3862,162,4034,189"/>
+<area shape="rect" id="node46" href="$d3/d69/tr__public_8h.html" title=" " alt="" coords="3505,162,3596,189"/>
+<area shape="rect" id="node48" href="$d9/d11/qgl_8h.html" title=" " alt="" coords="3050,162,3105,189"/>
+<area shape="rect" id="node53" href="$d8/dcf/iqm_8h.html" title=" " alt="" coords="3255,162,3313,189"/>
+<area shape="rect" id="node35" title=" " alt="" coords="3840,244,3915,271"/>
+<area shape="rect" id="node36" title=" " alt="" coords="3939,244,4010,271"/>
+<area shape="rect" id="node37" title=" " alt="" coords="4035,244,4099,271"/>
+<area shape="rect" id="node38" title=" " alt="" coords="4123,244,4194,271"/>
+<area shape="rect" id="node39" title=" " alt="" coords="4218,244,4289,271"/>
+<area shape="rect" id="node40" title=" " alt="" coords="4313,244,4383,271"/>
+<area shape="rect" id="node41" href="$d7/de2/q__platform_8h.html" title=" " alt="" coords="3522,244,3627,271"/>
+<area shape="rect" id="node42" href="$d2/d56/surfaceflags_8h.html" title=" " alt="" coords="3651,244,3765,271"/>
+<area shape="rect" id="node45" title=" " alt="" coords="4408,244,4581,271"/>
+<area shape="rect" id="node47" href="$d3/d66/tr__types_8h.html" title=" " alt="" coords="3319,244,3406,271"/>
+<area shape="rect" id="node49" href="$d7/d69/SDL__opengl_8h.html" title=" " alt="" coords="2998,244,3109,271"/>
+<area shape="rect" id="node50" title=" " alt="" coords="3096,319,3163,345"/>
+<area shape="rect" id="node51" title=" " alt="" coords="3187,319,3261,345"/>
+<area shape="rect" id="node52" title=" " alt="" coords="2997,319,3072,345"/>
+<area shape="rect" id="node55" href="$d0/d18/ui__public_8h.html" title=" " alt="" coords="4626,162,4803,189"/>
+<area shape="rect" id="node56" href="$d2/d01/keys_8h.html" title=" " alt="" coords="4059,162,4123,189"/>
+<area shape="rect" id="node58" href="$d0/d1e/snd__public_8h.html" title=" " alt="" coords="4147,162,4250,189"/>
+<area shape="rect" id="node59" href="$d2/d3d/cg__public_8h.html" title=" " alt="" coords="4274,155,4430,196"/>
+<area shape="rect" id="node60" href="$d6/daa/bg__public_8h.html" title=" " alt="" coords="4454,155,4602,196"/>
+<area shape="rect" id="node57" href="$dc/d0e/keycodes_8h.html" title=" " alt="" coords="4606,244,4701,271"/>
 </map>

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 975;
+var viewWidth = 1044;
 var viewHeight = 340;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Structure representing the full state of the narrowband decoder.">
-<polygon fill="#bfbfbf" stroke="black" points="571.5,-0.5 571.5,-19.5 632.5,-19.5 632.5,-0.5 571.5,-0.5"/>
-<text text-anchor="middle" x="602" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DecState</text>
+<polygon fill="#bfbfbf" stroke="black" points="298.24,-0.5 298.24,-19.5 359.24,-19.5 359.24,-0.5 298.24,-0.5"/>
+<text text-anchor="middle" x="328.74" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">DecState</text>
 </a>
 </g>
 </g>
@@ -67,224 +67,254 @@ var sectionId = 'dynsection-0';
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="0,-312.5 0,-331.5 38,-331.5 38,-312.5 0,-312.5"/>
-<text text-anchor="middle" x="19" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">char</text>
+<polygon fill="none" stroke="#bfbfbf" points="189.74,-312.5 189.74,-331.5 227.74,-331.5 227.74,-312.5 189.74,-312.5"/>
+<text text-anchor="middle" x="208.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">char</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M14.66,-302.39C10.56,-281.12 6.35,-245.58 16,-217 40.86,-143.39 55.04,-117.4 122,-78 198.96,-32.71 478.26,-16.47 571.48,-12.23"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="11.28,-303.29 16.78,-312.35 18.12,-301.84 11.28,-303.29"/>
-<text text-anchor="middle" x="137" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00"> stack</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M179.42,-320.23C159.93,-318.01 135.63,-311.56 122.74,-294 64.48,-214.65 109.91,-154.6 171.74,-78 203.38,-38.8 262.23,-22.11 298.2,-15.33"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="179.4,-323.74 189.65,-321.08 179.98,-316.77 179.4,-323.74"/>
+<text text-anchor="middle" x="186.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00"> stack</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="../../da/dcd/structSpeexMode.html" target="_top" xlink:title="Struct defining a Speex mode.">
-<polygon fill="none" stroke="black" points="161,-129 161,-148 235,-148 235,-129 161,-129"/>
-<text text-anchor="middle" x="198" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexMode</text>
+<polygon fill="none" stroke="black" points="551.74,-129 551.74,-148 625.74,-148 625.74,-129 551.74,-129"/>
+<text text-anchor="middle" x="588.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexMode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M18.7,-302.18C19.31,-279.63 23.48,-241.8 43,-217 72.78,-179.18 125.88,-158.36 161.52,-148.07"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="15.2,-302.41 18.65,-312.43 22.2,-302.45 15.2,-302.41"/>
-<text text-anchor="middle" x="73.5" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00"> modeName</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M238.11,-316.37C248.41,-314.84 260.07,-313.23 270.74,-312 294.22,-309.3 464.76,-309.35 482.74,-294 509.54,-271.11 483.54,-247.19 501.74,-217 520.32,-186.16 555.12,-160.74 574.6,-148.11"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="237.33,-312.95 227.97,-317.91 238.38,-319.87 237.33,-312.95"/>
+<text text-anchor="middle" x="532.24" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00"> modeName</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dc3/classfloat.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="766,-312.5 766,-331.5 804,-331.5 804,-312.5 766,-312.5"/>
-<text text-anchor="middle" x="785" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
+<g id="a_node3"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="67.74,-312.5 67.74,-331.5 105.74,-331.5 105.74,-312.5 67.74,-312.5"/>
+<text text-anchor="middle" x="86.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M803.38,-304.89C806.08,-301.58 808.47,-297.9 810,-294 824.54,-256.91 807.95,-89.51 799,-78 758.97,-26.53 677.45,-14.33 632.85,-11.61"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="800.69,-302.64 796.3,-312.28 805.75,-307.48 800.69,-302.64"/>
-<text text-anchor="middle" x="851.5" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00"> pitch_gain_buf</text>
-<text text-anchor="middle" x="851.5" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00">mem_hp</text>
-<text text-anchor="middle" x="851.5" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">excBuf</text>
-<text text-anchor="middle" x="851.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">last_pitch_gain</text>
-<text text-anchor="middle" x="851.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">max_level</text>
-<text text-anchor="middle" x="851.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">last_ol_gain</text>
-<text text-anchor="middle" x="851.5" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">mem_sp</text>
-<text text-anchor="middle" x="851.5" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">interp_qlpc</text>
-<text text-anchor="middle" x="851.5" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">innov_save</text>
-<text text-anchor="middle" x="851.5" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">exc</text>
-<text text-anchor="middle" x="851.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M73.39,-304.54C40.85,-262.32 -35.93,-148.57 19.74,-78 54.11,-34.42 227.04,-17.88 298.14,-12.86"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="70.66,-306.73 79.6,-312.42 76.16,-302.4 70.66,-306.73"/>
+<text text-anchor="middle" x="57.24" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00"> pitch_gain_buf</text>
+<text text-anchor="middle" x="57.24" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00">mem_hp</text>
+<text text-anchor="middle" x="57.24" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">excBuf</text>
+<text text-anchor="middle" x="57.24" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">last_pitch_gain</text>
+<text text-anchor="middle" x="57.24" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">max_level</text>
+<text text-anchor="middle" x="57.24" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">last_ol_gain</text>
+<text text-anchor="middle" x="57.24" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">mem_sp</text>
+<text text-anchor="middle" x="57.24" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">interp_qlpc</text>
+<text text-anchor="middle" x="57.24" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">innov_save</text>
+<text text-anchor="middle" x="57.24" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">exc</text>
+<text text-anchor="middle" x="57.24" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="../../da/d07/structSpeexSubmode.html" target="_top" xlink:title="Description of a Speex sub&#45;mode (wither narrowband or wideband.">
-<polygon fill="none" stroke="black" points="556,-129 556,-148 648,-148 648,-129 556,-129"/>
-<text text-anchor="middle" x="602" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexSubmode</text>
+<polygon fill="none" stroke="black" points="280.74,-129 280.74,-148 372.74,-148 372.74,-129 280.74,-129"/>
+<text text-anchor="middle" x="326.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexSubmode</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node6 -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M765.6,-305.74C761.3,-302.06 756.87,-298.02 753,-294 722.92,-262.73 723,-248.34 693,-217 666.74,-189.57 631.52,-161.75 613.57,-148.12"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="763.59,-308.63 773.54,-312.29 768.05,-303.23 763.59,-308.63"/>
-<text text-anchor="middle" x="781.5" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00"> comb_gain</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M92.41,-302.57C100.8,-278.64 118.96,-237.5 149.74,-217 194.62,-187.11 221.85,-223.8 269.74,-199 293.11,-186.9 312.33,-161.45 321.29,-148.1"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="89.03,-301.63 89.23,-312.22 95.68,-303.82 89.03,-301.63"/>
+<text text-anchor="middle" x="198.24" y="-280.5" font-family="Helvetica,sans-Serif" font-size="10.00"> lsp_unquant</text>
+<text text-anchor="middle" x="198.24" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">comb_gain</text>
+<text text-anchor="middle" x="198.24" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">ltp_unquant</text>
+<text text-anchor="middle" x="198.24" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">lsp_quant</text>
+<text text-anchor="middle" x="198.24" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_unquant</text>
+<text text-anchor="middle" x="198.24" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_quant</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="917,-129 917,-148 967,-148 967,-129 917,-129"/>
-<text text-anchor="middle" x="942" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">int32_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="210.74,-129 210.74,-148 260.74,-148 260.74,-129 210.74,-129"/>
+<text text-anchor="middle" x="235.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">int32_t</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M933.17,-119.89C926.21,-107.2 915.58,-90.23 903,-78 878.67,-54.36 870.06,-49.08 838,-38 767.45,-13.62 678.69,-10.22 632.73,-10.32"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="930.2,-121.75 937.94,-128.98 936.39,-118.5 930.2,-121.75"/>
-<text text-anchor="middle" x="917" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> seed</text>
-<text text-anchor="middle" x="917" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">sampling_rate</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M233.93,-118.86C232.86,-96.96 234.52,-60.71 253.74,-38 264.73,-25 282.47,-18.26 297.94,-14.77"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="230.44,-119.15 234.66,-128.87 237.42,-118.64 230.44,-119.15"/>
+<text text-anchor="middle" x="288.74" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> seed</text>
+<text text-anchor="middle" x="288.74" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">sampling_rate</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="533.5,-312.5 533.5,-331.5 562.5,-331.5 562.5,-312.5 533.5,-312.5"/>
-<text text-anchor="middle" x="548" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
+<polygon fill="none" stroke="#bfbfbf" points="766.24,-312.5 766.24,-331.5 795.24,-331.5 795.24,-312.5 766.24,-312.5"/>
+<text text-anchor="middle" x="780.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M573.17,-319.98C610.13,-317.89 676.32,-311.72 691,-294 728.44,-248.83 701.15,-91.76 660,-38 653.18,-29.09 642.72,-23.01 632.54,-18.91"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="572.53,-316.51 562.72,-320.5 572.88,-323.5 572.53,-316.51"/>
-<text text-anchor="middle" x="751" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00"> subframeSize</text>
-<text text-anchor="middle" x="751" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00">isWideband</text>
-<text text-anchor="middle" x="751" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">dtx_enabled</text>
-<text text-anchor="middle" x="751" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">count_lost</text>
-<text text-anchor="middle" x="751" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">voc_offset</text>
-<text text-anchor="middle" x="751" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">max_pitch</text>
-<text text-anchor="middle" x="751" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">highpass_enabled</text>
-<text text-anchor="middle" x="751" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">lpc_enh_enabled</text>
-<text text-anchor="middle" x="751" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">frameSize</text>
-<text text-anchor="middle" x="751" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">first</text>
-<text text-anchor="middle" x="751" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M803.99,-309.65C809.87,-305.58 815.44,-300.38 818.74,-294 834.43,-263.59 830.93,-248.98 818.74,-217 789.25,-139.64 766.92,-118.54 694.74,-78 583.22,-15.37 425.26,-9.54 359.41,-10.11"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="802.17,-306.66 795.4,-314.81 805.77,-312.66 802.17,-306.66"/>
+<text text-anchor="middle" x="854.74" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00"> subframeSize</text>
+<text text-anchor="middle" x="854.74" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00">isWideband</text>
+<text text-anchor="middle" x="854.74" y="-169" font-family="Helvetica,sans-Serif" font-size="10.00">dtx_enabled</text>
+<text text-anchor="middle" x="854.74" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">count_lost</text>
+<text text-anchor="middle" x="854.74" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00">voc_offset</text>
+<text text-anchor="middle" x="854.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">max_pitch</text>
+<text text-anchor="middle" x="854.74" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">highpass_enabled</text>
+<text text-anchor="middle" x="854.74" y="-114" font-family="Helvetica,sans-Serif" font-size="10.00">lpc_enh_enabled</text>
+<text text-anchor="middle" x="854.74" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">frameSize</text>
+<text text-anchor="middle" x="854.74" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00">first</text>
+<text text-anchor="middle" x="854.74" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">...</text>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge8" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M560.02,-303.73C561.87,-300.59 563.62,-297.27 565,-294 576.5,-266.67 594.78,-176.27 600.34,-148.02"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="556.91,-302.1 554.44,-312.4 562.8,-305.89 556.91,-302.1"/>
-<text text-anchor="middle" x="637.5" y="-280.5" font-family="Helvetica,sans-Serif" font-size="10.00"> lbr_pitch</text>
-<text text-anchor="middle" x="637.5" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">bits_per_frame</text>
-<text text-anchor="middle" x="637.5" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">ltp_quant</text>
-<text text-anchor="middle" x="637.5" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">forced_pitch_gain</text>
-<text text-anchor="middle" x="637.5" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">double_codebook</text>
-<text text-anchor="middle" x="637.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">have_subframe_gain</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M755.98,-317.89C739.96,-315.97 718.64,-313.57 699.74,-312 663.8,-309.01 403.49,-317.01 375.74,-294 348.6,-271.5 367.34,-250.62 356.74,-217 348.75,-191.68 336.74,-162.72 330.62,-148.43"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="755.78,-321.39 766.13,-319.13 756.62,-314.44 755.78,-321.39"/>
+<text text-anchor="middle" x="427.24" y="-280.5" font-family="Helvetica,sans-Serif" font-size="10.00"> lbr_pitch</text>
+<text text-anchor="middle" x="427.24" y="-269.5" font-family="Helvetica,sans-Serif" font-size="10.00">bits_per_frame</text>
+<text text-anchor="middle" x="427.24" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">ltp_quant</text>
+<text text-anchor="middle" x="427.24" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">forced_pitch_gain</text>
+<text text-anchor="middle" x="427.24" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">double_codebook</text>
+<text text-anchor="middle" x="427.24" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">have_subframe_gain</text>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M522.94,-320.07C459.59,-317.49 296.68,-309.42 278,-294 250.46,-271.26 270.93,-248.97 255,-217 241.44,-189.79 218.35,-162.1 206.14,-148.36"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="523.1,-323.58 533.23,-320.47 523.37,-316.58 523.1,-323.58"/>
-<text text-anchor="middle" x="322.5" y="-286" font-family="Helvetica,sans-Serif" font-size="10.00"> query</text>
-<text text-anchor="middle" x="322.5" y="-275" font-family="Helvetica,sans-Serif" font-size="10.00">enc_ctl</text>
-<text text-anchor="middle" x="322.5" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">enc</text>
-<text text-anchor="middle" x="322.5" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">bitstream_version</text>
-<text text-anchor="middle" x="322.5" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">dec_ctl</text>
-<text text-anchor="middle" x="322.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">dec</text>
-<text text-anchor="middle" x="322.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">modeID</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M756.38,-312.71C746.93,-308.42 736.72,-302.31 729.74,-294 706.59,-266.46 726.45,-245.69 704.74,-217 679.45,-183.59 635.36,-159.94 609.44,-148.12"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="755.21,-316.01 765.79,-316.53 757.84,-309.53 755.21,-316.01"/>
+<text text-anchor="middle" x="774.24" y="-286" font-family="Helvetica,sans-Serif" font-size="10.00"> query</text>
+<text text-anchor="middle" x="774.24" y="-275" font-family="Helvetica,sans-Serif" font-size="10.00">enc_ctl</text>
+<text text-anchor="middle" x="774.24" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">enc</text>
+<text text-anchor="middle" x="774.24" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">bitstream_version</text>
+<text text-anchor="middle" x="774.24" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">dec_ctl</text>
+<text text-anchor="middle" x="774.24" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">dec</text>
+<text text-anchor="middle" x="774.24" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">modeID</text>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node">
-<title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d9/d08/structSpeexCallback.html" target="_top" xlink:title="Callback information.">
-<polygon fill="none" stroke="black" points="448.5,-129 448.5,-148 537.5,-148 537.5,-129 448.5,-129"/>
-<text text-anchor="middle" x="493" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexCallback</text>
+<!-- Node10 -->
+<g id="node10" class="node">
+<title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d9/d08/structSpeexCallback.html" target="_top" xlink:title="Callback information.">
+<polygon fill="none" stroke="black" points="939.24,-129 939.24,-148 1028.24,-148 1028.24,-129 939.24,-129"/>
+<text text-anchor="middle" x="983.74" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00">SpeexCallback</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node9 -->
-<g id="edge15" class="edge">
-<title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M524.07,-310.75C517.11,-306.58 510.24,-301.05 506,-294 491.08,-269.21 492.05,-177.08 492.75,-148.21"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="522.9,-314.09 533.39,-315.61 526.14,-307.88 522.9,-314.09"/>
-<text text-anchor="middle" x="533.5" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00"> func</text>
-<text text-anchor="middle" x="533.5" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">reserved2</text>
-<text text-anchor="middle" x="533.5" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">callback_id</text>
+<!-- Node5&#45;&gt;Node10 -->
+<g id="edge16" class="edge">
+<title>Node5&#45;&gt;Node10</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M805.08,-314.02C818.17,-309.56 834.15,-302.93 846.74,-294 878.17,-271.71 953.44,-177.88 976.74,-148.4"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="803.79,-310.76 795.33,-317.13 805.92,-317.43 803.79,-310.76"/>
+<text text-anchor="middle" x="945.24" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00"> func</text>
+<text text-anchor="middle" x="945.24" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">reserved2</text>
+<text text-anchor="middle" x="945.24" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">callback_id</text>
 </g>
 <!-- Node6&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
 <title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M602,-118.44C602,-90.62 602,-40.04 602,-19.76"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="598.5,-118.81 602,-128.81 605.5,-118.81 598.5,-118.81"/>
-<text text-anchor="middle" x="629" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00"> submodes</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M327.03,-118.81C327.47,-91.08 328.28,-40.13 328.6,-19.76"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="323.53,-118.75 326.87,-128.81 330.53,-118.86 323.53,-118.75"/>
+<text text-anchor="middle" x="354.74" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00"> submodes</text>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="183,-312.5 183,-331.5 221,-331.5 221,-312.5 183,-312.5"/>
-<text text-anchor="middle" x="202" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">void</text>
+<polygon fill="none" stroke="#bfbfbf" points="279.24,-312.5 279.24,-331.5 354.24,-331.5 354.24,-312.5 279.24,-312.5"/>
+<text text-anchor="middle" x="316.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">const void *</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
-<g id="edge7" class="edge">
+<g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M231.19,-319.77C272.97,-317.44 347,-310.97 367,-294 394.54,-270.63 364.94,-239.74 393,-217 446.19,-173.89 484.84,-229.79 546,-199 569.31,-187.26 588.04,-161.66 596.74,-148.19"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="230.88,-316.28 221.07,-320.29 231.24,-323.28 230.88,-316.28"/>
-<text text-anchor="middle" x="441.5" y="-286" font-family="Helvetica,sans-Serif" font-size="10.00"> ltp_params</text>
-<text text-anchor="middle" x="441.5" y="-275" font-family="Helvetica,sans-Serif" font-size="10.00">lsp_unquant</text>
-<text text-anchor="middle" x="441.5" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">ltp_unquant</text>
-<text text-anchor="middle" x="441.5" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">lsp_quant</text>
-<text text-anchor="middle" x="441.5" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_params</text>
-<text text-anchor="middle" x="441.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_unquant</text>
-<text text-anchor="middle" x="441.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_quant</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M276.68,-307.57C271.14,-304.01 266.17,-299.56 262.74,-294 244.74,-264.89 251.16,-249.2 262.74,-217 273.36,-187.44 300.69,-161.14 315.97,-148.12"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="275.27,-310.78 285.74,-312.45 278.59,-304.62 275.27,-310.78"/>
+<text text-anchor="middle" x="309.74" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ltp_params</text>
+<text text-anchor="middle" x="309.74" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">innovation_params</text>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M172.74,-319.65C154.36,-317.11 131.95,-310.52 120,-294 99.94,-266.27 106.85,-248.6 120,-217 132.98,-185.8 165.3,-160.7 184.01,-148.17"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="172.4,-323.14 182.71,-320.71 173.13,-316.18 172.4,-323.14"/>
-<text text-anchor="middle" x="150" y="-275" font-family="Helvetica,sans-Serif" font-size="10.00"> mode</text>
-<text text-anchor="middle" x="150" y="-264" font-family="Helvetica,sans-Serif" font-size="10.00">dec_init</text>
-<text text-anchor="middle" x="150" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00">dec_destroy</text>
-<text text-anchor="middle" x="150" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00">enc_init</text>
-<text text-anchor="middle" x="150" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">enc_destroy</text>
-</g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge14" class="edge">
-<title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M196.09,-302.63C190.05,-280 183.98,-241.52 203,-217 210.9,-206.81 380.06,-166.02 456.3,-148.06"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="192.77,-303.74 198.95,-312.34 199.48,-301.76 192.77,-303.74"/>
-<text text-anchor="middle" x="229" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00"> reserved1</text>
-<text text-anchor="middle" x="229" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">data</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M364.38,-318.97C432.87,-315.58 552.5,-307.76 566.74,-294 577.35,-283.74 585.84,-178.92 588.13,-148.02"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="364.08,-315.48 354.26,-319.45 364.42,-322.47 364.08,-315.48"/>
+<text text-anchor="middle" x="596.24" y="-253" font-family="Helvetica,sans-Serif" font-size="10.00"> mode</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
 <g id="edge9" class="edge">
 <title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M227.45,-125.01C276.7,-104.5 379.22,-63.44 469,-38 503.57,-28.21 544.15,-20.5 571.31,-15.87"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="225.92,-121.85 218.05,-128.94 228.63,-128.31 225.92,-121.85"/>
-<text text-anchor="middle" x="484.5" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mode</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M562.36,-124.43C523.69,-105.31 449.3,-68.63 385.74,-38 372.81,-31.77 358.19,-24.85 346.99,-19.57"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="560.88,-127.6 571.39,-128.9 563.98,-121.33 560.88,-127.6"/>
+<text text-anchor="middle" x="445.24" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mode</text>
 </g>
-<!-- Node9&#45;&gt;Node1 -->
-<g id="edge13" class="edge">
-<title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M492.34,-118.63C492.61,-96.5 496.47,-60.03 517,-38 530.93,-23.04 553.09,-16.33 571.3,-13.34"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="488.84,-118.79 492.45,-128.75 495.84,-118.71 488.84,-118.79"/>
-<text text-anchor="middle" x="557.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> user_callback</text>
-<text text-anchor="middle" x="557.5" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">speex_callbacks</text>
+<!-- Node8&#45;&gt;Node8 -->
+<g id="edge14" class="edge">
+<title>Node8&#45;&gt;Node8</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M609.03,-152.48C626,-158.46 643.74,-153.8 643.74,-138.5 643.74,-120.37 618.83,-117.18 599.8,-128.94"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="610.34,-149.22 599.8,-148.06 607.31,-155.54 610.34,-149.22"/>
+<text text-anchor="middle" x="664.74" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dec_init</text>
+<text text-anchor="middle" x="664.74" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">enc_init</text>
+</g>
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="594.74,-312.5 594.74,-331.5 690.74,-331.5 690.74,-312.5 594.74,-312.5"/>
+<text text-anchor="middle" x="642.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">void(*)(void *st)</text>
+</a>
+</g>
+</g>
+<!-- Node9&#45;&gt;Node8 -->
+<g id="edge10" class="edge">
+<title>Node9&#45;&gt;Node8</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M639.81,-302.09C636.3,-281.04 629.76,-246.16 620.74,-217 612.82,-191.41 599.75,-162.57 593.03,-148.37"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="636.4,-302.92 641.44,-312.23 643.31,-301.81 636.4,-302.92"/>
+<text text-anchor="middle" x="669.24" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00"> dec_destroy</text>
+<text text-anchor="middle" x="669.24" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">enc_destroy</text>
+</g>
+<!-- Node10&#45;&gt;Node1 -->
+<g id="edge15" class="edge">
+<title>Node10&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M970.29,-121.37C959.04,-108.53 942.07,-90.68 924.74,-78 893.3,-54.99 884.36,-48.13 846.74,-38 754.02,-13.04 456.33,-10.93 359.49,-10.92"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="967.65,-123.66 976.81,-128.97 972.96,-119.1 967.65,-123.66"/>
+<text text-anchor="middle" x="938.24" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00"> user_callback</text>
+<text text-anchor="middle" x="938.24" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">speex_callbacks</text>
+</g>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="960.74,-312.5 960.74,-331.5 1006.74,-331.5 1006.74,-312.5 960.74,-312.5"/>
+<text text-anchor="middle" x="983.74" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">void *</text>
+</a>
+</g>
+</g>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge17" class="edge">
+<title>Node11&#45;&gt;Node10</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M983.74,-301.82C983.74,-262.88 983.74,-175.89 983.74,-148.17"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="980.24,-302.25 983.74,-312.25 987.24,-302.25 980.24,-302.25"/>
+<text text-anchor="middle" x="1009.74" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00"> reserved1</text>
+<text text-anchor="middle" x="1009.74" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00">data</text>
 </g>
 </g>
 </svg>

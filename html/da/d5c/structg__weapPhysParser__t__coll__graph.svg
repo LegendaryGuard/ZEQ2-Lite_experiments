@@ -169,8 +169,8 @@ var sectionId = 'dynsection-0';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d4/dc3/classfloat.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="51,-518.5 51,-537.5 89,-537.5 89,-518.5 51,-518.5"/>
+<g id="a_node4"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="51,-518.5 51,-537.5 89,-537.5 89,-518.5 51,-518.5"/>
 <text text-anchor="middle" x="70" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </a>
 </g>

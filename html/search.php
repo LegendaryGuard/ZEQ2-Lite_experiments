@@ -62,7 +62,7 @@ main();
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 27 2022 19:20:06 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:28:43 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

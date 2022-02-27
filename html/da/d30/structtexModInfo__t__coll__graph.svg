@@ -20,8 +20,8 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/dc3/classfloat.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="2.34,-202.5 2.34,-221.5 40.34,-221.5 40.34,-202.5 2.34,-202.5"/>
+<g id="a_node2"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="2.34,-202.5 2.34,-221.5 40.34,-221.5 40.34,-202.5 2.34,-202.5"/>
 <text text-anchor="middle" x="21.34" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </a>
 </g>

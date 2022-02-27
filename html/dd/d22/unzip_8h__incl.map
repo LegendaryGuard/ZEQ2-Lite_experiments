@@ -1,5 +1,8 @@
 <map id="Shared/unzip.h" name="Shared/unzip.h">
-<area shape="rect" id="node1" title=" " alt="" coords="17,5,136,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,80,63,107"/>
-<area shape="rect" id="node3" href="$d2/db7/ioapi_8h.html" title=" " alt="" coords="87,80,154,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="91,5,210,32"/>
+<area shape="rect" id="node2" href="$d4/dae/zlib_8h.html" title=" " alt="" coords="79,80,137,107"/>
+<area shape="rect" id="node6" href="$d2/db7/ioapi_8h.html" title=" " alt="" coords="161,80,228,107"/>
+<area shape="rect" id="node3" href="$de/d95/zconf_8h.html" title=" " alt="" coords="74,155,142,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,229,101,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="125,229,200,256"/>
 </map>

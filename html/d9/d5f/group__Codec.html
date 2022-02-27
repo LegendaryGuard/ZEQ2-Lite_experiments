@@ -169,9 +169,8 @@ Macros</h2></td></tr>
 <tr class="memitem:ga7303c5caf5fdc6350c4e953103887314"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga7303c5caf5fdc6350c4e953103887314">SPEEX_LIB_GET_MINOR_VERSION</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:ga7303c5caf5fdc6350c4e953103887314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minor Speex version.  <a href="../../d9/d5f/group__Codec.html#ga7303c5caf5fdc6350c4e953103887314">More...</a><br /></td></tr>
 <tr class="separator:ga7303c5caf5fdc6350c4e953103887314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga101d33f110db64d0d568a03363c6e096"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga101d33f110db64d0d568a03363c6e096">speex_lib_get_mode</a>(<a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> <a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)&#160;&#160;&#160;((<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)==<a class="el" href="../../d9/d5f/group__Codec.html#ga17586ccc2bb5011459b80e336526010e">SPEEX_MODEID_NB</a> ? &amp;<a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a> : speex_lib_get_mode (<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>))</td></tr>
-<tr class="memdesc:ga101d33f110db64d0d568a03363c6e096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain one of the modes available.  <a href="../../d9/d5f/group__Codec.html#ga101d33f110db64d0d568a03363c6e096">More...</a><br /></td></tr>
-<tr class="separator:ga101d33f110db64d0d568a03363c6e096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafad99b276249bd28b9d3bf1464b76e32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gafad99b276249bd28b9d3bf1464b76e32">speex_lib_get_mode</a>(<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)&#160;&#160;&#160;((<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)==<a class="el" href="../../d9/d5f/group__Codec.html#ga17586ccc2bb5011459b80e336526010e">SPEEX_MODEID_NB</a> ? &amp;<a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a> : speex_lib_get_mode (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>))</td></tr>
+<tr class="separator:gafad99b276249bd28b9d3bf1464b76e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga55e87cfe97743088cf98fe928a6577ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga55e87cfe97743088cf98fe928a6577ec">SPEEX_LIB_GET_VERSION_STRING</a>&#160;&#160;&#160;9</td></tr>
 <tr class="memdesc:ga55e87cfe97743088cf98fe928a6577ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Speex version string.  <a href="../../d9/d5f/group__Codec.html#ga55e87cfe97743088cf98fe928a6577ec">More...</a><br /></td></tr>
 <tr class="separator:ga55e87cfe97743088cf98fe928a6577ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,85 +258,88 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ga6f7203f0dd89aa59b12d5ba55dc7c0ef"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga6f7203f0dd89aa59b12d5ba55dc7c0ef">decode_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
+<tr class="memitem:ga6f7203f0dd89aa59b12d5ba55dc7c0ef"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga6f7203f0dd89aa59b12d5ba55dc7c0ef">decode_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
 <tr class="memdesc:ga6f7203f0dd89aa59b12d5ba55dc7c0ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main decoding function.  <a href="../../d9/d5f/group__Codec.html#ga6f7203f0dd89aa59b12d5ba55dc7c0ef">More...</a><br /></td></tr>
 <tr class="separator:ga6f7203f0dd89aa59b12d5ba55dc7c0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4a7b43dca3c56280e96e4b623c96f253"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4a7b43dca3c56280e96e4b623c96f253">decoder_ctl_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:ga4a7b43dca3c56280e96e4b623c96f253"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4a7b43dca3c56280e96e4b623c96f253">decoder_ctl_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:ga4a7b43dca3c56280e96e4b623c96f253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for controlling the decoder options.  <a href="../../d9/d5f/group__Codec.html#ga4a7b43dca3c56280e96e4b623c96f253">More...</a><br /></td></tr>
 <tr class="separator:ga4a7b43dca3c56280e96e4b623c96f253"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8e9ec20800d6bed1a4ad72f93744f477"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga8e9ec20800d6bed1a4ad72f93744f477">decoder_destroy_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td></tr>
+<tr class="memitem:ga8e9ec20800d6bed1a4ad72f93744f477"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga8e9ec20800d6bed1a4ad72f93744f477">decoder_destroy_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td></tr>
 <tr class="memdesc:ga8e9ec20800d6bed1a4ad72f93744f477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder state destruction function.  <a href="../../d9/d5f/group__Codec.html#ga8e9ec20800d6bed1a4ad72f93744f477">More...</a><br /></td></tr>
 <tr class="separator:ga8e9ec20800d6bed1a4ad72f93744f477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga40533d9baca9cabc8fe255c83810ba49"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga40533d9baca9cabc8fe255c83810ba49">decoder_init_func</a>) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
+<tr class="memitem:ga40533d9baca9cabc8fe255c83810ba49"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga40533d9baca9cabc8fe255c83810ba49">decoder_init_func</a>) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
 <tr class="memdesc:ga40533d9baca9cabc8fe255c83810ba49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder state initialization function.  <a href="../../d9/d5f/group__Codec.html#ga40533d9baca9cabc8fe255c83810ba49">More...</a><br /></td></tr>
 <tr class="separator:ga40533d9baca9cabc8fe255c83810ba49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae19985f02e2f579d37ee0aea5656cb4f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gae19985f02e2f579d37ee0aea5656cb4f">encode_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
+<tr class="memitem:gae19985f02e2f579d37ee0aea5656cb4f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gae19985f02e2f579d37ee0aea5656cb4f">encode_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
 <tr class="memdesc:gae19985f02e2f579d37ee0aea5656cb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main encoding function.  <a href="../../d9/d5f/group__Codec.html#gae19985f02e2f579d37ee0aea5656cb4f">More...</a><br /></td></tr>
 <tr class="separator:gae19985f02e2f579d37ee0aea5656cb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad31bf7f843f7ef6dd77e89d586802f4e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gad31bf7f843f7ef6dd77e89d586802f4e">encoder_ctl_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:gad31bf7f843f7ef6dd77e89d586802f4e"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gad31bf7f843f7ef6dd77e89d586802f4e">encoder_ctl_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:gad31bf7f843f7ef6dd77e89d586802f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for controlling the encoder options.  <a href="../../d9/d5f/group__Codec.html#gad31bf7f843f7ef6dd77e89d586802f4e">More...</a><br /></td></tr>
 <tr class="separator:gad31bf7f843f7ef6dd77e89d586802f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga853b0ee8cb3fe3ac4bb0584484ec72d4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga853b0ee8cb3fe3ac4bb0584484ec72d4">encoder_destroy_func</a>) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td></tr>
+<tr class="memitem:ga853b0ee8cb3fe3ac4bb0584484ec72d4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga853b0ee8cb3fe3ac4bb0584484ec72d4">encoder_destroy_func</a>) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td></tr>
 <tr class="memdesc:ga853b0ee8cb3fe3ac4bb0584484ec72d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder state destruction function.  <a href="../../d9/d5f/group__Codec.html#ga853b0ee8cb3fe3ac4bb0584484ec72d4">More...</a><br /></td></tr>
 <tr class="separator:ga853b0ee8cb3fe3ac4bb0584484ec72d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5ed9d908d344ab0ee70586669acc8af8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga5ed9d908d344ab0ee70586669acc8af8">encoder_init_func</a>) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
+<tr class="memitem:ga5ed9d908d344ab0ee70586669acc8af8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga5ed9d908d344ab0ee70586669acc8af8">encoder_init_func</a>) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
 <tr class="memdesc:ga5ed9d908d344ab0ee70586669acc8af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encoder state initialization function.  <a href="../../d9/d5f/group__Codec.html#ga5ed9d908d344ab0ee70586669acc8af8">More...</a><br /></td></tr>
 <tr class="separator:ga5ed9d908d344ab0ee70586669acc8af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad816e5168fad9fe95f9400b577ccc35d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gad816e5168fad9fe95f9400b577ccc35d">mode_query_func</a>) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:gad816e5168fad9fe95f9400b577ccc35d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gad816e5168fad9fe95f9400b577ccc35d">mode_query_func</a>) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:gad816e5168fad9fe95f9400b577ccc35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query function for a mode.  <a href="../../d9/d5f/group__Codec.html#gad816e5168fad9fe95f9400b577ccc35d">More...</a><br /></td></tr>
 <tr class="separator:gad816e5168fad9fe95f9400b577ccc35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga422e8e67465fb761efec2336346d6d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga422e8e67465fb761efec2336346d6d05">speex_decode</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d4/dc3/classfloat.html">float</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
+<tr class="memitem:ga422e8e67465fb761efec2336346d6d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga422e8e67465fb761efec2336346d6d05">speex_decode</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, float *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
 <tr class="memdesc:ga422e8e67465fb761efec2336346d6d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing decoder state to decode one frame of speech from bit-stream bits.  <a href="../../d9/d5f/group__Codec.html#ga422e8e67465fb761efec2336346d6d05">More...</a><br /></td></tr>
 <tr class="separator:ga422e8e67465fb761efec2336346d6d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4549bcf2e7a442d3834162b434ae8a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4549bcf2e7a442d3834162b434ae8a00">speex_decode_int</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
+<tr class="memitem:ga4549bcf2e7a442d3834162b434ae8a00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4549bcf2e7a442d3834162b434ae8a00">speex_decode_int</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td></tr>
 <tr class="memdesc:ga4549bcf2e7a442d3834162b434ae8a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing decoder state to decode one frame of speech from bit-stream bits.  <a href="../../d9/d5f/group__Codec.html#ga4549bcf2e7a442d3834162b434ae8a00">More...</a><br /></td></tr>
 <tr class="separator:ga4549bcf2e7a442d3834162b434ae8a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf552df71568c8ad7e849842c0ee6567b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaf552df71568c8ad7e849842c0ee6567b">speex_decoder_ctl</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:gaf552df71568c8ad7e849842c0ee6567b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaf552df71568c8ad7e849842c0ee6567b">speex_decoder_ctl</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:gaf552df71568c8ad7e849842c0ee6567b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used like the ioctl function to control the encoder parameters.  <a href="../../d9/d5f/group__Codec.html#gaf552df71568c8ad7e849842c0ee6567b">More...</a><br /></td></tr>
 <tr class="separator:gaf552df71568c8ad7e849842c0ee6567b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaebbe715d29ea0caa22ae7bb82489cb99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaebbe715d29ea0caa22ae7bb82489cb99">speex_decoder_destroy</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>)</td></tr>
+<tr class="memitem:gaebbe715d29ea0caa22ae7bb82489cb99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaebbe715d29ea0caa22ae7bb82489cb99">speex_decoder_destroy</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>)</td></tr>
 <tr class="memdesc:gaebbe715d29ea0caa22ae7bb82489cb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all resources associated to an existing decoder state.  <a href="../../d9/d5f/group__Codec.html#gaebbe715d29ea0caa22ae7bb82489cb99">More...</a><br /></td></tr>
 <tr class="separator:gaebbe715d29ea0caa22ae7bb82489cb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6bc692471d69e2e665e384658fce9e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga6bc692471d69e2e665e384658fce9e97">speex_decoder_init</a> (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
+<tr class="memitem:ga6bc692471d69e2e665e384658fce9e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga6bc692471d69e2e665e384658fce9e97">speex_decoder_init</a> (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
 <tr class="memdesc:ga6bc692471d69e2e665e384658fce9e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a handle to a newly created decoder state structure.  <a href="../../d9/d5f/group__Codec.html#ga6bc692471d69e2e665e384658fce9e97">More...</a><br /></td></tr>
 <tr class="separator:ga6bc692471d69e2e665e384658fce9e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5257aa7e5368a1d789286b4ef15a5df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga5257aa7e5368a1d789286b4ef15a5df8">speex_encode</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d4/dc3/classfloat.html">float</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
+<tr class="memitem:ga5257aa7e5368a1d789286b4ef15a5df8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga5257aa7e5368a1d789286b4ef15a5df8">speex_encode</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, float *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
 <tr class="memdesc:ga5257aa7e5368a1d789286b4ef15a5df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing encoder state to encode one frame of speech pointed to by "in".  <a href="../../d9/d5f/group__Codec.html#ga5257aa7e5368a1d789286b4ef15a5df8">More...</a><br /></td></tr>
 <tr class="separator:ga5257aa7e5368a1d789286b4ef15a5df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga983ae4d4453712584edd61530659d25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga983ae4d4453712584edd61530659d25b">speex_encode_int</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
+<tr class="memitem:ga983ae4d4453712584edd61530659d25b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga983ae4d4453712584edd61530659d25b">speex_encode_int</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td></tr>
 <tr class="memdesc:ga983ae4d4453712584edd61530659d25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uses an existing encoder state to encode one frame of speech pointed to by "in".  <a href="../../d9/d5f/group__Codec.html#ga983ae4d4453712584edd61530659d25b">More...</a><br /></td></tr>
 <tr class="separator:ga983ae4d4453712584edd61530659d25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4b17628edf75ef174fb668090fe27c88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4b17628edf75ef174fb668090fe27c88">speex_encoder_ctl</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:ga4b17628edf75ef174fb668090fe27c88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga4b17628edf75ef174fb668090fe27c88">speex_encoder_ctl</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:ga4b17628edf75ef174fb668090fe27c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used like the ioctl function to control the encoder parameters.  <a href="../../d9/d5f/group__Codec.html#ga4b17628edf75ef174fb668090fe27c88">More...</a><br /></td></tr>
 <tr class="separator:ga4b17628edf75ef174fb668090fe27c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga78a1ec99f4fd55118072566ec8adea90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga78a1ec99f4fd55118072566ec8adea90">speex_encoder_destroy</a> (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>)</td></tr>
+<tr class="memitem:ga78a1ec99f4fd55118072566ec8adea90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga78a1ec99f4fd55118072566ec8adea90">speex_encoder_destroy</a> (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>)</td></tr>
 <tr class="memdesc:ga78a1ec99f4fd55118072566ec8adea90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all resources associated to an existing Speex encoder state.  <a href="../../d9/d5f/group__Codec.html#ga78a1ec99f4fd55118072566ec8adea90">More...</a><br /></td></tr>
 <tr class="separator:ga78a1ec99f4fd55118072566ec8adea90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga27ab8eba45b8ef996b14c0eee16802a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga27ab8eba45b8ef996b14c0eee16802a1">speex_encoder_init</a> (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
+<tr class="memitem:ga27ab8eba45b8ef996b14c0eee16802a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga27ab8eba45b8ef996b14c0eee16802a1">speex_encoder_init</a> (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
 <tr class="memdesc:ga27ab8eba45b8ef996b14c0eee16802a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a handle to a newly created Speex encoder state structure.  <a href="../../d9/d5f/group__Codec.html#ga27ab8eba45b8ef996b14c0eee16802a1">More...</a><br /></td></tr>
 <tr class="separator:ga27ab8eba45b8ef996b14c0eee16802a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa83717ea872c7d89f60d0edc55381d33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaa83717ea872c7d89f60d0edc55381d33">speex_lib_ctl</a> (<a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:gaa83717ea872c7d89f60d0edc55381d33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaa83717ea872c7d89f60d0edc55381d33">speex_lib_ctl</a> (<a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:gaa83717ea872c7d89f60d0edc55381d33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions for controlling the behavior of libspeex.  <a href="../../d9/d5f/group__Codec.html#gaa83717ea872c7d89f60d0edc55381d33">More...</a><br /></td></tr>
 <tr class="separator:gaa83717ea872c7d89f60d0edc55381d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec4210039f6b4fbb5d4e73ca4a4f1837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaec4210039f6b4fbb5d4e73ca4a4f1837">speex_mode_query</a> (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
+<tr class="memitem:ga3aa7859cc730d5f2a6b723842d8af16e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga3aa7859cc730d5f2a6b723842d8af16e">speex_lib_get_mode</a> (<a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td></tr>
+<tr class="memdesc:ga3aa7859cc730d5f2a6b723842d8af16e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain one of the modes available.  <a href="../../d9/d5f/group__Codec.html#ga3aa7859cc730d5f2a6b723842d8af16e">More...</a><br /></td></tr>
+<tr class="separator:ga3aa7859cc730d5f2a6b723842d8af16e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec4210039f6b4fbb5d4e73ca4a4f1837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaec4210039f6b4fbb5d4e73ca4a4f1837">speex_mode_query</a> (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td></tr>
 <tr class="memdesc:gaec4210039f6b4fbb5d4e73ca4a4f1837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query function for mode information.  <a href="../../d9/d5f/group__Codec.html#gaec4210039f6b4fbb5d4e73ca4a4f1837">More...</a><br /></td></tr>
 <tr class="separator:gaec4210039f6b4fbb5d4e73ca4a4f1837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:gaf3aee957590b82fd15ecfc91c901a871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaf3aee957590b82fd15ecfc91c901a871">speex_mode_list</a> [<a class="el" href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a>]</td></tr>
+<tr class="memitem:gaf3aee957590b82fd15ecfc91c901a871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#gaf3aee957590b82fd15ecfc91c901a871">speex_mode_list</a> [<a class="el" href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a>]</td></tr>
 <tr class="memdesc:gaf3aee957590b82fd15ecfc91c901a871"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all modes available.  <a href="../../d9/d5f/group__Codec.html#gaf3aee957590b82fd15ecfc91c901a871">More...</a><br /></td></tr>
 <tr class="separator:gaf3aee957590b82fd15ecfc91c901a871"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b4d8e6b03d5170d11534705c1bcc997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a></td></tr>
+<tr class="memitem:ga3b4d8e6b03d5170d11534705c1bcc997"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a></td></tr>
 <tr class="memdesc:ga3b4d8e6b03d5170d11534705c1bcc997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default narrowband mode.  <a href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">More...</a><br /></td></tr>
 <tr class="separator:ga3b4d8e6b03d5170d11534705c1bcc997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga182b77d248fcd8943979aec384cfa3d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga182b77d248fcd8943979aec384cfa3d1">speex_uwb_mode</a></td></tr>
+<tr class="memitem:ga182b77d248fcd8943979aec384cfa3d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga182b77d248fcd8943979aec384cfa3d1">speex_uwb_mode</a></td></tr>
 <tr class="memdesc:ga182b77d248fcd8943979aec384cfa3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default "ultra-wideband" mode.  <a href="../../d9/d5f/group__Codec.html#ga182b77d248fcd8943979aec384cfa3d1">More...</a><br /></td></tr>
 <tr class="separator:ga182b77d248fcd8943979aec384cfa3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga511661204af8daa2d92749952e040dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga511661204af8daa2d92749952e040dcc">speex_wb_mode</a></td></tr>
+<tr class="memitem:ga511661204af8daa2d92749952e040dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d5f/group__Codec.html#ga511661204af8daa2d92749952e040dcc">speex_wb_mode</a></td></tr>
 <tr class="memdesc:ga511661204af8daa2d92749952e040dcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default wideband mode.  <a href="../../d9/d5f/group__Codec.html#ga511661204af8daa2d92749952e040dcc">More...</a><br /></td></tr>
 <tr class="separator:ga511661204af8daa2d92749952e040dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -845,25 +847,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga101d33f110db64d0d568a03363c6e096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga101d33f110db64d0d568a03363c6e096">&#9670;&nbsp;</a></span>speex_lib_get_mode</h2>
+<a id="gafad99b276249bd28b9d3bf1464b76e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafad99b276249bd28b9d3bf1464b76e32">&#9670;&nbsp;</a></span>speex_lib_get_mode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> * speex_lib_get_mode</td>
+          <td class="memname">#define speex_lib_get_mode</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)==<a class="el" href="../../d9/d5f/group__Codec.html#ga17586ccc2bb5011459b80e336526010e">SPEEX_MODEID_NB</a> ? &amp;<a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a> : speex_lib_get_mode (<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>))</td>
+          <td class="paramname"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a></td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)==<a class="el" href="../../d9/d5f/group__Codec.html#ga17586ccc2bb5011459b80e336526010e">SPEEX_MODEID_NB</a> ? &amp;<a class="el" href="../../d9/d5f/group__Codec.html#ga3b4d8e6b03d5170d11534705c1bcc997">speex_nb_mode</a> : speex_lib_get_mode (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="../../d9/d8f/speex_8h.html">Engine/libspeex/include/speex/speex.h</a>&gt;</code></p>
-
-<p>Obtain one of the modes available. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d8f/speex_8h_source.html#l00416">416</a> of file <a class="el" href="../../d9/d8f/speex_8h_source.html">speex.h</a>.</p>
 
@@ -1438,7 +1438,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(* decode_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(* decode_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1458,7 +1458,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(* decoder_ctl_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(* decoder_ctl_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1478,7 +1478,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(* decoder_destroy_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td>
+          <td class="memname">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(* decoder_destroy_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1498,7 +1498,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>*(* decoder_init_func) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>*(* decoder_init_func) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1518,7 +1518,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(* encode_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(* encode_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="el" href="../../da/d82/structSpeexBits.html">SpeexBits</a> *<a class="el" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1538,7 +1538,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(* encoder_ctl_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(* encoder_ctl_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d4/d88/structstate.html">state</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1558,7 +1558,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(* encoder_destroy_func) (<a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td>
+          <td class="memname">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>(* encoder_destroy_func) (<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *st)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1578,7 +1578,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>*(* encoder_init_func) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>*(* encoder_init_func) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> struct <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1598,7 +1598,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>(* mode_query_func) (<a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> request, <a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>(* mode_query_func) (<a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> request, <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *<a class="el" href="../../d0/dae/types_8c.html#a572b0871c6f651687862424f46073518">ptr</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1619,9 +1619,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_decode </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_decode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
@@ -1633,7 +1633,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a> *&#160;</td>
+          <td class="paramtype">float *&#160;</td>
           <td class="paramname"><em>out</em>&#160;</td>
         </tr>
         <tr>
@@ -1674,9 +1674,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_decode_int </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_decode_int </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
@@ -1728,12 +1728,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (float_out[i]&lt;-32768.f)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;         <a class="code" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>[i] = -32768;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;         <a class="code" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>[i] = (<a class="code" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a>)<a class="code" href="../../df/db1/math_8h.html#adfd8725f89b28410a38bc194f55f9395">floor</a>(.5+float_out[i]);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;         <a class="code" href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a>[i] = (<a class="code" href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a>)floor(.5+float_out[i]);</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;   }</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;   <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d4e/puff_8c_source.html#l00116">bits()</a>, <a class="el" href="../../df/db1/math_8h.html#adfd8725f89b28410a38bc194f55f9395">floor()</a>, <a class="el" href="../../da/d08/speex_8c_source.html#l00047">MAX_IN_SAMPLES</a>, <a class="el" href="../../da/d03/vm__x86__64__assembler_8c_source.html#l00045">out</a>, <a class="el" href="../../da/d08/speex_8c_source.html#l00185">speex_decoder_ctl()</a>, and <a class="el" href="../../d9/d8f/speex_8h_source.html#l00059">SPEEX_GET_FRAME_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d4e/puff_8c_source.html#l00116">bits()</a>, <a class="el" href="../../da/d08/speex_8c_source.html#l00047">MAX_IN_SAMPLES</a>, <a class="el" href="../../da/d03/vm__x86__64__assembler_8c_source.html#l00045">out</a>, <a class="el" href="../../da/d08/speex_8c_source.html#l00185">speex_decoder_ctl()</a>, and <a class="el" href="../../d9/d8f/speex_8h_source.html#l00059">SPEEX_GET_FRAME_SIZE</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d07/testenc_8c_source.html#l00016">main()</a>.</p>
 
@@ -1746,21 +1746,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_decoder_ctl </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_decoder_ctl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
           <td class="paramname"><em>request</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
@@ -1802,9 +1802,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> speex_decoder_destroy </td>
+          <td class="memname"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> speex_decoder_destroy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1837,9 +1837,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>* speex_decoder_init </td>
+          <td class="memname"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>* speex_decoder_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1860,7 +1860,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d08/speex_8c_source.html#l00056">56</a> of file <a class="el" href="../../da/d08/speex_8c_source.html">speex.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;dec_init(<a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;dec_init(<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d2/dde/cl__cgame_8c_source.html#l00881">CL_FirstSnapshot()</a>, <a class="el" href="../../d5/d07/testenc_8c_source.html#l00016">main()</a>, and <a class="el" href="../../d8/d9b/sb__celp_8c_source.html#l00755">sb_decoder_init()</a>.</p>
@@ -1874,15 +1874,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_encode </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_encode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dc3/classfloat.html">float</a> *&#160;</td>
+          <td class="paramtype">float *&#160;</td>
           <td class="paramname"><em>in</em>, </td>
         </tr>
         <tr>
@@ -1914,7 +1914,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d08/speex_8c_source.html#l00136">136</a> of file <a class="el" href="../../da/d08/speex_8c_source.html">speex.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;{</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;   <span class="keywordflow">return</span> (*((<a class="code" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>**)<a class="code" href="../../d4/d88/structstate.html">state</a>))-&gt;enc(<a class="code" href="../../d4/d88/structstate.html">state</a>, <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="code" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;   <span class="keywordflow">return</span> (*((<a class="code" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>**)<a class="code" href="../../d4/d88/structstate.html">state</a>))-&gt;enc(<a class="code" href="../../d4/d88/structstate.html">state</a>, <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>, <a class="code" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>);</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/d4e/puff_8c_source.html#l00116">bits()</a>.</p>
@@ -1928,9 +1928,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_encode_int </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_encode_int </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
@@ -1973,7 +1973,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;   <span class="keywordtype">float</span> float_in[<a class="code" href="../../da/d08/speex_8c.html#a10e12b548884067370ba5b8aace32d34">MAX_IN_SAMPLES</a>];</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;   <a class="code" href="../../d9/d5f/group__Codec.html#ga4b17628edf75ef174fb668090fe27c88">speex_encoder_ctl</a>(<a class="code" href="../../d4/d88/structstate.html">state</a>, <a class="code" href="../../d9/d5f/group__Codec.html#gafd92cf6077cab1a4f65930b419907476">SPEEX_GET_FRAME_SIZE</a>, &amp;N);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;   <span class="keywordflow">for</span> (i=0;i&lt;N;i++)</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      float_in[i] = <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>[i];</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      float_in[i] = <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a>[i];</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;   <span class="keywordflow">return</span> (*((<a class="code" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>**)<a class="code" href="../../d4/d88/structstate.html">state</a>))-&gt;enc(<a class="code" href="../../d4/d88/structstate.html">state</a>, float_in, <a class="code" href="../../da/d4e/puff_8c.html#abdd23142450393b2223fe4e4338f9259">bits</a>);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
 </div><!-- fragment -->
@@ -1990,21 +1990,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_encoder_ctl </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_encoder_ctl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
           <td class="paramname"><em>request</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
@@ -2046,9 +2046,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> speex_encoder_destroy </td>
+          <td class="memname"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> speex_encoder_destroy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>state</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2081,9 +2081,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>* speex_encoder_init </td>
+          <td class="memname"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a>* speex_encoder_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2104,7 +2104,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d08/speex_8c_source.html#l00051">51</a> of file <a class="el" href="../../da/d08/speex_8c_source.html">speex.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;enc_init(<a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;enc_init(<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d2/dde/cl__cgame_8c_source.html#l00881">CL_FirstSnapshot()</a>, <a class="el" href="../../d5/d07/testenc_8c_source.html#l00016">main()</a>, and <a class="el" href="../../d8/d9b/sb__celp_8c_source.html#l00190">sb_encoder_init()</a>.</p>
@@ -2118,15 +2118,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_lib_ctl </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_lib_ctl </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
           <td class="paramname"><em>request</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
@@ -2187,6 +2187,37 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ga3aa7859cc730d5f2a6b723842d8af16e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3aa7859cc730d5f2a6b723842d8af16e">&#9670;&nbsp;</a></span>speex_lib_get_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>* speex_lib_get_mode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="../../d9/d8f/speex_8h.html">Engine/libspeex/include/speex/speex.h</a>&gt;</code></p>
+
+<p>Obtain one of the modes available. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/db3/modes__wb_8c_source.html#l00292">292</a> of file <a class="el" href="../../d0/db3/modes__wb_8c_source.html">modes_wb.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;{</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;   <span class="keywordflow">if</span> (<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode &lt; 0 || mode &gt;</a>= <a class="code" href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a>) <span class="keywordflow">return</span> <a class="code" href="../../d0/db3/modes__wb_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160; </div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d9/d5f/group__Codec.html#gaf3aee957590b82fd15ecfc91c901a871">speex_mode_list</a>[<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>];</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/db3/modes__wb_8c_source.html#l00052">NULL</a>, <a class="el" href="../../d0/db3/modes__wb_8c_source.html#l00055">speex_mode_list</a>, and <a class="el" href="../../d9/d8f/speex_8h_source.html#l00204">SPEEX_NB_MODES</a>.</p>
+
+</div>
+</div>
 <a id="gaec4210039f6b4fbb5d4e73ca4a4f1837"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaec4210039f6b4fbb5d4e73ca4a4f1837">&#9670;&nbsp;</a></span>speex_mode_query()</h2>
 
@@ -2194,21 +2225,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a> speex_mode_query </td>
+          <td class="memname"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> speex_mode_query </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> *&#160;</td>
           <td class="paramname"><em>mode</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d21/winsock2_8h.html#a9230ed8f669b83b15b5495be9eb144b5">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a>&#160;</td>
           <td class="paramname"><em>request</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/dbb/Tools_2MinGW_2include_2SDL_2SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d69/SDL__opengl_8h.html#a3db05964a3cc4410f35b7ea2b7eb850d">void</a> *&#160;</td>
           <td class="paramname"><em>ptr</em>&#160;</td>
         </tr>
         <tr>
@@ -2234,7 +2265,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d21/modes_8c_source.html#l00358">358</a> of file <a class="el" href="../../d2/d21/modes_8c_source.html">modes.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;{</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;query(<a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;mode, request, <a class="code" href="../../d2/dc5/c_8h.html#a556e6fd10d5dbc0cc6669f9e042a18e8">ptr</a>);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;   <span class="keywordflow">return</span> <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;query(<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a>-&gt;mode, request, <a class="code" href="../../d2/dc5/c_8h.html#a556e6fd10d5dbc0cc6669f9e042a18e8">ptr</a>);</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/dae/types_8c_source.html#l00191">ptr()</a>.</p>
@@ -2251,7 +2282,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>* <a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> speex_mode_list[<a class="el" href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a>]</td>
+          <td class="memname"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a>* <a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> speex_mode_list[<a class="el" href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2273,7 +2304,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_nb_mode</td>
+          <td class="memname"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_nb_mode</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2295,7 +2326,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_uwb_mode</td>
+          <td class="memname"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_uwb_mode</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2315,7 +2346,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/d90/Tools_2MinGW_2include_2zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_wb_mode</td>
+          <td class="memname"><a class="el" href="../../de/d95/zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> <a class="el" href="../../da/dcd/structSpeexMode.html">SpeexMode</a> speex_wb_mode</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2330,25 +2361,27 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aEngine_2SDL12_2include_2SDL__opengl_8h_html_a83ad0ee7f1e06b59c90271716e689080"><div class="ttname"><a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a></div><div class="ttdeci">GLuint in</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h_source.html#l05951">SDL_opengl.h:5951</a></div></div>
+<div class="ttc" id="aSDL__opengl_8h_html_a83ad0ee7f1e06b59c90271716e689080"><div class="ttname"><a href="../../d7/d69/SDL__opengl_8h.html#a83ad0ee7f1e06b59c90271716e689080">in</a></div><div class="ttdeci">GLuint in</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d69/SDL__opengl_8h_source.html#l05951">SDL_opengl.h:5951</a></div></div>
 <div class="ttc" id="aspeex_8c_html_a10e12b548884067370ba5b8aace32d34"><div class="ttname"><a href="../../da/d08/speex_8c.html#a10e12b548884067370ba5b8aace32d34">MAX_IN_SAMPLES</a></div><div class="ttdeci">#define MAX_IN_SAMPLES</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d08/speex_8c_source.html#l00047">speex.c:47</a></div></div>
 <div class="ttc" id="ac_8h_html_a556e6fd10d5dbc0cc6669f9e042a18e8"><div class="ttname"><a href="../../d2/dc5/c_8h.html#a556e6fd10d5dbc0cc6669f9e042a18e8">ptr</a></div><div class="ttdeci">Type ptr(Type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dae/types_8c_source.html#l00191">types.c:191</a></div></div>
 <div class="ttc" id="aarch_8h_html_ab6c88aec3a74c7f43c4585c97d334a39"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#ab6c88aec3a74c7f43c4585c97d334a39">SPEEX_MINOR_VERSION</a></div><div class="ttdeci">#define SPEEX_MINOR_VERSION</div><div class="ttdoc">Minor Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00040">arch.h:40</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga7303c5caf5fdc6350c4e953103887314"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga7303c5caf5fdc6350c4e953103887314">SPEEX_LIB_GET_MINOR_VERSION</a></div><div class="ttdeci">#define SPEEX_LIB_GET_MINOR_VERSION</div><div class="ttdoc">Get minor Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00184">speex.h:184</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga92e7127c979199d36045d54b346bf614"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga92e7127c979199d36045d54b346bf614">SPEEX_LIB_GET_MICRO_VERSION</a></div><div class="ttdeci">#define SPEEX_LIB_GET_MICRO_VERSION</div><div class="ttdoc">Get micro Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00186">speex.h:186</a></div></div>
 <div class="ttc" id="aarch_8h_html_a71d3c6738c09014095c18d4aac039e10"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#a71d3c6738c09014095c18d4aac039e10">SPEEX_MAJOR_VERSION</a></div><div class="ttdeci">#define SPEEX_MAJOR_VERSION</div><div class="ttdoc">Major Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00039">arch.h:39</a></div></div>
-<div class="ttc" id="amath_8h_html_adfd8725f89b28410a38bc194f55f9395"><div class="ttname"><a href="../../df/db1/math_8h.html#adfd8725f89b28410a38bc194f55f9395">floor</a></div><div class="ttdeci">_CRTIMP double __cdecl floor(double)</div></div>
 <div class="ttc" id="agroup__Codec_html_gaf552df71568c8ad7e849842c0ee6567b"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#gaf552df71568c8ad7e849842c0ee6567b">speex_decoder_ctl</a></div><div class="ttdeci">int speex_decoder_ctl(void *state, int request, void *ptr)</div><div class="ttdoc">Used like the ioctl function to control the encoder parameters.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d08/speex_8c_source.html#l00185">speex.c:185</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga4b17628edf75ef174fb668090fe27c88"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga4b17628edf75ef174fb668090fe27c88">speex_encoder_ctl</a></div><div class="ttdeci">int speex_encoder_ctl(void *state, int request, void *ptr)</div><div class="ttdoc">Used like the ioctl function to control the encoder parameters.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d08/speex_8c_source.html#l00180">speex.c:180</a></div></div>
 <div class="ttc" id="aarch_8h_html_af317792d8f2f53a9832c11172cc7f337"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#af317792d8f2f53a9832c11172cc7f337">SPEEX_MICRO_VERSION</a></div><div class="ttdeci">#define SPEEX_MICRO_VERSION</div><div class="ttdoc">Micro Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00041">arch.h:41</a></div></div>
 <div class="ttc" id="aspeex__config__types_8h_html_ad6ad7b7e406f8bf1396b134490644035"><div class="ttname"><a href="../../d8/d6d/speex__config__types_8h.html#ad6ad7b7e406f8bf1396b134490644035">spx_int16_t</a></div><div class="ttdeci">int16_t spx_int16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6d/speex__config__types_8h_source.html#l00011">speex_config_types.h:11</a></div></div>
+<div class="ttc" id="aSDL__opengl_8h_html_a1e71d9c196e4683cc06c4b54d53f7ef5"><div class="ttname"><a href="../../d7/d69/SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a></div><div class="ttdeci">GLint mode</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d69/SDL__opengl_8h_source.html#l04728">SDL_opengl.h:4728</a></div></div>
 <div class="ttc" id="avm__x86__64__assembler_8c_html_a392d7ef877b6258e64850ce3a2647dae"><div class="ttname"><a href="../../da/d03/vm__x86__64__assembler_8c.html#a392d7ef877b6258e64850ce3a2647dae">out</a></div><div class="ttdeci">static char * out</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d03/vm__x86__64__assembler_8c_source.html#l00045">vm_x86_64_assembler.c:45</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga4cf766ebabac222859b9a2a6dd9f700a"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga4cf766ebabac222859b9a2a6dd9f700a">SPEEX_LIB_GET_EXTRA_VERSION</a></div><div class="ttdeci">#define SPEEX_LIB_GET_EXTRA_VERSION</div><div class="ttdoc">Get extra Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00188">speex.h:188</a></div></div>
-<div class="ttc" id="aEngine_2SDL12_2include_2SDL__opengl_8h_html_a1e71d9c196e4683cc06c4b54d53f7ef5"><div class="ttname"><a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a1e71d9c196e4683cc06c4b54d53f7ef5">mode</a></div><div class="ttdeci">GLint mode</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h_source.html#l04728">SDL_opengl.h:4728</a></div></div>
+<div class="ttc" id="agroup__Codec_html_ga24feccc49b58606f0b5049065c3cea34"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga24feccc49b58606f0b5049065c3cea34">SPEEX_NB_MODES</a></div><div class="ttdeci">#define SPEEX_NB_MODES</div><div class="ttdoc">Number of defined modes in Speex.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00204">speex.h:204</a></div></div>
+<div class="ttc" id="agroup__Codec_html_gaf3aee957590b82fd15ecfc91c901a871"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#gaf3aee957590b82fd15ecfc91c901a871">speex_mode_list</a></div><div class="ttdeci">const SpeexMode *const speex_mode_list[SPEEX_NB_MODES]</div><div class="ttdoc">List of all modes available.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db3/modes__wb_8c_source.html#l00055">modes_wb.c:55</a></div></div>
 <div class="ttc" id="aos__support_8h_html_a1e090529b2b5f2ce13b088aa0c6e47aa"><div class="ttname"><a href="../../d8/dbc/os__support_8h.html#a1e090529b2b5f2ce13b088aa0c6e47aa">speex_warning_int</a></div><div class="ttdeci">static void speex_warning_int(const char *str, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dbc/os__support_8h_source.html#l00128">os_support.h:128</a></div></div>
 <div class="ttc" id="aspeex__config__types_8h_html_ad2c1f7ecbff327ef67ea4b1f67ccaf09"><div class="ttname"><a href="../../d8/d6d/speex__config__types_8h.html#ad2c1f7ecbff327ef67ea4b1f67ccaf09">spx_int32_t</a></div><div class="ttdeci">int32_t spx_int32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6d/speex__config__types_8h_source.html#l00012">speex_config_types.h:12</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga2ab1f32d6379804d15f2233838d67406"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga2ab1f32d6379804d15f2233838d67406">SPEEX_LIB_GET_MAJOR_VERSION</a></div><div class="ttdeci">#define SPEEX_LIB_GET_MAJOR_VERSION</div><div class="ttdoc">Get major Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00182">speex.h:182</a></div></div>
 <div class="ttc" id="astructstate_html"><div class="ttname"><a href="../../d4/d88/structstate.html">state</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4e/puff_8c_source.html#l00088">puff.c:88</a></div></div>
+<div class="ttc" id="amodes__wb_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/db3/modes__wb_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db3/modes__wb_8c_source.html#l00052">modes_wb.c:52</a></div></div>
 <div class="ttc" id="agroup__Codec_html_ga55e87cfe97743088cf98fe928a6577ec"><div class="ttname"><a href="../../d9/d5f/group__Codec.html#ga55e87cfe97743088cf98fe928a6577ec">SPEEX_LIB_GET_VERSION_STRING</a></div><div class="ttdeci">#define SPEEX_LIB_GET_VERSION_STRING</div><div class="ttdoc">Get Speex version string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/speex_8h_source.html#l00190">speex.h:190</a></div></div>
 <div class="ttc" id="aarch_8h_html_a6d1d12aec13229e2d92cc9ff396defee"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#a6d1d12aec13229e2d92cc9ff396defee">SPEEX_EXTRA_VERSION</a></div><div class="ttdeci">#define SPEEX_EXTRA_VERSION</div><div class="ttdoc">Extra Speex version.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00042">arch.h:42</a></div></div>
 <div class="ttc" id="aarch_8h_html_a2ffa37c306b64c7d19fad890dcc99a9c"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#a2ffa37c306b64c7d19fad890dcc99a9c">SPEEX_VERSION</a></div><div class="ttdeci">#define SPEEX_VERSION</div><div class="ttdoc">Speex version string.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00043">arch.h:43</a></div></div>
@@ -2358,7 +2391,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 27 2022 19:19:55 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:28:41 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

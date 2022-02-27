@@ -1,7 +1,0 @@
-<map id="Comb_Hash_Fn" name="Comb_Hash_Fn">
-<area shape="rect" id="node1" title=" " alt="" coords="5,170,128,197"/>
-<area shape="rect" id="node2" href="$d2/d94/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01Hash__Fn_00_01Allocator_00_01Comb__Hash__Fn_00_01false_01_4.html" title="Specialization 1 The client supplies a hash function and a ranged hash function, and requests that ha..." alt="" coords="176,5,371,76"/>
-<area shape="rect" id="node3" href="$dd/d4e/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01Hash__Fn_00_01Allocator_00_01Comb__Hash__Fn_00_01true_01_4.html" title="Specialization 2 The client supplies a hash function and a ranged hash function, and requests that ha..." alt="" coords="176,100,371,171"/>
-<area shape="rect" id="node4" href="$db/d30/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01null__hash__fn_00_01Allocator_00_01Comb__Hash__Fn_00_01false_01_4.html" title="Specialization 3 The client does not supply a hash function (by specifying null_hash_fn as the Hash_F..." alt="" coords="182,195,365,265"/>
-<area shape="rect" id="node5" href="$d3/d0d/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01null__hash__fn_00_01Allocator_00_01Comb__Hash__Fn_00_01true_01_4.html" title="Specialization 4 The client does not supply a hash function (by specifying null_hash_fn as the Hash_F..." alt="" coords="184,289,363,360"/>
-</map>

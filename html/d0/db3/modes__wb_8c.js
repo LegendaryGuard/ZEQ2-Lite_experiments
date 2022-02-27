@@ -1,7 +1,7 @@
 var modes__wb_8c =
 [
     [ "NULL", "d0/db3/modes__wb_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
-    [ "speex_lib_get_mode", "d0/db3/modes__wb_8c.html#a3aa7859cc730d5f2a6b723842d8af16e", null ],
+    [ "speex_lib_get_mode", "d9/d5f/group__Codec.html#ga3aa7859cc730d5f2a6b723842d8af16e", null ],
     [ "wb_mode_query", "d0/db3/modes__wb_8c.html#a8b6e27a8f90880654c84fdfe7ead6fea", null ],
     [ "hexc_10_32_table", "d0/db3/modes__wb_8c.html#adf97de865968eee4faffa392f7afb16e", null ],
     [ "hexc_table", "d0/db3/modes__wb_8c.html#ad0a15b4aa6a6b35aa57795d6bc351074", null ],

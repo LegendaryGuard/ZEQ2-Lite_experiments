@@ -1,9 +1,10 @@
 <map id="menulist_s" name="menulist_s">
-<area shape="rect" id="node1" title=" " alt="" coords="181,392,275,419"/>
-<area shape="rect" id="node2" href="$d5/d57/structmenucommon__s.html" title=" " alt="" coords="163,257,293,284"/>
-<area shape="rect" id="node3" title=" " alt="" coords="323,5,373,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="80,5,224,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="255,5,294,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="449,5,530,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="341,407,435,433"/>
+<area shape="rect" id="node2" href="$d5/d57/structmenucommon__s.html" title=" " alt="" coords="323,272,453,299"/>
+<area shape="rect" id="node3" title=" " alt="" coords="408,13,552,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,13,56,39"/>
+<area shape="rect" id="node5" title=" " alt="" coords="243,13,383,39"/>
+<area shape="rect" id="node6" title=" " alt="" coords="698,13,737,39"/>
+<area shape="rect" id="node7" title=" " alt="" coords="577,13,658,39"/>
+<area shape="rect" id="node8" title=" " alt="" coords="80,5,219,47"/>
 </map>

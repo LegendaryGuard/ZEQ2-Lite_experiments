@@ -1,6 +1,0 @@
-var struct____gnu__pbds_1_1detail_1_1container__base__dispatch_3_01Key_00_01Mapped_00_01pat__trie__t677a51e091b3653ccdcca1fc43455b4c =
-[
-    [ "at1", "d9/d10/struct____gnu__pbds_1_1detail_1_1container__base__dispatch_3_01Key_00_01Mapped_00_01pat__trie__t677a51e091b3653ccdcca1fc43455b4c.html#a5b705e6efeb837d283dff9255b235814", null ],
-    [ "at1t", "d9/d10/struct____gnu__pbds_1_1detail_1_1container__base__dispatch_3_01Key_00_01Mapped_00_01pat__trie__t677a51e091b3653ccdcca1fc43455b4c.html#a11c9c71bceebaa268576e715a6326b68", null ],
-    [ "type", "d9/d10/struct____gnu__pbds_1_1detail_1_1container__base__dispatch_3_01Key_00_01Mapped_00_01pat__trie__t677a51e091b3653ccdcca1fc43455b4c.html#aaa8e45b620a84f27aff418b9c66fe619", null ]
-];

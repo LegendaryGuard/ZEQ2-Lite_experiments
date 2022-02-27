@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('d5/d69/misc__bfin_8h_source.html','../
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d5/d69/misc__bfin_8h.html#a346ddcafdfa8ac3ff0f049a2c6b68bb7">   36</a></span>&#160;<span class="preprocessor">#define OVERRIDE_SPEEX_MOVE</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d5/d69/misc__bfin_8h.html#aaff2033131a64727de7b15ee12444d4a">   37</a></span>&#160;<span class="keywordtype">void</span> *<a class="code" href="../../d5/d69/misc__bfin_8h.html#aaff2033131a64727de7b15ee12444d4a">speex_move</a> (<span class="keywordtype">void</span> *dest, <span class="keywordtype">void</span> *<a class="code" href="../../d2/d5f/classunsigned_01int.html">src</a>, <span class="keywordtype">int</span> <a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a>)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d5/d69/misc__bfin_8h.html#aaff2033131a64727de7b15ee12444d4a">   37</a></span>&#160;<span class="keywordtype">void</span> *<a class="code" href="../../d5/d69/misc__bfin_8h.html#aaff2033131a64727de7b15ee12444d4a">speex_move</a> (<span class="keywordtype">void</span> *dest, <span class="keywordtype">void</span> *<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a>, <span class="keywordtype">int</span> <a class="code" href="../../d7/d69/SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a>)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;   __asm__ __volatile__</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;         (</div>
@@ -119,22 +119,22 @@ $(document).ready(function(){initNavTree('d5/d69/misc__bfin_8h_source.html','../
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="stringliteral">&quot;[%1++] = R0 || R0 = [I0++];\n\t&quot;</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;         <span class="stringliteral">&quot;LOOP_END move%=;\n\t&quot;</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;         <span class="stringliteral">&quot;[%1++] = R0;\n\t&quot;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;   : <span class="stringliteral">&quot;=a&quot;</span> (<a class="code" href="../../d2/d5f/classunsigned_01int.html">src</a>), <span class="stringliteral">&quot;=a&quot;</span> (dest)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;   : <span class="stringliteral">&quot;a&quot;</span> ((<a class="code" href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a>&gt;&gt;2)-1), <span class="stringliteral">&quot;0&quot;</span> (<a class="code" href="../../d2/d5f/classunsigned_01int.html">src</a>), <span class="stringliteral">&quot;1&quot;</span> (dest)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;   : <span class="stringliteral">&quot;=a&quot;</span> (<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a>), <span class="stringliteral">&quot;=a&quot;</span> (dest)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;   : <span class="stringliteral">&quot;a&quot;</span> ((<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a>&gt;&gt;2)-1), <span class="stringliteral">&quot;0&quot;</span> (<a class="code" href="../../d7/d69/SDL__opengl_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a>), <span class="stringliteral">&quot;1&quot;</span> (dest)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;   : <span class="stringliteral">&quot;R0&quot;</span>, <span class="stringliteral">&quot;I0&quot;</span>, <span class="stringliteral">&quot;L0&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;         );</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;   <span class="keywordflow">return</span> dest;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aSDL__opengl_8h_html_a0788d3762d0c3c76e4c094d8078b4c27"><div class="ttname"><a href="../../d7/d69/SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a></div><div class="ttdeci">GLenum GLsizei n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d69/SDL__opengl_8h_source.html#l04268">SDL_opengl.h:4268</a></div></div>
+<div class="ttc" id="aSDL__opengl_8h_html_a72e0fdf0f845ded60b1fada9e9195cd7"><div class="ttname"><a href="../../d7/d69/SDL__opengl_8h.html#a72e0fdf0f845ded60b1fada9e9195cd7">src</a></div><div class="ttdeci">GLuint src</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d69/SDL__opengl_8h_source.html#l05953">SDL_opengl.h:5953</a></div></div>
 <div class="ttc" id="amisc__bfin_8h_html_aaff2033131a64727de7b15ee12444d4a"><div class="ttname"><a href="../../d5/d69/misc__bfin_8h.html#aaff2033131a64727de7b15ee12444d4a">speex_move</a></div><div class="ttdeci">void * speex_move(void *dest, void *src, int n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d69/misc__bfin_8h_source.html#l00037">misc_bfin.h:37</a></div></div>
-<div class="ttc" id="aclassunsigned_01int_html"><div class="ttname"><a href="../../d2/d5f/classunsigned_01int.html">unsigned int</a></div></div>
-<div class="ttc" id="aEngine_2SDL12_2include_2SDL__opengl_8h_html_a0788d3762d0c3c76e4c094d8078b4c27"><div class="ttname"><a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h.html#a0788d3762d0c3c76e4c094d8078b4c27">n</a></div><div class="ttdeci">GLenum GLsizei n</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db7/Engine_2SDL12_2include_2SDL__opengl_8h_source.html#l04268">SDL_opengl.h:4268</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0b6ee6e7e9547e675db4add2e5de97da.html">Engine</a></li><li class="navelem"><a class="el" href="../../dir_29857ae90d2524b2a9f2b08df2589c47.html">libspeex</a></li><li class="navelem"><a class="el" href="../../d5/d69/misc__bfin_8h.html">misc_bfin.h</a></li>
-    <li class="footer">Generated on Sun Feb 27 2022 19:19:25 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:28:32 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

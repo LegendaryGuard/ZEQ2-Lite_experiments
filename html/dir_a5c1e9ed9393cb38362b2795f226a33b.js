@@ -10,8 +10,8 @@ var dir_a5c1e9ed9393cb38362b2795f226a33b =
     [ "inflate.h", "d9/d51/inflate_8h.html", "d9/d51/inflate_8h" ],
     [ "inftrees.c", "d9/d95/inftrees_8c.html", "d9/d95/inftrees_8c" ],
     [ "inftrees.h", "d4/d0d/inftrees_8h.html", "d4/d0d/inftrees_8h" ],
-    [ "zconf.h", "d7/dff/Engine_2zlib_2zconf_8h.html", "d7/dff/Engine_2zlib_2zconf_8h" ],
-    [ "zlib.h", "d4/d08/Engine_2zlib_2zlib_8h.html", "d4/d08/Engine_2zlib_2zlib_8h" ],
+    [ "zconf.h", "de/d95/zconf_8h.html", "de/d95/zconf_8h" ],
+    [ "zlib.h", "d4/dae/zlib_8h.html", "d4/dae/zlib_8h" ],
     [ "zutil.c", "d4/d49/zutil_8c.html", "d4/d49/zutil_8c" ],
     [ "zutil.h", "d6/dba/zutil_8h.html", "d6/dba/zutil_8h" ]
 ];

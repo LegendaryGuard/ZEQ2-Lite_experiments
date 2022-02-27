@@ -335,7 +335,7 @@ var qgl_8h =
     [ "qglVertexPointer", "d9/d11/qgl_8h.html#ae09f769a5e57aa06fbb8fc160a5b9617", null ],
     [ "qglViewport", "d9/d11/qgl_8h.html#a1593d459e82e54190d0b24f743ace8f7", null ],
     [ "GLhandleARB", "d9/d11/qgl_8h.html#a300ead7c591c9652c86b91eb8cdde8b6", null ],
-    [ "GLint", "d9/d11/qgl_8h.html#a7def2b16ff7123053aba69cf7d42adf5", null ],
+    [ "GLint", "d9/d11/qgl_8h.html#acefcbeca0f96c4eb4675c52c5d891207", null ],
     [ "GLvoid", "d9/d11/qgl_8h.html#a70cd21ed108c3ec8741c57521553490e", null ],
     [ "void", "d9/d11/qgl_8h.html#a99fbe6e0e70b77f19a6f8a3327d32929", null ],
     [ "attachedObj", "d9/d11/qgl_8h.html#a147c213e2875d7ce04f9e05071fde273", null ],

@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="comment">/*C_FIXDIV(st-&gt;tmpbuf[0],2);*/</span></div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">for</span> (k = 1; k &lt;= ncfft / 2; ++k) {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../d4/d47/structkiss__fft__cpx.html">kiss_fft_cpx</a> fk, fnkc, fek, fok, <a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../d4/d47/structkiss__fft__cpx.html">kiss_fft_cpx</a> fk, fnkc, fek, fok, tmp;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        fk = freqdata[k];</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        fnkc.<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#a686b6187e3e885de316908319c71ea8f">r</a> = freqdata[ncfft - k].<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#a686b6187e3e885de316908319c71ea8f">r</a>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        fnkc.<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#ac1e17add2ae6b815da29d7d67b03fa70">i</a> = -freqdata[ncfft - k].<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#ac1e17add2ae6b815da29d7d67b03fa70">i</a>;</div>
@@ -235,8 +235,8 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">        C_FIXDIV( fnkc , 2 );*/</span></div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a1f70747639c855259a0965de768e030a">C_ADD</a> (fek, fk, fnkc);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (<a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>, fk, fnkc);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#ab5092aa032092f1057feca5fbea40758">C_MUL</a> (fok, <a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>, st-&gt;super_twiddles[k]);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (tmp, fk, fnkc);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#ab5092aa032092f1057feca5fbea40758">C_MUL</a> (fok, tmp, st-&gt;super_twiddles[k]);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a1f70747639c855259a0965de768e030a">C_ADD</a> (st-&gt;tmpbuf[k],     fek, fok);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (st-&gt;tmpbuf[ncfft - k], fek, fok);</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#ifdef USE_SIMD        </span></div>
@@ -352,7 +352,7 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;   <span class="comment">/*C_FIXDIV(st-&gt;tmpbuf[0],2);*/</span></div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;   <span class="keywordflow">for</span> (k = 1; k &lt;= ncfft / 2; ++k) {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <a class="code" href="../../d4/d47/structkiss__fft__cpx.html">kiss_fft_cpx</a> fk, fnkc, fek, fok, <a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <a class="code" href="../../d4/d47/structkiss__fft__cpx.html">kiss_fft_cpx</a> fk, fnkc, fek, fok, tmp;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      fk.<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#a686b6187e3e885de316908319c71ea8f">r</a> = freqdata[2*k-1];</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      fk.<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#ac1e17add2ae6b815da29d7d67b03fa70">i</a> = freqdata[2*k];</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      fnkc.<a class="code" href="../../d4/d47/structkiss__fft__cpx.html#a686b6187e3e885de316908319c71ea8f">r</a> = freqdata[2*(ncfft - k)-1];</div>
@@ -361,8 +361,8 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">      C_FIXDIV( fnkc , 2 );*/</span></div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a1f70747639c855259a0965de768e030a">C_ADD</a> (fek, fk, fnkc);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (<a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>, fk, fnkc);</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#ab5092aa032092f1057feca5fbea40758">C_MUL</a> (fok, <a class="code" href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a>, st-&gt;super_twiddles[k]);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (tmp, fk, fnkc);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#ab5092aa032092f1057feca5fbea40758">C_MUL</a> (fok, tmp, st-&gt;super_twiddles[k]);</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a1f70747639c855259a0965de768e030a">C_ADD</a> (st-&gt;tmpbuf[k],     fek, fok);</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      <a class="code" href="../../d3/d74/__kiss__fft__guts_8h.html#a8c00bd9702f25a8514402a3779b3bdda">C_SUB</a> (st-&gt;tmpbuf[ncfft - k], fek, fok);</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">#ifdef USE_SIMD        </span></div>
@@ -392,7 +392,6 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div class="ttc" id="akiss__fft_8c_html_ab5ad1560b58375ec071da45401911358"><div class="ttname"><a href="../../d3/d69/kiss__fft_8c.html#ab5ad1560b58375ec071da45401911358">kiss_fft_alloc</a></div><div class="ttdeci">kiss_fft_cfg kiss_fft_alloc(int nfft, int inverse_fft, void *mem, size_t *lenmem)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d69/kiss__fft_8c_source.html#l00464">kiss_fft.c:464</a></div></div>
 <div class="ttc" id="aarch_8h_html_ae4f9986177242e8bb398195a71ad510e"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#ae4f9986177242e8bb398195a71ad510e">SHL32</a></div><div class="ttdeci">#define SHL32(a, shift)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00168">arch.h:168</a></div></div>
 <div class="ttc" id="aos__support_8h_html_a5b4f9cbd37ac2faf42153cc705ce5480"><div class="ttname"><a href="../../d8/dbc/os__support_8h.html#a5b4f9cbd37ac2faf42153cc705ce5480">speex_fatal</a></div><div class="ttdeci">#define speex_fatal(str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dbc/os__support_8h_source.html#l00154">os_support.h:154</a></div></div>
-<div class="ttc" id="abmiintrin_8h_html_a4545457c251274b67b7f55adb0e5ea0e"><div class="ttname"><a href="../../d2/de9/bmiintrin_8h.html#a4545457c251274b67b7f55adb0e5ea0e">tmp</a></div><div class="ttdeci">return tmp</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de9/bmiintrin_8h_source.html#l00052">bmiintrin.h:52</a></div></div>
 <div class="ttc" id="aarch_8h_html_a57fdc3a2ab2739556453ccef0b497504"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#a57fdc3a2ab2739556453ccef0b497504">PSHR32</a></div><div class="ttdeci">#define PSHR32(a, shift)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00170">arch.h:170</a></div></div>
 <div class="ttc" id="aarch_8h_html_ad0c42080a68ca25ff20c4775a161e569"><div class="ttname"><a href="../../d2/d2d/arch_8h.html#ad0c42080a68ca25ff20c4775a161e569">SUB32</a></div><div class="ttdeci">#define SUB32(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2d/arch_8h_source.html#l00183">arch.h:183</a></div></div>
 <div class="ttc" id="a__kiss__fft__guts_8h_html_a1f70747639c855259a0965de768e030a"><div class="ttname"><a href="../../d3/d74/__kiss__fft__guts_8h.html#a1f70747639c855259a0965de768e030a">C_ADD</a></div><div class="ttdeci">#define C_ADD(res, a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d74/__kiss__fft__guts_8h_source.html#l00105">_kiss_fft_guts.h:105</a></div></div>
@@ -419,7 +418,7 @@ $(document).ready(function(){initNavTree('de/d67/kiss__fftr_8c_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0b6ee6e7e9547e675db4add2e5de97da.html">Engine</a></li><li class="navelem"><a class="el" href="../../dir_29857ae90d2524b2a9f2b08df2589c47.html">libspeex</a></li><li class="navelem"><a class="el" href="../../de/d67/kiss__fftr_8c.html">kiss_fftr.c</a></li>
-    <li class="footer">Generated on Sun Feb 27 2022 19:19:25 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:28:32 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

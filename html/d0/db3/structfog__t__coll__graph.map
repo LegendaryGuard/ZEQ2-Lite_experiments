@@ -1,6 +1,6 @@
 <map id="fog_t" name="fog_t">
 <area shape="rect" id="node1" title=" " alt="" coords="193,216,247,243"/>
-<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,56,32"/>
 <area shape="rect" id="node4" href="$d6/d67/structfogParms__t.html" title=" " alt="" coords="86,118,181,145"/>
 <area shape="rect" id="node3" title=" " alt="" coords="205,118,243,145"/>
 <area shape="rect" id="node5" title=" " alt="" coords="353,118,434,145"/>

@@ -1,4 +1,0 @@
-<map id="__gnu_pbds::detail::value_type_base&lt; Key, null_mapped_type, Allocator, true &gt;" name="__gnu_pbds::detail::value_type_base&lt; Key, null_mapped_type, Allocator, true &gt;">
-<area shape="rect" id="node1" title="Specialization of value_type_base for the case where the hash value is stored alongside each value." alt="" coords="11,95,227,165"/>
-<area shape="rect" id="node2" href="$d6/d54/struct____gnu__pbds_1_1null__mapped__type.html" title="A mapped&#45;policy indicating that an associative container is a set." alt="" coords="5,5,232,32"/>
-</map>

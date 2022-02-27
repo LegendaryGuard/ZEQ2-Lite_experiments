@@ -1,6 +1,0 @@
-<map id="__gnu_pbds::detail::ranged_probe_fn&lt; Key, Hash_Fn, Allocator, Comb_Probe_Fn, Probe_Fn, true &gt;" name="__gnu_pbds::detail::ranged_probe_fn&lt; Key, Hash_Fn, Allocator, Comb_Probe_Fn, Probe_Fn, true &gt;">
-<area shape="rect" id="node1" title="Specialization 2&#45; The client supplies a probe function and a ranged probe function,..." alt="" coords="68,80,275,151"/>
-<area shape="rect" id="node2" href="$d2/d12/classHash__Fn.html" title=" " alt="" coords="5,5,84,32"/>
-<area shape="rect" id="node3" href="$d8/df7/classComb__Probe__Fn.html" title=" " alt="" coords="108,5,235,32"/>
-<area shape="rect" id="node4" href="$d6/d26/classProbe__Fn.html" title=" " alt="" coords="259,5,342,32"/>
-</map>

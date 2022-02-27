@@ -1,7 +1,7 @@
 <map id="SDL_AudioCVT" name="SDL_AudioCVT">
-<area shape="rect" id="node1" title="A structure to hold a set of audio conversion filters and buffers." alt="" coords="129,153,247,180"/>
+<area shape="rect" id="node1" title="A structure to hold a set of audio conversion filters and buffers." alt="" coords="127,153,244,180"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,72,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,5,165,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="189,5,307,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="333,5,371,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,5,171,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="205,5,273,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="297,5,335,32"/>
 </map>

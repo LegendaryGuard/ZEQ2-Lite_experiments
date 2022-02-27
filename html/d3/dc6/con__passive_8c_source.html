@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('d3/dc6/con__passive_8c_source.html','.
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span>( <a class="code" href="../../d8/d19/common_8c.html#a969d878b734d191de7a4700a84d5a25f">com_ansiColor</a> &amp;&amp; <a class="code" href="../../d8/d19/common_8c.html#a969d878b734d191de7a4700a84d5a25f">com_ansiColor</a>-&gt;integer )</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../dd/dd9/sys__local_8h.html#acb975ce45272a8c67491dd90a0896977">Sys_AnsiColorPrint</a>( msg );</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../dc/d95/include_2stdio_8h.html#a1a8a75f72d680aeb5d9c876f315f0549">fputs</a>( msg, <a class="code" href="../../dc/d95/include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a> );</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        fputs( msg, stderr );</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -151,16 +151,14 @@ $(document).ready(function(){initNavTree('d3/dc6/con__passive_8c_source.html','.
 <div class="ttc" id="acon__passive_8c_html_a141b771147271c2b4c186307438da7fb"><div class="ttname"><a href="../../d3/dc6/con__passive_8c.html#a141b771147271c2b4c186307438da7fb">CON_Print</a></div><div class="ttdeci">void CON_Print(const char *msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc6/con__passive_8c_source.html#l00062">con_passive.c:62</a></div></div>
 <div class="ttc" id="ajitter_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../de/d07/jitter_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d07/jitter_8c_source.html#l00064">jitter.c:64</a></div></div>
 <div class="ttc" id="acon__passive_8c_html_a41bf3c0fd67ba8bbd2b8f3ace976dc16"><div class="ttname"><a href="../../d3/dc6/con__passive_8c.html#a41bf3c0fd67ba8bbd2b8f3ace976dc16">CON_Shutdown</a></div><div class="ttdeci">void CON_Shutdown(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc6/con__passive_8c_source.html#l00034">con_passive.c:34</a></div></div>
-<div class="ttc" id="ainclude_2stdio_8h_html_a1a8a75f72d680aeb5d9c876f315f0549"><div class="ttname"><a href="../../dc/d95/include_2stdio_8h.html#a1a8a75f72d680aeb5d9c876f315f0549">fputs</a></div><div class="ttdeci">_CRTIMP int __cdecl __MINGW_NOTHROW fputs(const char *, FILE *)</div></div>
 <div class="ttc" id="acommon_8c_html_a969d878b734d191de7a4700a84d5a25f"><div class="ttname"><a href="../../d8/d19/common_8c.html#a969d878b734d191de7a4700a84d5a25f">com_ansiColor</a></div><div class="ttdeci">cvar_t * com_ansiColor</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/common_8c_source.html#l00081">common.c:81</a></div></div>
 <div class="ttc" id="acon__passive_8c_html_a09d621d1fba8fdfa409fec9db2e0267a"><div class="ttname"><a href="../../d3/dc6/con__passive_8c.html#a09d621d1fba8fdfa409fec9db2e0267a">CON_Init</a></div><div class="ttdeci">void CON_Init(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc6/con__passive_8c_source.html#l00043">con_passive.c:43</a></div></div>
 <div class="ttc" id="asys__local_8h_html"><div class="ttname"><a href="../../dd/dd9/sys__local_8h.html">sys_local.h</a></div></div>
-<div class="ttc" id="ainclude_2stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../dc/d95/include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/include_2stdio_8h_source.html#l00160">stdio.h:160</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0b6ee6e7e9547e675db4add2e5de97da.html">Engine</a></li><li class="navelem"><a class="el" href="../../dir_1198a1cce500f2eeeddf36fdf26831b2.html">sys</a></li><li class="navelem"><a class="el" href="../../d3/dc6/con__passive_8c.html">con_passive.c</a></li>
-    <li class="footer">Generated on Sun Feb 27 2022 19:19:27 for ZEQ2-Lite by
+    <li class="footer">Generated on Sun Feb 27 2022 19:28:33 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -1,4 +1,0 @@
-var struct____gnu__pbds_1_1detail_1_1priority__queue__base__dispatch_3_01Value__Type_00_01Cmp__Fn_0056d57da908cadae1a1ebb54d1613035a =
-[
-    [ "type", "d5/d06/struct____gnu__pbds_1_1detail_1_1priority__queue__base__dispatch_3_01Value__Type_00_01Cmp__Fn_0056d57da908cadae1a1ebb54d1613035a.html#a45c5e6c52b2d24c7aeda0f1eb071c346", null ]
-];

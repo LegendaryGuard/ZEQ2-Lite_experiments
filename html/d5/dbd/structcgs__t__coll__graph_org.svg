@@ -36,14 +36,14 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dc3/classfloat.html" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="43.5,-228.5 43.5,-247.5 81.5,-247.5 81.5,-228.5 43.5,-228.5"/>
+<g id="a_node3"><a xlink:title=" ">
+<polygon fill="none" stroke="#bfbfbf" points="43.5,-228.5 43.5,-247.5 81.5,-247.5 81.5,-228.5 43.5,-228.5"/>
 <text text-anchor="middle" x="62.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge35" class="edge">
+<g id="edge34" class="edge">
 <title>Node3&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M91.51,-231.61C103.6,-227.44 116.82,-220.7 125,-210 155.09,-170.65 105.25,-132.08 143,-100 343.76,70.58 559.62,-33.47 718,-244 743.59,-278.01 754.01,-596.14 755.74,-655.49"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="90.32,-228.31 81.76,-234.54 92.34,-235.02 90.32,-228.31"/>
@@ -105,7 +105,7 @@
 </g>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
-<g id="edge34" class="edge">
+<g id="edge33" class="edge">
 <title>Node4&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M69.15,-861.48C78.82,-890.78 101.63,-945.18 143,-968 220.41,-1010.69 461.58,-965.44 538,-921 649.27,-856.29 730.59,-713.13 751.01,-674.67"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="72.39,-860.11 66.07,-851.6 65.7,-862.19 72.39,-860.11"/>
@@ -195,7 +195,7 @@
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
-<g id="edge36" class="edge">
+<g id="edge35" class="edge">
 <title>Node5&#45;&gt;Node1</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M64.37,-1225.12C67.41,-1267.56 81.14,-1365.79 143,-1408 369.42,-1562.49 574.14,-1418.32 718,-1185 745.79,-1139.93 754.53,-742.79 755.82,-674.86"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="67.85,-1224.72 63.77,-1214.94 60.86,-1225.13 67.85,-1224.72"/>
@@ -548,33 +548,33 @@
 <g id="node20" class="node">
 <title>Node20</title>
 <g id="a_node20"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="574.5,-38.5 574.5,-57.5 612.5,-57.5 612.5,-38.5 574.5,-38.5"/>
-<text text-anchor="middle" x="593.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">void</text>
+<polygon fill="none" stroke="#bfbfbf" points="556,-38.5 556,-57.5 631,-57.5 631,-38.5 556,-38.5"/>
+<text text-anchor="middle" x="593.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">gametype_t</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node1 -->
-<g id="edge33" class="edge">
+<g id="edge36" class="edge">
 <title>Node20&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M622.77,-41.72C651.12,-37.27 693.92,-35.89 718,-61 760.9,-105.75 757,-581.3 756.13,-655.34"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="621.91,-38.32 612.68,-43.53 623.15,-45.21 621.91,-38.32"/>
-<text text-anchor="middle" x="683.5" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00"> capturedItem</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M641.38,-39.6C667.6,-37.79 698.77,-40.94 718,-61 760.9,-105.75 757,-581.3 756.13,-655.34"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="640.87,-36.13 631.24,-40.55 641.53,-43.1 640.87,-36.13"/>
+<text text-anchor="middle" x="683.5" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00"> gametype</text>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
 <g id="a_node21"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="556,-0.5 556,-19.5 631,-19.5 631,-0.5 556,-0.5"/>
-<text text-anchor="middle" x="593.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">gametype_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="570.5,-0.5 570.5,-19.5 616.5,-19.5 616.5,-0.5 570.5,-0.5"/>
+<text text-anchor="middle" x="593.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">void *</text>
 </a>
 </g>
 </g>
 <!-- Node21&#45;&gt;Node1 -->
 <g id="edge37" class="edge">
 <title>Node21&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M641.19,-2.01C667.48,-0.38 698.8,-3.74 718,-24 740.72,-47.97 753.94,-576.94 755.78,-655.33"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="640.68,1.46 631.02,-2.9 641.29,-5.52 640.68,1.46"/>
-<text text-anchor="middle" x="683.5" y="-27" font-family="Helvetica,sans-Serif" font-size="10.00"> gametype</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M627.14,-3.37C655.4,0.28 695.23,0.03 718,-24 740.72,-47.97 753.94,-576.94 755.78,-655.33"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="626.29,0.05 616.93,-4.92 627.34,-6.88 626.29,0.05"/>
+<text text-anchor="middle" x="683.5" y="-27" font-family="Helvetica,sans-Serif" font-size="10.00"> capturedItem</text>
 </g>
 </g>
 </svg>

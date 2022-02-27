@@ -1,9 +1,0 @@
-var struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469 =
-[
-    [ "const_node_iterator", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#a216bd83c8c747f8d56a007879640b2f7", null ],
-    [ "metadata_type", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#a6de65f86e303818b31f92a54bad703af", null ],
-    [ "node_iterator", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#aac85406bf4902a3961b3228b63963c12", null ],
-    [ "node_update", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#a61b9300f523f95ebbc30c2da62c34356", null ],
-    [ "null_node_update_pointer", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#a34322fa3b312bfe0ab6c9d04ce6f053a", null ],
-    [ "value_type", "d0/d3f/struct____gnu__pbds_1_1detail_1_1tree__traits_3_01Key_00_01Mapped_00_01Cmp__Fn_00_01Node__Update66f179f23a56e4e7ea47a64a105aa469.html#a4a09668da5c161de56f9fb0f723c5dd0", null ]
-];

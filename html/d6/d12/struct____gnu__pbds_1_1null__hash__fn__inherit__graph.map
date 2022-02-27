@@ -1,6 +1,0 @@
-<map id="__gnu_pbds::null_hash_fn" name="__gnu_pbds::null_hash_fn">
-<area shape="rect" id="node1" title=" " alt="" coords="5,122,193,149"/>
-<area shape="rect" id="node2" href="$db/d30/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01null__hash__fn_00_01Allocator_00_01Comb__Hash__Fn_00_01false_01_4.html" title="Specialization 3 The client does not supply a hash function (by specifying null_hash_fn as the Hash_F..." alt="" coords="253,5,436,76"/>
-<area shape="rect" id="node3" href="$d3/d0d/class____gnu__pbds_1_1detail_1_1ranged__hash__fn_3_01Key_00_01null__hash__fn_00_01Allocator_00_01Comb__Hash__Fn_00_01true_01_4.html" title="Specialization 4 The client does not supply a hash function (by specifying null_hash_fn as the Hash_F..." alt="" coords="255,100,434,171"/>
-<area shape="rect" id="node4" href="$d5/d68/class____gnu__pbds_1_1detail_1_1ranged__probe__fn_3_01Key_00_01null__hash__fn_00_01Allocator_00_b89cabb45320244db254e565a53f0ec9.html" title="Specialization 3 and 4 The client does not supply a hash function or probe function,..." alt="" coords="241,195,448,281"/>
-</map>

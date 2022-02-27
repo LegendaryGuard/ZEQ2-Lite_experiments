@@ -1,9 +1,9 @@
 <map id="SDL_Overlay" name="SDL_Overlay">
-<area shape="rect" id="node1" title="The YUV hardware video overlay." alt="" coords="339,129,444,156"/>
-<area shape="rect" id="node2" title=" " alt="" coords="9,5,207,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,56,211,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="49,107,167,133"/>
-<area shape="rect" id="node5" title=" " alt="" coords="71,157,145,184"/>
-<area shape="rect" id="node6" title=" " alt="" coords="89,227,127,253"/>
-<area shape="rect" id="node7" href="$d2/d5f/classunsigned_01int.html" title=" " alt="" coords="57,301,159,328"/>
+<area shape="rect" id="node1" title="The YUV hardware video overlay." alt="" coords="488,124,593,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="229,5,434,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="459,5,535,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="559,5,634,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="658,5,733,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="757,5,796,32"/>
 </map>

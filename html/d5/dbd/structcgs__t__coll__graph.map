@@ -1,7 +1,7 @@
 <map id="cgs_t" name="cgs_t">
 <area shape="rect" id="node1" title=" " alt="" coords="987,1204,1043,1231"/>
 <area shape="rect" id="node2" href="$d0/da6/structglconfig__t.html" title=" " alt="" coords="445,1771,530,1797"/>
-<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title=" " alt="" coords="63,1773,114,1800"/>
+<area shape="rect" id="node3" title=" " alt="" coords="63,1773,114,1800"/>
 <area shape="rect" id="node11" href="$d1/d3e/structclientInfo__t.html" title=" " alt="" coords="749,1204,844,1231"/>
 <area shape="rect" id="node17" href="$db/d8d/structtierConfig__cg.html" title=" " alt="" coords="434,1283,541,1309"/>
 <area shape="rect" id="node4" title=" " alt="" coords="63,968,114,995"/>
@@ -18,6 +18,6 @@
 <area shape="rect" id="node14" title=" " alt="" coords="435,1181,539,1208"/>
 <area shape="rect" id="node15" title=" " alt="" coords="437,1232,537,1259"/>
 <area shape="rect" id="node16" title=" " alt="" coords="447,1499,528,1525"/>
-<area shape="rect" id="node20" title=" " alt="" coords="771,2027,822,2053"/>
-<area shape="rect" id="node21" title=" " alt="" coords="747,2077,847,2104"/>
+<area shape="rect" id="node20" title=" " alt="" coords="747,2027,847,2053"/>
+<area shape="rect" id="node21" title=" " alt="" coords="766,2077,827,2104"/>
 </map>

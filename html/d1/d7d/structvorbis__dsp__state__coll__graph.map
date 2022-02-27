@@ -1,8 +1,9 @@
 <map id="vorbis_dsp_state" name="vorbis_dsp_state">
-<area shape="rect" id="node1" title=" " alt="" coords="267,392,399,419"/>
-<area shape="rect" id="node2" href="$da/d7e/structvorbis__info.html" title=" " alt="" coords="286,221,380,247"/>
-<area shape="rect" id="node3" title=" " alt="" coords="8,5,58,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="166,5,204,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="341,5,392,32"/>
-<area shape="rect" id="node6" href="$d4/dc3/classfloat.html" title=" " alt="" coords="526,221,577,247"/>
+<area shape="rect" id="node1" title=" " alt="" coords="329,377,461,404"/>
+<area shape="rect" id="node2" href="$da/d7e/structvorbis__info.html" title=" " alt="" coords="257,184,352,211"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,44,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="147,5,198,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="351,5,413,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="558,184,657,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="683,184,734,211"/>
 </map>

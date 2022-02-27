@@ -10,7 +10,7 @@ var dir_29857ae90d2524b2a9f2b08df2589c47 =
     [ "cb_search_arm4.h", "de/df0/cb__search__arm4_8h.html", null ],
     [ "cb_search_bfin.h", "d6/d2c/cb__search__bfin_8h.html", "d6/d2c/cb__search__bfin_8h" ],
     [ "cb_search_sse.h", "d6/dce/cb__search__sse_8h.html", "d6/dce/cb__search__sse_8h" ],
-    [ "config.h", "dc/dab/Engine_2libspeex_2config_8h.html", "dc/dab/Engine_2libspeex_2config_8h" ],
+    [ "config.h", "d2/d96/libspeex_2config_8h.html", "d2/d96/libspeex_2config_8h" ],
     [ "exc_10_16_table.c", "d5/d81/exc__10__16__table_8c.html", "d5/d81/exc__10__16__table_8c" ],
     [ "exc_10_32_table.c", "d7/d19/exc__10__32__table_8c.html", "d7/d19/exc__10__32__table_8c" ],
     [ "exc_20_32_table.c", "d4/db9/exc__20__32__table_8c.html", "d4/db9/exc__20__32__table_8c" ],

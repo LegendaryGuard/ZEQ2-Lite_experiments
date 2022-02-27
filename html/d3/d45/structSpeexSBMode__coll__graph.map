@@ -1,9 +1,10 @@
 <map id="SpeexSBMode" name="SpeexSBMode">
-<area shape="rect" id="node1" title="Struct defining the encoding/decoding mode for SB&#45;CELP (wideband)" alt="" coords="151,348,265,375"/>
-<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node4" href="$da/d07/structSpeexSubmode.html" title="Description of a Speex sub&#45;mode (wither narrowband or wideband." alt="" coords="284,221,407,247"/>
-<area shape="rect" id="node3" title=" " alt="" coords="173,5,211,32"/>
-<area shape="rect" id="node6" href="$da/dcd/structSpeexMode.html" title="Struct defining a Speex mode." alt="" coords="525,221,624,247"/>
-<area shape="rect" id="node5" title=" " alt="" coords="564,5,615,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="755,5,805,32"/>
+<area shape="rect" id="node1" title="Struct defining the encoding/decoding mode for SB&#45;CELP (wideband)" alt="" coords="491,348,605,375"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node4" href="$da/d07/structSpeexSubmode.html" title="Description of a Speex sub&#45;mode (wither narrowband or wideband." alt="" coords="199,221,321,247"/>
+<area shape="rect" id="node3" title=" " alt="" coords="578,5,617,32"/>
+<area shape="rect" id="node6" href="$da/dcd/structSpeexMode.html" title="Struct defining a Speex mode." alt="" coords="733,221,832,247"/>
+<area shape="rect" id="node5" title=" " alt="" coords="307,5,407,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="727,5,855,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="880,5,931,32"/>
 </map>
