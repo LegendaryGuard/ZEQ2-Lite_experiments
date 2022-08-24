@@ -13,15 +13,15 @@ jobs:
 
     steps:
 
+    - uses: actions/checkout@v2
     - name: Checkout ZEQ2-Lite SVN
-      uses: actions/checkout@v2
       with:
         fetch-depth: 0
       working-directory: ${{github.workspace}}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
-      run: |
+    - run: |
         sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git
         git clone --single-branch --depth 1 https://github.com/LegendaryGuard/ZEQ2-Lite.git
         cd ZEQ2-Lite
