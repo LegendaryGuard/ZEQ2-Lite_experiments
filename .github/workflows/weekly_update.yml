@@ -15,14 +15,14 @@ jobs:
 
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
     - name: Get dependencies
       run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git
 
     - name: Checkout ZEQ2-Lite SVN
       working-directory: ${{github.workspace}}
-      with:
-        fetch-depth: 0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
