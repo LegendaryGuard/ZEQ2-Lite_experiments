@@ -2,21 +2,29 @@ name: SVN Weekly
 on:
   schedule:
     - cron: '0 13 * * 1'
-  workflow_dispatch:
+  push:
+    branches:
+      - "*"
 
 jobs:
   svn-weekly:
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
 
-      - name: Checkout ZEQ2-Lite SVN
-        uses: actions/checkout@v2
-        run: |
-          sudo apt-get update && sudo apt-get upgrade -y
-          sudo apt-get install subversion
-          svn checkout https://zeq2.com/SVN/Source/
-          git -C . add --all
-          git commit -m "Update SVN Weekly" 
-          git push origin master
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Get dependencies
+      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git
+
+    - name: Checkout ZEQ2-Lite SVN
+      working-directory: ${{github.workspace}}
+      shell: bash
+      run: |
+        svn checkout https://zeq2.com/SVN/Source/
+        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/LegendaryGuard/ZEQ2-Lite.git
+        git -C . add --all
+        git commit -m "Update SVN Weekly" 
+        git push origin master
