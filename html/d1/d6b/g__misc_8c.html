@@ -348,18 +348,18 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d6b/g__misc_8c_source.html#l00228">228</a> of file <a class="el" href="../../d1/d6b/g__misc_8c_source.html">g_misc.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                                           {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">float</span>   <a class="code" href="../../d2/d88/cg__marks_8c.html#a26fd84d522945b6038221d9e38c7cc39">roll</a>;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">float</span>   roll;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <a class="code" href="../../d7/dad/mathlib_8h.html#ad0cc739e492a9dfcf4054fa0042f27f1">VectorClear</a>( ent-&gt;r.mins );</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="../../d7/dad/mathlib_8h.html#ad0cc739e492a9dfcf4054fa0042f27f1">VectorClear</a>( ent-&gt;r.maxs );</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="../../d3/ddf/g__local_8h.html#a5f42d3e929f04631d96a28656c92a2d2">trap_LinkEntity</a> (ent);</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="../../d3/ddf/g__local_8h.html#aefeaf91f8d4ec7d9112af5cc8b71bc1b">G_SpawnFloat</a>( <span class="stringliteral">&quot;roll&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, &amp;<a class="code" href="../../d2/d88/cg__marks_8c.html#a26fd84d522945b6038221d9e38c7cc39">roll</a> );</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="../../d3/ddf/g__local_8h.html#aefeaf91f8d4ec7d9112af5cc8b71bc1b">G_SpawnFloat</a>( <span class="stringliteral">&quot;roll&quot;</span>, <span class="stringliteral">&quot;0&quot;</span>, &amp;roll );</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    ent-&gt;s.clientNum = <a class="code" href="../../d2/d88/cg__marks_8c.html#a26fd84d522945b6038221d9e38c7cc39">roll</a>/360.0 * 256;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    ent-&gt;s.clientNum = roll/360.0 * 256;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d90/g__spawn_8c_source.html#l00045">G_SpawnFloat()</a>, <a class="el" href="../../d2/d88/cg__marks_8c_source.html#l01017">roll</a>, <a class="el" href="../../de/df7/g__syscalls_8c_source.html#l00175">trap_LinkEntity()</a>, and <a class="el" href="../../d7/dad/mathlib_8h_source.html#l00065">VectorClear</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d90/g__spawn_8c_source.html#l00045">G_SpawnFloat()</a>, <a class="el" href="../../de/df7/g__syscalls_8c_source.html#l00175">trap_LinkEntity()</a>, and <a class="el" href="../../d7/dad/mathlib_8h_source.html#l00065">VectorClear</a>.</p>
 
 </div>
 </div>
@@ -535,7 +535,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="ag__local_8h_html_a065d55c98b1667d4c69277289e118ad1"><div class="ttname"><a href="../../d3/ddf/g__local_8h.html#a065d55c98b1667d4c69277289e118ad1">G_KillBox</a></div><div class="ttdeci">void G_KillBox(gentity_t *ent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da2/g__utils_8c_source.html#l00525">g_utils.c:525</a></div></div>
 <div class="ttc" id="ag__local_8h_html_a9a0c8415691354ba1a5e64ada0e7b06c"><div class="ttname"><a href="../../d3/ddf/g__local_8h.html#a9a0c8415691354ba1a5e64ada0e7b06c">G_TempEntity</a></div><div class="ttdeci">gentity_t * G_TempEntity(vec3_t origin, int event)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da2/g__utils_8c_source.html#l00486">g_utils.c:486</a></div></div>
 <div class="ttc" id="acmdlib_8h_html_a110846a9664bbd925f955266e60e9136"><div class="ttname"><a href="../../df/d27/cmdlib_8h.html#a110846a9664bbd925f955266e60e9136">qboolean</a></div><div class="ttdeci">qboolean</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d27/cmdlib_8h_source.html#l00055">cmdlib.h:55</a></div></div>
-<div class="ttc" id="acg__marks_8c_html_a26fd84d522945b6038221d9e38c7cc39"><div class="ttname"><a href="../../d2/d88/cg__marks_8c.html#a26fd84d522945b6038221d9e38c7cc39">roll</a></div><div class="ttdeci">static float roll</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d88/cg__marks_8c_source.html#l01017">cg_marks.c:1017</a></div></div>
 <div class="ttc" id="ag__local_8h_html_a5aacec865befc17766a27308a158e678"><div class="ttname"><a href="../../d3/ddf/g__local_8h.html#a5aacec865befc17766a27308a158e678">G_PickTarget</a></div><div class="ttdeci">gentity_t * G_PickTarget(char *targetname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da2/g__utils_8c_source.html#l00192">g_utils.c:192</a></div></div>
 <div class="ttc" id="ag__local_8h_html_a8966a3677c9152f498a5c9a18f915ae3"><div class="ttname"><a href="../../d3/ddf/g__local_8h.html#a8966a3677c9152f498a5c9a18f915ae3">G_SetMovedir</a></div><div class="ttdeci">void G_SetMovedir(vec3_t angles, vec3_t movedir)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da2/g__utils_8c_source.html#l00328">g_utils.c:328</a></div></div>
 <div class="ttc" id="abg__misc_8c_html_a1feba2d26365057c32d15b9a3a0b44c3"><div class="ttname"><a href="../../df/d33/bg__misc_8c.html#a1feba2d26365057c32d15b9a3a0b44c3">BG_PlayerStateToEntityState</a></div><div class="ttdeci">void BG_PlayerStateToEntityState(playerState_t *ps, entityState_t *s, qboolean snap)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d33/bg__misc_8c_source.html#l00383">bg_misc.c:383</a></div></div>
@@ -552,7 +551,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_c33286056d2acf479cd8641ef845fec1.html">Game</a></li><li class="navelem"><a class="el" href="../../dir_81f9b32d17db752a6d362cb459326c51.html">Game</a></li><li class="navelem"><a class="el" href="../../d1/d6b/g__misc_8c.html">g_misc.c</a></li>
-    <li class="footer">Generated on Wed Aug 24 2022 22:38:37 for ZEQ2-Lite by
+    <li class="footer">Generated on Wed Aug 24 2022 23:46:59 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

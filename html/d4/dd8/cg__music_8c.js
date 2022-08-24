@@ -1,10 +1,11 @@
 var cg__music_8c =
 [
-    [ "CG_CheckMusic", "d4/dd8/cg__music_8c.html#a10d90fad7ba494aa926e4b3ba7912d27", null ],
-    [ "CG_FadeNext", "d4/dd8/cg__music_8c.html#a93baeca2ac2bc2a8d502497765cb93b1", null ],
-    [ "CG_GetMilliseconds", "d4/dd8/cg__music_8c.html#a635e3d3403b2658a3024fafaa4e942b9", null ],
-    [ "CG_NextTrack", "d4/dd8/cg__music_8c.html#afa40829611bb4345f3637228da4ca763", null ],
-    [ "CG_ParsePlaylist", "d4/dd8/cg__music_8c.html#ab0fc0b095b93c9e25a947061e98450d6", null ],
-    [ "CG_PlayTransformTrack", "d4/dd8/cg__music_8c.html#af85d72a9362c54814dcf618c9bd4dcbd", null ],
-    [ "CG_StartMusic", "d4/dd8/cg__music_8c.html#aa7d9f85b47e65cb5d2655155693dd5ee", null ]
+    [ "CG_Music_CheckType", "d4/dd8/cg__music_8c.html#a7f9551f2a865817bd71f3eac496e9ace", null ],
+    [ "CG_Music_FadeNext", "d4/dd8/cg__music_8c.html#a6e9c8b6a17b5c6c09fa6ed3714b83079", null ],
+    [ "CG_Music_GetMilliseconds", "d4/dd8/cg__music_8c.html#a9a7a10666cceea3748d57f1e3b1c3ca7", null ],
+    [ "CG_Music_NextTrack", "d4/dd8/cg__music_8c.html#a8e35b1f390a85ca48518faa7e5cae11c", null ],
+    [ "CG_Music_ParsePlaylist", "d4/dd8/cg__music_8c.html#ad7196bbd274f40e5900736c80fbad4ef", null ],
+    [ "CG_Music_Play", "d4/dd8/cg__music_8c.html#a3d32d3c37c8399f1ea5b4557541c7c68", null ],
+    [ "CG_Music_Start", "d4/dd8/cg__music_8c.html#a082d069c45e705a148a64680738ef0b9", null ],
+    [ "CG_Music_Update", "d4/dd8/cg__music_8c.html#ab6dde37dd88e0e29c080563f7a325482", null ]
 ];

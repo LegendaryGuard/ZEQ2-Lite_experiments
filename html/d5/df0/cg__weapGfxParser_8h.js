@@ -84,6 +84,7 @@ var cg__weapGfxParser_8h =
     [ "CG_weapGfx_AddDefinitionRef", "d5/df0/cg__weapGfxParser_8h.html#a55bf771c2c15e2c830f31e203c4f9b22", null ],
     [ "CG_weapGfx_AddImportRef", "d5/df0/cg__weapGfxParser_8h.html#a22fadec715272844659551e71250586c", null ],
     [ "CG_weapGfx_AddLinkRef", "d5/df0/cg__weapGfxParser_8h.html#a80f72f7b453eb83eb1f276ee0bb1005e", null ],
+    [ "CG_weapGfx_CheckPrematureEOF", "d5/df0/cg__weapGfxParser_8h.html#a25c23b6fda83bf3dfba4c88587adaa1f", null ],
     [ "CG_weapGfx_ErrorHandle", "d5/df0/cg__weapGfxParser_8h.html#ae19f47c58694183d1cb2ecc728194fd4", null ],
     [ "CG_weapGfx_FindDefinitionRef", "d5/df0/cg__weapGfxParser_8h.html#ab28b3b917d56744d1a698be12d20afb2", null ],
     [ "CG_weapGfx_FindImportRef", "d5/df0/cg__weapGfxParser_8h.html#a0ab70d32509bd41b1c86de448d8850db", null ],

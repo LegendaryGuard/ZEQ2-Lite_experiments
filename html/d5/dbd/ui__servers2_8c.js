@@ -77,7 +77,6 @@ var ui__servers2_8c =
     [ "ArenaServers_UpdateMenu", "d5/dbd/ui__servers2_8c.html#a497f2c3fcbbb42e4037fb952f49ab33a", null ],
     [ "strrep", "d5/dbd/ui__servers2_8c.html#a6cd4d306399be752d236223276996f48", null ],
     [ "UI_ArenaServersMenu", "d5/dbd/ui__servers2_8c.html#a2f8b7a3d065b5967778ea7832901376d", null ],
-    [ "currentValue", "d5/dbd/ui__servers2_8c.html#a63b924880596b9ddcefbedaf0aedaa1e", null ],
     [ "g_arenaservers", "d5/dbd/ui__servers2_8c.html#a5cdbe052f4376c00e7e5fb2f79784e8c", null ],
     [ "g_emptyservers", "d5/dbd/ui__servers2_8c.html#ab49295257f8856609536fde3bc8bc49d", null ],
     [ "g_favoriteserverlist", "d5/dbd/ui__servers2_8c.html#ad09bf46ccf261b9ed99f6b1ecd05a96e", null ],

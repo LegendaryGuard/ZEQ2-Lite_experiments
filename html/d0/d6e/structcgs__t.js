@@ -36,7 +36,6 @@ var structcgs__t =
     [ "messages", "d0/d6e/structcgs__t.html#a902f5176e8e9a7ae07c38999fb2afdbf", null ],
     [ "messageTimer", "d0/d6e/structcgs__t.html#a3c0a0c34c9afc872c2f9bf0029e225f8", null ],
     [ "mouseCaptured", "d0/d6e/structcgs__t.html#a4ae6e1df21965acaf47d478a9acd7767", null ],
-    [ "music", "d0/d6e/structcgs__t.html#a36e2e9603e79742d7250fd1fbb556f98", null ],
     [ "newHud", "d0/d6e/structcgs__t.html#a5bb30f44621dcfb11963b7cc7e382a1a", null ],
     [ "numInlineModels", "d0/d6e/structcgs__t.html#a697f9963746d4c8fe02a9fc7abea4485", null ],
     [ "orderPending", "d0/d6e/structcgs__t.html#a14f24384fd4c8c8220548a3c32d49ab1", null ],

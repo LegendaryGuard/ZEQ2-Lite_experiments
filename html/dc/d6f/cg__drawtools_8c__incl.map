@@ -1,6 +1,6 @@
 <map id="Game/CGame/cg_drawtools.c" name="Game/CGame/cg_drawtools.c">
-<area shape="rect" id="node1" title=" " alt="" coords="1283,5,1498,32"/>
-<area shape="rect" id="node2" href="$d9/d79/cg__local_8h.html" title=" " alt="" coords="1347,80,1434,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1202,5,1417,32"/>
+<area shape="rect" id="node2" href="$d9/d79/cg__local_8h.html" title=" " alt="" coords="1266,80,1353,107"/>
 <area shape="rect" id="node3" href="$de/d01/q__shared_8h.html" title=" " alt="" coords="479,162,646,189"/>
 <area shape="rect" id="node16" href="$d3/d66/tr__types_8h.html" title=" " alt="" coords="671,155,820,196"/>
 <area shape="rect" id="node17" href="$d6/daa/bg__public_8h.html" title=" " alt="" coords="845,162,995,189"/>
@@ -9,8 +9,7 @@
 <area shape="rect" id="node20" href="$d3/d35/cg__userweapons_8h.html" title=" " alt="" coords="1401,162,1543,189"/>
 <area shape="rect" id="node21" href="$de/d77/cg__auras_8h.html" title=" " alt="" coords="1567,162,1659,189"/>
 <area shape="rect" id="node22" href="$dc/da7/cg__tiers_8h.html" title=" " alt="" coords="1684,162,1769,189"/>
-<area shape="rect" id="node23" href="$d8/db5/cg__music_8h.html" title=" " alt="" coords="1794,162,1889,189"/>
-<area shape="rect" id="node24" href="$d2/d3d/cg__public_8h.html" title=" " alt="" coords="1913,162,2007,189"/>
+<area shape="rect" id="node23" href="$d2/d3d/cg__public_8h.html" title=" " alt="" coords="1794,162,1889,189"/>
 <area shape="rect" id="node4" title=" " alt="" coords="5,244,80,271"/>
 <area shape="rect" id="node5" title=" " alt="" coords="105,244,173,271"/>
 <area shape="rect" id="node6" title=" " alt="" coords="197,244,264,271"/>
