@@ -29,15 +29,14 @@ jobs:
       run: |
         git clone --single-branch --depth 1 https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/LegendaryGuard/ZEQ2-Lite.git
         cd ZEQ2-Lite
-        ls -l
+        # ls -l
         rm COPYING.txt && rm "Compile Engine.bat" && rm -r "Compile.bat" && rm -r Engine && rm -r Game && rm MacOSX.sh && rm Makefile && rm MinGW.sh && rm -r Shared && rm -r Tools
-        ls -l
+        # ls -l
         svn checkout https://zeq2.com/SVN/Source/ .
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        ls -l
-        git status
-        git branch
+        # ls -l
+        # git status && git branch
         git add --all
         git commit -m "Update SVN Weekly" 
         git push
