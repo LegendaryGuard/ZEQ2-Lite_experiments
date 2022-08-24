@@ -21,6 +21,8 @@ jobs:
 
     - name: Checkout ZEQ2-Lite SVN
       working-directory: ${{github.workspace}}
+      with:
+        fetch-depth: 0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
@@ -32,4 +34,4 @@ jobs:
         git config --global user.email "<>"
         git add --all
         git commit -m "Update SVN Weekly" 
-        git push origin master
+        git push
