@@ -30,6 +30,8 @@ jobs:
         git clone --single-branch --depth 1 https://github.com/LegendaryGuard/ZEQ2-Lite.git
         cd ZEQ2-Lite
         ls -l
+        rm COPYING.txt && rm "Compile Engine.bat" && rm -r "Compile.bat" && rm -r Engine && rm -r Game && rm MacOSX.sh && rm Makefile && rm MinGW.sh && rm -r Shared && rm -r Tools
+        ls -l
         svn checkout https://zeq2.com/SVN/Source/ .
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
