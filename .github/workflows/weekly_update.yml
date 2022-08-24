@@ -23,8 +23,9 @@ jobs:
       working-directory: ${{github.workspace}}
       shell: bash
       run: |
-        svn checkout https://zeq2.com/SVN/Source/
-        git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/LegendaryGuard/ZEQ2-Lite.git
+        svn checkout https://zeq2.com/SVN/Source/ .
+        git config --global user.name "GitHub CI"
+        git config --global user.email "<>"
         git -C . add --all
         git commit -m "Update SVN Weekly" 
         git push origin master
