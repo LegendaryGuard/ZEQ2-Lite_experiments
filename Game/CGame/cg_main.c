@@ -639,7 +639,6 @@ static void CG_RegisterGraphics( void ) {
 		}
 		cgs.gameModels[i] = trap_R_RegisterModel( modelName );
 	}
-	CG_ClearParticles ();
 }
 
 
@@ -796,6 +795,7 @@ void CG_Init( int serverMessageNum, int serverCommandSequence, int clientNum ) {
 	CG_InitParticleSystems();
 	CG_InitBeamTables();
 	CG_InitRadarBlips();
+	CG_Music_Start();
 	// END ADDING
 
 	CG_InitMarkPolys();
