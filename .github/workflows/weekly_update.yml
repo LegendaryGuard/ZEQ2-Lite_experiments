@@ -23,9 +23,11 @@ jobs:
       working-directory: ${{github.workspace}}
       shell: bash
       run: |
+        git clone --single-branch --depth 1 https://${{ secrets.GITHUB_TOKEN }}@github.com/LegendaryGuard/ZEQ2-Lite.git
+        cd ZEQ2-Lite
         svn checkout https://zeq2.com/SVN/Source/ .
         git config --global user.name "GitHub CI"
         git config --global user.email "<>"
-        git -C . add --all
+        git add --all
         git commit -m "Update SVN Weekly" 
         git push origin master
