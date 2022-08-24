@@ -28,7 +28,7 @@ jobs:
         git clone --single-branch --depth 1 https://github.com/LegendaryGuard/ZEQ2-Lite.git
         cd ZEQ2-Lite
         svn checkout https://zeq2.com/SVN/Source/ .
-        git config --global user.name "GitHub CI"
+        git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
         git add --all
         git commit -m "Update SVN Weekly" 
