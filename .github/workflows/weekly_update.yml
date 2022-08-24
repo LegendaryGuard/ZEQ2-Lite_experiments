@@ -1,0 +1,25 @@
+name: SVN Weekly
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+
+jobs:
+  svn-weekly:
+
+    runs-on: ubuntu-20.04
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        run: |
+          sudo apt-get update && sudo apt-get upgrade -y
+          sudo apt-get install subversion
+          svn checkout https://zeq2.com/SVN/Source/
+
+      - name: Checkout ZEQ2-Lite SVN
+        run: |
+          git -C . add --all
+          git commit -m "Update SVN Weekly" 
+          git push origin master
