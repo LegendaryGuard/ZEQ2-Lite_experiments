@@ -23,7 +23,7 @@ jobs:
       working-directory: ${{github.workspace}}
       shell: bash
       run: |
-        git clone --single-branch --depth 1 https://${{ secrets.GITHUB_TOKEN }}@github.com/LegendaryGuard/ZEQ2-Lite.git
+        git clone --single-branch --depth 1 https://${{ github.token }}@github.com/LegendaryGuard/ZEQ2-Lite.git
         cd ZEQ2-Lite
         svn checkout https://zeq2.com/SVN/Source/ .
         git config --global user.name "GitHub CI"
