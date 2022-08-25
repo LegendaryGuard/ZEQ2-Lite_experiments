@@ -1,7 +1,0 @@
-<map id="Source/Engine/libspeex/include/speex/speex_stereo.h" name="Source/Engine/libspeex/include/speex/speex_stereo.h">
-<area shape="rect" id="node1" title="Describes the handling for intensity stereo." alt="" coords="63,5,282,47"/>
-<area shape="rect" id="node2" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="5,95,164,121"/>
-<area shape="rect" id="node5" href="$d6/d21/speex__bits_8h.html" title="Handles bit packing/unpacking." alt="" coords="189,95,335,121"/>
-<area shape="rect" id="node3" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="9,169,160,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="49,259,120,285"/>
-</map>

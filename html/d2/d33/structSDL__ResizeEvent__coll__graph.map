@@ -1,5 +1,0 @@
-<map id="SDL_ResizeEvent" name="SDL_ResizeEvent">
-<area shape="rect" id="node1" title="The &quot;window resized&quot; event When you get this event, you are responsible for setting a new video mode ..." alt="" coords="5,109,140,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="15,5,53,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="78,5,145,32"/>
-</map>

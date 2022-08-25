@@ -1,8 +1,0 @@
-var structmfield__t =
-[
-    [ "buffer", "d0/d14/structmfield__t.html#afbcd14051eb36052b6f030e863a1d5b4", null ],
-    [ "cursor", "d0/d14/structmfield__t.html#a5d3c50fc9c2e8d3e90da7d00c82b5f0f", null ],
-    [ "maxchars", "d0/d14/structmfield__t.html#a4321278b5fe3034b635b49e57661355d", null ],
-    [ "scroll", "d0/d14/structmfield__t.html#a8be7d51e40055e85d6145838130d97aa", null ],
-    [ "widthInChars", "d0/d14/structmfield__t.html#a3e61b1e0b6eb44604e1e6b321497043e", null ]
-];
