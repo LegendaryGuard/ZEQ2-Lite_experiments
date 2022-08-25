@@ -1,4 +1,4 @@
-name: SVN Hourly
+name: SVN Update
 on:
   schedule:
     - cron: '*/59 * * * *'
@@ -7,7 +7,7 @@ on:
       - "*"
 
 jobs:
-  svn-hourly:
+  svn-update:
 
     runs-on: ubuntu-latest
 
@@ -19,7 +19,7 @@ jobs:
         fetch-depth: 0
 
     - name: Get dependencies
-      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git openssl
+      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git # openssl
 
     - name: Checkout ZEQ2-Lite SVN
       working-directory: ${{github.workspace}}
@@ -35,9 +35,10 @@ jobs:
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        openssl rand -base64 12 > HASH
         # ls -l
         # git status && git branch
-        git add --all
-        git commit -m "Update SVN Hourly" 
-        git push
+        ./svn_update.sh
+        # openssl rand -base64 12 > HASH
+        # git add --all
+        # git commit -m "Update SVN Hourly" 
+        # git push
