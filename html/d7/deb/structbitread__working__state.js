@@ -4,5 +4,5 @@ var structbitread__working__state =
     [ "bytes_in_buffer", "d7/deb/structbitread__working__state.html#a9564d55e83f5b154a50a84ffb4e45809", null ],
     [ "cinfo", "d7/deb/structbitread__working__state.html#ae6ed0f717c279eac7ac54cec32cfaa3e", null ],
     [ "get_buffer", "d7/deb/structbitread__working__state.html#a1b14cadab00deca48688b336c6a48664", null ],
-    [ "next_input_byte", "d7/deb/structbitread__working__state.html#a6f8bc7689dfc382b51fdffe192d3306a", null ]
+    [ "next_input_byte", "d7/deb/structbitread__working__state.html#a663f17ba1c850439118605f1842b2fbf", null ]
 ];

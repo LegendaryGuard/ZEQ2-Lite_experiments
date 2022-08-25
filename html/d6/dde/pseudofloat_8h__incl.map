@@ -1,0 +1,13 @@
+<map id="Source/Engine/libspeex/pseudofloat.h" name="Source/Engine/libspeex/pseudofloat.h">
+<area shape="rect" id="node1" title="Pseudo&#45;floating point This header file provides a lightweight floating point type for use on fixed&#45;po..." alt="" coords="138,5,311,47"/>
+<area shape="rect" id="node2" href="$d2/d2d/arch_8h.html" title="Various architecture definitions Speex." alt="" coords="53,169,116,196"/>
+<area shape="rect" id="node6" href="$d8/dbc/os__support_8h.html" title=" " alt="" coords="241,95,347,121"/>
+<area shape="rect" id="node10" href="$d9/d28/math__approx_8h.html" title="Various math approximation functions for Speex." alt="" coords="97,95,217,121"/>
+<area shape="rect" id="node11" title=" " alt="" coords="371,95,439,121"/>
+<area shape="rect" id="node3" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="5,244,164,271"/>
+<area shape="rect" id="node4" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="9,319,160,360"/>
+<area shape="rect" id="node5" title=" " alt="" coords="49,408,120,435"/>
+<area shape="rect" id="node7" title=" " alt="" coords="165,169,236,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="261,169,327,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="352,169,423,196"/>
+</map>

@@ -10,7 +10,7 @@ var structunz__s =
     [ "gi", "d3/d37/structunz__s.html#a131303f89af11a26b53e99a58d6517cf", null ],
     [ "num_file", "d3/d37/structunz__s.html#a737337b347bd5cc52bfabdcfbc11b853", null ],
     [ "offset_central_dir", "d3/d37/structunz__s.html#ac6c37ef70549769fa59bca623565d78f", null ],
-    [ "pfile_in_zip_read", "d3/d37/structunz__s.html#af24eaaa533fb61bc5243c5eac24a21b3", null ],
+    [ "pfile_in_zip_read", "d3/d37/structunz__s.html#a7a5f0568475ad9a36ee2c1f3972406f0", null ],
     [ "pos_in_central_dir", "d3/d37/structunz__s.html#a70f2901a7ba85573aa280bad826baf4a", null ],
     [ "size_central_dir", "d3/d37/structunz__s.html#a60b803a02e17ae46755cb94026ae973a", null ],
     [ "z_filefunc", "d3/d37/structunz__s.html#a7be6cd9deaecd46f98f462bf6594baf1", null ]

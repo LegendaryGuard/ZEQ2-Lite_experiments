@@ -1,6 +1,6 @@
 var structclientSnapshot__t =
 [
-    [ "areabits", "de/d06/structclientSnapshot__t.html#a1222e227c135417c3759d6b5bb950cec", null ],
+    [ "areabits", "de/d06/structclientSnapshot__t.html#abcabf8597bf4d2b70fdb1fbd1bd80ada", null ],
     [ "areabytes", "de/d06/structclientSnapshot__t.html#a1f5c390bbc2ea06b9fd4d014756f80ca", null ],
     [ "first_entity", "de/d06/structclientSnapshot__t.html#a8ff5edbf37f3459336062dc0a8acfcf5", null ],
     [ "messageAcked", "de/d06/structclientSnapshot__t.html#a5e5916497c78183020b16beebce3d8f7", null ],

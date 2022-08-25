@@ -25,7 +25,7 @@ var structcontrols__t =
     [ "playerChat", "d8/d40/structcontrols__t.html#aa2a551062c0a6babfad8c6039323d1b5", null ],
     [ "playerinfo", "d8/d40/structcontrols__t.html#ad24a0a729701ea8fc67d870eb296d513", null ],
     [ "playerLegs", "d8/d40/structcontrols__t.html#a2ef183cec86925732defa8d0ba1eee51", null ],
-    [ "playerModel", "d8/d40/structcontrols__t.html#a09fc1e36ddd50a102975c48f5d9f64d4", null ],
+    [ "playerModel", "d8/d40/structcontrols__t.html#af64f340e5ca04faa8b87f6b71215f68d", null ],
     [ "playerMoveangles", "d8/d40/structcontrols__t.html#a3905f3dd05110b466ee027761883799c", null ],
     [ "playerTorso", "d8/d40/structcontrols__t.html#adca33e564d29a01cae343c893e54babe", null ],
     [ "playerViewangles", "d8/d40/structcontrols__t.html#add28f0c09090a03c822f7b7afb6740af", null ],

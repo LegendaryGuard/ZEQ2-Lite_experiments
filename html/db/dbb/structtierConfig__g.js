@@ -4,7 +4,7 @@ var structtierConfig__g =
     [ "boostCost", "db/dbb/structtierConfig__g.html#ab75f49d010c01ae60cd32d18bc0ccb22", null ],
     [ "breakLimitRate", "db/dbb/structtierConfig__g.html#a9fcd79af311b328f5cc5bd896aaeff08", null ],
     [ "capabilities", "db/dbb/structtierConfig__g.html#a6383ab821cd4f968120f1ce4a29a3e78", null ],
-    [ "collisionSize", "db/dbb/structtierConfig__g.html#a37fc86827339c32412c0b998f66bd211", null ],
+    [ "collisionSize", "db/dbb/structtierConfig__g.html#a77a145f420956f94bce4521c6874dd5b", null ],
     [ "defenseCapacity", "db/dbb/structtierConfig__g.html#a1530ff500e1cf908e8486ce255e5fe92", null ],
     [ "defenseEnergy", "db/dbb/structtierConfig__g.html#aa784ff28ce9ead8431853ff79cfd50b2", null ],
     [ "defenseMelee", "db/dbb/structtierConfig__g.html#a14a6ec4cf74fcbaab0e09a2ca30e1639", null ],

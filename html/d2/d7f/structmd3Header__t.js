@@ -2,7 +2,7 @@ var structmd3Header__t =
 [
     [ "flags", "d2/d7f/structmd3Header__t.html#ada41c9f7c21dc7e6382a4d1f368fa867", null ],
     [ "ident", "d2/d7f/structmd3Header__t.html#ae483f6d79abb10ed387fbbb1c8cdd792", null ],
-    [ "name", "d2/d7f/structmd3Header__t.html#aae5b2af972c939b62e22043fb496e57d", null ],
+    [ "name", "d2/d7f/structmd3Header__t.html#aff2b3ba1f8bfe39331c568bdac64c1f8", null ],
     [ "numFrames", "d2/d7f/structmd3Header__t.html#aa618b8d7bf545ba14846eb68f0789988", null ],
     [ "numSkins", "d2/d7f/structmd3Header__t.html#acc2121ef48cbc2a7e069985ef39474d3", null ],
     [ "numSurfaces", "d2/d7f/structmd3Header__t.html#abecaae7ccb805d07865bd57e17222b8f", null ],

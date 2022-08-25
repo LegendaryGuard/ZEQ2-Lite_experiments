@@ -5,13 +5,13 @@ var structSpeexSBMode =
     [ "frameSize", "dd/dca/structSpeexSBMode.html#a24ed84c3b70bc6e0b75642652c46d70a", null ],
     [ "gamma1", "dd/dca/structSpeexSBMode.html#a1ea815a87c3580669e8ba5cc1d6df479", null ],
     [ "gamma2", "dd/dca/structSpeexSBMode.html#a50a8e89a73557a57c59d389a03dc389b", null ],
-    [ "low_quality_map", "dd/dca/structSpeexSBMode.html#a3f3cfd84b00d1a2e12aff98eac378b7e", null ],
+    [ "low_quality_map", "dd/dca/structSpeexSBMode.html#a3f56475a6f7e381c714719c5cd82ccb1", null ],
     [ "lpc_floor", "dd/dca/structSpeexSBMode.html#a2c9e24fa072c175b0a25b635ebc58b98", null ],
     [ "lpcSize", "dd/dca/structSpeexSBMode.html#ab9aae523fed762c6c6cfab7211fc1f03", null ],
-    [ "nb_mode", "dd/dca/structSpeexSBMode.html#ad6442478a62b6fecc97d7f87f64b7f8e", null ],
+    [ "nb_mode", "dd/dca/structSpeexSBMode.html#a2ed398a07cb044d7366269d5b57965ac", null ],
     [ "nb_modes", "dd/dca/structSpeexSBMode.html#a78c9e911a572aeea8a1b78ffc7df4bf5", null ],
-    [ "quality_map", "dd/dca/structSpeexSBMode.html#a20691eef1db4f9fd568038c43b5e2c4a", null ],
+    [ "quality_map", "dd/dca/structSpeexSBMode.html#ad66e3578e9e0ad982f7384623eeb0495", null ],
     [ "subframeSize", "dd/dca/structSpeexSBMode.html#abc437bed3604072fa998bf2c345d96df", null ],
-    [ "submodes", "dd/dca/structSpeexSBMode.html#a75824a99f65840e56dade6cde6d98f93", null ],
-    [ "vbr_thresh", "dd/dca/structSpeexSBMode.html#a59038f7585547c7ea065aea8ab83d701", null ]
+    [ "submodes", "dd/dca/structSpeexSBMode.html#ac7694d4090957239e2337a92c70dbe3f", null ],
+    [ "vbr_thresh", "dd/dca/structSpeexSBMode.html#a2750090dd05e734e1d1781d4b3cbd231", null ]
 ];

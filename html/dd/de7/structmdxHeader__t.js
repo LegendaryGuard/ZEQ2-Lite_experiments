@@ -1,7 +1,7 @@
 var structmdxHeader__t =
 [
     [ "ident", "dd/de7/structmdxHeader__t.html#a80305d35894bd88253fbf2ead40fb7fd", null ],
-    [ "name", "dd/de7/structmdxHeader__t.html#ad6829f43ca9b67eef7b35c5393414d39", null ],
+    [ "name", "dd/de7/structmdxHeader__t.html#a959ce00478c0f6f29b37755a35db5762", null ],
     [ "numBones", "dd/de7/structmdxHeader__t.html#aa685c42cf6be3baf1fdb9c56707d341f", null ],
     [ "numFrames", "dd/de7/structmdxHeader__t.html#a27df9fbe347aad491d5a192b1a001bdf", null ],
     [ "ofsBones", "dd/de7/structmdxHeader__t.html#a140a6debf3b88b67d18b675eb904dcb1", null ],

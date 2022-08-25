@@ -1,6 +1,6 @@
 var structuiStatic__t =
 [
-    [ "activemenu", "de/dea/structuiStatic__t.html#ac54374a72efd8713b2f34f8b41313da0", null ],
+    [ "activemenu", "de/dea/structuiStatic__t.html#aba5608c8d598a37aad1cd4a46872d19a", null ],
     [ "applyButton", "de/dea/structuiStatic__t.html#a73181df4d5c838d3bf26788f275f67e7", null ],
     [ "blobShadow", "de/dea/structuiStatic__t.html#af707150e6285e465ecbefbfa9fc920b1", null ],
     [ "charset", "de/dea/structuiStatic__t.html#a7b3d684141023142e333dbbfbc9aacfe", null ],
@@ -39,6 +39,6 @@ var structuiStatic__t =
     [ "sceneModel", "de/dea/structuiStatic__t.html#a10d82814e4aeef268223956d3798e173", null ],
     [ "showFrame", "de/dea/structuiStatic__t.html#ae65b250c7587c55bbee9740d37f86e1d", null ],
     [ "showSide", "de/dea/structuiStatic__t.html#a262c78e567e83d18bbdbd0d145c0188c", null ],
-    [ "stack", "de/dea/structuiStatic__t.html#a5b797c10a6600c9aa0960c320a68e4de", null ],
+    [ "stack", "de/dea/structuiStatic__t.html#aa7a49e404bdc1de2a687df638ad0725e", null ],
     [ "whiteShader", "de/dea/structuiStatic__t.html#a199d2e20a61402d162b3a5693af3ebd3", null ]
 ];

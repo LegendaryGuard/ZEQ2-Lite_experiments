@@ -1,7 +1,7 @@
 var structauraState__s =
 [
-    [ "configurations", "d0/ded/structauraState__s.html#a4d88a39c132ef0157e38244379f65e21", null ],
-    [ "convexHull", "d0/ded/structauraState__s.html#a57f4ed5dfb89fbdbc97cc2a191a368be", null ],
+    [ "configurations", "d0/ded/structauraState__s.html#ad9a0d219c0867c2b12c851493d2d629b", null ],
+    [ "convexHull", "d0/ded/structauraState__s.html#a86c47c1a8bd6755caa060ec137fac6c1", null ],
     [ "convexHullCircumference", "d0/ded/structauraState__s.html#a6e7e888aa0bc3efa9f69329e0d560460", null ],
     [ "convexHullCount", "d0/ded/structauraState__s.html#aa36df868adf5692153b9f6c12fc09d63", null ],
     [ "isActive", "d0/ded/structauraState__s.html#a17d6a666419ed204c444d3d71d80cce0", null ],

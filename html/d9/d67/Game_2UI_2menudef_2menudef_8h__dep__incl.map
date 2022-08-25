@@ -1,7 +1,0 @@
-<map id="Game/UI/menudef/menudef.h" name="Game/UI/menudef/menudef.h">
-<area shape="rect" id="node1" title=" " alt="" coords="233,5,447,32"/>
-<area shape="rect" id="node2" href="$d8/d9c/Game_2UI_2ui__shared_8h.html" title=" " alt="" coords="43,80,202,107"/>
-<area shape="rect" id="node4" href="$d4/dda/Game_2CGame_2cg__servercmds_8c.html" title=" " alt="" coords="227,80,453,107"/>
-<area shape="rect" id="node5" href="$d1/d76/Game_2Game_2g__cmds_8c.html" title=" " alt="" coords="478,80,647,107"/>
-<area shape="rect" id="node3" href="$dc/d4c/Game_2CGame_2cg__consolecmds_8c.html" title=" " alt="" coords="5,155,240,181"/>
-</map>

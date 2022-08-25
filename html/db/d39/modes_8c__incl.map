@@ -1,0 +1,19 @@
+<map id="Source/Engine/libspeex/modes.c" name="Source/Engine/libspeex/modes.c">
+<area shape="rect" id="node1" title=" " alt="" coords="598,5,772,47"/>
+<area shape="rect" id="node2" href="$d9/daa/modes_8h.html" title="Describes the different modes of the codec." alt="" coords="24,244,103,271"/>
+<area shape="rect" id="node8" href="$d2/d2d/arch_8h.html" title="Various architecture definitions Speex." alt="" coords="503,319,566,345"/>
+<area shape="rect" id="node9" href="$da/d91/ltp_8h.html" title="Long&#45;Term Prediction functions." alt="" coords="482,244,533,271"/>
+<area shape="rect" id="node10" href="$d2/dea/quant__lsp_8h.html" title="LSP vector quantization." alt="" coords="636,244,734,271"/>
+<area shape="rect" id="node11" href="$d5/da9/cb__search_8h.html" title="Overlapped codebook search." alt="" coords="758,244,857,271"/>
+<area shape="rect" id="node12" href="$d4/d9a/sb__celp_8h.html" title="Sub&#45;band CELP mode used for wideband encoding." alt="" coords="189,95,272,121"/>
+<area shape="rect" id="node13" href="$d1/df9/nb__celp_8h.html" title="Narrowband CELP encoder/decoder." alt="" coords="228,169,312,196"/>
+<area shape="rect" id="node15" href="$d8/d1c/vbr_8h.html" title="Variable Bit&#45;Rate (VBR) related routines." alt="" coords="558,244,612,271"/>
+<area shape="rect" id="node17" title=" " alt="" coords="955,95,1023,121"/>
+<area shape="rect" id="node3" href="$d9/d8f/speex_8h.html" title="Describes the different modes of the codec." alt="" coords="212,319,328,345"/>
+<area shape="rect" id="node4" href="$d6/d21/speex__bits_8h.html" title="Handles bit packing/unpacking." alt="" coords="197,393,344,420"/>
+<area shape="rect" id="node5" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="398,393,556,420"/>
+<area shape="rect" id="node6" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="402,468,552,509"/>
+<area shape="rect" id="node7" title=" " alt="" coords="442,557,512,584"/>
+<area shape="rect" id="node14" href="$d7/d0c/speex__callbacks_8h.html" title="Describes callback handling and in&#45;band signalling." alt="" coords="178,244,362,271"/>
+<area shape="rect" id="node16" href="$dc/ddd/filters_8h.html" title="Various analysis/synthesis filters." alt="" coords="387,244,458,271"/>
+</map>

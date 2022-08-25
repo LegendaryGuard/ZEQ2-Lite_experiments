@@ -9,8 +9,8 @@ var structmusic__t =
     [ "left", "d4/d76/structmusic__t.html#a131bb2183e0b1afbc0041522eb0262c6", null ],
     [ "list", "d4/d76/structmusic__t.html#a611080642ea2208bbaf88b2e35785978", null ],
     [ "menu", "d4/d76/structmusic__t.html#a88d2e01ecf5dcf47a064a2d184eceb06", null ],
-    [ "musiclist", "d4/d76/structmusic__t.html#ab26cfdcab927429b170acc7b30f1cc0d", null ],
-    [ "names", "d4/d76/structmusic__t.html#a87bd924cb048930b9704eb39f233d6da", null ],
+    [ "musiclist", "d4/d76/structmusic__t.html#a5a494610e3a176721c7777f9bed9fd18", null ],
+    [ "names", "d4/d76/structmusic__t.html#ad3151e18afed8770467d46ab5c237740", null ],
     [ "numMusic", "d4/d76/structmusic__t.html#a52adcab273caaa320c67e855e4d5e834", null ],
     [ "right", "d4/d76/structmusic__t.html#a7ee34a3c15fcc2cb61ee3d224157d077", null ]
 ];

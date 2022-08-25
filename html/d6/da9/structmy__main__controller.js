@@ -6,11 +6,11 @@ var structmy__main__controller =
     [ "cur_iMCU_row", "d6/da9/structmy__main__controller.html#a1c6081c98910d41e03fa33763a832a6f", null ],
     [ "iMCU_row_ctr", "d6/da9/structmy__main__controller.html#a01c8f176e423a5d8e37637fa8210b236", null ],
     [ "pass_mode", "d6/da9/structmy__main__controller.html#a2de588274979de6f92951740a6e9d0ac", null ],
-    [ "pub", "d6/da9/structmy__main__controller.html#a4880459c57978ea5fcfef2a1acbfc3fe", null ],
+    [ "pub", "d6/da9/structmy__main__controller.html#af6cfb28f856f55e4a715c8036f08c52f", null ],
     [ "pub", "d6/da9/structmy__main__controller.html#a4880459c57978ea5fcfef2a1acbfc3fe", null ],
     [ "rowgroup_ctr", "d6/da9/structmy__main__controller.html#a41bedbcd86bdc7611550440e02b8f93b", null ],
     [ "rowgroups_avail", "d6/da9/structmy__main__controller.html#a8fdc8a382fc0be7922e5913b16cbf7dc", null ],
     [ "suspended", "d6/da9/structmy__main__controller.html#aaae0f416fa5716cf5e0d295a191b2186", null ],
     [ "whichptr", "d6/da9/structmy__main__controller.html#a9838025ca47813221e8c208ad26bb9e8", null ],
-    [ "xbuffer", "d6/da9/structmy__main__controller.html#a9df191892f2ae5c0f687d45602512f9d", null ]
+    [ "xbuffer", "d6/da9/structmy__main__controller.html#a29fc35521c04489fdb6b7a7e758fb82a", null ]
 ];

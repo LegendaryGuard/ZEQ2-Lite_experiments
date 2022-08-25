@@ -1,8 +1,8 @@
 var structmy__downsampler =
 [
-    [ "h_expand", "db/d46/structmy__downsampler.html#a9ab8f9bb001d21accfd537af997379e0", null ],
-    [ "methods", "db/d46/structmy__downsampler.html#a22e4b1609f6005f6be1e74e5ea3d3640", null ],
+    [ "h_expand", "db/d46/structmy__downsampler.html#a051e236dc44201165b1625621994b86c", null ],
+    [ "methods", "db/d46/structmy__downsampler.html#a6e74bc63d21fbd97d92dc36f65011a75", null ],
     [ "pub", "db/d46/structmy__downsampler.html#a3ace227dd4fd9fdf8e8fe542ca6503c3", null ],
-    [ "rowgroup_height", "db/d46/structmy__downsampler.html#a1e32bfff9a4c5b4fcb6398f109ef52bd", null ],
-    [ "v_expand", "db/d46/structmy__downsampler.html#afe7e56e26cb04243ebbbe4f8935eeee9", null ]
+    [ "rowgroup_height", "db/d46/structmy__downsampler.html#a60c30dd6034e706ee9d21d0f5f198af7", null ],
+    [ "v_expand", "db/d46/structmy__downsampler.html#ab3bc55e23e197c2129ae09c82fb62e83", null ]
 ];

@@ -1,8 +1,8 @@
 var structd__derived__tbl =
 [
-    [ "look_nbits", "dd/dc5/structd__derived__tbl.html#af38a5028b73ba2369789be40a6e16576", null ],
-    [ "look_sym", "dd/dc5/structd__derived__tbl.html#a86462d6d60eb7ff0d346a9c38c790613", null ],
-    [ "maxcode", "dd/dc5/structd__derived__tbl.html#a0983a1e80b80c601d05f4448ee3a2473", null ],
-    [ "pub", "dd/dc5/structd__derived__tbl.html#ab9f7b4268f70f845427e71efc923209a", null ],
-    [ "valoffset", "dd/dc5/structd__derived__tbl.html#ab2afbaefaf5030539d4e8d68448ff161", null ]
+    [ "look_nbits", "dd/dc5/structd__derived__tbl.html#a69e9228ebe44420f896c147bcb8b2f4b", null ],
+    [ "look_sym", "dd/dc5/structd__derived__tbl.html#a526051256461864bc8395d1f6d1a82fd", null ],
+    [ "maxcode", "dd/dc5/structd__derived__tbl.html#a4e226d20d913f1c516bd98a930008ad1", null ],
+    [ "pub", "dd/dc5/structd__derived__tbl.html#a816f4c07d3173cd1a96ef146acabf6c6", null ],
+    [ "valoffset", "dd/dc5/structd__derived__tbl.html#a67397b3869145321a25d2df17a0c11ec", null ]
 ];

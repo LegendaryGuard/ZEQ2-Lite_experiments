@@ -1,8 +1,7 @@
 var structSDL__AudioCVT =
 [
     [ "void", "d6/d87/structSDL__AudioCVT.html#a289a571421d05e416dd585c6f890a75b", null ],
-    [ "void", "d6/d87/structSDL__AudioCVT.html#a289a571421d05e416dd585c6f890a75b", null ],
-    [ "buf", "d6/d87/structSDL__AudioCVT.html#af42eb88b79cf9180670a5122c2c82671", null ],
+    [ "buf", "d6/d87/structSDL__AudioCVT.html#a080db27b929efa983c5161360ffce310", null ],
     [ "dst_format", "d6/d87/structSDL__AudioCVT.html#a2388a295604af1169651568742de928d", null ],
     [ "filter_index", "d6/d87/structSDL__AudioCVT.html#a35093b3ad3331c17416c593a76012b63", null ],
     [ "format", "d6/d87/structSDL__AudioCVT.html#a020b6e1c01089169921ddb0c1e7f08d2", null ],

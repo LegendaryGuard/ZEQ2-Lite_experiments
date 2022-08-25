@@ -1,8 +1,8 @@
 var structnodetype =
 [
-    [ "head", "d2/da0/structnodetype.html#ac011ee8ff942c09d2a5d90ce3ac3d0ea", null ],
-    [ "left", "d2/da0/structnodetype.html#ac41d80d3f14e29384c919636f37b0d92", null ],
-    [ "next", "d2/da0/structnodetype.html#a98c8500fc95c4ce1bc1c031aaa97ad86", null ],
+    [ "head", "d2/da0/structnodetype.html#a1fe915e925745a8f806ae39e4ebae98e", null ],
+    [ "left", "d2/da0/structnodetype.html#ab7c82accbdd923fce305dac692ad208b", null ],
+    [ "next", "d2/da0/structnodetype.html#a0549338e3de28f5bda3e00dcd9e64067", null ],
     [ "parent", "d2/da0/structnodetype.html#ad91f97ac0417127f8b207f268493f8e0", null ],
     [ "prev", "d2/da0/structnodetype.html#a8bf1fc440061e73023772a24f5bdddbe", null ],
     [ "right", "d2/da0/structnodetype.html#ad1f04e83e32a9817371aa28ca6b2a882", null ],

@@ -2,7 +2,7 @@ var structmy__decomp__master =
 [
     [ "pass_number", "d9/dc7/structmy__decomp__master.html#a0870daa393b92584b4720171586074a1", null ],
     [ "pub", "d9/dc7/structmy__decomp__master.html#ab9a692c30b5f1cc03d9074ad3c69af3f", null ],
-    [ "quantizer_1pass", "d9/dc7/structmy__decomp__master.html#a7d9ffc319a728c7ecbee667cc08c2712", null ],
-    [ "quantizer_2pass", "d9/dc7/structmy__decomp__master.html#aa750f058a8261543b5fc0a6c3ebe7eac", null ],
+    [ "quantizer_1pass", "d9/dc7/structmy__decomp__master.html#af72048ba84933f931c09153470ff4f0b", null ],
+    [ "quantizer_2pass", "d9/dc7/structmy__decomp__master.html#a9a5f56ccbaec7d13e08e0cfb9d7a3974", null ],
     [ "using_merged_upsample", "d9/dc7/structmy__decomp__master.html#af7ab207dfbf091b4de60e6fe3938f4a4", null ]
 ];

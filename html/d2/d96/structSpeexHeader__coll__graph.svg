@@ -38,8 +38,8 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="83.5,-188.5 83.5,-207.5 148.5,-207.5 148.5,-188.5 83.5,-188.5"/>
-<text text-anchor="middle" x="116" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">signed int</text>
+<polygon fill="none" stroke="#bfbfbf" points="91,-188.5 91,-207.5 141,-207.5 141,-188.5 91,-188.5"/>
+<text text-anchor="middle" x="116" y="-195.5" font-family="Helvetica,sans-Serif" font-size="10.00">int32_t</text>
 </a>
 </g>
 </g>

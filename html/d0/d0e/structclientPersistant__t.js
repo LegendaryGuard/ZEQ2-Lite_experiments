@@ -5,7 +5,7 @@ var structclientPersistant__t =
     [ "enterTime", "d0/d0e/structclientPersistant__t.html#a6f2ebe1c48ac717888b6dd5cd4d56d25", null ],
     [ "initialSpawn", "d0/d0e/structclientPersistant__t.html#ad4c90b6e9b0a550b738a9eaccfe835f5", null ],
     [ "localClient", "d0/d0e/structclientPersistant__t.html#aa0a286a087aff5f5d3700c43103e0e18", null ],
-    [ "netname", "d0/d0e/structclientPersistant__t.html#a850f8382c64d46bd34f6776be1b6c618", null ],
+    [ "netname", "d0/d0e/structclientPersistant__t.html#a2099d4b1d14f73ec49c0329cccc4c0b9", null ],
     [ "pmoveFixed", "d0/d0e/structclientPersistant__t.html#a612d6390b76475a40c9055af589780d3", null ],
     [ "teamInfo", "d0/d0e/structclientPersistant__t.html#a90d53957a45514f5dec7989437f8387a", null ],
     [ "teamState", "d0/d0e/structclientPersistant__t.html#a8b3789d3bac6438e7936343eb39adb70", null ],

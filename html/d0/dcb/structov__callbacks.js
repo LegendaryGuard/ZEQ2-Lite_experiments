@@ -1,7 +1,7 @@
 var structov__callbacks =
 [
-    [ "close_func", "d0/dcb/structov__callbacks.html#a7bc6240db657fc50e0e9b43d28ffbb49", null ],
-    [ "read_func", "d0/dcb/structov__callbacks.html#a5b4759c6cb3b398197c07bec4b5b6102", null ],
-    [ "seek_func", "d0/dcb/structov__callbacks.html#a0fc2e2644a6e41931324bf2995c2de71", null ],
-    [ "tell_func", "d0/dcb/structov__callbacks.html#ac5626dc0267fdc675353c4bb83cfb06f", null ]
+    [ "close_func", "d0/dcb/structov__callbacks.html#a4d1141e00251a23b27e1de261e8717ec", null ],
+    [ "read_func", "d0/dcb/structov__callbacks.html#a301b93b9f0436e5bde6dbdeb0edeae77", null ],
+    [ "seek_func", "d0/dcb/structov__callbacks.html#aa49d8079756c1c26e2ba9b974e463dfa", null ],
+    [ "tell_func", "d0/dcb/structov__callbacks.html#ab078f3f386b7c58e9fab2ede904e0e36", null ]
 ];

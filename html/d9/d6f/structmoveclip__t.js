@@ -5,9 +5,9 @@ var structmoveclip__t =
     [ "capsule", "d9/d6f/structmoveclip__t.html#a8b3c763f18441c2e14da1b88c6434d85", null ],
     [ "contentmask", "d9/d6f/structmoveclip__t.html#ac5f72a31776197d84cf58b9b969e810e", null ],
     [ "end", "d9/d6f/structmoveclip__t.html#accb159c44b9c090ab1d066c76f5cf0dc", null ],
-    [ "maxs", "d9/d6f/structmoveclip__t.html#a022ca618a409383878a8f65a40c42082", null ],
-    [ "mins", "d9/d6f/structmoveclip__t.html#ad51a01a3787f7f9caeabd0ee50dd01e8", null ],
+    [ "maxs", "d9/d6f/structmoveclip__t.html#a327773ce0ac31905a01e2682f24973de", null ],
+    [ "mins", "d9/d6f/structmoveclip__t.html#a71f8766b8ecc84008a82472e15c025ec", null ],
     [ "passEntityNum", "d9/d6f/structmoveclip__t.html#aaf09aef9c7b0b114637f91c1a8c9d7fd", null ],
-    [ "start", "d9/d6f/structmoveclip__t.html#ad50e5fd5d991be7c77381eff0a4072bc", null ],
+    [ "start", "d9/d6f/structmoveclip__t.html#a71f1a36f683a2cefa790c975ee60bd33", null ],
     [ "trace", "d9/d6f/structmoveclip__t.html#a256e487fa5d6af254a8375f3fcefc74e", null ]
 ];
