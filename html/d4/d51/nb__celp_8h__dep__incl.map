@@ -1,0 +1,8 @@
+<map id="Source/Engine/libspeex/nb_celp.h" name="Source/Engine/libspeex/nb_celp.h">
+<area shape="rect" id="node1" title="Narrowband CELP encoder/decoder." alt="" coords="264,5,437,47"/>
+<area shape="rect" id="node2" href="$d4/d9a/sb__celp_8h.html" title="Sub&#45;band CELP mode used for wideband encoding." alt="" coords="203,95,376,136"/>
+<area shape="rect" id="node3" href="$d2/d21/modes_8c.html" title=" " alt="" coords="5,184,179,225"/>
+<area shape="rect" id="node4" href="$d0/db3/modes__wb_8c.html" title=" " alt="" coords="400,184,573,225"/>
+<area shape="rect" id="node6" href="$d6/dc4/nb__celp_8c.html" title=" " alt="" coords="451,95,624,136"/>
+<area shape="rect" id="node5" href="$d8/d9b/sb__celp_8c.html" title=" " alt="" coords="203,184,376,225"/>
+</map>

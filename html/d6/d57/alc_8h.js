@@ -1,0 +1,26 @@
+var alc_8h =
+[
+    [ "ALC_VERSION_0_1", "d6/d57/alc_8h.html#a2f3f5607967f3df17e17839ba7aa91ca", null ],
+    [ "ALCAPI", "d6/d57/alc_8h.html#acdc6b5a97ec35175a3ca690480894339", null ],
+    [ "ALCAPIENTRY", "d6/d57/alc_8h.html#a57137309701f1ec4a967da4080f44fba", null ],
+    [ "alcCaptureCloseDevice", "d6/d57/alc_8h.html#ac48816b01514b5c70f0881a64892d5ef", null ],
+    [ "alcCaptureOpenDevice", "d6/d57/alc_8h.html#a53de2e6d5e462be835fda29ff2e03eb4", null ],
+    [ "alcCaptureSamples", "d6/d57/alc_8h.html#a85a33faacdad1578d3f49e36f8488af3", null ],
+    [ "alcCaptureStart", "d6/d57/alc_8h.html#a5c218ff42c7afa464d576042af081924", null ],
+    [ "alcCaptureStop", "d6/d57/alc_8h.html#abfb50e3e3d71fb09a73af616aaef802d", null ],
+    [ "alcCloseDevice", "d6/d57/alc_8h.html#a551ee088254a9706d4b321b48660c159", null ],
+    [ "alcCreateContext", "d6/d57/alc_8h.html#ae26cd5a7556343de310e76113839683d", null ],
+    [ "alcDestroyContext", "d6/d57/alc_8h.html#a588c01efac6654fa6667882e35f8635d", null ],
+    [ "alcGetContextsDevice", "d6/d57/alc_8h.html#ab23a58f949f26aedbe0c30ce05363e27", null ],
+    [ "alcGetCurrentContext", "d6/d57/alc_8h.html#af80a46a7c043436ce0905b7cb5e57df2", null ],
+    [ "alcGetEnumValue", "d6/d57/alc_8h.html#abcb16912b3a5c0dd85ceb5de1eec311c", null ],
+    [ "alcGetError", "d6/d57/alc_8h.html#a8913dc6f65f364d1647fddb1e53cb68b", null ],
+    [ "alcGetIntegerv", "d6/d57/alc_8h.html#abf3de5a42128f3adf520afb2b0a2a7af", null ],
+    [ "alcGetProcAddress", "d6/d57/alc_8h.html#a8785ded966a9756a5b9b67f3593fcfea", null ],
+    [ "alcGetString", "d6/d57/alc_8h.html#aa77b659d8624e20b1c1786b6a453f53e", null ],
+    [ "alcIsExtensionPresent", "d6/d57/alc_8h.html#ae9f64e5801724ee712590f78b7cd423e", null ],
+    [ "alcMakeContextCurrent", "d6/d57/alc_8h.html#a5ef1cc7c08044799068d30931990e72f", null ],
+    [ "alcOpenDevice", "d6/d57/alc_8h.html#ae0db69f68ac3f545b54628db0638b2bc", null ],
+    [ "alcProcessContext", "d6/d57/alc_8h.html#a58951184b8b3f7d1ff7cfa72a841cdd3", null ],
+    [ "alcSuspendContext", "d6/d57/alc_8h.html#a7d019b8d1e4a274f22ea239c1864c772", null ]
+];

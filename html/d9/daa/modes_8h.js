@@ -1,0 +1,27 @@
+var modes_8h =
+[
+    [ "SpeexNBMode", "d2/d00/structSpeexNBMode.html", "d2/d00/structSpeexNBMode" ],
+    [ "SpeexSBMode", "dd/dca/structSpeexSBMode.html", "dd/dca/structSpeexSBMode" ],
+    [ "SpeexSubmode", "da/d07/structSpeexSubmode.html", "da/d07/structSpeexSubmode" ],
+    [ "NB_SUBMODE_BITS", "d9/daa/modes_8h.html#ad6e65c68c28bd2b2a2f3afcf1c23981c", null ],
+    [ "NB_SUBMODES", "d9/daa/modes_8h.html#a9011a879f2ca68c94a05f74a31dcdd41", null ],
+    [ "SB_SUBMODE_BITS", "d9/daa/modes_8h.html#a550c9f424bdfbebf966d65d8e123797e", null ],
+    [ "SB_SUBMODES", "d9/daa/modes_8h.html#ac2818e91ca7b8f8fee4c5dcb2bfb019d", null ],
+    [ "SPEEX_GET_DTX_STATUS", "d9/daa/modes_8h.html#a7b5f97e295ee1f6f1d830481b5a6302e", null ],
+    [ "SPEEX_GET_EXC", "d9/daa/modes_8h.html#afecbd2de84e95c94fb84d07d65876c00", null ],
+    [ "SPEEX_GET_INNOV", "d9/daa/modes_8h.html#af254cd5a35c441f578f90dcf0f994a4e", null ],
+    [ "SPEEX_GET_PI_GAIN", "d9/daa/modes_8h.html#a54318295e4096ffe38d5c228fa23bca8", null ],
+    [ "SPEEX_GET_STACK", "d9/daa/modes_8h.html#ad50e541b947270aa6393ac0d59bff95e", null ],
+    [ "SPEEX_SET_INNOVATION_SAVE", "d9/daa/modes_8h.html#a38fc90458ebd32813beddaa18a35d81d", null ],
+    [ "SPEEX_SET_WIDEBAND", "d9/daa/modes_8h.html#af1a580be9305c69f713687d6dc3ae50d", null ],
+    [ "innovation_quant_func", "d9/daa/modes_8h.html#afdff52b06d2f0c7bc4d6b37bd9f10168", null ],
+    [ "innovation_unquant_func", "d9/daa/modes_8h.html#af4fe948faad0e2b3e1b73afb93102b5d", null ],
+    [ "lsp_quant_func", "d9/daa/modes_8h.html#a9771babfa4f8bce90bf059e1ef0516d4", null ],
+    [ "lsp_unquant_func", "d9/daa/modes_8h.html#af4ffd042ba96373f63dbf91c16e9a54b", null ],
+    [ "ltp_quant_func", "d9/daa/modes_8h.html#a3298c05d81cd15f11599658ebd4f1941", null ],
+    [ "ltp_unquant_func", "d9/daa/modes_8h.html#aba6b9a0a5d5c8a1f5d244e66a8adeb36", null ],
+    [ "nb_mode_query", "d9/daa/modes_8h.html#ab23050d91d156266b88a3c587a3216e1", null ],
+    [ "speex_decode_native", "d9/daa/modes_8h.html#aec1d3f96c27f25a50e5a2aedba246cd2", null ],
+    [ "speex_encode_native", "d9/daa/modes_8h.html#a390b422985c02779c9de3d24c6f9882b", null ],
+    [ "wb_mode_query", "d9/daa/modes_8h.html#a8b6e27a8f90880654c84fdfe7ead6fea", null ]
+];

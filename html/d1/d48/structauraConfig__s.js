@@ -1,0 +1,28 @@
+var structauraConfig__s =
+[
+    [ "auraAlways", "d1/d48/structauraConfig__s.html#a47a81dd15728ca48c4f2b6e52e772663", null ],
+    [ "auraColor", "d1/d48/structauraConfig__s.html#a8d7c52810a162211f4ed2f0552f167a2", null ],
+    [ "auraScale", "d1/d48/structauraConfig__s.html#a66a82782171240c112bbd5c5b2027337", null ],
+    [ "auraShader", "d1/d48/structauraConfig__s.html#a29295f3c055560978a1fd8f6bd56dec7", null ],
+    [ "boostLoopSound", "d1/d48/structauraConfig__s.html#ad0aeb6cd9a46e368a100f7335ce641d6", null ],
+    [ "boostStartSound", "d1/d48/structauraConfig__s.html#afa46446d51dae72b4b065b76bb45647a", null ],
+    [ "chargeLoopSound", "d1/d48/structauraConfig__s.html#ab1e1cd46089e8343b66165dee5eb497e", null ],
+    [ "chargeStartSound", "d1/d48/structauraConfig__s.html#a03aae6a2749ffd4e0a10001e35f4a6dd", null ],
+    [ "generatesDebris", "d1/d48/structauraConfig__s.html#a86d819f593fcd10fc87102bd438b9c13", null ],
+    [ "lightColor", "d1/d48/structauraConfig__s.html#a48bd5ff8624d1f8d65fa89b8afc6c2f4", null ],
+    [ "lightGrowthRate", "d1/d48/structauraConfig__s.html#af2cb8ce18a233df4a3e8da1a7fedc2c4", null ],
+    [ "lightMax", "d1/d48/structauraConfig__s.html#a79d90b760b4ebbe00b91ea1813f7beb8", null ],
+    [ "lightMin", "d1/d48/structauraConfig__s.html#a00f591850f8c29af7b09cc9ca0458762", null ],
+    [ "lightningColor", "d1/d48/structauraConfig__s.html#afa9c1755f17513736b752a050724dd3a", null ],
+    [ "lightningShader", "d1/d48/structauraConfig__s.html#ae79dbf180ee8235eeb1eca28d9f46e86", null ],
+    [ "numTags", "d1/d48/structauraConfig__s.html#aa4b0e5f8a4ccac0140c2c41fa47d83c0", null ],
+    [ "particleSystem", "d1/d48/structauraConfig__s.html#adff4a66ecce0f77bd91959efbc438a80", null ],
+    [ "showAura", "d1/d48/structauraConfig__s.html#aca79e196b2dcc5766d6b92afe14b6c72", null ],
+    [ "showLight", "d1/d48/structauraConfig__s.html#ac97bd531d86b9d064bd1afee3920bdd7", null ],
+    [ "showLightning", "d1/d48/structauraConfig__s.html#a9118bc8c43a39c9da276d30f53e17e8c", null ],
+    [ "showTrail", "d1/d48/structauraConfig__s.html#a580b913cdad1804b82008bbbffbec55c", null ],
+    [ "tailLength", "d1/d48/structauraConfig__s.html#a84465d9587e39be93bb4b00d12e3dc01", null ],
+    [ "trailColor", "d1/d48/structauraConfig__s.html#a6b955046985bb9a89530fda3d67a8515", null ],
+    [ "trailShader", "d1/d48/structauraConfig__s.html#a7da3c52b52466e2734f104482f447415", null ],
+    [ "trailWidth", "d1/d48/structauraConfig__s.html#a7831bc3255229c0e29f2e2a93055b6d7", null ]
+];

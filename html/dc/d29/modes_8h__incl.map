@@ -1,0 +1,9 @@
+<map id="Source/Engine/libspeex/modes.h" name="Source/Engine/libspeex/modes.h">
+<area shape="rect" id="node1" title="Describes the different modes of the codec." alt="" coords="72,5,245,47"/>
+<area shape="rect" id="node2" href="$d9/d8f/speex_8h.html" title="Describes the different modes of the codec." alt="" coords="101,95,217,121"/>
+<area shape="rect" id="node3" href="$d6/d21/speex__bits_8h.html" title="Handles bit packing/unpacking." alt="" coords="5,169,152,196"/>
+<area shape="rect" id="node7" href="$d2/d2d/arch_8h.html" title="Various architecture definitions Speex." alt="" coords="241,95,303,121"/>
+<area shape="rect" id="node4" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="185,169,343,196"/>
+<area shape="rect" id="node5" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="189,244,339,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="229,333,299,360"/>
+</map>

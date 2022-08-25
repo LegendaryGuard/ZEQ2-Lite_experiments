@@ -1,0 +1,26 @@
+<map id="SDL_Event" name="SDL_Event">
+<area shape="rect" id="node1" title="General event structure." alt="" coords="1176,752,1267,779"/>
+<area shape="rect" id="node2" href="$dd/dbc/structSDL__JoyHatEvent.html" title="Joystick hat position change event structure." alt="" coords="424,575,559,601"/>
+<area shape="rect" id="node3" title=" " alt="" coords="23,711,90,737"/>
+<area shape="rect" id="node4" href="$d1/dc2/structSDL__UserEvent.html" title="A user&#45;defined event type." alt="" coords="598,715,719,741"/>
+<area shape="rect" id="node7" href="$de/d9a/structSDL__MouseMotionEvent.html" title="Mouse motion event structure." alt="" coords="221,791,400,817"/>
+<area shape="rect" id="node10" href="$da/de2/structSDL__KeyboardEvent.html" title="Keyboard event structure." alt="" coords="583,513,735,540"/>
+<area shape="rect" id="node11" href="$d7/da0/structSDL__keysym.html" title="Keysym structure." alt="" coords="258,101,363,128"/>
+<area shape="rect" id="node14" href="$d9/dda/structSDL__JoyButtonEvent.html" title="Joystick button event structure." alt="" coords="759,1124,913,1151"/>
+<area shape="rect" id="node15" href="$d6/d9d/structSDL__SysWMEvent.html" title=" " alt="" coords="937,833,1076,860"/>
+<area shape="rect" id="node17" href="$dc/dce/structSDL__version.html" title=" " alt="" coords="259,943,362,969"/>
+<area shape="rect" id="node18" href="$d4/ddd/structSDL__QuitEvent.html" title="The &quot;quit requested&quot; event." alt="" coords="432,364,551,391"/>
+<area shape="rect" id="node19" href="$d9/de8/structSDL__JoyBallEvent.html" title="Joystick trackball motion event structure." alt="" coords="243,1213,379,1240"/>
+<area shape="rect" id="node20" href="$df/d75/structSDL__ActiveEvent.html" title="Application visibility event structure." alt="" coords="770,423,902,449"/>
+<area shape="rect" id="node21" href="$d3/d2c/structSDL__MouseButtonEvent.html" title="Mouse button event structure." alt="" coords="222,291,399,317"/>
+<area shape="rect" id="node22" href="$d9/dc8/structSDL__JoyAxisEvent.html" title="Joystick axis motion event structure." alt="" coords="241,1288,380,1315"/>
+<area shape="rect" id="node23" href="$d2/d2e/structSDL__ExposeEvent.html" title="The &quot;screen redraw&quot; event." alt="" coords="937,1013,1076,1040"/>
+<area shape="rect" id="node24" href="$d8/d25/structSDL__ResizeEvent.html" title="The &quot;window resized&quot; event When you get this event, you are responsible for setting a new video mode ..." alt="" coords="591,939,726,965"/>
+<area shape="rect" id="node5" title=" " alt="" coords="291,892,330,919"/>
+<area shape="rect" id="node16" href="$d9/dfc/structSDL__SysWMmsg.html" title="The generic custom event structure." alt="" coords="593,884,724,911"/>
+<area shape="rect" id="node6" title=" " alt="" coords="280,740,341,767"/>
+<area shape="rect" id="node8" title=" " alt="" coords="19,161,94,188"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,1213,108,1240"/>
+<area shape="rect" id="node12" title=" " alt="" coords="21,5,92,32"/>
+<area shape="rect" id="node13" title=" " alt="" coords="19,56,94,83"/>
+</map>
