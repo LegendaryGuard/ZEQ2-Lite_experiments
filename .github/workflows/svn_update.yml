@@ -37,7 +37,7 @@ jobs:
         git config --global user.email "<>"
         # ls -l
         # git status && git branch
-        ./svn_update.sh
+        sudo ./svn_update.sh
         # openssl rand -base64 12 > HASH
         # git add --all
         # git commit -m "Update SVN Hourly" 
