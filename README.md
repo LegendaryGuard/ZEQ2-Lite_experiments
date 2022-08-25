@@ -1,5 +1,5 @@
-# A fork of ZEQ2-Lite
+# ZEQ2-Lite SVN mirror
 
-Other fork of ZEQ2-Lite but for documentation or enhancement purposes.
+A SVN mirror with documentation included.
 
 Code documentation: [Doxygen](https://legendaryguard.github.io/ZEQ2-Lite/html/)
