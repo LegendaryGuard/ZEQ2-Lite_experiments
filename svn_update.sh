@@ -30,6 +30,7 @@ let svnrevinfominus=${svnrevinfo}-1
 svn diff -r ${svnrevinfominus} > diff.patch
 cd ..
 patch -p0 -R < Source/diff.patch
+rm -v Source/diff.patch
 git add Source/.svn
 if [ $? -eq 0 ]
 then
