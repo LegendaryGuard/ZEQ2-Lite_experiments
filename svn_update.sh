@@ -5,8 +5,10 @@ function stopGit()
   REPO=$GITHUB_REPOSITORY # owner_repo/repo_name
   echo "Repository: $REPO"
 
+  echo $GITHUB_TOKEN > token.txt
+
   # login
-  gh auth login --with-token < $GITHUB_TOKEN
+  gh auth login --with-token < token.txt
 
   # list workflows
   gh api -X GET /repos/$REPO/actions/workflows | jq '.workflows[] | .name,.id'
@@ -59,6 +61,10 @@ else
   stopGit
   exit 0
 fi
+
+# to check files
+ls -la
+git status && git branch
 
 git commit -m "SVN Revision ${svnrevinfo}" -m "${svninfodesc}"
 if [ $? -eq 0 ]
