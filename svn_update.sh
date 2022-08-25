@@ -2,6 +2,9 @@ function stopGit()
 {
   echo "NO NEW SVN UPDATE, SKIPPING..." >&2
 
+  org=$GITHUB_ACTOR:$GITHUB_TOKEN
+  repo='ZEQ2-Lite'
+
   # Get workflow IDs with status "disabled_manually"
   workflow_ids=($(gh api repos/$org/$repo/actions/workflows | jq '.workflows[] | select(.["state"] | contains("disabled_manually")) | .id'))
 
@@ -17,10 +20,10 @@ function stopGit()
   done
 }
 
+cd Source
 declare svnrevinfo=$( { svn info --revision HEAD --show-item revision; } )
 declare svninfodesc=$( { svn log -r HEAD; } )
-org=$GITHUB_ACTOR:$GITHUB_TOKEN
-repo='ZEQ2-Lite'
+cd ..
 git add --all
 if [ $? -eq 0 ]
 then
