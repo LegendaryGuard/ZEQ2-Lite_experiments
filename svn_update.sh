@@ -5,6 +5,9 @@ function stopGit()
   REPO=$GITHUB_REPOSITORY # owner_repo/repo_name
   echo "Repository: $REPO"
 
+  # login
+  gh auth login --with-token < $GITHUB_TOKEN
+
   # list workflows
   gh api -X GET /repos/$REPO/actions/workflows | jq '.workflows[] | .name,.id'
 
@@ -28,27 +31,25 @@ declare svninfodesc=$( { svn log -r HEAD; } )
 # let svnrevinfominus=${svnrevinfo}-1
 # svn diff -r ${svnrevinfominus} > diff.patch
 cd ..
-'''
-patch -p0 -R < Source/diff.patch
-rm -v Source/diff.patch
-git add Source/.svn
-if [ $? -eq 0 ]
-then
-  echo "Success: GIT ADDED."
-else
-  stopGit
-  exit 0
-fi
-'''
+# patch -p0 -R < Source/diff.patch
+# rm -v Source/diff.patch
+# git add Source/.svn
+# if [ $? -eq 0 ]
+# then
+#   echo "Success: GIT ADDED."
+# else
+#   stopGit
+#   exit 0
+# fi
 
-git commit -m "SVN Revision ${svnrevinfo}: update .svn"
-if [ $? -eq 0 ]
-then
-  echo "Success: GIT COMMITED"
-else
-  stopGit
-  exit 0
-fi
+# git commit -m "SVN Revision ${svnrevinfo}: update .svn"
+# if [ $? -eq 0 ]
+# then
+#   echo "Success: GIT COMMITED"
+# else
+#   stopGit
+#   exit 0
+# fi
 
 git add Source
 if [ $? -eq 0 ]
