@@ -2,10 +2,9 @@ git add --all
 if [ $? -eq 0 ]
 then
   echo "Success: GIT ADDED."
-  exit 0
 else
   echo "Failure: GIT CANNOT ADD" >&2
-  exit 1
+  exit 0
 fi
 git commit -m "Update SVN Hourly" 
 if [ $? -eq 0 ]
@@ -14,6 +13,6 @@ then
   git push
   exit 0
 else
-  echo "Failure: GIT CANNOT COMMIT" >&2
-  exit 1
+  echo "Failure: GIT CANNOT COMMIT, THERE IS NO NEW SVN UPDATE" >&2
+  exit 0
 fi
