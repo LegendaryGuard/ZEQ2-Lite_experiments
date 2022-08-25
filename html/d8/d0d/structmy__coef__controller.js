@@ -10,6 +10,6 @@ var structmy__coef__controller =
     [ "MCU_vert_offset", "d8/d0d/structmy__coef__controller.html#a47e8d96f30f813289b02267601c4a7b4", null ],
     [ "pub", "d8/d0d/structmy__coef__controller.html#a5585d883f38ce6d73d0d2fb31457f4e5", null ],
     [ "pub", "d8/d0d/structmy__coef__controller.html#a09524018020a2d7edbbcd92400f0919a", null ],
-    [ "whole_image", "d8/d0d/structmy__coef__controller.html#a7e6db8186140ced6ed561b2860c84819", null ],
-    [ "whole_image", "d8/d0d/structmy__coef__controller.html#aedc0b0cdda57a7f9e8c49770995b12b4", null ]
+    [ "whole_image", "d8/d0d/structmy__coef__controller.html#aedc0b0cdda57a7f9e8c49770995b12b4", null ],
+    [ "whole_image", "d8/d0d/structmy__coef__controller.html#a7e6db8186140ced6ed561b2860c84819", null ]
 ];
