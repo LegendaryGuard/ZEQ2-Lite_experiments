@@ -2,35 +2,33 @@ function stopGit()
 {
   echo "NO NEW SVN UPDATE, SKIPPING..." >&2
 
-  repo=$GITHUB_REPOSITORY # owner_repo/repo_name
+  REPO=$GITHUB_REPOSITORY # owner_repo/repo_name
+  echo "Repository: $REPO"
+
+  # list workflows
+  gh api -X GET /repos/$REPO/actions/workflows | jq '.workflows[] | .name,.id'
+
+  # copy the ID of the workflow you want to clear and set it
   WORKFLOW_ID=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-  https://api.github.com/repos/$repo/actions/workflows | jq -r .workflows[0].id) &&
+  https://api.github.com/repos/$REPO/actions/workflows | jq -r .workflows[0].id) &&
   echo $WORKFLOW_ID
 
+  # list runs
+  gh api -X GET /repos/$REPO/actions/workflows/$WORKFLOW_ID/runs | jq '.workflow_runs[] | .id'
+
+  # delete runs (you'll have to run this multiple times if there's many because of pagination)
+  gh api -X GET /repos/$REPO/actions/workflows/$WORKFLOW_ID/runs | jq '.workflow_runs[] | .id' | xargs -I{} gh api -X DELETE /repos/$REPO/actions/runs/{}
+
   echo "Workflow ID: $WORKFLOW_ID"
-  echo "Repository: $repo"
-
-  # Get workflow IDs
-  workflow_ids=($(gh api repos/$repo/actions/workflows | jq '.workflows[] | select(.["state"] | .id'))
-
-  for workflow_id in "${workflow_ids[@]}"
-  do
-    echo "Listing runs for the workflow ID $workflow_id"
-    run_ids=( $(gh api repos/$repo/actions/workflows/$workflow_id/runs --paginate | jq '.workflow_runs[].id') )
-    for run_id in "${run_ids[@]}"
-    do
-      echo "Deleting Run ID $run_id"
-      gh api repos/$repo/actions/runs/$run_id -X DELETE >/dev/null
-    done
-  done
 }
 
 cd Source
 declare svnrevinfo=$( { svn info --revision HEAD --show-item revision; } )
 declare svninfodesc=$( { svn log -r HEAD; } )
-let svnrevinfominus=${svnrevinfo}-1
-svn diff -r ${svnrevinfominus} > diff.patch
+# let svnrevinfominus=${svnrevinfo}-1
+# svn diff -r ${svnrevinfominus} > diff.patch
 cd ..
+'''
 patch -p0 -R < Source/diff.patch
 rm -v Source/diff.patch
 git add Source/.svn
@@ -41,6 +39,7 @@ else
   stopGit
   exit 0
 fi
+'''
 
 git commit -m "SVN Revision ${svnrevinfo}: update .svn"
 if [ $? -eq 0 ]
