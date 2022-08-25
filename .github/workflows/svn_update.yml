@@ -40,6 +40,3 @@ jobs:
         sudo chmod 777 svn_update.sh
         ./svn_update.sh
         # openssl rand -base64 12 > HASH
-        # git add --all
-        # git commit -m "Update SVN Hourly" 
-        # git push
