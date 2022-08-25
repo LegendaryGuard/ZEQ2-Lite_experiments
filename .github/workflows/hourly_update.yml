@@ -35,8 +35,8 @@ jobs:
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        LC_ALL=C tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_`{|}~' </dev/urandom | head -c 13 >> HASH
         # ls -l
+        ./gen_hash.sh
         # git status && git branch
         git add --all
         git commit -m "Update SVN Hourly" 
