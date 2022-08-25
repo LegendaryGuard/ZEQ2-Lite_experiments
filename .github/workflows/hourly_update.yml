@@ -35,7 +35,7 @@ jobs:
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        # ls -l
+        ls -l
         ./gen_hash.sh
         # git status && git branch
         git add --all
