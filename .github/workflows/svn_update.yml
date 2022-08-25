@@ -31,6 +31,12 @@ jobs:
         cd ZEQ2-Lite
         # ls -l
         rm -r Source
+        if [ $? -eq 0 ]
+        then
+          echo "SVN directory removed to be updated"
+        else
+          echo "SVN directory doesn't exist"
+        fi
         # ls -l
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
