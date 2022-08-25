@@ -1,15 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"d9/d79/cg__local_8h.html#afe8d7d55c6f9cd0df4ae9e794ab9d2dd":[5,0,0,1,0,13,486],
-"d9/d79/cg__local_8h.html#afefe38ca60635c86503dc48413684acd":[5,0,0,1,0,13,448],
-"d9/d79/cg__local_8h.html#affa3f150fb180baed7ff354e094b728f":[5,0,0,1,0,13,183],
-"d9/d79/cg__local_8h_source.html":[5,0,0,1,0,13],
-"d9/d7b/qal_8h.html":[5,0,0,0,2,19],
-"d9/d7b/qal_8h.html#a00399ef650f433936f814b408779b169":[5,0,0,0,2,19,5],
-"d9/d7b/qal_8h.html#a01accd37ea950859ffc03d33329d92cc":[5,0,0,0,2,19,51],
-"d9/d7b/qal_8h.html#a03f9f15c6cf128c87e9886e221c1e7f3":[5,0,0,0,2,19,88],
-"d9/d7b/qal_8h.html#a05e173f76b6022545e961c818a636558":[5,0,0,0,2,19,96],
-"d9/d7b/qal_8h.html#a0bc5ed9c8c39dcda47b0f041162223dd":[5,0,0,0,2,19,10],
 "d9/d7b/qal_8h.html#a126ecce8854d689d86f7ea9a32b086fe":[5,0,0,0,2,19,59],
 "d9/d7b/qal_8h.html#a13cbc5eccac24019c90ca559d55cb3b2":[5,0,0,0,2,19,29],
 "d9/d7b/qal_8h.html#a16542b22f56c1431d63aae3aabb6eb70":[5,0,0,0,2,19,31],
@@ -249,5 +239,15 @@ var NAVTREEINDEX82 =
 "d9/da9/q__math_8c.html#ae409284e91a75849ee406d70975132ff":[5,0,0,2,23,35],
 "d9/da9/q__math_8c.html#ae6cf2eb6a4108a67fa747e0736b7c9d7":[5,0,0,2,23,46],
 "d9/da9/q__math_8c_source.html":[5,0,0,2,23],
-"d9/daa/modes_8h.html":[5,0,0,0,6,57]
+"d9/daa/modes_8h.html":[5,0,0,0,6,57],
+"d9/daa/modes_8h.html#a3298c05d81cd15f11599658ebd4f1941":[5,0,0,0,6,57,18],
+"d9/daa/modes_8h.html#a38fc90458ebd32813beddaa18a35d81d":[5,0,0,0,6,57,12],
+"d9/daa/modes_8h.html#a390b422985c02779c9de3d24c6f9882b":[5,0,0,0,6,57,22],
+"d9/daa/modes_8h.html#a54318295e4096ffe38d5c228fa23bca8":[5,0,0,0,6,57,10],
+"d9/daa/modes_8h.html#a550c9f424bdfbebf966d65d8e123797e":[5,0,0,0,6,57,5],
+"d9/daa/modes_8h.html#a7b5f97e295ee1f6f1d830481b5a6302e":[5,0,0,0,6,57,7],
+"d9/daa/modes_8h.html#a8b6e27a8f90880654c84fdfe7ead6fea":[5,0,0,0,6,57,23],
+"d9/daa/modes_8h.html#a9011a879f2ca68c94a05f74a31dcdd41":[5,0,0,0,6,57,4],
+"d9/daa/modes_8h.html#a9771babfa4f8bce90bf059e1ef0516d4":[5,0,0,0,6,57,16],
+"d9/daa/modes_8h.html#ab23050d91d156266b88a3c587a3216e1":[5,0,0,0,6,57,20]
 };

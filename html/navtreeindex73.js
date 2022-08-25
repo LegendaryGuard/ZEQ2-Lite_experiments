@@ -1,13 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"d8/d99/cg__trails_8c.html#aa1441d5c24d0ce711ee929c0f435904f":[5,0,0,1,0,33,8],
-"d8/d99/cg__trails_8c.html#ab5a2910c8ba1f68022a8b4181f1ca3ea":[5,0,0,1,0,33,4],
-"d8/d99/cg__trails_8c.html#add065ead90408937dcd7c45dfce84238":[5,0,0,1,0,33,5],
-"d8/d99/cg__trails_8c.html#af77fdb11ccf1bf30670d5fe482a26985":[5,0,0,1,0,33,3],
-"d8/d99/cg__trails_8c_source.html":[5,0,0,1,0,33],
-"d8/d9b/sb__celp_8c.html":[5,0,0,0,6,68],
-"d8/d9b/sb__celp_8c.html#a0099cf8511067c3eda9c84c5aaefb941":[5,0,0,0,6,68,11],
-"d8/d9b/sb__celp_8c.html#a017a0082aebdcf25e030dcd49723432a":[5,0,0,0,6,68,16],
 "d8/d9b/sb__celp_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4":[5,0,0,0,6,68,3],
 "d8/d9b/sb__celp_8c.html#a0becf1f2493afcac093ed96c46b834b6":[5,0,0,0,6,68,6],
 "d8/d9b/sb__celp_8c.html#a0e0954c538b5e46102869f811ec6ce03":[5,0,0,0,6,68,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX73 =
 "d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a2c98a53e18aff28e95615cffcbc95005":[5,0,0,1,0,19,3,1],
 "d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a39252f2ef78b3190892e93ab4b738e76":[5,0,0,1,0,19,3,2],
 "d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a4b2d72f574e457303d46faa2b0cc279b":[5,0,0,1,0,19,3,4],
-"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a53c3649f4a19d87c7b091a07a4beb07c":[5,0,0,1,0,19,3,0]
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a53c3649f4a19d87c7b091a07a4beb07c":[5,0,0,1,0,19,3,0],
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a7231585419ba08e37906996c2010b5a9":[5,0,0,1,0,19,3,6],
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a785c16b4d7ad66631eaa539469ff9d1c":[5,0,0,1,0,19,3,5],
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1a80358b05c4364c6d21c7b3e5fc6b4793":[5,0,0,1,0,19,3,3],
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1aae0b86319125ad17cad329dede5dd6a6":[5,0,0,1,0,19,3,7],
+"d8/db5/cg__music_8h.html#ad5b73214f53a08cbc8a6f1726da0b6f1ad6d8a976b96b4e2f3a3504ba2420a786":[5,0,0,1,0,19,3,9],
+"d8/db5/cg__music_8h.html#ad7196bbd274f40e5900736c80fbad4ef":[5,0,0,1,0,19,5],
+"d8/db5/cg__music_8h.html#ae0853e8dcc3f7eb06a5e352e0defb741":[5,0,0,1,0,19,12],
+"d8/db5/cg__music_8h.html#aed48ca0bcd2162fd4fd495873e2631f5":[5,0,0,1,0,19,17]
 };

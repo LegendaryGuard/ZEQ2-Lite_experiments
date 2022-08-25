@@ -23,7 +23,7 @@ var structcg__userWeapon__t =
     [ "explosionShader", "da/da2/structcg__userWeapon__t.html#af0ce496124a655418be1473dda8e23de", null ],
     [ "explosionSize", "da/da2/structcg__userWeapon__t.html#a4faaa991f509f1e564b615512643dbf6", null ],
     [ "explosionSkin", "da/da2/structcg__userWeapon__t.html#a69bded3b9f363e1d41d70ffd29974e33", null ],
-    [ "explosionSound", "da/da2/structcg__userWeapon__t.html#a6b5f89a8436187ae577bcc8a1b8bae5d", null ],
+    [ "explosionSound", "da/da2/structcg__userWeapon__t.html#a7199a4732d7b2602c7581b3c380f4d70", null ],
     [ "explosionTime", "da/da2/structcg__userWeapon__t.html#a8d09bf3b29b1a3ea57a504eab333c322", null ],
     [ "firingParticleSystem", "da/da2/structcg__userWeapon__t.html#ae3829acb57656fb965abb11803ba1940", null ],
     [ "firingSound", "da/da2/structcg__userWeapon__t.html#a2a62c1d9911c4cbe037779409f80e685", null ],
@@ -35,7 +35,7 @@ var structcg__userWeapon__t =
     [ "flashShader", "da/da2/structcg__userWeapon__t.html#ab372897210901c5d1507030fb7adc42f", null ],
     [ "flashSize", "da/da2/structcg__userWeapon__t.html#a0765c5f09e8b784660830aca54388d04", null ],
     [ "flashSkin", "da/da2/structcg__userWeapon__t.html#accff1441d88444e23133a5f714044330", null ],
-    [ "flashSound", "da/da2/structcg__userWeapon__t.html#a2548db787106ddd06f065250320ee340", null ],
+    [ "flashSound", "da/da2/structcg__userWeapon__t.html#aa4cbc38896738b39ff5a4e7ce196990b", null ],
     [ "markShader", "da/da2/structcg__userWeapon__t.html#a6f3217ef01a48adf2b90a82961d6df93", null ],
     [ "markSize", "da/da2/structcg__userWeapon__t.html#a898b34037b3bb4b00d66b1b7a1941b56", null ],
     [ "missileDlightColor", "da/da2/structcg__userWeapon__t.html#a373cb90c6afa17fad163484658f59d44", null ],
@@ -59,7 +59,7 @@ var structcg__userWeapon__t =
     [ "shockwaveModel", "da/da2/structcg__userWeapon__t.html#a607fd28ed86a80758da9c419ce42a44c", null ],
     [ "shockwaveSkin", "da/da2/structcg__userWeapon__t.html#ad66650412f88b725710aa85eb9b57b95", null ],
     [ "smokeParticleSystem", "da/da2/structcg__userWeapon__t.html#a1ece84fd7b2e0f74ff96a8f585f718c2", null ],
-    [ "voiceSound", "da/da2/structcg__userWeapon__t.html#a0b203eead2395b2df0fa80f9275ca110", null ],
+    [ "voiceSound", "da/da2/structcg__userWeapon__t.html#a675173eee2ced2d5b07875d8b554c46f", null ],
     [ "weaponIcon", "da/da2/structcg__userWeapon__t.html#aa0aa29146d6c455bf13908171273635d", null ],
     [ "weaponName", "da/da2/structcg__userWeapon__t.html#a2b07573ec7ea19cdfc621dd4bedc85e0", null ]
 ];

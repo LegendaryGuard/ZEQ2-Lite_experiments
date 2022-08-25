@@ -1,15 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"d9/ddb/SDL__config__win32_8h.html#af5e1c674bb7ab42ee349e48b33705a04":[5,0,0,0,11,0,16,31],
-"d9/ddb/SDL__config__win32_8h.html#af7f07516c9cfbd5d70663ee6d80d87e6":[5,0,0,0,11,0,16,46],
-"d9/ddb/SDL__config__win32_8h.html#afe4fa9f8c4b45b2490a7f02ca464a338":[5,0,0,0,11,0,16,0],
-"d9/ddb/SDL__config__win32_8h_source.html":[5,0,0,0,11,0,16],
-"d9/de0/jfdctint_8c.html":[5,0,0,0,3,40],
-"d9/de0/jfdctint_8c.html#a22f7d06d1b388701db9030e51cc67ab0":[5,0,0,0,3,40,44],
-"d9/de0/jfdctint_8c.html#a281d26d03f6272e278cc01f6aab70426":[5,0,0,0,3,40,10],
-"d9/de0/jfdctint_8c.html#a2b976bc2431a9110687eefc470eac000":[5,0,0,0,3,40,19],
-"d9/de0/jfdctint_8c.html#a325ec22eccee8578099c2c18fcf3a62d":[5,0,0,0,3,40,42],
-"d9/de0/jfdctint_8c.html#a3d2d2e5ecf18252bfafbbeb5da5b4fde":[5,0,0,0,3,40,38],
 "d9/de0/jfdctint_8c.html#a3e6036ce80a1d67ddba5696b819bd1d9":[5,0,0,0,3,40,43],
 "d9/de0/jfdctint_8c.html#a41bb084eef4ed4fb667ac631d9fecb57":[5,0,0,0,3,40,31],
 "d9/de0/jfdctint_8c.html#a439f35ddfcade9d0ef154fe641766c8f":[5,0,0,0,3,40,29],
@@ -249,5 +239,15 @@ var NAVTREEINDEX84 =
 "d9/df7/tr__sky_8c.html#a139c345cde17e5617355386221ded6e5":[5,0,0,0,9,33,25],
 "d9/df7/tr__sky_8c.html#a1fa5f72667d7055dbafdadc29eff4e48":[5,0,0,0,9,33,1],
 "d9/df7/tr__sky_8c.html#a1fd24b98537af874adc28c19b327b628":[5,0,0,0,9,33,11],
-"d9/df7/tr__sky_8c.html#a2314b7f562f72ac8c06d84880a014623":[5,0,0,0,9,33,26]
+"d9/df7/tr__sky_8c.html#a2314b7f562f72ac8c06d84880a014623":[5,0,0,0,9,33,26],
+"d9/df7/tr__sky_8c.html#a287ee5b66b16c56197fec8b687912e70":[5,0,0,0,9,33,21],
+"d9/df7/tr__sky_8c.html#a3f81d9ebc386057830ec2d75e789b183":[5,0,0,0,9,33,9],
+"d9/df7/tr__sky_8c.html#a4562d96d6499545f7736be8fe23ee3e4":[5,0,0,0,9,33,20],
+"d9/df7/tr__sky_8c.html#a4c4c9853b278610829c0e26d75336b89":[5,0,0,0,9,33,8],
+"d9/df7/tr__sky_8c.html#a6470ae4e00dc7511ff12555e53be8763":[5,0,0,0,9,33,15],
+"d9/df7/tr__sky_8c.html#a67a840c68a10556551e9e94c7edba424":[5,0,0,0,9,33,10],
+"d9/df7/tr__sky_8c.html#a75ceacdfe50009da31013f02edb86ede":[5,0,0,0,9,33,13],
+"d9/df7/tr__sky_8c.html#a8493c1d2f9f4c2ddd3b3abda295d680a":[5,0,0,0,9,33,18],
+"d9/df7/tr__sky_8c.html#a8a36161dfb4573c42ae5c1a7d2640314":[5,0,0,0,9,33,6],
+"d9/df7/tr__sky_8c.html#a9d24a529a028a7d2b1908133fffb199e":[5,0,0,0,9,33,0]
 };

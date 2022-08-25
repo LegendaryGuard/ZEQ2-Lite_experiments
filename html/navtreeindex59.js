@@ -1,13 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"d7/d69/SDL__opengl_8h.html#a3a8d919f43fc44308410859905737c2a":[5,0,0,0,11,0,31,1084],
-"d7/d69/SDL__opengl_8h.html#a3a93a245950770cdf196c80e1cd157c1":[5,0,0,0,11,0,31,851],
-"d7/d69/SDL__opengl_8h.html#a3a970e07aeee1e9d1a56b095bab846a3":[5,0,0,0,11,0,31,1140],
-"d7/d69/SDL__opengl_8h.html#a3a9f5ff32cf9b3e5fdfc9450735b7500":[5,0,0,0,11,0,31,349],
-"d7/d69/SDL__opengl_8h.html#a3ac53e5144dadbe02f8ab6454df5983e":[5,0,0,0,11,0,31,1432],
-"d7/d69/SDL__opengl_8h.html#a3ac93e85f9b5ce27b9b8139334ecac04":[5,0,0,0,11,0,31,1055],
-"d7/d69/SDL__opengl_8h.html#a3ad5b3e82f51885b0ebc604e54b624f0":[5,0,0,0,11,0,31,2089],
-"d7/d69/SDL__opengl_8h.html#a3b24af74462b4d1a8dc2f14f5fc36df5":[5,0,0,0,11,0,31,2042],
 "d7/d69/SDL__opengl_8h.html#a3b414212d6fa089193b8f7c7d23c00b5":[5,0,0,0,11,0,31,988],
 "d7/d69/SDL__opengl_8h.html#a3b58c39b1b7ca6f4012b27e84de3bdb3":[5,0,0,0,11,0,31,2492],
 "d7/d69/SDL__opengl_8h.html#a3b7d50f04a14942a9056c72d66861fe0":[5,0,0,0,11,0,31,2252],
@@ -249,5 +241,13 @@ var NAVTREEINDEX59 =
 "d7/d69/SDL__opengl_8h.html#a5407a22ab99b1b24203252e4a9303e20":[5,0,0,0,11,0,31,905],
 "d7/d69/SDL__opengl_8h.html#a5425b82a8a9f4c3f70e6e242755703e9":[5,0,0,0,11,0,31,1785],
 "d7/d69/SDL__opengl_8h.html#a5431ba735f894a8181318afd42698d2a":[5,0,0,0,11,0,31,1028],
-"d7/d69/SDL__opengl_8h.html#a54343182c95193ba220e4f5c009d4811":[5,0,0,0,11,0,31,2333]
+"d7/d69/SDL__opengl_8h.html#a54343182c95193ba220e4f5c009d4811":[5,0,0,0,11,0,31,2333],
+"d7/d69/SDL__opengl_8h.html#a543a2054de613839eae3518ae474fbe4":[5,0,0,0,11,0,31,246],
+"d7/d69/SDL__opengl_8h.html#a5454d12e79b181328af7522c69894232":[5,0,0,0,11,0,31,1473],
+"d7/d69/SDL__opengl_8h.html#a54644a094e18a9b31ebe801fb249df57":[5,0,0,0,11,0,31,1074],
+"d7/d69/SDL__opengl_8h.html#a547d3c7f8887be69ac599993405eccca":[5,0,0,0,11,0,31,369],
+"d7/d69/SDL__opengl_8h.html#a54979ea6eeae6eefc70f6022c72ad235":[5,0,0,0,11,0,31,550],
+"d7/d69/SDL__opengl_8h.html#a54ca0b81f388c56a0f5ed4284de238a6":[5,0,0,0,11,0,31,717],
+"d7/d69/SDL__opengl_8h.html#a54e08df09931f370cd71a9e9b11edf20":[5,0,0,0,11,0,31,1582],
+"d7/d69/SDL__opengl_8h.html#a54e55b1c36d076bbf42632c357473dba":[5,0,0,0,11,0,31,632]
 };

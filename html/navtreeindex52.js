@@ -1,13 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"d6/ddb/g__weapon_8c.html#ad9dbcad14c6dfd56b283bdcf58bd5a24":[5,0,0,1,1,36,6],
-"d6/ddb/g__weapon_8c.html#adf3413f94f96a6089d7f6c71f33ac347":[5,0,0,1,1,36,8],
-"d6/ddb/g__weapon_8c.html#aedc39479042e0a3d414d1c95c59aef5d":[5,0,0,1,1,36,1],
-"d6/ddb/g__weapon_8c.html#af52fb5d17699a865207cb055a3c65a71":[5,0,0,1,1,36,3],
-"d6/ddb/g__weapon_8c_source.html":[5,0,0,1,1,36],
-"d6/ddb/vm__powerpc_8c.html":[5,0,0,2,36],
-"d6/ddb/vm__powerpc_8c.html#a00a94831b115a4215fc9db20765fab23":[5,0,0,2,36,65],
-"d6/ddb/vm__powerpc_8c.html#a068a229236f52f988f15be3bd491f5fe":[5,0,0,2,36,97],
 "d6/ddb/vm__powerpc_8c.html#a0875fbe4cc18e6851195e8be70bc932e":[5,0,0,2,36,48],
 "d6/ddb/vm__powerpc_8c.html#a123b1a8a6949266fa79e3e51352f62dc":[5,0,0,2,36,43],
 "d6/ddb/vm__powerpc_8c.html#a16482e66a9ccab33a4882121c36968b5":[5,0,0,2,36,79],
@@ -249,5 +241,13 @@ var NAVTREEINDEX52 =
 "d7/d0c/quant__lsp_8c.html#a369da13d54828c3d4f5b0042bf265c2b":[5,0,0,0,6,64,0],
 "d7/d0c/quant__lsp_8c.html#a3bafe9d996132ee0d4215087066178fc":[5,0,0,0,6,64,1],
 "d7/d0c/quant__lsp_8c.html#a3d9f4ee702d05328037df7727fa655d3":[5,0,0,0,6,64,10],
-"d7/d0c/quant__lsp_8c.html#a67a876f86ec3757d4ef89ccbc91f70ad":[5,0,0,0,6,64,18]
+"d7/d0c/quant__lsp_8c.html#a67a876f86ec3757d4ef89ccbc91f70ad":[5,0,0,0,6,64,18],
+"d7/d0c/quant__lsp_8c.html#a85d80f66cf4a6895af67341304155f52":[5,0,0,0,6,64,12],
+"d7/d0c/quant__lsp_8c.html#aa01d9f6633cf8c222ec76cf9049f3283":[5,0,0,0,6,64,16],
+"d7/d0c/quant__lsp_8c.html#aa1d77ef72c89ca118294ecd9bcfba945":[5,0,0,0,6,64,5],
+"d7/d0c/quant__lsp_8c.html#aa9114653136610da96b39893db9e6281":[5,0,0,0,6,64,17],
+"d7/d0c/quant__lsp_8c.html#ab4df91cdc71509da31e10c34c827d772":[5,0,0,0,6,64,11],
+"d7/d0c/quant__lsp_8c.html#abfd8c05a7d08328daefbf7c63d10d138":[5,0,0,0,6,64,3],
+"d7/d0c/quant__lsp_8c.html#ad0502a8b229a34fcfe6a6d2611d1c0d4":[5,0,0,0,6,64,13],
+"d7/d0c/quant__lsp_8c.html#ad42d3b7eba62c8c0bbcbc7eadb11a8f8":[5,0,0,0,6,64,15]
 };

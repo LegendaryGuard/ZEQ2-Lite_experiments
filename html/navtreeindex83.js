@@ -1,15 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/daa/modes_8h.html#a3298c05d81cd15f11599658ebd4f1941":[5,0,0,0,6,57,18],
-"d9/daa/modes_8h.html#a38fc90458ebd32813beddaa18a35d81d":[5,0,0,0,6,57,12],
-"d9/daa/modes_8h.html#a390b422985c02779c9de3d24c6f9882b":[5,0,0,0,6,57,22],
-"d9/daa/modes_8h.html#a54318295e4096ffe38d5c228fa23bca8":[5,0,0,0,6,57,10],
-"d9/daa/modes_8h.html#a550c9f424bdfbebf966d65d8e123797e":[5,0,0,0,6,57,5],
-"d9/daa/modes_8h.html#a7b5f97e295ee1f6f1d830481b5a6302e":[5,0,0,0,6,57,7],
-"d9/daa/modes_8h.html#a8b6e27a8f90880654c84fdfe7ead6fea":[5,0,0,0,6,57,23],
-"d9/daa/modes_8h.html#a9011a879f2ca68c94a05f74a31dcdd41":[5,0,0,0,6,57,4],
-"d9/daa/modes_8h.html#a9771babfa4f8bce90bf059e1ef0516d4":[5,0,0,0,6,57,16],
-"d9/daa/modes_8h.html#ab23050d91d156266b88a3c587a3216e1":[5,0,0,0,6,57,20],
 "d9/daa/modes_8h.html#aba6b9a0a5d5c8a1f5d244e66a8adeb36":[5,0,0,0,6,57,19],
 "d9/daa/modes_8h.html#ac2818e91ca7b8f8fee4c5dcb2bfb019d":[5,0,0,0,6,57,6],
 "d9/daa/modes_8h.html#ad50e541b947270aa6393ac0d59bff95e":[5,0,0,0,6,57,11],
@@ -249,5 +239,15 @@ var NAVTREEINDEX83 =
 "d9/ddb/SDL__config__win32_8h.html#aea041b7edb829d4ca8db9091aec6820a":[5,0,0,0,11,0,16,43],
 "d9/ddb/SDL__config__win32_8h.html#aee12dd7c3eeb43fa23fdd8b43823e3ce":[5,0,0,0,11,0,16,51],
 "d9/ddb/SDL__config__win32_8h.html#aef44329758059c91c76d334e8fc09700":[5,0,0,0,11,0,16,60],
-"d9/ddb/SDL__config__win32_8h.html#af48c354ae84b052a66066ac1e0f5c8e0":[5,0,0,0,11,0,16,15]
+"d9/ddb/SDL__config__win32_8h.html#af48c354ae84b052a66066ac1e0f5c8e0":[5,0,0,0,11,0,16,15],
+"d9/ddb/SDL__config__win32_8h.html#af5e1c674bb7ab42ee349e48b33705a04":[5,0,0,0,11,0,16,31],
+"d9/ddb/SDL__config__win32_8h.html#af7f07516c9cfbd5d70663ee6d80d87e6":[5,0,0,0,11,0,16,46],
+"d9/ddb/SDL__config__win32_8h.html#afe4fa9f8c4b45b2490a7f02ca464a338":[5,0,0,0,11,0,16,0],
+"d9/ddb/SDL__config__win32_8h_source.html":[5,0,0,0,11,0,16],
+"d9/de0/jfdctint_8c.html":[5,0,0,0,3,40],
+"d9/de0/jfdctint_8c.html#a22f7d06d1b388701db9030e51cc67ab0":[5,0,0,0,3,40,44],
+"d9/de0/jfdctint_8c.html#a281d26d03f6272e278cc01f6aab70426":[5,0,0,0,3,40,10],
+"d9/de0/jfdctint_8c.html#a2b976bc2431a9110687eefc470eac000":[5,0,0,0,3,40,19],
+"d9/de0/jfdctint_8c.html#a325ec22eccee8578099c2c18fcf3a62d":[5,0,0,0,3,40,42],
+"d9/de0/jfdctint_8c.html#a3d2d2e5ecf18252bfafbbeb5da5b4fde":[5,0,0,0,3,40,38]
 };

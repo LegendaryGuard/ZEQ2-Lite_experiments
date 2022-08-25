@@ -1,14 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"d6/d62/structcg__t.html#ac598d74bb48bd062c3ae1d5505608ba6":[4,0,44,51],
-"d6/d62/structcg__t.html#ac5c0ee145b69aff32065c09b2eb471a1":[4,0,44,28],
-"d6/d62/structcg__t.html#ac6d757e968054aef14b0229aea1d1224":[4,0,44,101],
-"d6/d62/structcg__t.html#ac7b04fc9806ea5bfab29d6f487ba532e":[4,0,44,9],
-"d6/d62/structcg__t.html#ac8ca7a6033235902868e54a7929dabfa":[4,0,44,84],
-"d6/d62/structcg__t.html#ac9b57302976c5586cfd6358440d06a9f":[4,0,44,90],
-"d6/d62/structcg__t.html#aca657dede62fd542f9bfe12e2a52479b":[4,0,44,114],
-"d6/d62/structcg__t.html#acad9a04ec315338fb2f98802b2c5b7b1":[4,0,44,129],
-"d6/d62/structcg__t.html#accf9950349ba6d5c0b23f43f200201b9":[4,0,44,6],
 "d6/d62/structcg__t.html#acdeaae8cacc0db0ac5c539057faa46e3":[4,0,44,14],
 "d6/d62/structcg__t.html#aceddfbe1576532e4c15d651a6713057c":[4,0,44,25],
 "d6/d62/structcg__t.html#acef3c067313bf20b7208211eb13f56cb":[4,0,44,45],
@@ -249,5 +240,14 @@ var NAVTREEINDEX47 =
 "d6/d85/SDL__joystick_8h.html#ac6fbda13b93679bedfc34733d4b2e748":[5,0,0,0,11,0,23,12],
 "d6/d85/SDL__joystick_8h.html#ac7a5a4c17f6a5a4ef9f5bc78e50913df":[5,0,0,0,11,0,23,13],
 "d6/d85/SDL__joystick_8h.html#ac916fe96c0740790e5496e12c67d8889":[5,0,0,0,11,0,23,8],
-"d6/d85/SDL__joystick_8h.html#adbfd6f0bad25cd1bb79f8c0a065f3833":[5,0,0,0,11,0,23,0]
+"d6/d85/SDL__joystick_8h.html#adbfd6f0bad25cd1bb79f8c0a065f3833":[5,0,0,0,11,0,23,0],
+"d6/d85/SDL__joystick_8h.html#adfc662e571011ae7ec303101ab34e53a":[5,0,0,0,11,0,23,20],
+"d6/d85/SDL__joystick_8h_source.html":[5,0,0,0,11,0,23],
+"d6/d87/structSDL__AudioCVT.html":[4,0,431],
+"d6/d87/structSDL__AudioCVT.html#a020b6e1c01089169921ddb0c1e7f08d2":[4,0,431,4],
+"d6/d87/structSDL__AudioCVT.html#a06215f053474c02d9292b6c317af435c":[4,0,431,11],
+"d6/d87/structSDL__AudioCVT.html#a080db27b929efa983c5161360ffce310":[4,0,431,1],
+"d6/d87/structSDL__AudioCVT.html#a2388a295604af1169651568742de928d":[4,0,431,2],
+"d6/d87/structSDL__AudioCVT.html#a289a571421d05e416dd585c6f890a75b":[4,0,431,0],
+"d6/d87/structSDL__AudioCVT.html#a35093b3ad3331c17416c593a76012b63":[4,0,431,3]
 };
