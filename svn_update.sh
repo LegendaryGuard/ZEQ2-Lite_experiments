@@ -3,9 +3,11 @@ function stopGit()
   echo "NO NEW SVN UPDATE, SKIPPING..." >&2
 
   repo=$GITHUB_REPOSITORY # owner_repo/repo_name
-  currentworkflow=${{ github.run_id }}
+  WORKFLOW_ID=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+  https://api.github.com/repos/$repo/actions/workflows | jq -r .workflows[0].id) &&
+  echo $WORKFLOW_ID
 
-  echo "Workflow ID: $currentworkflow"
+  echo "Workflow ID: $WORKFLOW_ID"
   echo "Repository: $repo"
 
   # Get workflow IDs
