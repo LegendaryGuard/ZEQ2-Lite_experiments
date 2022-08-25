@@ -827,6 +827,5 @@ var searchData=
   ['axiscopy_892',['AxisCopy',['../d9/da9/q__math_8c.html#a6a7f531dac17ffa3e500295b5acde9c1',1,'AxisCopy(vec3_t in[3], vec3_t out[3]):&#160;q_math.c'],['../de/d01/q__shared_8h.html#a6a7f531dac17ffa3e500295b5acde9c1',1,'AxisCopy(vec3_t in[3], vec3_t out[3]):&#160;q_math.c']]],
   ['axisdefault_893',['axisDefault',['../d9/da9/q__math_8c.html#a8c8306cddd9c7ba99aee02409c9fe7bf',1,'axisDefault():&#160;q_math.c'],['../de/d01/q__shared_8h.html#a8c8306cddd9c7ba99aee02409c9fe7bf',1,'axisDefault():&#160;q_math.c']]],
   ['axislength_894',['axisLength',['../db/dbb/structtrRefEntity__t.html#a884738dbdd2a1f363c51a0cfa2376b78',1,'trRefEntity_t']]],
-  ['axistoangles_895',['AxisToAngles',['../d9/da9/q__math_8c.html#a1bb62b95e7e9724273ee0412bdf9fb50',1,'AxisToAngles(vec3_t axis[3], vec3_t angles):&#160;q_math.c'],['../de/d01/q__shared_8h.html#a1bb62b95e7e9724273ee0412bdf9fb50',1,'AxisToAngles(vec3_t axis[3], vec3_t angles):&#160;q_math.c']]],
-  ['a_20fork_20of_20zeq2_2dlite_896',['A fork of ZEQ2-Lite',['../d0/d30/md_README.html',1,'']]]
+  ['axistoangles_895',['AxisToAngles',['../d9/da9/q__math_8c.html#a1bb62b95e7e9724273ee0412bdf9fb50',1,'AxisToAngles(vec3_t axis[3], vec3_t angles):&#160;q_math.c'],['../de/d01/q__shared_8h.html#a1bb62b95e7e9724273ee0412bdf9fb50',1,'AxisToAngles(vec3_t axis[3], vec3_t angles):&#160;q_math.c']]]
 ];

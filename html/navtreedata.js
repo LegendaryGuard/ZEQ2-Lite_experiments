@@ -23,7 +23,7 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "ZEQ2-Lite", "index.html", [
-    [ "A fork of ZEQ2-Lite", "d0/d30/md_README.html", null ],
+    [ "ZEQ2-Lite SVN mirror", "d0/d30/md_README.html", null ],
     [ "dagcheck", "db/dc5/md_Source_Engine_tools_lcc_src_dagcheck.html", null ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
     [ "Modules", "modules.html", "modules" ],
