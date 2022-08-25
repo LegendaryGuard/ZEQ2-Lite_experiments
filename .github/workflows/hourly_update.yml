@@ -19,7 +19,7 @@ jobs:
         fetch-depth: 0
 
     - name: Get dependencies
-      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git
+      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git openssl
 
     - name: Checkout ZEQ2-Lite SVN
       working-directory: ${{github.workspace}}
@@ -35,7 +35,7 @@ jobs:
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        sed "s/[^a-zA-Z0-9]//g" <<< $(cat /dev/urandom | tr -dc 'a-zA-Z0-9!@#$%*()-+' | fold -w 32 | head -n 1) > HASH
+        openssl rand -base64 12 > HASH
         # ls -l
         # git status && git branch
         git add --all
