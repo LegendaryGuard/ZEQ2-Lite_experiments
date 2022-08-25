@@ -1,0 +1,42 @@
+name: SVN Hourly
+on:
+  schedule:
+    - cron: '*/59 * * * *'
+  push:
+    branches:
+      - "*"
+
+jobs:
+  svn-hourly:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Get dependencies
+      run: sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install subversion git
+
+    - name: Checkout ZEQ2-Lite SVN
+      working-directory: ${{github.workspace}}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      shell: bash
+      run: |
+        git clone --single-branch --depth 1 https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/LegendaryGuard/ZEQ2-Lite.git
+        cd ZEQ2-Lite
+        # ls -l
+        rm -r Source
+        # ls -l
+        svn checkout https://zeq2.com/SVN/Source/ Source
+        git config --global user.name "GitHub CI SVN Updates"
+        git config --global user.email "<>"
+        # ls -l
+        # git status && git branch
+        git add --all
+        git commit -m "Update SVN Hourly" 
+        git push
