@@ -1,5 +1,5 @@
 var structc__derived__tbl =
 [
-    [ "ehufco", "d5/dd9/structc__derived__tbl.html#acb8d0ecc41a6d9e2d1631122368de665", null ],
-    [ "ehufsi", "d5/dd9/structc__derived__tbl.html#afbf7d9e461bf60c975e26af7404479ee", null ]
+    [ "ehufco", "d5/dd9/structc__derived__tbl.html#a64df462c99b029e62107c9c394be577a", null ],
+    [ "ehufsi", "d5/dd9/structc__derived__tbl.html#a405806edaf7e22c028f488957271a455", null ]
 ];

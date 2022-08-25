@@ -13,7 +13,7 @@ var structSDL__PixelFormat =
     [ "Gloss", "d4/dae/structSDL__PixelFormat.html#a94469768d8436e631a13d68623ff663f", null ],
     [ "Gmask", "d4/dae/structSDL__PixelFormat.html#a3d07a81b430202c6ea0089d8df8f4e15", null ],
     [ "Gshift", "d4/dae/structSDL__PixelFormat.html#a6045012f994c02a86bdc4a91b28d2a3c", null ],
-    [ "palette", "d4/dae/structSDL__PixelFormat.html#aeae611aba76f5eb11b696807926c5116", null ],
+    [ "palette", "d4/dae/structSDL__PixelFormat.html#a6fae4a385741ac5b45c5141c288e4f5c", null ],
     [ "Rloss", "d4/dae/structSDL__PixelFormat.html#a9994b4ed87a2551253aebfa191db8424", null ],
     [ "Rmask", "d4/dae/structSDL__PixelFormat.html#a35e5793f6e9c356aec2d130167174946", null ],
     [ "Rshift", "d4/dae/structSDL__PixelFormat.html#abfdec7b9ee2ee39db630f4022e4e0daa", null ]

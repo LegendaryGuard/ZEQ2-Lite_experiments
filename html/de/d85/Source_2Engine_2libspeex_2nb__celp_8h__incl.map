@@ -1,0 +1,11 @@
+<map id="Source/Engine/libspeex/nb_celp.h" name="Source/Engine/libspeex/nb_celp.h">
+<area shape="rect" id="node1" title="Narrowband CELP encoder/decoder." alt="" coords="225,5,399,47"/>
+<area shape="rect" id="node2" href="$d3/dc8/Source_2Engine_2libspeex_2modes_8h.html" title="Describes the different modes of the codec." alt="" coords="117,95,195,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,152,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="220,95,404,121"/>
+<area shape="rect" id="node8" href="$d1/de4/Source_2Engine_2libspeex_2vbr_8h.html" title="Variable Bit&#45;Rate (VBR) related routines." alt="" coords="523,95,578,121"/>
+<area shape="rect" id="node9" href="$d4/d4c/Source_2Engine_2libspeex_2filters_8h.html" title="Various analysis/synthesis filters." alt="" coords="429,95,499,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="177,169,293,196"/>
+<area shape="rect" id="node5" href="$d9/dce/Source_2Engine_2libspeex_2arch_8h.html" title="Various architecture definitions Speex." alt="" coords="433,169,495,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="385,244,543,271"/>
+</map>

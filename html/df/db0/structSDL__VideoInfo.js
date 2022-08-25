@@ -13,7 +13,7 @@ var structSDL__VideoInfo =
     [ "UnusedBits1", "df/db0/structSDL__VideoInfo.html#a1aeb1f930953b9d32a56f978047b5f27", null ],
     [ "UnusedBits2", "df/db0/structSDL__VideoInfo.html#add1b831a063c0a4aed3f2f496096374b", null ],
     [ "UnusedBits3", "df/db0/structSDL__VideoInfo.html#a647dc6f87a620ac1f4d7075a0f7063c7", null ],
-    [ "vfmt", "df/db0/structSDL__VideoInfo.html#a8501500d288bda9c60d8251138478f08", null ],
+    [ "vfmt", "df/db0/structSDL__VideoInfo.html#a40f450f12e926b3875779ab543f65a58", null ],
     [ "video_mem", "df/db0/structSDL__VideoInfo.html#ab706d6c856b170f8da28786e98fb5de3", null ],
     [ "wm_available", "df/db0/structSDL__VideoInfo.html#aa7dee6b91b73acd0476d67d7036669e9", null ]
 ];

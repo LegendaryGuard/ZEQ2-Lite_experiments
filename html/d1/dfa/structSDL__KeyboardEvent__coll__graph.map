@@ -1,8 +1,8 @@
 <map id="SDL_KeyboardEvent" name="SDL_KeyboardEvent">
 <area shape="rect" id="node1" title="Keyboard event structure." alt="" coords="5,201,157,228"/>
-<area shape="rect" id="node2" title=" " alt="" coords="49,5,116,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="48,5,115,32"/>
 <area shape="rect" id="node3" href="$d7/da0/structSDL__keysym.html" title="Keysym structure." alt="" coords="147,103,253,130"/>
-<area shape="rect" id="node4" title=" " alt="" coords="147,5,218,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="243,5,317,32"/>
-<area shape="rect" id="node6" title=" " alt="" coords="341,5,416,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="151,5,222,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="246,5,365,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="388,5,463,32"/>
 </map>

@@ -1,7 +1,7 @@
 var structvorbis__comment =
 [
-    [ "comment_lengths", "d0/d78/structvorbis__comment.html#a4698d400a859e9338a5828ead97cacdf", null ],
+    [ "comment_lengths", "d0/d78/structvorbis__comment.html#a91e786c2110af999dba5538b7b5cb04c", null ],
     [ "comments", "d0/d78/structvorbis__comment.html#aa338208fb0f485b3818832a7d07dbe92", null ],
-    [ "user_comments", "d0/d78/structvorbis__comment.html#ac45cb70542b0be5ce3e8d85db6df48ec", null ],
-    [ "vendor", "d0/d78/structvorbis__comment.html#a1f25158a2c045a6dd8a13b33b34612d3", null ]
+    [ "user_comments", "d0/d78/structvorbis__comment.html#a9e36acca53d6be43e8218fb9ee49d850", null ],
+    [ "vendor", "d0/d78/structvorbis__comment.html#ab2646bee68d539413329b8eead133d35", null ]
 ];

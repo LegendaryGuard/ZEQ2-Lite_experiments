@@ -1,10 +1,11 @@
 var structsource__instruction__s =
 [
     [ "arg", "de/dc8/structsource__instruction__s.html#a8910ba3dc0b307efe95a0a3d26461998", null ],
+    [ "arg", "de/dc8/structsource__instruction__s.html#aef693febb2815e5a4ebb506a67d581af", null ],
     [ "b", "de/dc8/structsource__instruction__s.html#a1cdc8d337ade1f98171862701f3cfbd1", null ],
     [ "i", "de/dc8/structsource__instruction__s.html#ac07161cab1c5d3e736d0b64feec32531", null ],
     [ "i_count", "de/dc8/structsource__instruction__s.html#a81977767efba30f4a167b49faa248f50", null ],
-    [ "next", "de/dc8/structsource__instruction__s.html#a8867c67cd53b7d2a8f7e704f8218cecb", null ],
+    [ "next", "de/dc8/structsource__instruction__s.html#a8a6377c55ffff85314c86d7712a99cef", null ],
     [ "op", "de/dc8/structsource__instruction__s.html#a6d484161841b2261184fe8c3cf258c62", null ],
     [ "regA1", "de/dc8/structsource__instruction__s.html#af10f505eb1ef4220b3551467e03f1969", null ],
     [ "regA2", "de/dc8/structsource__instruction__s.html#a99b55fbc01b26ed76abb53f0cf6b39c3", null ],

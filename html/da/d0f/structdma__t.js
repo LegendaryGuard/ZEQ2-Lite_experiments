@@ -1,6 +1,6 @@
 var structdma__t =
 [
-    [ "buffer", "da/d0f/structdma__t.html#a7de8f9462d0591425b96def5a7ef3df2", null ],
+    [ "buffer", "da/d0f/structdma__t.html#a378018907b52a787aa03251db9e4f03b", null ],
     [ "channels", "da/d0f/structdma__t.html#a8e23cffee607d12617ec8734f750de99", null ],
     [ "samplebits", "da/d0f/structdma__t.html#ae1c7d8632ff1b5ce949bde1d3658afa1", null ],
     [ "samples", "da/d0f/structdma__t.html#abf0aad3c13944aa69627d050722afc55", null ],

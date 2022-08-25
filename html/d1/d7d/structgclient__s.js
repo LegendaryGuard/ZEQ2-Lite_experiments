@@ -1,15 +1,15 @@
 var structgclient__s =
 [
     [ "airOutTime", "d1/d7d/structgclient__s.html#ae88b660cbe6ee936dd287617e807b485", null ],
-    [ "areabits", "d1/d7d/structgclient__s.html#a72a7c09e5034b99d9872d30acf17714b", null ],
+    [ "areabits", "d1/d7d/structgclient__s.html#a1dfd8dd3e8e11f456e99ec7f2d206976", null ],
     [ "buttons", "d1/d7d/structgclient__s.html#a53ea7996b2bb05bfe5026e3d6a636ba7", null ],
     [ "damage_blood", "d1/d7d/structgclient__s.html#a037bd641abdb689762ca07c45817f227", null ],
     [ "damage_from", "d1/d7d/structgclient__s.html#a24636fac947b3a73040e53379a430744", null ],
     [ "damage_fromWorld", "d1/d7d/structgclient__s.html#a4271eaf5b8ed299785559f8d2524f52c", null ],
     [ "damage_knockback", "d1/d7d/structgclient__s.html#ac875f5d24a575d3f852b5d378ed27027", null ],
     [ "fireHeld", "d1/d7d/structgclient__s.html#a20cc23f0e355bf2622380dd05c2ed068", null ],
-    [ "guidetarget", "d1/d7d/structgclient__s.html#ad717ff45d2af13516ef1e2ef96e0eb56", null ],
-    [ "hook", "d1/d7d/structgclient__s.html#aa688db420e218f481703fb59d68225e2", null ],
+    [ "guidetarget", "d1/d7d/structgclient__s.html#a1a01fbc99a39d04ff1ee8d2e940b5f66", null ],
+    [ "hook", "d1/d7d/structgclient__s.html#a8b20143f4c0bcde0705960a6eb30da6b", null ],
     [ "inactivityTime", "d1/d7d/structgclient__s.html#a6ae89ae9f136df190bf3737e6f31b651", null ],
     [ "inactivityWarning", "d1/d7d/structgclient__s.html#a0bf44df040207f1c3530ebdc3a4332aa", null ],
     [ "lastCmdTime", "d1/d7d/structgclient__s.html#a8234661884584d0bafecafe0b63d0f37", null ],
@@ -19,16 +19,16 @@ var structgclient__s =
     [ "lastkilled_client", "d1/d7d/structgclient__s.html#a3fd6575840b744145729237665f7fae1", null ],
     [ "lastKillTime", "d1/d7d/structgclient__s.html#a7711620082d881d13a188a41890b60c6", null ],
     [ "latched_buttons", "d1/d7d/structgclient__s.html#a753ff658ba11947e070caa37b211ad2b", null ],
-    [ "modelName", "d1/d7d/structgclient__s.html#a947f79dc2329c953b6bee7f90611d6c1", null ],
+    [ "modelName", "d1/d7d/structgclient__s.html#a0b384861949a27ab79a915e3fd08cb5f", null ],
     [ "noclip", "d1/d7d/structgclient__s.html#a7567e17e5daf690b139059b9ca7b9615", null ],
     [ "oldbuttons", "d1/d7d/structgclient__s.html#a54de9d8b57dce21e0bbe407023d51135", null ],
     [ "oldOrigin", "d1/d7d/structgclient__s.html#ac487daec35490814883ed5f9a0d01278", null ],
     [ "pers", "d1/d7d/structgclient__s.html#a3f801783805f596f7ebe092223d3ba59", null ],
-    [ "playerEntity", "d1/d7d/structgclient__s.html#aab59f2c43513056e16f2e0f864dd4aaf", null ],
+    [ "playerEntity", "d1/d7d/structgclient__s.html#a54943058a9f2826ec9518b781a52b1ee", null ],
     [ "ps", "d1/d7d/structgclient__s.html#a4155e6303b035fdde597b1db6923c578", null ],
     [ "readyToExit", "d1/d7d/structgclient__s.html#a4554036a3aebf1e4f55d44a7d6df1ef9", null ],
     [ "respawnTime", "d1/d7d/structgclient__s.html#a61f6f349199d117e51d80f22a12c127d", null ],
     [ "sess", "d1/d7d/structgclient__s.html#ab94fa607d3c8cb3e4ea3b3b43cc02b7e", null ],
     [ "switchTeamTime", "d1/d7d/structgclient__s.html#addcfcd5287ceb7eae329c86f3df723f9", null ],
-    [ "tiers", "d1/d7d/structgclient__s.html#a580e8d2c4a7ec5d4375bf86eac69aeea", null ]
+    [ "tiers", "d1/d7d/structgclient__s.html#a345ee4415a65ad9e42d431445d2f63d1", null ]
 ];

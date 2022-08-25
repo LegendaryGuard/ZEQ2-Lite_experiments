@@ -2,7 +2,7 @@ var structmd3Surface__t =
 [
     [ "flags", "dd/d6f/structmd3Surface__t.html#a36c720424ea7dc5ccc62628c4b1e4a95", null ],
     [ "ident", "dd/d6f/structmd3Surface__t.html#ac740ad61b87fb4a65781a9c8a238600d", null ],
-    [ "name", "dd/d6f/structmd3Surface__t.html#aac9cbb5f1b62d17a4767c7e9163e6fbf", null ],
+    [ "name", "dd/d6f/structmd3Surface__t.html#a5cf55be8ce17306cb2f687710fb06037", null ],
     [ "numFrames", "dd/d6f/structmd3Surface__t.html#a9d577386c95569decf70eb3bc7b7b5eb", null ],
     [ "numShaders", "dd/d6f/structmd3Surface__t.html#a663dbc51c134b124bd0ec752a6f4d49e", null ],
     [ "numTriangles", "dd/d6f/structmd3Surface__t.html#a65e40018eb42820a4a0a0319a575ef48", null ],

@@ -1,10 +1,10 @@
 <map id="JitterBuffer" name="JitterBuffer">
-<area shape="rect" id="node1" title="Jitter buffer structure." alt="" coords="335,377,427,404"/>
+<area shape="rect" id="node1" title="Jitter buffer structure." alt="" coords="339,377,431,404"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,177,121,203"/>
 <area shape="rect" id="node3" title=" " alt="" coords="145,177,280,203"/>
 <area shape="rect" id="node4" href="$de/d8e/structTimingBuffer.html" title="Buffer that keeps the time of arrival of the latest packets." alt="" coords="463,177,570,203"/>
 <area shape="rect" id="node5" title=" " alt="" coords="332,5,371,32"/>
 <area shape="rect" id="node6" title=" " alt="" coords="465,5,568,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="594,177,661,203"/>
-<area shape="rect" id="node8" title=" " alt="" coords="710,177,785,203"/>
+<area shape="rect" id="node7" title=" " alt="" coords="595,177,681,203"/>
+<area shape="rect" id="node8" title=" " alt="" coords="713,177,816,203"/>
 </map>

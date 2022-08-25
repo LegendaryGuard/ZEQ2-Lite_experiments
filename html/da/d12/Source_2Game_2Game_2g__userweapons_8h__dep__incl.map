@@ -1,0 +1,31 @@
+<map id="Source/Game/Game/g_userweapons.h" name="Source/Game/Game/g_userweapons.h">
+<area shape="rect" id="node1" title=" " alt="" coords="2167,5,2331,47"/>
+<area shape="rect" id="node2" href="$d2/d41/Source_2Game_2Game_2g__local_8h.html" title=" " alt="" coords="2167,95,2331,136"/>
+<area shape="rect" id="node3" href="$d3/d48/Source_2Game_2Game_2g__active_8c.html" title=" " alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node4" href="$dd/d60/Source_2Game_2Game_2g__arenas_8c.html" title=" " alt="" coords="193,184,357,225"/>
+<area shape="rect" id="node5" href="$d4/daf/Source_2Game_2Game_2g__client_8c.html" title=" " alt="" coords="381,184,545,225"/>
+<area shape="rect" id="node6" href="$d9/d93/Source_2Game_2Game_2g__cmds_8c.html" title=" " alt="" coords="569,184,733,225"/>
+<area shape="rect" id="node7" href="$d5/d4c/Source_2Game_2Game_2g__combat_8c.html" title=" " alt="" coords="757,184,921,225"/>
+<area shape="rect" id="node8" href="$db/dbd/Source_2Game_2Game_2g__main_8c.html" title=" " alt="" coords="945,184,1109,225"/>
+<area shape="rect" id="node9" href="$d4/d12/Source_2Game_2Game_2g__mem_8c.html" title=" " alt="" coords="1133,184,1297,225"/>
+<area shape="rect" id="node10" href="$d0/dfb/Source_2Game_2Game_2g__misc_8c.html" title=" " alt="" coords="1321,184,1485,225"/>
+<area shape="rect" id="node11" href="$db/df0/Source_2Game_2Game_2g__mover_8c.html" title=" " alt="" coords="1509,184,1673,225"/>
+<area shape="rect" id="node12" href="$db/da4/Source_2Game_2Game_2g__radar_8c.html" title=" " alt="" coords="1697,184,1861,225"/>
+<area shape="rect" id="node13" href="$dc/d88/Source_2Game_2Game_2g__rankings_8c.html" title=" " alt="" coords="1885,184,2049,225"/>
+<area shape="rect" id="node14" href="$df/d50/Source_2Game_2Game_2g__session_8c.html" title=" " alt="" coords="2073,184,2237,225"/>
+<area shape="rect" id="node15" href="$d3/d35/Source_2Game_2Game_2g__spawn_8c.html" title=" " alt="" coords="2261,184,2425,225"/>
+<area shape="rect" id="node16" href="$da/d62/Source_2Game_2Game_2g__svcmds_8c.html" title=" " alt="" coords="2449,184,2613,225"/>
+<area shape="rect" id="node17" href="$d6/de4/Source_2Game_2Game_2g__syscalls_8c.html" title=" " alt="" coords="2637,184,2801,225"/>
+<area shape="rect" id="node18" href="$d2/d10/Source_2Game_2Game_2g__target_8c.html" title=" " alt="" coords="2825,184,2989,225"/>
+<area shape="rect" id="node19" href="$df/da4/Source_2Game_2Game_2g__team_8c.html" title=" " alt="" coords="3013,184,3177,225"/>
+<area shape="rect" id="node20" href="$dc/d8c/Source_2Game_2Game_2g__tiers_8c.html" title=" " alt="" coords="3201,184,3365,225"/>
+<area shape="rect" id="node21" href="$de/d94/Source_2Game_2Game_2g__trigger_8c.html" title=" " alt="" coords="3389,184,3553,225"/>
+<area shape="rect" id="node22" href="$d4/db5/Source_2Game_2Game_2g__usermissile_8c.html" title=" " alt="" coords="3577,184,3741,225"/>
+<area shape="rect" id="node23" href="$da/d33/Source_2Game_2Game_2g__userweapons_8c.html" title=" " alt="" coords="3765,184,3929,225"/>
+<area shape="rect" id="node24" href="$d4/db3/Source_2Game_2Game_2g__utils_8c.html" title=" " alt="" coords="3953,184,4117,225"/>
+<area shape="rect" id="node25" href="$d7/d66/Source_2Game_2Game_2g__weapon_8c.html" title=" " alt="" coords="4141,184,4305,225"/>
+<area shape="rect" id="node26" href="$d0/d89/Source_2Game_2Game_2g__weapPhysParser_8h.html" title=" " alt="" coords="4329,184,4493,225"/>
+<area shape="rect" id="node27" href="$d6/d90/Source_2Game_2Game_2g__weapPhysAttributes_8c.html" title=" " alt="" coords="4134,273,4305,315"/>
+<area shape="rect" id="node28" href="$dd/df5/Source_2Game_2Game_2g__weapPhysParser_8c.html" title=" " alt="" coords="4329,273,4493,315"/>
+<area shape="rect" id="node29" href="$d1/d0b/Source_2Game_2Game_2g__weapPhysScanner_8c.html" title=" " alt="" coords="4517,273,4681,315"/>
+</map>

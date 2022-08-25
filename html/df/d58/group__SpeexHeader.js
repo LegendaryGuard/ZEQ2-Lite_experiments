@@ -12,15 +12,17 @@ var group__SpeexHeader =
       [ "rate", "d8/d32/structSpeexHeader.html#a6157e9a625429578f62accb14dd39d3b", null ],
       [ "reserved1", "d8/d32/structSpeexHeader.html#ae4ac8287a9ea7c4bb084b720e4e36228", null ],
       [ "reserved2", "d8/d32/structSpeexHeader.html#aecf3ab6d15af2fb2d3cb9b14e8e0478e", null ],
-      [ "speex_string", "d8/d32/structSpeexHeader.html#ae02198bf166bb0835c2bbcf71afedeb1", null ],
-      [ "speex_version", "d8/d32/structSpeexHeader.html#a585a15435dc55b8c785f9c52e913efc5", null ],
+      [ "speex_string", "d8/d32/structSpeexHeader.html#acaca23a22c1ef13f26719c40981ab293", null ],
+      [ "speex_version", "d8/d32/structSpeexHeader.html#ad856f4d51067d9c72afaf29f36e1ed6e", null ],
       [ "speex_version_id", "d8/d32/structSpeexHeader.html#ae28aca2dc58f399a3caaca5b26aacf85", null ],
       [ "vbr", "d8/d32/structSpeexHeader.html#a29870c83179a12f12c0408af4ad481c5", null ]
     ] ],
     [ "SPEEX_HEADER_STRING_LENGTH", "df/d58/group__SpeexHeader.html#gad8c43b1b12ddd4ee9463ee01a1608844", null ],
+    [ "SPEEX_HEADER_STRING_LENGTH", "df/d58/group__SpeexHeader.html#gad8c43b1b12ddd4ee9463ee01a1608844", null ],
+    [ "SPEEX_HEADER_VERSION_LENGTH", "df/d58/group__SpeexHeader.html#ga7489d3196d916c12260a12ceb8717bd6", null ],
     [ "SPEEX_HEADER_VERSION_LENGTH", "df/d58/group__SpeexHeader.html#ga7489d3196d916c12260a12ceb8717bd6", null ],
     [ "speex_header_free", "df/d58/group__SpeexHeader.html#gaf3b9c7f36a330703ae8b086b19597fee", null ],
-    [ "speex_header_to_packet", "df/d58/group__SpeexHeader.html#ga535999cb2b664e1d53bd255319ff4f42", null ],
+    [ "speex_header_to_packet", "df/d58/group__SpeexHeader.html#ga4bb7e62ec22f31c195fba6bed26b3465", null ],
     [ "speex_init_header", "df/d58/group__SpeexHeader.html#gaa726e56f33a5f1ebdd10509e15ab1826", null ],
-    [ "speex_packet_to_header", "df/d58/group__SpeexHeader.html#ga95ee02fa6d87d19988d83412f4d47bb4", null ]
+    [ "speex_packet_to_header", "df/d58/group__SpeexHeader.html#ga6e64c8b7a4921296a414083fe291478c", null ]
 ];

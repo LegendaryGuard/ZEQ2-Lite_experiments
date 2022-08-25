@@ -1,6 +1,8 @@
 var structjpeg__marker__reader =
 [
     [ "JMETHOD", "da/deb/structjpeg__marker__reader.html#a6a2541cbeb37477c71ba6bc237e559a1", null ],
+    [ "JMETHOD", "da/deb/structjpeg__marker__reader.html#a6a2541cbeb37477c71ba6bc237e559a1", null ],
+    [ "JMETHOD", "da/deb/structjpeg__marker__reader.html#af23250da87f9da190c88459aa565f2b1", null ],
     [ "JMETHOD", "da/deb/structjpeg__marker__reader.html#af23250da87f9da190c88459aa565f2b1", null ],
     [ "discarded_bytes", "da/deb/structjpeg__marker__reader.html#ad29dee6159ab74f195fe5d88139306ce", null ],
     [ "next_restart_num", "da/deb/structjpeg__marker__reader.html#aac8d40171c73a18f129cd1b62d2fd06b", null ],

@@ -1,5 +1,5 @@
 var structhuffman =
 [
-    [ "count", "d4/df0/structhuffman.html#a268a0d06778d1f30fd57fe671ec9f0ed", null ],
-    [ "symbol", "d4/df0/structhuffman.html#ac6fabd49585dd1942aa4918f37646220", null ]
+    [ "count", "d4/df0/structhuffman.html#a1c9ae6aee0c6a587044b118879794b9c", null ],
+    [ "symbol", "d4/df0/structhuffman.html#ad07471dddaea55a921a8bf4502ee3d19", null ]
 ];

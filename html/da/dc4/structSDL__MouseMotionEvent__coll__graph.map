@@ -1,6 +1,6 @@
 <map id="SDL_MouseMotionEvent" name="SDL_MouseMotionEvent">
-<area shape="rect" id="node1" title="Mouse motion event structure." alt="" coords="48,124,227,151"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,80,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="104,5,171,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="195,5,298,32"/>
+<area shape="rect" id="node1" title="Mouse motion event structure." alt="" coords="93,124,271,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="149,5,215,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="240,5,343,32"/>
 </map>

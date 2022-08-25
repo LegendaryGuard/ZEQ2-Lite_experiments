@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 683;
+var viewWidth = 690;
 var viewHeight = 307;
 var sectionId = 'dynsection-0';
 </script>
@@ -58,8 +58,8 @@ var sectionId = 'dynsection-0';
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Jitter buffer structure.">
-<polygon fill="#bfbfbf" stroke="black" points="247,-0.5 247,-19.5 316,-19.5 316,-0.5 247,-0.5"/>
-<text text-anchor="middle" x="281.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JitterBuffer</text>
+<polygon fill="#bfbfbf" stroke="black" points="250,-0.5 250,-19.5 319,-19.5 319,-0.5 250,-0.5"/>
+<text text-anchor="middle" x="284.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">JitterBuffer</text>
 </a>
 </g>
 </g>
@@ -75,8 +75,8 @@ var sectionId = 'dynsection-0';
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M49.45,-141.18C59.33,-113.9 81.85,-63.13 119.5,-38 139.84,-24.43 205.63,-16.92 246.85,-13.45"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="46.02,-140.4 46.08,-150.99 52.64,-142.67 46.02,-140.4"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M49.44,-141.17C59.31,-113.87 81.81,-63.07 119.5,-38 140.34,-24.13 208.02,-16.69 249.94,-13.32"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="46.01,-140.39 46.07,-150.99 52.63,-142.66 46.01,-140.39"/>
 <text text-anchor="middle" x="139.5" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00"> destroy</text>
 </g>
 <!-- Node3 -->
@@ -91,8 +91,8 @@ var sectionId = 'dynsection-0';
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M155.04,-140.52C155.45,-113.96 160.26,-65.85 187.5,-38 202.93,-22.22 226.93,-15.5 246.82,-12.72"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="151.54,-140.78 155.08,-150.76 158.54,-140.75 151.54,-140.78"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M155.01,-140.49C155.39,-113.9 160.15,-65.74 187.5,-38 203.7,-21.57 228.98,-14.91 249.68,-12.3"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="151.51,-140.77 155.07,-150.75 158.51,-140.73 151.51,-140.77"/>
 <text text-anchor="middle" x="208" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00"> packets</text>
 </g>
 <!-- Node4 -->
@@ -107,10 +107,10 @@ var sectionId = 'dynsection-0';
 <!-- Node4&#45;&gt;Node1 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M371.71,-142.34C349.85,-110.51 303.77,-43.43 287.42,-19.61"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="368.88,-144.39 377.42,-150.66 374.65,-140.43 368.88,-144.39"/>
-<text text-anchor="middle" x="357.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00"> _tb</text>
-<text text-anchor="middle" x="357.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">timeBuffers</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M371.78,-141.93C350.46,-109.94 306.05,-43.33 290.24,-19.61"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="369.14,-144.28 377.6,-150.66 374.97,-140.39 369.14,-144.28"/>
+<text text-anchor="middle" x="359.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00"> _tb</text>
+<text text-anchor="middle" x="359.5" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">timeBuffers</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -122,10 +122,10 @@ var sectionId = 'dynsection-0';
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
-<g id="edge8" class="edge">
+<g id="edge7" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.22,-269.42C250.77,-235.51 241.43,-161.4 251.5,-100 256.51,-69.43 270.61,-35.21 277.55,-19.6"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="252.77,-270.02 257.88,-279.3 259.67,-268.86 252.77,-270.02"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M256.04,-269.39C250.3,-235.43 240.51,-161.25 251.5,-100 257.03,-69.18 272.53,-35.08 280.15,-19.55"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="252.6,-270.05 257.79,-279.29 259.49,-268.83 252.6,-270.05"/>
 <text text-anchor="middle" x="293" y="-213" font-family="Helvetica,sans-Serif" font-size="10.00"> auto_tradeoff</text>
 <text text-anchor="middle" x="293" y="-202" font-family="Helvetica,sans-Serif" font-size="10.00">late_cutoff</text>
 <text text-anchor="middle" x="293" y="-191" font-family="Helvetica,sans-Serif" font-size="10.00">lost_count</text>
@@ -167,38 +167,38 @@ var sectionId = 'dynsection-0';
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="441.5,-151 441.5,-170 491.5,-170 491.5,-151 441.5,-151"/>
-<text text-anchor="middle" x="466.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">int32_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="442,-151 442,-170 507,-170 507,-151 442,-151"/>
+<text text-anchor="middle" x="474.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">signed int</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
 <g id="edge6" class="edge">
 <title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M460.27,-140.98C450.15,-113.86 427.45,-63.77 390.5,-38 368.59,-22.72 338.92,-16.06 316.06,-13.17"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="457.1,-142.51 463.75,-150.76 463.7,-140.17 457.1,-142.51"/>
-<text text-anchor="middle" x="473.5" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00"> delay_step</text>
-<text text-anchor="middle" x="473.5" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">concealment_size</text>
-<text text-anchor="middle" x="473.5" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">buffered</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M467.39,-141.51C455.84,-114.69 430.41,-64.55 392.5,-38 370.97,-22.92 341.84,-16.24 319.25,-13.3"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="464.19,-142.95 471.25,-150.85 470.66,-140.27 464.19,-142.95"/>
+<text text-anchor="middle" x="477.5" y="-68.5" font-family="Helvetica,sans-Serif" font-size="10.00"> delay_step</text>
+<text text-anchor="middle" x="477.5" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">concealment_size</text>
+<text text-anchor="middle" x="477.5" y="-46.5" font-family="Helvetica,sans-Serif" font-size="10.00">buffered</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:title=" ">
-<polygon fill="none" stroke="#bfbfbf" points="528.5,-151 528.5,-170 584.5,-170 584.5,-151 528.5,-151"/>
-<text text-anchor="middle" x="556.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">uint32_t</text>
+<polygon fill="none" stroke="#bfbfbf" points="531,-151 531,-170 608,-170 608,-151 531,-151"/>
+<text text-anchor="middle" x="569.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00">unsigned int</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M557.06,-140.59C556.74,-113.34 551.73,-63.53 521.5,-38 491.3,-12.51 375.45,-9.92 316.46,-10.32"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="553.56,-140.71 556.97,-150.74 560.56,-140.78 553.56,-140.71"/>
-<text text-anchor="middle" x="611" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00"> last_returned_timestamp</text>
-<text text-anchor="middle" x="611" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">pointer_timestamp</text>
-<text text-anchor="middle" x="611" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">next_stop</text>
-<text text-anchor="middle" x="611" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">arrival</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M568.56,-140.46C566.11,-113.05 557.26,-63.03 525.5,-38 494.33,-13.44 378.4,-10.41 319.43,-10.52"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="565.09,-140.95 569.27,-150.68 572.07,-140.46 565.09,-140.95"/>
+<text text-anchor="middle" x="618" y="-74" font-family="Helvetica,sans-Serif" font-size="10.00"> last_returned_timestamp</text>
+<text text-anchor="middle" x="618" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">pointer_timestamp</text>
+<text text-anchor="middle" x="618" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">next_stop</text>
+<text text-anchor="middle" x="618" y="-41" font-family="Helvetica,sans-Serif" font-size="10.00">arrival</text>
 </g>
 </g>
 </svg>

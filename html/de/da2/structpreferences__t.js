@@ -12,7 +12,7 @@ var structpreferences__t =
     [ "controls", "de/da2/structpreferences__t.html#a7992cc782c6356968184c86ac37cdce5", null ],
     [ "crosshair", "de/da2/structpreferences__t.html#a3b4f66b7cc0c6c1e2975075b195b1f03", null ],
     [ "crosshairNames", "de/da2/structpreferences__t.html#a30ee6d0e4a2e0d88fbd9a3d4b06131cf", null ],
-    [ "crosshairShader", "de/da2/structpreferences__t.html#a366fe974783257f43c7ce77f90b8fcc9", null ],
+    [ "crosshairShader", "de/da2/structpreferences__t.html#a6333e11f9df72f3c1ff3e02c7a0b9c28", null ],
     [ "crosshairSize", "de/da2/structpreferences__t.html#a471f8e14eb4da3b12afc69ae7699677d", null ],
     [ "flight", "de/da2/structpreferences__t.html#a5977928b695068609c6341181400f33f", null ],
     [ "framel", "de/da2/structpreferences__t.html#afe2fd1ca322d865ed07617015bc9f89e", null ],

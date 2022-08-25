@@ -1,5 +1,5 @@
 var structimageExtToLoaderMap__t =
 [
-    [ "ext", "dc/d50/structimageExtToLoaderMap__t.html#a44a50c5e125bfebdfc740bcc834a7405", null ],
-    [ "ImageLoader", "dc/d50/structimageExtToLoaderMap__t.html#af5db775ae65a861e3e7a631337032d03", null ]
+    [ "ext", "dc/d50/structimageExtToLoaderMap__t.html#ad09a4af295a6b53e66f4a0a92d47c4fe", null ],
+    [ "ImageLoader", "dc/d50/structimageExtToLoaderMap__t.html#acb98af372d132d7cfed8a1696b4e1ee7", null ]
 ];

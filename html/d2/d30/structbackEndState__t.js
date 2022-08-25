@@ -1,7 +1,7 @@
 var structbackEndState__t =
 [
-    [ "color2D", "d2/d30/structbackEndState__t.html#ad7c90586d280f42167ff39c07eca3048", null ],
-    [ "currentEntity", "d2/d30/structbackEndState__t.html#ac36bae87850f6f053c8366f3184fc77a", null ],
+    [ "color2D", "d2/d30/structbackEndState__t.html#a165fd90dcd7c65533ef7fb3906a79f86", null ],
+    [ "currentEntity", "d2/d30/structbackEndState__t.html#ab94d05ce546266206f83ff822fa54479", null ],
     [ "doneBloom", "d2/d30/structbackEndState__t.html#a7fe0fc9ca67b9ba45031b0c81930b684", null ],
     [ "doneSurfaces", "d2/d30/structbackEndState__t.html#a6dd4e7025f078a1f2222ee7a26fbc919", null ],
     [ "entity2D", "d2/d30/structbackEndState__t.html#a00fc34dfbfc5950e18b3a3741a7f056b", null ],

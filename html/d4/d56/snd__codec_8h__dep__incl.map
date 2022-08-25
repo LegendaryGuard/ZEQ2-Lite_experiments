@@ -1,9 +1,0 @@
-<map id="Engine/client/snd_codec.h" name="Engine/client/snd_codec.h">
-<area shape="rect" id="node1" title=" " alt="" coords="519,5,710,32"/>
-<area shape="rect" id="node2" href="$d6/dab/snd__codec_8c.html" title=" " alt="" coords="5,87,195,114"/>
-<area shape="rect" id="node3" href="$d1/d5e/snd__codec__wav_8c.html" title=" " alt="" coords="219,80,397,121"/>
-<area shape="rect" id="node4" href="$d9/de0/snd__dma_8c.html" title=" " alt="" coords="422,87,602,114"/>
-<area shape="rect" id="node5" href="$d0/d27/snd__main_8c.html" title=" " alt="" coords="627,87,811,114"/>
-<area shape="rect" id="node6" href="$d5/daf/snd__mem_8c.html" title=" " alt="" coords="835,87,1021,114"/>
-<area shape="rect" id="node7" href="$d1/dc2/snd__openal_8c.html" title=" " alt="" coords="1045,87,1240,114"/>
-</map>

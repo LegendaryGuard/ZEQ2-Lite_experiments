@@ -2,7 +2,7 @@ var structiqmheader =
 [
     [ "filesize", "d4/d95/structiqmheader.html#ad7c07e6a0fbf4797dc0289c2de6f8bee", null ],
     [ "flags", "d4/d95/structiqmheader.html#abce192360adca8d7a013baa3a54da1ae", null ],
-    [ "magic", "d4/d95/structiqmheader.html#a7fb160abdc2c0016e632a865b10e58d0", null ],
+    [ "magic", "d4/d95/structiqmheader.html#a01382549f7d3f24409ee4c2e4d98ebe5", null ],
     [ "num_anims", "d4/d95/structiqmheader.html#a388ceae22905dc4b3f59dff6d6a71ada", null ],
     [ "num_comment", "d4/d95/structiqmheader.html#ad30d827824adff51cd7ea09a0388c36f", null ],
     [ "num_extensions", "d4/d95/structiqmheader.html#ac72fe93400d01536766d29dda26be13e", null ],

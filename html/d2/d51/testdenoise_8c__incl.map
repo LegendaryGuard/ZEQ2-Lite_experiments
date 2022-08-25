@@ -1,8 +1,0 @@
-<map id="Engine/libspeex/testdenoise.c" name="Engine/libspeex/testdenoise.c">
-<area shape="rect" id="node1" title=" " alt="" coords="72,5,288,32"/>
-<area shape="rect" id="node2" href="$da/d0e/speex__preprocess_8h.html" title="Speex preprocessor. The preprocess can do noise suppression, residual echo suppression (after using t..." alt="" coords="5,80,200,107"/>
-<area shape="rect" id="node6" title=" " alt="" coords="224,80,291,107"/>
-<area shape="rect" id="node3" href="$d8/df4/speex__types_8h.html" title="Speex types." alt="" coords="23,155,182,181"/>
-<area shape="rect" id="node4" href="$d8/d6d/speex__config__types_8h.html" title=" " alt="" coords="27,229,178,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="67,319,138,345"/>
-</map>

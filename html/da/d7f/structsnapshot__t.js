@@ -1,7 +1,7 @@
 var structsnapshot__t =
 [
-    [ "areamask", "da/d7f/structsnapshot__t.html#a8f40a0137abd887adf29d77bec10f894", null ],
-    [ "entities", "da/d7f/structsnapshot__t.html#aa40bf07073cbf0a320f10046a6e54d7d", null ],
+    [ "areamask", "da/d7f/structsnapshot__t.html#a0e2b16c0f482471bc188f859540eec70", null ],
+    [ "entities", "da/d7f/structsnapshot__t.html#adbcd9cdb9ff176cdb275ff4ea39e0fc6", null ],
     [ "numEntities", "da/d7f/structsnapshot__t.html#ac6363da9de3559e8ab220cf30412cd9a", null ],
     [ "numServerCommands", "da/d7f/structsnapshot__t.html#ad3955274eb7c8fa7dade2728dd096bf0", null ],
     [ "ping", "da/d7f/structsnapshot__t.html#ace47637a0570bf132b4e53bb9c53ba93", null ],

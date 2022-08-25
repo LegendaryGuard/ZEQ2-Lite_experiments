@@ -13,5 +13,5 @@ var structchannel__t =
     [ "origin", "d2/d91/structchannel__t.html#abcf59ba28a966b216c500f916daab0ed", null ],
     [ "rightvol", "d2/d91/structchannel__t.html#ad289bb273b9f8f0cee460746b7a5153d", null ],
     [ "startSample", "d2/d91/structchannel__t.html#ab8a8a7213669f85dbbc61e07028f9911", null ],
-    [ "thesfx", "d2/d91/structchannel__t.html#abd0654d835cfd36cc9afe89a6bcde4a8", null ]
+    [ "thesfx", "d2/d91/structchannel__t.html#a0390eb89631adac594f686eb5c74d0de", null ]
 ];

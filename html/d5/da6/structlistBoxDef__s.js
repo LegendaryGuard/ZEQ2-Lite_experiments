@@ -1,8 +1,8 @@
 var structlistBoxDef__s =
 [
-    [ "columnInfo", "d5/da6/structlistBoxDef__s.html#a98629d082596a8d85fcd5b12b94f3ea9", null ],
+    [ "columnInfo", "d5/da6/structlistBoxDef__s.html#a385433e8a15fe088aea2915aef43c69a", null ],
     [ "cursorPos", "d5/da6/structlistBoxDef__s.html#a01852167b189c02ec38d88f9915b1f77", null ],
-    [ "doubleClick", "d5/da6/structlistBoxDef__s.html#a7596500bc1bfbd179647501fa6520110", null ],
+    [ "doubleClick", "d5/da6/structlistBoxDef__s.html#a9b9f35521f8a9acebe2dba787a0748cd", null ],
     [ "drawPadding", "d5/da6/structlistBoxDef__s.html#ac511ac3b4d3b31e6596715fbf5f133d1", null ],
     [ "elementHeight", "d5/da6/structlistBoxDef__s.html#acfd24c52668fd35f8ea6dd45192e4df6", null ],
     [ "elementStyle", "d5/da6/structlistBoxDef__s.html#a3f9a6267b0f7204b55124730ee12f281", null ],

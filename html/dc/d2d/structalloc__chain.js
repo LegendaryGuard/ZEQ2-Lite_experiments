@@ -1,5 +1,5 @@
 var structalloc__chain =
 [
-    [ "next", "dc/d2d/structalloc__chain.html#a596f6605e59080015c3c6dfd07326c83", null ],
-    [ "ptr", "dc/d2d/structalloc__chain.html#a564538413768f266bd5bda09d892e99d", null ]
+    [ "next", "dc/d2d/structalloc__chain.html#a120a0b6d1dd5d84a1987868b3ba29867", null ],
+    [ "ptr", "dc/d2d/structalloc__chain.html#a20813b86d366ae5da23555f43024426a", null ]
 ];

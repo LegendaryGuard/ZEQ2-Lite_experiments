@@ -1,6 +1,6 @@
 var structclSnapshot__t =
 [
-    [ "areamask", "d5/d4b/structclSnapshot__t.html#a59605e7f0c2c8409400f1265e6b7084b", null ],
+    [ "areamask", "d5/d4b/structclSnapshot__t.html#ab4a5e8045a7819eeb8f1e12cb14eeead", null ],
     [ "cmdNum", "d5/d4b/structclSnapshot__t.html#a7eaf3f705a570b18eac367a013a2b1c9", null ],
     [ "deltaNum", "d5/d4b/structclSnapshot__t.html#a564d2dc3e65f3cfbb11f67b4656917fe", null ],
     [ "messageNum", "d5/d4b/structclSnapshot__t.html#a188b266da567e759a3ecdf9add9a92cf", null ],

@@ -1,8 +1,0 @@
-<map id="Engine/libspeex/quant_lsp.h" name="Engine/libspeex/quant_lsp.h">
-<area shape="rect" id="node1" title="LSP vector quantization." alt="" coords="438,5,605,47"/>
-<area shape="rect" id="node2" href="$d2/d21/modes_8c.html" title=" " alt="" coords="5,102,189,129"/>
-<area shape="rect" id="node3" href="$d0/db3/modes__wb_8c.html" title=" " alt="" coords="213,102,424,129"/>
-<area shape="rect" id="node4" href="$d6/dc4/nb__celp_8c.html" title=" " alt="" coords="449,95,594,136"/>
-<area shape="rect" id="node5" href="$d7/d0c/quant__lsp_8c.html" title=" " alt="" coords="618,95,785,136"/>
-<area shape="rect" id="node6" href="$d8/d9b/sb__celp_8c.html" title=" " alt="" coords="809,95,953,136"/>
-</map>

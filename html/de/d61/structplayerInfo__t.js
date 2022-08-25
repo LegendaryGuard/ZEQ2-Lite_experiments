@@ -1,6 +1,6 @@
 var structplayerInfo__t =
 [
-    [ "animations", "de/d61/structplayerInfo__t.html#a069733a636a642d9938bfc70c8f5e831", null ],
+    [ "animations", "de/d61/structplayerInfo__t.html#aac4e96ea371da82bd6c5fea9e7a086b5", null ],
     [ "barrelAngle", "de/d61/structplayerInfo__t.html#a125b1f2e95c59cf8b13692dd0febb854", null ],
     [ "barrelModel", "de/d61/structplayerInfo__t.html#ad1cad3b40fd3da0f2d9175abcbe9581a", null ],
     [ "barrelSpinning", "de/d61/structplayerInfo__t.html#aa907fc4df603991201592017cbfef52b", null ],

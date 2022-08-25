@@ -9,7 +9,7 @@ var structfile__in__zip__read__info__s =
     [ "pos_in_zipfile", "d8/da0/structfile__in__zip__read__info__s.html#a01d6195d7977bec4db506cdbee9b8a13", null ],
     [ "pos_local_extrafield", "d8/da0/structfile__in__zip__read__info__s.html#aa07cf3d7d5d68e9537ffe99499d7db6f", null ],
     [ "raw", "d8/da0/structfile__in__zip__read__info__s.html#aec0649000ce059ef1262b5a5be1641fe", null ],
-    [ "read_buffer", "d8/da0/structfile__in__zip__read__info__s.html#a6310a19e33ac2cf3280aa74199cbd89b", null ],
+    [ "read_buffer", "d8/da0/structfile__in__zip__read__info__s.html#ab2218d86b79cd0b4aab36bff6a28359a", null ],
     [ "rest_read_compressed", "d8/da0/structfile__in__zip__read__info__s.html#a4c7b8e6502f7195feefd676dff0bb494", null ],
     [ "rest_read_uncompressed", "d8/da0/structfile__in__zip__read__info__s.html#a8e3801645cfa5bfd147fd8d037fcf9a5", null ],
     [ "size_local_extrafield", "d8/da0/structfile__in__zip__read__info__s.html#a9abdc9b3f3d500d894a635cc9e956180", null ],

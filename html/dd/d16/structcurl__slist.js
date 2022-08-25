@@ -1,5 +1,5 @@
 var structcurl__slist =
 [
-    [ "data", "dd/d16/structcurl__slist.html#a5fe4d926491a1c9b8b9a73c40505f601", null ],
-    [ "next", "dd/d16/structcurl__slist.html#a56fcfc41d89a47865933c310d316a108", null ]
+    [ "data", "dd/d16/structcurl__slist.html#ae17502e793e0ce5ab980d23ec03e3b3d", null ],
+    [ "next", "dd/d16/structcurl__slist.html#a6e1dfa388f4672c3853c3a3d8c57a69b", null ]
 ];

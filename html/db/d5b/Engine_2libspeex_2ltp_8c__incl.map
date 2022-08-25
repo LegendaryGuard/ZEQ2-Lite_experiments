@@ -1,0 +1,15 @@
+<map id="Engine/libspeex/ltp.c" name="Engine/libspeex/ltp.c">
+<area shape="rect" id="node1" title=" " alt="" coords="198,5,355,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,73,107"/>
+<area shape="rect" id="node3" href="$d3/d3b/Engine_2libspeex_2ltp_8h.html" title="Long&#45;Term Prediction functions." alt="" coords="149,80,199,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="70,155,217,181"/>
+<area shape="rect" id="node7" href="$d6/d0c/Engine_2libspeex_2stack__alloc_8h.html" title="Temporary memory allocation on stack." alt="" coords="223,80,330,107"/>
+<area shape="rect" id="node8" href="$dc/dda/Engine_2libspeex_2filters_8h.html" title="Various analysis/synthesis filters." alt="" coords="355,80,425,107"/>
+<area shape="rect" id="node9" href="$db/de5/Engine_2libspeex_2math__approx_8h.html" title="Various math approximation functions for Speex." alt="" coords="450,80,570,107"/>
+<area shape="rect" id="node10" href="$d9/d2a/Engine_2libspeex_2os__support_8h.html" title=" " alt="" coords="595,80,700,107"/>
+<area shape="rect" id="node5" href="$df/dca/Engine_2libspeex_2arch_8h.html" title="Various architecture definitions Speex." alt="" coords="359,155,421,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="311,229,469,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="519,155,589,181"/>
+<area shape="rect" id="node12" title=" " alt="" coords="614,155,681,181"/>
+<area shape="rect" id="node13" title=" " alt="" coords="705,155,776,181"/>
+</map>

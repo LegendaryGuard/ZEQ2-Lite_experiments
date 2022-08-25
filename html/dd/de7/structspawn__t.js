@@ -1,5 +1,5 @@
 var structspawn__t =
 [
-    [ "name", "dd/de7/structspawn__t.html#a8b7641391b744190b9cc4b60e3ea1cf2", null ],
-    [ "spawn", "dd/de7/structspawn__t.html#af4be4cdab5257823468194693c832fcd", null ]
+    [ "name", "dd/de7/structspawn__t.html#a1954679d359dd4d6dbe7154e4ec9cc60", null ],
+    [ "spawn", "dd/de7/structspawn__t.html#a75a341bcb69ae2178dc3593091535bd4", null ]
 ];

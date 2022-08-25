@@ -1,8 +1,8 @@
 var structmenubitmap__s =
 [
-    [ "errorpic", "d8/da6/structmenubitmap__s.html#a2a3926de828615e515d705770f5170cb", null ],
-    [ "focuscolor", "d8/da6/structmenubitmap__s.html#a1e67ea7c4243f750c89fc96d43fd1536", null ],
-    [ "focuspic", "d8/da6/structmenubitmap__s.html#a42b14402ef8cf940b0cc78829620c6cb", null ],
+    [ "errorpic", "d8/da6/structmenubitmap__s.html#a3bc1e46bc35697019d63eaa5ff595662", null ],
+    [ "focuscolor", "d8/da6/structmenubitmap__s.html#a4e38804ab5ea3bad00ee6a848c4f2e28", null ],
+    [ "focuspic", "d8/da6/structmenubitmap__s.html#a7cede60c5e587b1d22ab3726a1b78c82", null ],
     [ "focusshader", "d8/da6/structmenubitmap__s.html#a3bdb0a8dd64157c088577039627f3fe5", null ],
     [ "generic", "d8/da6/structmenubitmap__s.html#a145258892710839cf16784fbd8431f61", null ],
     [ "height", "d8/da6/structmenubitmap__s.html#afae7d6199c3e7de038cf82349d6030f0", null ],

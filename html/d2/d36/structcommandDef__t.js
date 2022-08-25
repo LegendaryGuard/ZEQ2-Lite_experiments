@@ -1,5 +1,5 @@
 var structcommandDef__t =
 [
-    [ "handler", "d2/d36/structcommandDef__t.html#a9a39d53f6cfcce81accc5362b7b6dd61", null ],
-    [ "name", "d2/d36/structcommandDef__t.html#add071344a574ff3d99df38a3db49432d", null ]
+    [ "handler", "d2/d36/structcommandDef__t.html#aa53387024f4f3239aabf5192e48bbd6b", null ],
+    [ "name", "d2/d36/structcommandDef__t.html#a52a675807fc480abcc3ae794cebfbd60", null ]
 ];

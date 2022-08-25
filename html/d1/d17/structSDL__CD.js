@@ -5,5 +5,5 @@ var structSDL__CD =
     [ "id", "d1/d17/structSDL__CD.html#ab48f9cbecf78bc689649d877eceba103", null ],
     [ "numtracks", "d1/d17/structSDL__CD.html#ade87d0c7e217291fb1f1a53d03e1bfdf", null ],
     [ "status", "d1/d17/structSDL__CD.html#afaab8559e9b75bbf501b31b5f5f01a9b", null ],
-    [ "track", "d1/d17/structSDL__CD.html#ad9dd6d42b8c1677e83926aa9e9031ecc", null ]
+    [ "track", "d1/d17/structSDL__CD.html#aaf573e16250e652e7ad2b1c7dfc96910", null ]
 ];

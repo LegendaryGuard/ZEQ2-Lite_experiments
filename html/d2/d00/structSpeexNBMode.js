@@ -8,7 +8,7 @@ var structSpeexNBMode =
     [ "lpcSize", "d2/d00/structSpeexNBMode.html#a2e7bd5177d192935d457949fd5ad07cc", null ],
     [ "pitchEnd", "d2/d00/structSpeexNBMode.html#a93d1fb4c6f87abbf6a26a238f55739cc", null ],
     [ "pitchStart", "d2/d00/structSpeexNBMode.html#a8bb7ce8fd82d9815ad75865ca28c3146", null ],
-    [ "quality_map", "d2/d00/structSpeexNBMode.html#aa514be1a4c7b2fa3b313afa58d4efe74", null ],
+    [ "quality_map", "d2/d00/structSpeexNBMode.html#a691838cd1733b638c6c49766b9db563d", null ],
     [ "subframeSize", "d2/d00/structSpeexNBMode.html#aff4c2ac510df45ad1ddb27fab946e8e5", null ],
-    [ "submodes", "d2/d00/structSpeexNBMode.html#ad700999a5ea9679866200f0e8e40a57d", null ]
+    [ "submodes", "d2/d00/structSpeexNBMode.html#a458779d7c03c803e349d95fc01366585", null ]
 ];

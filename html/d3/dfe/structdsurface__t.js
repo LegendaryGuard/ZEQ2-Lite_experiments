@@ -6,7 +6,7 @@ var structdsurface__t =
     [ "lightmapHeight", "d3/dfe/structdsurface__t.html#a8ba0360539ec834687c6775e7dbb6237", null ],
     [ "lightmapNum", "d3/dfe/structdsurface__t.html#ae73913b6fdb8892d11de7eb15bef8f34", null ],
     [ "lightmapOrigin", "d3/dfe/structdsurface__t.html#a7e8abb0b1b66d31c3c688f1857106782", null ],
-    [ "lightmapVecs", "d3/dfe/structdsurface__t.html#a28480f1ffb84092504a8f8734adfa760", null ],
+    [ "lightmapVecs", "d3/dfe/structdsurface__t.html#a408006b6f111a2e9aa344df193ae2d61", null ],
     [ "lightmapWidth", "d3/dfe/structdsurface__t.html#a0fded115743a11f98c5cb8ea72122685", null ],
     [ "lightmapX", "d3/dfe/structdsurface__t.html#a519fe139634cfd1cf0bd07c6efa81c69", null ],
     [ "lightmapY", "d3/dfe/structdsurface__t.html#a9039b488d521364d4be434898a059f26", null ],
