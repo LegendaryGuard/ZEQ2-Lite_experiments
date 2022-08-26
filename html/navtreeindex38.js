@@ -1,5 +1,14 @@
 var NAVTREEINDEX38 =
 {
+"d4/de8/jdcoefct_8c.html":[5,0,0,0,3,23],
+"d4/de8/jdcoefct_8c.html#a1bd115dc82d1ff9de92b1ef5bc47de49":[5,0,0,0,3,23,2],
+"d4/de8/jdcoefct_8c.html#a44f07df7c46cab55b794e957d18dccda":[5,0,0,0,3,23,4],
+"d4/de8/jdcoefct_8c.html#a474c99ffcdc94688233e34f65e95c50d":[5,0,0,0,3,23,9],
+"d4/de8/jdcoefct_8c.html#a4bdf8aaef0e2bcd9aeda2b26c83669a5":[5,0,0,0,3,23,15],
+"d4/de8/jdcoefct_8c.html#a4f0cd05b382e196c8bd2909b684eb7fb":[5,0,0,0,3,23,13],
+"d4/de8/jdcoefct_8c.html#a5c02753173d32b8acd4041b1cdf9e0d2":[5,0,0,0,3,23,14],
+"d4/de8/jdcoefct_8c.html#a5d04f73726165ed3ba748a4065eec2e8":[5,0,0,0,3,23,8],
+"d4/de8/jdcoefct_8c.html#a7ffc401a540462d568dfd04d92c27dc4":[5,0,0,0,3,23,6],
 "d4/de8/jdcoefct_8c.html#a8b812b1698a6fddb9e9d44a9203afe0f":[5,0,0,0,3,23,7],
 "d4/de8/jdcoefct_8c.html#aa5031be4b254dc2a2b20d38c259d5919":[5,0,0,0,3,23,16],
 "d4/de8/jdcoefct_8c.html#aa80ae2c61adae7f3cccce65ab778072f":[5,0,0,0,3,23,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX38 =
 "d5/d34/SDL__config__dreamcast_8h.html#ae91f4e5a39dc5d860202b397c9aaa37c":[5,0,0,0,11,0,9,2],
 "d5/d34/SDL__config__dreamcast_8h.html#aedb06b9a9fb649d9218d46247085c02c":[5,0,0,0,11,0,9,4],
 "d5/d34/SDL__config__dreamcast_8h.html#aef44329758059c91c76d334e8fc09700":[5,0,0,0,11,0,9,51],
-"d5/d34/SDL__config__dreamcast_8h.html#af5e1c674bb7ab42ee349e48b33705a04":[5,0,0,0,11,0,9,28],
-"d5/d34/SDL__config__dreamcast_8h.html#af9208124cf1d9c7258bb7fc62ed4da03":[5,0,0,0,11,0,9,43],
-"d5/d34/SDL__config__dreamcast_8h_source.html":[5,0,0,0,11,0,9],
-"d5/d37/sdl__icon_8h.html":[5,0,0,0,10,2],
-"d5/d37/sdl__icon_8h.html#a6682c6bd965e44d2880453dd6ea872ce":[5,0,0,0,10,2,0],
-"d5/d37/sdl__icon_8h.html#a7a62a101497c589ec7443cb6f01e4f99":[5,0,0,0,10,2,1],
-"d5/d37/sdl__icon_8h.html#ab2e78c61905b4419fcc7b4cfc500fe85":[5,0,0,0,10,2,2],
-"d5/d37/sdl__icon_8h.html#aca34d28e3d8bcbcadb8edb4e3af24f8c":[5,0,0,0,10,2,4],
-"d5/d37/sdl__icon_8h.html#af6354079c572f58fde05c7b8d8997ab8":[5,0,0,0,10,2,3],
-"d5/d37/sdl__icon_8h_source.html":[5,0,0,0,10,2]
+"d5/d34/SDL__config__dreamcast_8h.html#af5e1c674bb7ab42ee349e48b33705a04":[5,0,0,0,11,0,9,28]
 };

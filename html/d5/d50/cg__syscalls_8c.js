@@ -58,7 +58,7 @@ var cg__syscalls_8c =
     [ "trap_Print", "d5/d50/cg__syscalls_8c.html#a218cc4f6bbca4222395476a6115eff36", null ],
     [ "trap_R_AddAdditiveLightToScene", "d5/d50/cg__syscalls_8c.html#ae7849774d20f35ca91ff18248244eafb", null ],
     [ "trap_R_AddFogToScene", "d5/d50/cg__syscalls_8c.html#ab2a722969137d675d733b613302c085a", null ],
-    [ "trap_R_AddLightToScene", "d5/d50/cg__syscalls_8c.html#a401380b12b3520dd11cfa9f72d04128b", null ],
+    [ "trap_R_AddLightToScene", "d5/d50/cg__syscalls_8c.html#a848bfe3d42e8757f840b8cbf65cafb26", null ],
     [ "trap_R_AddPolysToScene", "d5/d50/cg__syscalls_8c.html#a1f4c6826f5c14dae4889274ec32e3177", null ],
     [ "trap_R_AddPolyToScene", "d5/d50/cg__syscalls_8c.html#a53c659bd52d3e1e3e4262584a73a7ee9", null ],
     [ "trap_R_AddRefEntityToScene", "d5/d50/cg__syscalls_8c.html#a65fc7abdf66c1290af4b38d36a2ef72b", null ],

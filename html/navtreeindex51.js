@@ -1,5 +1,13 @@
 var NAVTREEINDEX51 =
 {
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da46ebb339b3048f10ec04ed7d32bfe4ea":[5,0,0,1,1,5,171,56],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da47c97af6de8c5ab10588d4afa5f35934":[5,0,0,1,1,5,171,9],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da486a2b33408bd36dbe3a14be70fba1ed":[5,0,0,1,1,5,171,16],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da4ff41d795a1eb62b08e937d028c74ca9":[5,0,0,1,1,5,171,17],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da4ff9749fa13992fd51d1e58576eb12f4":[5,0,0,1,1,5,171,2],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da527fb294c83d4bbaeaa6c78b859e2307":[5,0,0,1,1,5,171,25],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da52cdcef08324f760244544b1b48891a4":[5,0,0,1,1,5,171,84],
+"d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da54cc99aaf684d7f65cb8fb9e5b675805":[5,0,0,1,1,5,171,83],
 "d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da5618075cd89e4756cf71e870ddaa32d3":[5,0,0,1,1,5,171,80],
 "d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da58942c3d2af75fe7eb02c687a27c7f36":[5,0,0,1,1,5,171,66],
 "d6/daa/bg__public_8h.html#af5a71ed0d8d8117380f02c99ee41d51da5b6b23ca6a1e884f59a1abc462069d93":[5,0,0,1,1,5,171,47],
@@ -241,13 +249,5 @@ var NAVTREEINDEX51 =
 "d6/ddb/g__weapon_8c.html#a6cb5d7464231c3110d95905fb7d83cc7":[5,0,0,1,1,36,5],
 "d6/ddb/g__weapon_8c.html#a9a9835aa33a1ab45a59f46e24249b652":[5,0,0,1,1,36,4],
 "d6/ddb/g__weapon_8c.html#aa462954db5cc506fabe811dc11b3e1a4":[5,0,0,1,1,36,7],
-"d6/ddb/g__weapon_8c.html#ad75cf6fd70017e70ccb2ed4ee0850ee1":[5,0,0,1,1,36,0],
-"d6/ddb/g__weapon_8c.html#ad9dbcad14c6dfd56b283bdcf58bd5a24":[5,0,0,1,1,36,6],
-"d6/ddb/g__weapon_8c.html#adf3413f94f96a6089d7f6c71f33ac347":[5,0,0,1,1,36,8],
-"d6/ddb/g__weapon_8c.html#aedc39479042e0a3d414d1c95c59aef5d":[5,0,0,1,1,36,1],
-"d6/ddb/g__weapon_8c.html#af52fb5d17699a865207cb055a3c65a71":[5,0,0,1,1,36,3],
-"d6/ddb/g__weapon_8c_source.html":[5,0,0,1,1,36],
-"d6/ddb/vm__powerpc_8c.html":[5,0,0,2,36],
-"d6/ddb/vm__powerpc_8c.html#a00a94831b115a4215fc9db20765fab23":[5,0,0,2,36,65],
-"d6/ddb/vm__powerpc_8c.html#a068a229236f52f988f15be3bd491f5fe":[5,0,0,2,36,97]
+"d6/ddb/g__weapon_8c.html#ad75cf6fd70017e70ccb2ed4ee0850ee1":[5,0,0,1,1,36,0]
 };

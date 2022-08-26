@@ -8,7 +8,6 @@ var cg__drawtools_8c =
     [ "CG_DrawBigString", "d6/d99/cg__drawtools_8c.html#aa1c611318b9fb44d2418191b66a77527", null ],
     [ "CG_DrawBigStringColor", "d6/d99/cg__drawtools_8c.html#a4c91a5efa50d5408db2c22e9e2a86ccf", null ],
     [ "CG_DrawChar", "d6/d99/cg__drawtools_8c.html#af9748e490d582b733fd631759bbfe44c", null ],
-    [ "CG_DrawLineRGBA", "d6/d99/cg__drawtools_8c.html#abedd0e3d0b7d678de6de7ffbaf25fa0a", null ],
     [ "CG_DrawMediumStringColor", "d6/d99/cg__drawtools_8c.html#aea23cf11c322c4614c48bcc096c827ea", null ],
     [ "CG_DrawPic", "d6/d99/cg__drawtools_8c.html#a2c0b4041b7a113859aeb87a524d5ca21", null ],
     [ "CG_DrawRect", "d6/d99/cg__drawtools_8c.html#ae4454e136e79dd46b67ec53676bcef52", null ],

@@ -23,7 +23,7 @@ var structcg__userWeaponParseBuffer__t =
     [ "explosionShader", "d7/d24/structcg__userWeaponParseBuffer__t.html#a67b895a219b541e86e5e6d2355d47660", null ],
     [ "explosionSize", "d7/d24/structcg__userWeaponParseBuffer__t.html#a1c4defbbe73dc4a060f13be990fd6d18", null ],
     [ "explosionSkin", "d7/d24/structcg__userWeaponParseBuffer__t.html#a9a1074a96c724a97a7e5fe483e210fa4", null ],
-    [ "explosionSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#a094e81cf31975b69637eab5a84a6b732", null ],
+    [ "explosionSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#a16c0e1bf715a5abcfcdea2fbd8a2b46b", null ],
     [ "explosionTime", "d7/d24/structcg__userWeaponParseBuffer__t.html#a5b1a2ed0a587feac71c1edce4e179f6b", null ],
     [ "firingParticleSystem", "d7/d24/structcg__userWeaponParseBuffer__t.html#a76daa89a354f1fdbe3ba8cde0cd5b5ce", null ],
     [ "firingSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#aaba94d9f12571933c5ea11c22e4c32c9", null ],
@@ -35,7 +35,7 @@ var structcg__userWeaponParseBuffer__t =
     [ "flashShader", "d7/d24/structcg__userWeaponParseBuffer__t.html#a159d150d6aab3439b503cdd9015c9604", null ],
     [ "flashSize", "d7/d24/structcg__userWeaponParseBuffer__t.html#a4d317dc10f04896f8db20b7f36c03326", null ],
     [ "flashSkin", "d7/d24/structcg__userWeaponParseBuffer__t.html#a988577f9d593d50ab42bdde218636709", null ],
-    [ "flashSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#aab48088887ec93c74cac7b55bb014c88", null ],
+    [ "flashSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#a0015f6e24c0ccbb046b27dbc034a444c", null ],
     [ "markShader", "d7/d24/structcg__userWeaponParseBuffer__t.html#a429b8ee84364b792afd28e3a3ac87252", null ],
     [ "markSize", "d7/d24/structcg__userWeaponParseBuffer__t.html#a307bb1dc852fe5b498150abb0b0e218c", null ],
     [ "missileDlightColor", "d7/d24/structcg__userWeaponParseBuffer__t.html#ac84c16e8ce7f406b2760019c8024b732", null ],
@@ -59,7 +59,7 @@ var structcg__userWeaponParseBuffer__t =
     [ "shockwaveModel", "d7/d24/structcg__userWeaponParseBuffer__t.html#a79b5490cc71331b39f14555ddb5681ce", null ],
     [ "shockwaveSkin", "d7/d24/structcg__userWeaponParseBuffer__t.html#acc8d899a1a2ca77491b583d2a0d2b602", null ],
     [ "smokeParticleSystem", "d7/d24/structcg__userWeaponParseBuffer__t.html#a0e2050de75ca673440dc3d6287c04c93", null ],
-    [ "voiceSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#ac0f0437ce96364219841c58011712ba4", null ],
+    [ "voiceSound", "d7/d24/structcg__userWeaponParseBuffer__t.html#a0371190b6ae1f41b830d10a5e9e72067", null ],
     [ "weaponIcon", "d7/d24/structcg__userWeaponParseBuffer__t.html#ac93666142ba1eb702a6982db04d43f94", null ],
     [ "weaponName", "d7/d24/structcg__userWeaponParseBuffer__t.html#a496fcf20ad575ae052039bd6fc289b32", null ]
 ];

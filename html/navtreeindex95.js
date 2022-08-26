@@ -1,5 +1,15 @@
 var NAVTREEINDEX95 =
 {
+"db/d4f/structtrGlobals__t.html#a21af900f87cc4c5da6d5294f6ed411f4":[4,0,551,4],
+"db/d4f/structtrGlobals__t.html#a21c4fad9f1aafcfa9b35fd771edc2885":[4,0,551,16],
+"db/d4f/structtrGlobals__t.html#a24c849f0892f437bc7bd872be87ac501":[4,0,551,15],
+"db/d4f/structtrGlobals__t.html#a25fcb9082823e1dfa6de3363a16057cc":[4,0,551,3],
+"db/d4f/structtrGlobals__t.html#a2627c0e6f7d99ee87bb973ecae750926":[4,0,551,48],
+"db/d4f/structtrGlobals__t.html#a27a99c5166836bfbb91d0e96a0353f5e":[4,0,551,0],
+"db/d4f/structtrGlobals__t.html#a2902b2749d8dd7bb55ebfb1127f098da":[4,0,551,30],
+"db/d4f/structtrGlobals__t.html#a2b88d1fbe4b255a9b27414f43822c222":[4,0,551,7],
+"db/d4f/structtrGlobals__t.html#a2ddd3026a66bc4d056229de71aa60861":[4,0,551,32],
+"db/d4f/structtrGlobals__t.html#a34bf6adf538c96390107bbb07d431a1b":[4,0,551,55],
 "db/d4f/structtrGlobals__t.html#a3a31c57cdd6a91ce71dcd61612bebadd":[4,0,551,27],
 "db/d4f/structtrGlobals__t.html#a3bc268585e8f0b4baedc0c17e2d89ee1":[4,0,551,38],
 "db/d4f/structtrGlobals__t.html#a3ca7a9ab393746280ff2000a8897ca0a":[4,0,551,45],
@@ -239,15 +249,5 @@ var NAVTREEINDEX95 =
 "db/d51/menudef_8h.html#abe741dbbc101f340d70fa1ac8f27237e":[5,0,0,1,2,0,0,41],
 "db/d51/menudef_8h.html#ac38b79d7d72a07f3b65da9853c52dc56":[5,0,0,1,2,0,0,2],
 "db/d51/menudef_8h.html#ac395a60a8715a2fddb3cd466fa9f4656":[5,0,0,1,2,0,0,216],
-"db/d51/menudef_8h.html#ac432a7c37fb8a3d95e0dfba95b5b1ba5":[5,0,0,1,2,0,0,87],
-"db/d51/menudef_8h.html#ac55c7709fef3924b260e15c585fb7ec1":[5,0,0,1,2,0,0,82],
-"db/d51/menudef_8h.html#ac70265c3fe6af7d9737bc9bad8bc2180":[5,0,0,1,2,0,0,135],
-"db/d51/menudef_8h.html#ac9364243264e2bc1b46ca128c35e3697":[5,0,0,1,2,0,0,81],
-"db/d51/menudef_8h.html#ac9a187a78f252e27437664c61cdd1860":[5,0,0,1,2,0,0,165],
-"db/d51/menudef_8h.html#aca565f11a6233d2d6d5cccabcb02d1ce":[5,0,0,1,2,0,0,196],
-"db/d51/menudef_8h.html#acc1f61f80e6f6e24a3935f5ff0b3069a":[5,0,0,1,2,0,0,59],
-"db/d51/menudef_8h.html#accd993bc6c4bf0271e97902a77b80a20":[5,0,0,1,2,0,0,61],
-"db/d51/menudef_8h.html#acf957c45ee4390b4262d6a76e3cd8b4c":[5,0,0,1,2,0,0,177],
-"db/d51/menudef_8h.html#ad05f6eb4c6f21efab5ae165384128dc1":[5,0,0,1,2,0,0,20],
-"db/d51/menudef_8h.html#ad0e2fbebbcd5cf15bdf679c7cca86c68":[5,0,0,1,2,0,0,156]
+"db/d51/menudef_8h.html#ac432a7c37fb8a3d95e0dfba95b5b1ba5":[5,0,0,1,2,0,0,87]
 };
