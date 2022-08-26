@@ -27,7 +27,6 @@ function stopGit()
   echo "\nWorkflow ID: $WORKFLOW_ID"
 }
 
-let cancel_workflow=0
 cd Source
 declare svnrevinfo=$( { svn info --revision HEAD --show-item revision; } )
 declare svninfodesc=$( { svn log -r HEAD; } )
@@ -75,6 +74,6 @@ then
   exit 0
 else
   stopGit
-  let cancel_workflow=1
+  GITHUB_ENV=1
   # exit 0
 fi

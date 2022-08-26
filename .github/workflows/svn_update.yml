@@ -43,4 +43,4 @@ jobs:
       uses: rokroskar/workflow-run-cleanup-action@v0.2.2
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-      if: "${cancel_workflow} == 1"
+      if: "$GITHUB_ENV == 1"
