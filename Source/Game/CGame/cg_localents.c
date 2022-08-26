@@ -261,14 +261,29 @@ CG_AddFadeNo
 ====================
 */
 void CG_AddFadeNo( localEntity_t *le ) {
-	refEntity_t* re = &le->refEntity;
-	VectorScale(le->color,255,re->shaderRGBA);
-	trap_R_AddRefEntityToScene(re);
-	if(le->light){
-		float light = (float)(cg.time - le->startTime) / (le->endTime - le->startTime);
-		light = light < 0.5f ? 1.0f : 1.0f - (light - 0.5f) * 2.0f;
+	refEntity_t *re;
+	float		c;
+
+	re = &le->refEntity;
+
+	re->shaderRGBA[0] = le->color[0] * 0xff;
+	re->shaderRGBA[1] = le->color[1] * 0xff;
+	re->shaderRGBA[2] = le->color[2] * 0xff;
+
+	trap_R_AddRefEntityToScene( re );
+
+	// add the dlight
+	if ( le->light ) {
+		float		light;
+
+		light = (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
+		if ( light < 0.5 ) {
+			light = 1.0;
+		} else {
+			light = 1.0 - ( light - 0.5 ) * 2;
+		}
 		light = le->light * light;
-		trap_R_AddLightToScene(re->origin,light,le->lightColor);
+		trap_R_AddLightToScene(re->origin, light, le->lightColor[0], le->lightColor[1], le->lightColor[2] );
 	}
 }
 
@@ -465,13 +480,25 @@ CG_AddExplosion
 ================
 */
 static void CG_AddExplosion( localEntity_t *ex ) {
-	refEntity_t* ent = &ex->refEntity;
+	refEntity_t	*ent;
+
+	ent = &ex->refEntity;
+
+	// add the entity
 	trap_R_AddRefEntityToScene(ent);
-	if(ex->light){
-		float light = (float)(cg.time - ex->startTime) / (ex->endTime - ex->startTime);
-		light = light < 0.5f ? 1.0f : 1.0f - (light - 0.5f) * 2.0f;
+
+	// add the dlight
+	if ( ex->light ) {
+		float		light;
+
+		light = (float)( cg.time - ex->startTime ) / ( ex->endTime - ex->startTime );
+		if ( light < 0.5 ) {
+			light = 1.0;
+		} else {
+			light = 1.0 - ( light - 0.5 ) * 2;
+		}
 		light = ex->light * light;
-		trap_R_AddLightToScene(ent->origin,light,ex->lightColor);
+		trap_R_AddLightToScene(ent->origin, light, ex->lightColor[0], ex->lightColor[1], ex->lightColor[2] );
 	}
 }
 
@@ -483,31 +510,32 @@ CG_AddStraightBeamFade
 */
 static void CG_AddStraightBeamFade( localEntity_t *le ) {
 	refEntity_t	*ent;		// reference entity stored in the local entity
+	float		RGBfade;	// stores the amount of fade to apply to the RGBA values
 	float		scale_l;	// stores the scale factor for the beam's length
 	float		scale_w;	// stores the scale factor for the beam's width
 	vec3_t		start;		// temporary storage for the beam's start point
 	vec3_t		direction;	// vector used in calculating the shortening of the beam
-	vec4_t color;
+	
 	// set up for quick reference
 	ent = &le->refEntity;
 
 	// Save the start vector so it can be recovered after having been rendered.
 	VectorCopy( ent->origin, start );
 
-	scale_l = 1 - (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
+	// calculate RGBfade and scale
+	RGBfade = 1 - (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
+	scale_l = RGBfade;
 	scale_w = 1 - (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
 	if (scale_w < 0) {
 		scale_w = 0;
 	}
-	VectorSet(color,scale_l,scale_l,scale_l);
-	VectorScale(color,255,color);
-	color[3] = scale_l * 255;
+	
 	// Set the scaled beam
 	VectorSubtract( ent->origin, ent->oldorigin, direction);
 	VectorScale(direction, scale_l, direction);
 	VectorAdd(ent->oldorigin, direction, ent->origin);
 
-	CG_DrawLineRGBA(ent->origin,ent->oldorigin,le->radius * scale_w,ent->customShader,color);
+	CG_DrawLine (ent->origin, ent->oldorigin, le->radius * scale_w, ent->customShader, RGBfade);
 
 	// Restore the start vector
 	VectorCopy(start, ent->origin);
@@ -572,14 +600,19 @@ static void CG_AddZEQExplosion( localEntity_t *le ) {
 	VectorCopy(tmpAxes[1], ent->axis[1]);
 	VectorCopy(tmpAxes[2], ent->axis[2]);
 
-	if(le->light){
-		float light = (float)(cg.time - le->startTime) / (le->endTime - le->startTime);
+	// add a Dlight
+	if ( le->light ) {
+		float light;
 		float lightRad;
-		vec3_t color;
-		light = light < 0.5f ? light * 2.0f : 1.0f - (light - 0.5f) * 2.0f;
+
+		light = (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
+		if ( light < 0.5 ) {
+			light = light * 2;
+		} else {
+			light = 1.0 - ( light - 0.5 ) * 2;
+		}
 		lightRad = le->light * light;
-		VectorScale(le->lightColor,light,color);
-		trap_R_AddLightToScene(ent->origin,lightRad,color);
+		trap_R_AddLightToScene(ent->origin, lightRad, light * le->lightColor[0], light * le->lightColor[1], light * le->lightColor[2] );
 	}
 }
 
@@ -657,12 +690,19 @@ static void CG_AddSpriteExplosion( localEntity_t *le ) {
 	re.radius = 42 * ( 1.0 - c ) + 30;
 
 	trap_R_AddRefEntityToScene( &re );
-	
-	if(le->light){
-		float light = (float)(cg.time - le->startTime) / (le->endTime - le->startTime);
-		light = light < 0.5f ? 1.0f : 1.0f - (light - 0.5f) * 2.0f;
+
+	// add the dlight
+	if ( le->light ) {
+		float		light;
+
+		light = (float)( cg.time - le->startTime ) / ( le->endTime - le->startTime );
+		if ( light < 0.5 ) {
+			light = 1.0;
+		} else {
+			light = 1.0 - ( light - 0.5 ) * 2;
+		}
 		light = le->light * light;
-		trap_R_AddLightToScene(re.origin,light,le->lightColor);
+		trap_R_AddLightToScene(re.origin, light, le->lightColor[0], le->lightColor[1], le->lightColor[2] );
 	}
 }
 

@@ -1,7 +1,7 @@
 name: SVN Update
 on:
   schedule:
-    - cron: '*/59 * * * *'
+    - cron: '0 10 1 */4 *' # quarterly
   push:
     branches:
       - "*"

@@ -53,7 +53,7 @@ cd ..
 #   exit 0
 # fi
 
-git add --all
+git add Source
 if [ $? -eq 0 ]
 then
   echo "Success: GIT ADDED."

@@ -1,10 +1,7 @@
-#define MAX_CHARGES 2
-#define MAX_TAGNAME 20
-#define MAX_WEAPONNAME 40
-#define MAX_CHARGE_VOICES 6
-#define MAX_FLASH_VOICES 4
-#define MAX_FLASH_SOUNDS 4
-#define MAX_EXPLOSION_SOUNDS 4
+#define MAX_CHARGES			 2
+#define MAX_TAGNAME			20
+#define MAX_WEAPONNAME		40
+#define MAX_CHARGE_VOICES	 6
 typedef struct {
 	sfxHandle_t		voice;
 	float			startPct;
@@ -46,10 +43,10 @@ typedef struct {
 	float			flashSize;				// If the weapon was charged, multiply with chargeSize;
 	float			flashDlightRadius;		// radius of light
 	vec3_t			flashDlightColor;		// color of light
-	sfxHandle_t		flashSound[MAX_FLASH_SOUNDS];			// if more than one is specified, a random one	
+	sfxHandle_t		flashSound[4];			// if more than one is specified, a random one	
 											// is chosen. (Breaks repetitiveness for
 											// fastfiring weapons)
-	sfxHandle_t		voiceSound[MAX_FLASH_VOICES];
+	sfxHandle_t		voiceSound[4];
 	sfxHandle_t		flashOnceSound;			// Played only at the start of a firing session, instead
 											// of with each projectile. Resets when attack button comes up.
 	sfxHandle_t		firingSound;			// When doing a sustained blast
@@ -90,7 +87,7 @@ typedef struct {
 	qhandle_t		markSize;
 	qboolean		noRockDebris;
 
-	sfxHandle_t		explosionSound[MAX_EXPLOSION_SOUNDS];		// if more than one is specified, a random one	
+	sfxHandle_t		explosionSound[4];		// if more than one is specified, a random one	
 											// is chosen. (Breaks repetitiveness for
 											// fastfiring weapons)
 	// HUD
@@ -154,10 +151,10 @@ typedef struct {
 	float			flashDlightRadius;		// radius of light
 	vec3_t			flashDlightColor;		// color of light
 	
-	char			flashSound[MAX_FLASH_SOUNDS][MAX_QPATH];	// if more than one is specified, a random one	
+	char			flashSound[4][MAX_QPATH];	// if more than one is specified, a random one	
 												// is chosen. (Breaks repetitiveness for
 												// fastfiring weapons)
-	char			voiceSound[MAX_FLASH_VOICES][MAX_QPATH];
+	char			voiceSound[4][MAX_QPATH];
 	char			flashOnceSound[MAX_QPATH];	// Played only at the start of a firing session, instead
 												// of with each projectile. Resets when attack button comes up.
 	char			firingSound[MAX_QPATH];		// When doing a sustained blast
@@ -213,7 +210,7 @@ typedef struct {
 	qhandle_t		markSize;
 	qboolean		noRockDebris;
 
-	char			explosionSound[MAX_EXPLOSION_SOUNDS][MAX_QPATH];	// if more than one is specified, a random one	
+	char			explosionSound[4][MAX_QPATH];	// if more than one is specified, a random one	
 													// is chosen. (Breaks repetitiveness for
 													// fastfiring weapons)
 	// HUD
