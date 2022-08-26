@@ -74,6 +74,5 @@ then
   exit 0
 else
   stopGit
-  CANCEL_WORK='1'
   # exit 0
 fi
