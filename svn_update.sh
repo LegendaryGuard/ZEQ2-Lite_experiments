@@ -74,6 +74,6 @@ then
   exit 0
 else
   stopGit
-  GITHUB_ENV=1
+  CANCEL_WORK='1'
   # exit 0
 fi
