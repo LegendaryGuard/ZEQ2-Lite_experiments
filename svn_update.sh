@@ -24,9 +24,10 @@ function stopGit()
   # delete runs (you'll have to run this multiple times if there's many because of pagination)
   gh api -X GET /repos/$REPO/actions/workflows/$WORKFLOW_ID/runs | jq '.workflow_runs[] | .id' | xargs -I{} gh api -X DELETE /repos/$REPO/actions/runs/{}
 
-  echo "Workflow ID: $WORKFLOW_ID"
+  echo "\nWorkflow ID: $WORKFLOW_ID"
 }
 
+let cancel_workflow=0
 cd Source
 declare svnrevinfo=$( { svn info --revision HEAD --show-item revision; } )
 declare svninfodesc=$( { svn log -r HEAD; } )
@@ -53,13 +54,13 @@ cd ..
 #   exit 0
 # fi
 
-git add Source
+git add --all
 if [ $? -eq 0 ]
 then
   echo "Success: GIT ADDED."
 else
   stopGit
-  exit 0
+  # exit 0
 fi
 
 # to check files
@@ -74,5 +75,6 @@ then
   exit 0
 else
   stopGit
-  exit 0
+  let cancel_workflow=1
+  # exit 0
 fi
