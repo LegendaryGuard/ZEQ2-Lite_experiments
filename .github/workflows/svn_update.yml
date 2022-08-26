@@ -27,14 +27,14 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
       run: |
-        git clone --single-branch --depth 1 https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/LegendaryGuard/ZEQ2-Lite.git
-        cd ZEQ2-Lite
+        git clone --single-branch --depth 1 https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/LegendaryGuard/ZEQ2-Lite_experiments.git
+        cd ZEQ2-Lite_experiments
         # ls -l
         if [ -d Source ]; then rm -r Source; fi
         # ls -l
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        sudo chmod 777 ./svn_update.sh
+        sudo chmod 777 svn_update.sh
         ./svn_update.sh
         # openssl rand -base64 12 > HASH
