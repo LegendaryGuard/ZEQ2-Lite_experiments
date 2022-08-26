@@ -214,6 +214,8 @@ Predefined event masks</h2></td></tr>
 <a class="el" href="../../da/d39/SDL__events_8h.html#a8fdf1485b0419bb77b89e745267dc179ae5f9b281fd90b9a836b50bfa5c520333">SDL_GETEVENT</a>
  }</td></tr>
 <tr class="separator:a8fdf1485b0419bb77b89e745267dc179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab631e5f1db261985cf5a8d32ea3dd382"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d39/SDL__events_8h.html#ab631e5f1db261985cf5a8d32ea3dd382">SDL_EVENTMASK</a>(<a class="el" href="../../d5/d59/vm__powerpc__asm_8c.html#a6e2865884815e08c868014b3be417599">X</a>)&#160;&#160;&#160;(1&lt;&lt;(<a class="el" href="../../d5/d59/vm__powerpc__asm_8c.html#a6e2865884815e08c868014b3be417599">X</a>))</td></tr>
+<tr class="separator:ab631e5f1db261985cf5a8d32ea3dd382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07339c3fbda4c18a07fad288a2e23d21"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d39/SDL__events_8h.html#a07339c3fbda4c18a07fad288a2e23d21">SDL_EventMask</a> { <br />
 &#160;&#160;<a class="el" href="../../da/d39/SDL__events_8h.html#a07339c3fbda4c18a07fad288a2e23d21a8a97e481115efeb0ee31fd6e81ef2b81">SDL_ACTIVEEVENTMASK</a> = SDL_EVENTMASK(SDL_ACTIVEEVENT), 
 <a class="el" href="../../da/d39/SDL__events_8h.html#a07339c3fbda4c18a07fad288a2e23d21a52b8fa6cf1a7214090c06be111d04e48">SDL_KEYDOWNMASK</a> = SDL_EVENTMASK(SDL_KEYDOWN), 
@@ -240,8 +242,6 @@ Predefined event masks</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a07339c3fbda4c18a07fad288a2e23d21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab631e5f1db261985cf5a8d32ea3dd382"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d39/SDL__events_8h.html#ab631e5f1db261985cf5a8d32ea3dd382">SDL_EVENTMASK</a>(<a class="el" href="../../d5/d59/vm__powerpc__asm_8c.html#a6e2865884815e08c868014b3be417599">X</a>)&#160;&#160;&#160;(1&lt;&lt;(<a class="el" href="../../d5/d59/vm__powerpc__asm_8c.html#a6e2865884815e08c868014b3be417599">X</a>))</td></tr>
-<tr class="separator:ab631e5f1db261985cf5a8d32ea3dd382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4a79e56dbe6f770572ef45575e6ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d90/begin__code_8h.html#aa4c7a931f4a968f818b2a1b10a432185">DECLSPEC</a> <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="../../d1/d90/begin__code_8h.html#a81faf4ba0455dc75f2e0507eddb79401">SDLCALL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d39/SDL__events_8h.html#a3b4a79e56dbe6f770572ef45575e6ef1">SDL_PeepEvents</a> (<a class="el" href="../../d5/db2/unionSDL__Event.html">SDL_Event</a> *<a class="el" href="../../d0/deb/event_8c.html#a0aebed97981a78bfa8b03becba4b0b05">events</a>, <a class="el" href="../../d2/db7/ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> numevents, <a class="el" href="../../da/d39/SDL__events_8h.html#a8fdf1485b0419bb77b89e745267dc179">SDL_eventaction</a> action, <a class="el" href="../../d2/d5b/SDL__stdinc_8h.html#add440eff171ea5f55cb00c4a9ab8672d">Uint32</a> <a class="el" href="../../d7/d69/SDL__opengl_8h.html#a5612bf87afe1aa200ad412866de45c1f">mask</a>)</td></tr>
 <tr class="memdesc:a3b4a79e56dbe6f770572ef45575e6ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the event queue for messages and optionally returns them.  <a href="../../da/d39/SDL__events_8h.html#a3b4a79e56dbe6f770572ef45575e6ef1">More...</a><br /></td></tr>
 <tr class="separator:a3b4a79e56dbe6f770572ef45575e6ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -900,7 +900,7 @@ Event State</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_74389ed8173ad57b461b9d623a1f3867.html">Source</a></li><li class="navelem"><a class="el" href="../../dir_5405398c23c020946029b9f4e6e04094.html">Engine</a></li><li class="navelem"><a class="el" href="../../dir_782c5a1a039bae032373d3b24d396f0e.html">SDL12</a></li><li class="navelem"><a class="el" href="../../dir_4965c70082c315efbe89f48d43899528.html">include</a></li><li class="navelem"><a class="el" href="../../da/d39/SDL__events_8h.html">SDL_events.h</a></li>
-    <li class="footer">Generated on Fri Aug 26 2022 09:19:35 for ZEQ2-Lite by
+    <li class="footer">Generated on Fri Aug 26 2022 09:25:46 for ZEQ2-Lite by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
