@@ -35,6 +35,6 @@ jobs:
         svn checkout https://zeq2.com/SVN/Source/ Source
         git config --global user.name "GitHub CI SVN Updates"
         git config --global user.email "<>"
-        sudo chmod 777 svn_update.sh
+        sudo chmod 777 ./svn_update.sh
         ./svn_update.sh
         # openssl rand -base64 12 > HASH
