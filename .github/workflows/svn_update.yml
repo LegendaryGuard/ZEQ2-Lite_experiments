@@ -40,7 +40,7 @@ jobs:
         # openssl rand -base64 12 > HASH
 
     - name: Cancel workflow
-    - uses: rokroskar/workflow-run-cleanup-action@v0.2.2
+      uses: rokroskar/workflow-run-cleanup-action@v0.2.2
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       if: "${cancel_workflow} == 1"
