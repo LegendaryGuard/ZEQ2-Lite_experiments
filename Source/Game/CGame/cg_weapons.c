@@ -47,25 +47,25 @@ static void CG_SetWeaponModel(refEntity_t* entity,float scale,qhandle_t model,qh
 	CG_DrawBoundingBox(entity->origin,minimum,maximum);
 }
 static void CG_AddPlayerWeaponCharge(refEntity_t* parent,cg_userWeapon_t* weaponGraphics,refEntity_t* charge,float progress){
-	float scale = weaponGraphics->chargeStartsize;
-	float lightScale = weaponGraphics->chargeDlightStartRadius;
+	float scale = weaponGraphics->chargeSizeRange[0];
+	float lightScale = weaponGraphics->chargeDlightRadiusRange[0];
 	VectorCopy(parent->lightingOrigin,charge->lightingOrigin);
 	charge->shadowPlane = parent->shadowPlane;
 	charge->renderfx = parent->renderfx;
 	if(weaponGraphics->chargeGrowth){
-		if(weaponGraphics->chargeEndPct <= progress){
-			scale = weaponGraphics->chargeEndsize;
-			lightScale = weaponGraphics->chargeDlightEndRadius;
+		if(weaponGraphics->chargePercentRange[1] <= progress){
+			scale = weaponGraphics->chargeSizeRange[1];
+			lightScale = weaponGraphics->chargeDlightRadiusRange[1];
 		}
 		else{
-			float percentRange = weaponGraphics->chargeEndPct - weaponGraphics->chargeStartPct;
-			float sizeRange = weaponGraphics->chargeEndsize - weaponGraphics->chargeStartsize;
-			float percent = progress - weaponGraphics->chargeStartPct;
+			float percentRange = weaponGraphics->chargePercentRange[1] - weaponGraphics->chargePercentRange[0];
+			float sizeRange = weaponGraphics->chargeSizeRange[1] - weaponGraphics->chargeSizeRange[0];
+			float percent = progress - weaponGraphics->chargePercentRange[0];
 			float size = percent / percentRange * sizeRange;
-			scale = size + weaponGraphics->chargeStartsize;
-			sizeRange = weaponGraphics->chargeDlightEndRadius - weaponGraphics->chargeDlightStartRadius;
+			scale = size + weaponGraphics->chargeSizeRange[0];
+			sizeRange = weaponGraphics->chargeDlightRadiusRange[1] - weaponGraphics->chargeDlightRadiusRange[0];
 			size = percent / percentRange * sizeRange;
-			lightScale = size + weaponGraphics->chargeDlightStartRadius;
+			lightScale = size + weaponGraphics->chargeDlightRadiusRange[0];
 		}
 	}
 	if(!weaponGraphics->chargeModel || !weaponGraphics->chargeSkin){
@@ -84,7 +84,7 @@ static void CG_AddPlayerWeaponChargeVoices(centity_t* player,cg_userWeapon_t* we
 	for(;index>=0;--index){
 		chargeVoice_t* voice = &weaponGraphics->chargeVoice[index];
 		if(!voice->voice){continue;}
-		if(voice->startPct > previousProgress && voice->startPct < currentProgress && previousProgress < currentProgress){
+		if(previousProgress < voice->startPct && voice->startPct <= currentProgress){
 			trap_S_StartSound(NULL,player->currentState.number,CHAN_VOICE,voice->voice);
 			break;
 		}
@@ -139,7 +139,7 @@ void CG_AddPlayerWeapon(refEntity_t* parent,centity_t* client){
 			lerp = client->lerpSec;
 			client->lerpPrim = 0;
 		}
-		if(lerp > weaponGraphics->chargeStartPct){
+		if(lerp > weaponGraphics->chargePercentRange[0]){
 			if(CG_GetTagOrientationFromPlayerEntity(client,weaponGraphics->chargeTag[0],&orient)){
 				memset(&refEnt,0,sizeof(refEnt));
 				if(VectorLength(weaponGraphics->chargeSpin)){
@@ -211,7 +211,7 @@ static void CG_DrawWeaponSelectHorCenterBar(void){
 		return;
 	}
 	trap_R_SetColor(color);
-	for(i=1;i<MAX_PLAYERWEAPONS;++i){
+	for(i=1;i<(MAX_PLAYERWEAPONS * 2);++i){
 		qboolean exists = statBits & (1 << i);
 		qboolean usable = cg.snap->ps.powerups[PW_SKILLS] & (1 << (i-1));
 		if(!exists || !usable){continue;}
@@ -224,7 +224,7 @@ static void CG_DrawWeaponSelectHorCenterBar(void){
 	alt_weaponInfo = CG_FindUserWeaponGraphics(cg.snap->ps.clientNum,ALTWEAPON_OFFSET + cg.weaponSelect);
 	if(weaponInfo->weaponName[0]){
 		// Need a little more leeway
-		char name[MAX_WEAPONNAME * 2 + 4];
+		char name[MAX_QPATH * 2 + 4];
 		Com_sprintf(name,sizeof(name),"%s",weaponInfo->weaponName);
 		if(alt_weaponInfo->weaponName[0]){
 			strcat(name,va(" / %s",alt_weaponInfo->weaponName));
@@ -327,11 +327,12 @@ void CG_UserMissileHitWall(int weapon,int clientNum,int powerups,int number,vec3
 		CG_Trace(&tr,origin,NULL,NULL,end,-1,MASK_PLAYERSOLID);
 		if(!weaponGraphics->noRockDebris){
 			char particles[MAX_QPATH] = "ExtraLarge";
-			if(weaponGraphics->explosionSize <= 10){strcat(particles,"Small");}
-			else if(weaponGraphics->explosionSize <= 25){strcat(particles,"Normal");}
-			else if(weaponGraphics->explosionSize <= 50){strcat(particles,"Large");}
+			if(weaponGraphics->explosionSize <= 10){Q_strncpyz(particles,"Small",sizeof("Small")+1);}
+			else if(weaponGraphics->explosionSize <= 25){Q_strncpyz(particles,"Normal",sizeof("Normal")+1);}
+			else if(weaponGraphics->explosionSize <= 50){Q_strncpyz(particles,"Large",sizeof("Large")+1);}
 			strcat(particles,"ExplosionDebris");
 			if(cg_particlesQuality.value == 1){strcat(particles,"Low");}
+			PSys_SpawnCachedSystem(particles,origin,tempAxis,NULL,NULL,qfalse,qfalse);
 		}
 		if(weaponGraphics->markSize && weaponGraphics->markShader){
 			CG_ImpactMark(weaponGraphics->markShader,origin,dir,random() * 360,1,1,1,1,qfalse,60,qfalse);

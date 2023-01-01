@@ -88,6 +88,7 @@ vmCvar_t	cg_shadows;
 vmCvar_t	cg_gibs;
 vmCvar_t	cg_drawTimer;
 vmCvar_t	cg_drawFPS;
+vmCvar_t	cg_drawFrameTime;
 vmCvar_t	cg_drawSnapshot;
 vmCvar_t	cg_draw3dIcons;
 vmCvar_t	cg_drawIcons;
@@ -207,6 +208,7 @@ static cvarTable_t cvarTable[] = {
 	{ &cg_drawStatus, "cg_drawStatus", "1", CVAR_ARCHIVE  },
 	{ &cg_drawTimer, "cg_drawTimer", "0", CVAR_ARCHIVE  },
 	{ &cg_drawFPS, "cg_drawFPS", "0", CVAR_ARCHIVE  },
+	{ &cg_drawFrameTime, "cg_drawFrameTime", "0", CVAR_ARCHIVE  },
 	{ &cg_drawSnapshot, "cg_drawSnapshot", "0", CVAR_ARCHIVE  },
 	{ &cg_draw3dIcons, "cg_draw3dIcons", "1", CVAR_ARCHIVE  },
 	{ &cg_advancedFlight, "cg_advancedFlight", "0", CVAR_USERINFO |CVAR_ARCHIVE  },
@@ -335,25 +337,6 @@ void CG_RegisterCvars( void ) {
 	trap_Cvar_Register(NULL, "team_headmodel", DEFAULT_TEAM_HEAD, CVAR_USERINFO | CVAR_ARCHIVE );
 }
 
-/*																																			
-===================
-CG_ForceModelChange
-===================
-*/
-static void CG_ForceModelChange( void ) {
-	int		i;
-
-	for (i=0 ; i<MAX_CLIENTS ; i++) {
-		const char		*clientInfo;
-
-		clientInfo = CG_ConfigString( CS_PLAYERS+i );
-		if ( !clientInfo[0] ) {
-			continue;
-		}
-		CG_NewClientInfo( i );
-	}
-}
-
 /*
 =================
 CG_UpdateCvars
@@ -463,7 +446,6 @@ called during a precache command
 */
 static void CG_RegisterSounds( void ) {
 	int		i;
-	char	name[MAX_QPATH];
 	const char	*soundName;
 
 	for ( i = 1 ; i < MAX_SOUNDS ; i++ ) {
@@ -484,13 +466,13 @@ static void CG_RegisterSounds( void ) {
 	cgs.media.lightspeedSound3 = trap_S_RegisterSound( "effects/zanzoken/zanzoken3.ogg", qfalse );
 	cgs.media.lightspeedSound4 = trap_S_RegisterSound( "effects/zanzoken/zanzoken4.ogg", qfalse );
 	cgs.media.lightspeedSound5 = trap_S_RegisterSound( "effects/zanzoken/zanzoken5.ogg", qfalse );
-	cgs.media.bigLightningSound1 = trap_S_RegisterSound( "effects/melee/lightning1.ogg", qfalse );
-	cgs.media.bigLightningSound2 = trap_S_RegisterSound( "effects/melee/lightning2.ogg", qfalse );
-	cgs.media.bigLightningSound3 = trap_S_RegisterSound( "effects/melee/lightning3.ogg", qfalse );
-	cgs.media.bigLightningSound4 = trap_S_RegisterSound( "effects/melee/lightning4.ogg", qfalse );
-	cgs.media.bigLightningSound5 = trap_S_RegisterSound( "effects/melee/lightning5.ogg", qfalse );
-	cgs.media.bigLightningSound6 = trap_S_RegisterSound( "effects/melee/lightning6.ogg", qfalse );
-	cgs.media.bigLightningSound7 = trap_S_RegisterSound( "effects/melee/lightning7.ogg", qfalse );
+	cgs.media.bigLightning[0] = trap_S_RegisterSound("effects/melee/lightning1.ogg",qfalse);
+	cgs.media.bigLightning[1] = trap_S_RegisterSound("effects/melee/lightning2.ogg",qfalse);
+	cgs.media.bigLightning[2] = trap_S_RegisterSound("effects/melee/lightning3.ogg",qfalse);
+	cgs.media.bigLightning[3] = trap_S_RegisterSound("effects/melee/lightning4.ogg",qfalse);
+	cgs.media.bigLightning[4] = trap_S_RegisterSound("effects/melee/lightning5.ogg",qfalse);
+	cgs.media.bigLightning[5] = trap_S_RegisterSound("effects/melee/lightning6.ogg",qfalse);
+	cgs.media.bigLightning[6] = trap_S_RegisterSound("effects/melee/lightning7.ogg",qfalse);
 	cgs.media.blockSound = trap_S_RegisterSound( "effects/melee/block.ogg", qfalse );
 	cgs.media.knockbackSound = trap_S_RegisterSound( "effects/melee/knockback.ogg", qfalse );
 	cgs.media.knockbackLoopSound = trap_S_RegisterSound( "effects/melee/knockbackLoop.ogg", qfalse );
@@ -509,16 +491,16 @@ static void CG_RegisterSounds( void ) {
 	cgs.media.hover = trap_S_RegisterSound( "effects/hover.ogg", qfalse );
 	cgs.media.hoverFast = trap_S_RegisterSound( "effects/hoverFast.ogg", qfalse );
 	cgs.media.hoverLong = trap_S_RegisterSound( "effects/hoverLong.ogg", qfalse );
-	cgs.media.waterSplashSmall1 = trap_S_RegisterSound( "effects/water/SplashSmall.ogg", qfalse );
-	cgs.media.waterSplashSmall2 = trap_S_RegisterSound( "effects/water/SplashSmall2.ogg", qfalse );
-	cgs.media.waterSplashSmall3 = trap_S_RegisterSound( "effects/water/SplashSmall3.ogg", qfalse );
-	cgs.media.waterSplashMedium1 = trap_S_RegisterSound( "effects/water/SplashMedium.ogg", qfalse );
-	cgs.media.waterSplashMedium2 = trap_S_RegisterSound( "effects/water/SplashMedium2.ogg", qfalse );
-	cgs.media.waterSplashMedium3 = trap_S_RegisterSound( "effects/water/SplashMedium3.ogg", qfalse );
-	cgs.media.waterSplashMedium4 = trap_S_RegisterSound( "effects/water/SplashMedium4.ogg", qfalse );
-	cgs.media.waterSplashLarge1 = trap_S_RegisterSound( "effects/water/SplashLarge.ogg", qfalse );
-	cgs.media.waterSplashExtraLarge1 = trap_S_RegisterSound( "effects/water/SplashExtraLarge.ogg", qfalse );
-	cgs.media.waterSplashExtraLarge2 = trap_S_RegisterSound( "effects/water/SplashExtraLarge2.ogg", qfalse );
+	cgs.media.smallSplash[0] = trap_S_RegisterSound("effects/water/SplashSmall.ogg",qfalse);
+	cgs.media.smallSplash[1] = trap_S_RegisterSound("effects/water/SplashSmall2.ogg",qfalse);
+	cgs.media.smallSplash[2] = trap_S_RegisterSound("effects/water/SplashSmall3.ogg",qfalse);
+	cgs.media.mediumSplash[0] = trap_S_RegisterSound("effects/water/SplashMedium.ogg",qfalse);
+	cgs.media.mediumSplash[1] = trap_S_RegisterSound("effects/water/SplashMedium2.ogg",qfalse);
+	cgs.media.mediumSplash[2] = trap_S_RegisterSound("effects/water/SplashMedium3.ogg",qfalse);
+	cgs.media.mediumSplash[3] = trap_S_RegisterSound("effects/water/SplashMedium4.ogg",qfalse);
+	cgs.media.largeSplash[0] = trap_S_RegisterSound("effects/water/SplashLarge.ogg",qfalse);
+	cgs.media.extraLargeSplash[0] = trap_S_RegisterSound("effects/water/SplashExtraLarge.ogg",qfalse);
+	cgs.media.extraLargeSplash[1] = trap_S_RegisterSound("effects/water/SplashExtraLarge2.ogg",qfalse);
 	// END ADDING
 
 }
@@ -583,7 +565,6 @@ static void CG_RegisterGraphics( void ) {
 	cgs.media.waterRippleSingleModel = trap_R_RegisterModel( "effects/water/waterRippleSingle.md3" );
 	cgs.media.meleeSpeedEffectShader = trap_R_RegisterShader( "skills/energyBlast" );
 	cgs.media.meleePowerEffectShader = trap_R_RegisterShader( "shockwave" );
-	cgs.media.teleportEffectShader = trap_R_RegisterShader( "teleportEffect" );
 	cgs.media.boltEffectShader = trap_R_RegisterShader( "boltEffect" );
 	cgs.media.auraLightningSparks1 = trap_R_RegisterShader( "AuraLightningSparks1" );
 	cgs.media.auraLightningSparks2 = trap_R_RegisterShader( "AuraLightningSparks2" );
